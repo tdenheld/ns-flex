@@ -1,0 +1,30 @@
+/*-------------------
+  generic overrides
+-------------------*/
+
+.ovr-container {
+	padding-left: 0;
+	padding-right: 0;
+	max-width: 1228px;
+	margin: auto;
+	
+	@media (min-width: $sm) {
+		padding-left: $gutter;
+		padding-right: $gutter;
+	}
+}
+
+.ovr-header {
+	//position: absolute;
+}
+
+.ovr-header__content {
+	margin: 0 auto;
+	padding-left: $gutter;
+	padding-right: $gutter;
+	
+	@media (min-width: $sm) {
+		padding-left: $double-gutter;
+		padding-right: $double-gutter;
+	}
+}

@@ -1,0 +1,55 @@
+/*-------------------
+        Layout
+--------------------*/
+
+// spacers
+// ----------------------------------
+@for $i from 1 through 16 {
+	// margin
+	.spacer-margin-#{$i} {
+		@include spacer($i, false);
+	}
+	
+	//padding
+	.spacer-padding-#{$i} {
+		@include spacer($i, true);
+	}
+}
+
+.spacer-default {
+	margin-bottom: $half-gutter;
+	@media (min-width: $sm) {
+		margin-bottom: $gutter;
+	}
+}
+
+.spacer-inline-block {
+	display: inline-block;
+	width: 100%;
+}
+
+
+// grid
+// ----------------------------------
+.tk-grid {
+	display: grid; 
+	grid-column-gap: $gutter;
+	@media (min-width: $md) {
+		grid-template-columns: 2fr 1fr;
+	}
+	
+	&__unit {
+		margin-bottom: $half-gutter;
+		@media (min-width: $sm) {
+			margin-bottom: $gutter;
+		}
+	}
+}
+
+
+// tiles
+// ----------------------------------
+.white-container {
+	background: $ns-white;
+	box-shadow: $box-shadow-container;
+}

@@ -1,0 +1,77 @@
+/*-------------------
+	    Icons
+--------------------*/
+
+// General
+// --------------------------------
+.icon {
+	vertical-align: middle;
+	
+	&--ns-blue {
+		fill: $ns-blue;
+	}
+	
+	&--ns-light-blue {
+		fill: $ns-light-blue;
+	}
+	
+	&--ns-grey-4 {
+		fill: $ns-grey-4;
+	}
+}
+
+
+// Hamburger menu icon
+// --------------------------------
+$component: "menu-icon";
+.#{$component} {
+	position: relative;
+	width: 19px;
+	height: 16px;
+	cursor: pointer;
+	
+	&__line {
+		display: block;
+		position: absolute;
+		height: 1px;
+		left: 0;
+		width: 100%;
+		background: $ns-blue;
+		opacity: 1;
+		transform: rotate(0deg);
+		transition: $fade-all;
+	}
+	
+	@for $i from 1 through 4 {
+		&__line:nth-child(#{$i}) {
+			top: ($i - 1) * 5px;
+			transform-origin: left center;
+		}
+	}
+	
+	&.is-active {
+		> .#{$component}__line:nth-child(1) {
+			transform: rotate(45deg);
+			width: 23px;
+			top: 0;
+			left: 0;
+		}
+		
+		> .#{$component}__line:nth-child(2) {
+			width: 0;
+			opacity: 0;
+		}
+		
+		> .#{$component}__line:nth-child(3) {
+			width: 0;
+			opacity: 0%;
+		}
+		
+		> .#{$component}__line:nth-child(4) {
+			transform: rotate(-45deg);
+			top: 16px;
+			width: 23px;
+			left: 0;
+		}
+	}
+}

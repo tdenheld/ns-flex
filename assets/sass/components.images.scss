@@ -1,0 +1,44 @@
+/*-------------------
+        Images
+--------------------*/
+
+// Responsive images (ensure images don't scale beyond their parents)
+.img-responsive {
+  width: 100%;
+}
+
+// Perfect circle
+.img-circle {
+  border-radius: 50%;
+}
+
+
+// Scaling
+// -----------------------------------
+.img-cover {
+	@extend %bg-cover;
+}
+.img-contain {
+	@extend %bg-contain;
+}
+
+
+// loop to display image on index
+// -----------------------------------
+@for $i from 1 through 20 {
+	.img-logo-#{$i} {
+		background-image: url("../../media/logos/no#{$i}.jpg");
+	}
+}
+
+@for $i from 1 through 20 {
+	.img-pic-#{$i} {
+		background-image: url("../../media/pictures/no#{$i}.jpg");
+	}
+}
+
+@for $i from 1 through 20 {
+	.img-prod-#{$i} {
+		background-image: url("../../media/products/no#{$i}.jpg");
+	}
+}

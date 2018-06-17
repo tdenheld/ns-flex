@@ -1,0 +1,286 @@
+<div class="flx-hero flx-hero__size">
+	<div class="js-intro-ani">
+		<div class="flx-hero__img"></div>
+		<div class="flx-gradient flx-gradient--light-blue-1"></div>
+		<div class="flx-gradient flx-gradient--blue-top"></div>
+	</div>
+	<div class="flx-hero__flow">
+			<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 766.977 423.5">
+				<defs>
+					<style>
+						.cls-1 {
+							fill: url(#linear-gradient);
+						}
+						
+						.cls-2 {
+							fill: url(#linear-gradient-2);
+						}
+					</style>
+					<linearGradient id="linear-gradient" y1="211.75" x2="766.977" y2="211.75" gradientUnits="userSpaceOnUse">
+					<stop offset="0" stop-color="#fff" stop-opacity="0"/>
+					<stop offset="1" stop-color="#fff"/>
+					</linearGradient>
+					<linearGradient id="linear-gradient-2" x2="666.331" xlink:href="#linear-gradient"/>
+				</defs>
+				<path id="flow1" class="cls-2" d="M0,423.5H4.523C113.331,353,201.354,349.3,287.331,287c69-50,79.683-92.294,139-172,64-86,128.977-115,240-115H0Z"/>
+				<path id="flow2" class="cls-1" d="M0,423.5H4.523c111.477,0,212.584-43.107,289.315-119.838L477.662,119.838C554.393,43.107,655.954,0,766.977,0H0Z"/>
+			</svg>
+		</div>
+	
+	<!-- background images for intro -->
+	<div class="flx-gradient flx-gradient--light-blue-2 js-bg-0 alpha-0 tr-1000 hidden-xs hidden-sm"></div>
+	<div class="flx-gradient flx-gradient--grey js-bg-1 alpha-0 tr-1000 hidden-xs hidden-sm"></div>
+	
+	<div class="js-intro-ani">
+		<div class="js-parallax--back flx-hero__size">
+			<div class="container ovr-container">
+				<div class="flx-hero__content js-hero-content tr-750">
+					<h1 class="flx-hero__title">{{hero.title}}</h1> 
+					<h2 class="flx-hero__subtitle">{{hero.subtitle}}</h2>
+					<button class="button button--nsYellow flx-hero__button js-hero-scroll-down hidden-xs">
+						{{hero.button}}
+					</button>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="js-intro-ani">
+		<div class="btn-round btn-round--down tr-500 js-hero-scroll-down js-hero-scroll-down--round">
+			<div include="../assets/img/icons/chevron-m--small.svg"></div>
+		</div>
+	</div>
+</div>	
+<div class="js-parallax--front">
+	<!-- background images for sections below intro - first one is needed for mobile cause thats not parallax -->
+	<div class="flx-gradient flx-gradient--light-blue-2 js-bg-0 alpha-0 tr-1000 hidden-md hidden-lg"></div>
+	<div class="flx-gradient flx-gradient--grey alpha-0 js-bg-1 tr-1000 hidden-md hidden-lg"></div>
+	<div class="flx-gradient flx-gradient--turquoise js-bg-2 alpha-0 tr-1000"></div>
+	<div class="flx-gradient flx-gradient--yellow js-bg-3 alpha-0 tr-1000"></div>
+	<div class="flx-bg__container-fixed">
+		<div class="flx-bg flx-bg--1eklas js-bg-4 alpha-0 tr-1000"></div>
+	</div>
+	<div class="flx-gradient flx-gradient--grey js-bg-5 alpha-0 tr-1000"></div>
+	
+	{{#each section}}	
+	<div class="flx-section flx-section--{{@index}}" id="flx-s{{@index}}">
+		<div class="container ovr-container">
+			<div class="flx-grid flx-grid--{{grid}}">
+				<div class="flx-section__img flx-section__img--{{img-class}} flx-grid__{{order}} tr tr-750 tr--scale-in">
+					{{#if img}}<img src="../media/{{img}}" class="img-responsive" />{{/if}}
+				</div>
+				<div class="flx-section__content flx-section__content--{{text-modifier}}">
+					<h3 class="flx-section__title tr tr-stag">
+						{{{title}}}
+					</h3>
+					{{#if spacer}}
+						<div class="spacer-margin-4"></div>
+					{{/if}}
+					<p class="flx-section__description tr tr-stag">
+						{{{description}}}
+					</p>
+					{{#if label}}
+						<p class="flx-section__label tr tr-stag">
+							{{{label}}}
+						</p>
+					{{/if}}
+					{{#if button}}
+						<div class="tr tr-stag">
+							<button class="button {{button-class}}">
+								{{{button}}}
+							</button>
+						</div>
+					{{/if}}
+				</div>
+			</div>
+		</div>
+	</div>
+	{{/each}}
+	
+	<div class="flx-section flx-section--5" id="flx-s5">
+		<div class="container ovr-container">
+			<div class="flx-section__content flx-section__content--center-md-lg">
+				<h3 class="flx-section__title flx-section__title--big tr tr-stag"><b>Je zit nergens aan vast</b></h3>
+			</div>
+			<div class="flx-grid flx-grid--1-1">
+				<div class="flx-section__content">
+				</div>
+			</div>
+		</div>
+	</div>	
+	<footer class="footer" data-noindex="true">
+		<div class="container">
+		    <div class="grid grid--footer" data-controller="generic/ui/ResponsiveGrid" data-type="footermenu">
+		        <div class="grid__unit m-6-12 l-3-12" data-type="topfootermenuitem">
+		            <div class="tile tile--fullyTransparent">
+		                <div class="tile__title">
+		                    <h3 class="headingXXS footer__heading">Direct naar...</h3>
+		                </div>
+		                <div class="tile__content">
+		                    <ul class="list">
+		                        <li class="list__item">
+		                            <a href="/reisinformatie" class="arrowLink">
+		                            Reisinformatie</a>
+		                        </li>
+		                        <li class="list__item">
+		                            <a href="/uitgelicht" class="arrowLink">
+		                            Uitgelicht</a>
+		                        </li>
+		                        <li class="list__item">
+		                            <a href="/zakelijk" class="arrowLink">
+		                            Zakelijk</a>
+		                        </li>
+		                        <li class="list__item">
+		                            <a href="/klantenservice" class="arrowLink">
+		                            Klantenservice</a>
+		                        </li>
+		                    </ul>
+		                </div>
+		            </div>
+		        </div>
+		        <div class="grid__unit m-6-12 l-3-12" data-type="topfootermenuitem">
+		            <div class="tile tile--fullyTransparent">
+		                <div class="tile__title">
+		                    <h3 class="headingXXS footer__heading">Onze producten</h3>
+		                </div>
+		                <div class="tile__content">
+		                    <ul class="list">
+		                        <li class="list__item">
+		                            <a href="/producten/losse-kaartjes-toeslagen" class="arrowLink">
+		                            Kaartjes &amp; Toeslagen</a>
+		                        </li>
+		                        <li class="list__item">
+		                            <a href="/producten/abonnementen" class="arrowLink">
+		                            Abonnementen</a>
+		                        </li>
+		                        <li class="list__item">
+		                            <a href="/deur-tot-deur" class="arrowLink">
+		                            Deur tot deur</a>
+		                        </li>
+		                        <li class="list__item">
+		                            <a href="/dagje-uit" class="arrowLink">
+		                            Dagje uit</a>
+		                        </li>
+		                        <li class="list__item">
+		                            <a href="https://www.nsinternational.nl" class="arrowLink"
+		                                target="_blank"
+		                                rel="external noopener">
+		                            Internationale treinkaartjes</a>
+		                        </li>
+		                    </ul>
+		                </div>
+		            </div>
+		        </div>
+		        <div class="grid__unit m-6-12 l-3-12" data-type="topfootermenuitem">
+		            <div class="tile tile--fullyTransparent">
+		                <div class="tile__title">
+		                    <h3 class="headingXXS footer__heading">Meer NS</h3>
+		                </div>
+		                <div class="tile__content">
+		                    <ul class="list">
+		                        <li class="list__item">
+		                            <a href="/over-ns" class="arrowLink">
+		                            Over NS</a>
+		                        </li>
+		                        <li class="list__item">
+		                            <a href="https://werkenbijns.nl/" class="arrowLink"
+		                                target="_blank"
+		                                rel="external noopener"
+		                                >
+		                            Werken bij NS</a>
+		                        </li>
+		                        <li class="list__item">
+		                            <a href="/zakelijk/partners-in-mobiliteit.html" class="arrowLink">
+		                            Partners in mobiliteit</a>
+		                        </li>
+		                        <li class="list__item">
+		                            <a href="http://nieuws.ns.nl" class="arrowLink"
+		                                target="_blank"
+		                                rel="external noopener"
+		                                >
+		                            Nieuws</a>
+		                        </li>
+		                    </ul>
+		                </div>
+		            </div>
+		        </div>
+		        <div class="grid__unit m-6-12 l-3-12" data-type="socialfootermenuitem">
+		            <div class="tile tile--fullyTransparent">
+		                <div class="tile__title">
+		                    <h3 class="headingXXS footer__heading">
+		                        Sociale media
+		                    </h3>
+		                </div>
+		                <div class="tile__content">
+		                    <ul class="list">
+		                        <li class="list__item">
+		                            <a href="https://www.facebook.com/nederlandsespoorwegen" class="iconLink iconLink--facebook"
+		                                target="_blank"
+		                                rel="external noopener"
+		                                >
+		                            Facebook</a>
+		                        </li>
+		                        <li class="list__item">
+		                            <a href="https://twitter.com/ns_online" class="iconLink iconLink--twitter"
+		                                target="_blank"
+		                                rel="external noopener"
+		                                >
+		                            Twitter</a>
+		                        </li>
+		                        <li class="list__item">
+		                            <a href="https://www.instagram.com/ns_online/?hl=nl" class="iconLink iconLink--instagram"
+		                                target="_blank"
+		                                rel="external noopener"
+		                                >
+		                            Instagram</a>
+		                        </li>
+		                        <li class="list__item">
+		                            <a href="https://www.youtube.com/user/NS" class="iconLink iconLink--youtube"
+		                                target="_blank"
+		                                rel="external noopener"
+		                                >
+		                            YouTube</a>
+		                        </li>
+		                        <li class="list__item">
+		                            <a href="https://www.linkedin.com/company/nederlandsespoorwegen" class="iconLink iconLink--linkedin"
+		                                target="_blank"
+		                                rel="external noopener"
+		                                >
+		                            LinkedIn</a>
+		                        </li>
+		                    </ul>
+		                </div>
+		            </div>
+		        </div>
+		    </div>
+		    <div class="grid grid--footer" data-type="bottomfootermenu">
+		        <div class="grid__unit">
+		            <div class="footer__menuContainer separator--largeTop">
+		                <ul class="footer__menu list list--horizontal" data-controller="generic/ui/EqualWidth">
+		                    <li class="list__item">
+		                        <a href="/disclaimer.html" class="arrowLink arrowLink--grey">
+		                        Disclaimer</a>
+		                    </li>
+		                    <li class="list__item">
+		                        <a href="/privacy.html" class="arrowLink arrowLink--grey">
+		                        Privacy</a>
+		                    </li>
+		                    <li class="list__item">
+		                        <a href="/bedrijfsinformatie.html" class="arrowLink arrowLink--grey">
+		                        Bedrijfsinformatie</a>
+		                    </li>
+		                    <li class="list__item">
+		                        <a href="/voorwaarden.html" class="arrowLink arrowLink--grey">
+		                        Voorwaarden en folders</a>
+		                    </li>
+		                </ul>
+		                <div class="nslogo nslogo--footer">
+		                    <a class="nslogo__link" href="/" title="Ga naar de homepagina">
+		                    <img class="nslogo__image" src="../assets/img/NS_logo.svg" height="20" width="52" alt="Logo Nederlandse Spoorwegen" />
+		                    </a>
+		                </div>
+		            </div>
+		        </div>
+		    </div>
+		</div>
+	</footer>
+</div>
