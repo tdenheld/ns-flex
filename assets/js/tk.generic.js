@@ -133,43 +133,6 @@ for (i = 1; i <= 5; i++) {
 
 
 
-// morph svg
-// ------------------------------------------------------------
-function morph_flow() {
-	$("#flow2").hide();
-	TweenMax.fromTo("#flow1", 2, {
-		x: -200,
-		y: -200,
-		autoAlpha: 0,
-		transformOrigin: "0 0",
-	},{
-		autoAlpha: 1,
-		x: 0,
-		y: 0,
-		//morphSVG: "#flow2",
-		morphSVG: {
-			shape: "#flow2",
-			// precompile for performance gain
-			// set to "log" instead of array to copy new shape
-			precompile: ["M0,423.5 C1.5,423.5 3.01,423.5 4.52,423.5 113.33,353 201.35,349.3 287.33,287 356.33,237 367.01,194.7 426.33,115 490.33,29 555.3,0 666.33,0 444.22,0 222.11,0 0,0 0,141.16 0,282.33 0,423.5 z","M0,423.5 C1.5,423.5 3.01,423.5 4.52,423.5 116,423.5 217.1,380.39 293.83,303.66 355.11,242.38 416.38,181.11 477.66,119.83 554.39,43.1 655.95,0 766.97,0 511.31,0 255.65,0 0,0 0,141.16 0,282.33 0,423.5 z"],
-		},
-		ease: Power4.easeInOut,
-	});
-};
-setTimeout(morph_flow, 200);
-
-
-
-// intro stagger ani
-// ------------------------------------------------------------
-function intro_ani() {
-	var tl = new TimelineMax();
-	tl.staggerFrom(".js-intro-ani", 1, {
-		ease: Power3.easeInOut,
-		autoAlpha: 0,
-	}, 0.4);
-};
-intro_ani();
 
 
 

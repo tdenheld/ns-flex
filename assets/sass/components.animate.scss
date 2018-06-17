@@ -2,7 +2,7 @@
 	   Animate
 --------------------*/
 
-$component: animate;
+$component: ani;
 .#{$component} {
 	
 	// Base settings
@@ -15,26 +15,46 @@ $component: animate;
 	// Durations
 	// --------------------------------
 	
-	&--dur-short {
+	&--dur-500 {
 		animation-duration: 500ms;
+	}
+	
+	&--dur-1000 {
+		animation-duration: 1s;
+	}
+	
+	&--dur-1500 {
+		animation-duration: 1.5s;
+	}
+	
+	&--dur-2000 {
+		animation-duration: 2s;
 	}
   
   
 	// Delays
 	// --------------------------------
-  	&--delay-short {
+  	&--delay-250 {
 		animation-delay: 250ms;
 	}
 	
-	&--delay-medium {
+	&--delay-500 {
 		animation-delay: 500ms;
 	}
 	
-	&--delay-long {
+	&--delay-750 {
+		animation-delay: 750ms;
+	}
+	
+	&--delay-1000 {
 		animation-delay: 1s;
 	}
 	
-	&--delay-very-long {
+	&--delay-1250 {
+		animation-delay: 1.25s;
+	}
+	
+	&--delay-1500 {
 		animation-delay: 1.5s;
 	}
 	
@@ -63,24 +83,6 @@ $component: animate;
 		to {
 			opacity: $gradient-opacity;
 		}
-	}
-	
-	&--fade-in-hero {
-		animation-name: fade-in-hero;
-	}
-	
-	@keyframes fade-in-hero-strong {
-		from {
-			opacity: 0;
-		}
-		
-		to {
-			opacity: $gradient-opacity-strong;
-		}
-	}
-	
-	&--fade-in-hero-strong {
-	animation-name: fade-in-hero-strong;
 	}
 	
 	@keyframes fade-in-down {
@@ -150,7 +152,7 @@ $component: animate;
 	@keyframes fade-in-up-small {
 		from {
 			opacity: 0;
-			transform: translate3d(0, 20%, 0);
+			transform: translate3d(0, 30px, 0);
 		}
 	
 		to {

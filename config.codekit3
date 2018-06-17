@@ -160,26 +160,6 @@
 		"plM": 3758088159,
 		"prP": 0
 		},
-	"\/assets\/img\/flow.svg": {
-		"ft": 2097152,
-		"miP": 0,
-		"oA": 2,
-		"oAP": "\/assets\/img\/flow.svg",
-		"oF": 0,
-		"opt": 0,
-		"plM": 3758088159,
-		"prP": 0
-		},
-	"\/assets\/img\/flow_1.svg": {
-		"ft": 2097152,
-		"miP": 0,
-		"oA": 2,
-		"oAP": "\/assets\/img\/flow_1.svg",
-		"oF": 0,
-		"opt": 0,
-		"plM": 3758088159,
-		"prP": 0
-		},
 	"\/assets\/img\/google-play.svg": {
 		"ft": 2097152,
 		"miP": 0,
@@ -3024,6 +3004,16 @@
 		"miP": 0,
 		"oA": 2,
 		"oAP": "\/media\/checkout.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"\/media\/flow.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "\/media\/flow.svg",
 		"oF": 0,
 		"opt": 0,
 		"plM": 3758088159,

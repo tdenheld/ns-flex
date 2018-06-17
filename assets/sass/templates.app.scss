@@ -2,16 +2,6 @@
          App
 --------------------*/
 
-
-// intro animation 
-// ----------------------------
-
-.js-intro-ani {
-	visibility: hidden;
-}
-
-
-
 // hero 
 // ----------------------------
 
@@ -42,10 +32,7 @@
 	
 	&__flow {
 		position: absolute;
-		width: 110%;
-		@media (min-width: $sm) {
-			width: 100%;
-		}
+		width: 100%;
 		@media (min-width: $lg) {
 			width: 90%;
 		}
