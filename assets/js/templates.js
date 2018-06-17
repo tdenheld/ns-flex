@@ -34,21 +34,21 @@ templates['app'] = template({"1":function(container,depth0,helpers,partials,data
     + container.escapeExpression(((helper = (helper = helpers.img || (depth0 != null ? depth0.img : depth0)) != null ? helper : helpers.helperMissing),(typeof helper === "function" ? helper.call(depth0 != null ? depth0 : (container.nullContext || {}),{"name":"img","hash":{},"data":data}) : helper)))
     + "\" class=\"img-responsive\" />";
 },"4":function(container,depth0,helpers,partials,data) {
-    return "						<div class=\"spacer-margin-4\"></div>\n";
+    return "					<div class=\"spacer-margin-4\"></div>\n";
 },"6":function(container,depth0,helpers,partials,data) {
     var stack1, helper;
 
-  return "						<p class=\"flx-section__label tr tr-stag\">\n							"
+  return "					<p class=\"flx-section__label tr tr-stag\">\n						"
     + ((stack1 = ((helper = (helper = helpers.label || (depth0 != null ? depth0.label : depth0)) != null ? helper : helpers.helperMissing),(typeof helper === "function" ? helper.call(depth0 != null ? depth0 : (container.nullContext || {}),{"name":"label","hash":{},"data":data}) : helper))) != null ? stack1 : "")
-    + "\n						</p>\n";
+    + "\n					</p>\n";
 },"8":function(container,depth0,helpers,partials,data) {
     var stack1, helper, alias1=depth0 != null ? depth0 : (container.nullContext || {}), alias2=helpers.helperMissing, alias3="function";
 
-  return "						<div class=\"tr tr-stag\">\n							<button class=\"button "
+  return "					<div class=\"tr tr-stag\">\n						<button class=\"button "
     + container.escapeExpression(((helper = (helper = helpers["button-class"] || (depth0 != null ? depth0["button-class"] : depth0)) != null ? helper : alias2),(typeof helper === alias3 ? helper.call(alias1,{"name":"button-class","hash":{},"data":data}) : helper)))
-    + "\">\n								"
+    + "\">\n							"
     + ((stack1 = ((helper = (helper = helpers.button || (depth0 != null ? depth0.button : depth0)) != null ? helper : alias2),(typeof helper === alias3 ? helper.call(alias1,{"name":"button","hash":{},"data":data}) : helper))) != null ? stack1 : "")
-    + "\n							</button>\n						</div>\n";
+    + "\n						</button>\n					</div>\n";
 },"compiler":[7,">= 4.0.0"],"main":function(container,depth0,helpers,partials,data) {
     var stack1, alias1=container.lambda, alias2=container.escapeExpression;
 
