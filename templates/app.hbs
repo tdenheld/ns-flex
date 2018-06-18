@@ -28,18 +28,16 @@
 			<div include="../assets/img/icons/chevron-m--small.svg"></div>
 		</div>
 	</div>
-</div>	
+</div>
+
 <div class="js-parallax--front">
 	<!-- background images for sections below intro - first one is needed for mobile cause thats not parallax -->
 	<div class="flx-gradient flx-gradient--cerulean js-bg-0 hidden-md hidden-lg"></div>
 	<div class="flx-gradient flx-gradient--light-grey js-bg-1 hidden-md hidden-lg"></div>
-	<div class="flx-gradient flx-gradient--turquoise js-bg-2"></div>
-	<div class="flx-gradient flx-gradient--yellow js-bg-3"></div>
-	<div class="flx-bg__container-fixed">
-		<div class="flx-bg flx-bg--1eklas js-bg-4"></div>
-	</div>
-	<div class="flx-gradient flx-gradient--light-grey js-bg-5"></div>
+	<div class="flx-gradient flx-gradient--yellow js-bg-2"></div>
+	<div class="flx-gradient flx-gradient--light-grey js-bg-3"></div>
 	
+	<!-- big fat usps with gradient transitions -->
 	{{#each section}}	
 	<div class="flx-section" id="flx-s{{@index}}">
 		<div class="container ovr-container">
@@ -63,27 +61,46 @@
 	</div>
 	{{/each}}
 	
-	<div class="flx-section flx-section--last" id="flx-s5">
-		<div class="container ovr-container">
-			<div class="flx-section__content">
-				<h3 class="headingXXL no-margin tr tr-stag">
-					{{abo.heading}}
-				</h3>
-			</div>
-			<div class="flx-grid flx-grid--1-1 flx-grid--align-start">
-				{{#each abo.usps}}
-				<div class="flx-section__content">
-					<div class="flx-abo">
-						<div class="flx-abo__icon tr tr-stag" include="../assets/img/icons/{{icon}}.svg"></div>
-						<h3 class="headingM tr tr-stag"><b>{{title}}</b></h3>
-						<p class="tr tr-stag">{{description}}</p>
-						{{#if link}}<a class="arrowLink">{{link}}</a>{{/if}}
+	<div class="flx-section flx-section--last" id="flx-s3">
+		<div class="flx-ov tr tr-1000 tr--fade-in">
+			<div class="container ovr-container">
+				<div class="flx-grid flx-grid--1-1">
+					<div></div>		
+					<div class="flx-section__content tr tr-stag">
+						<div class="flx-ov__text">
+							<h3 class="headingL tr tr-stag"><b>In al het openbaar vervoer</b></h3>
+							<p class="no-margin font-blue headingXS tr tr-stag">
+								NS Flex werkt in het hele OV in Nederland. Je kunt ermee betalen in trein, metro, tram en bus.
+								Ga je graag met de fiets? Pak overal in Nederland een OV-fiets of maak gebruik van een bewaakte stalling.</p>
+						</div>
 					</div>
 				</div>
-				{{/each}}
 			</div>
 		</div>
-		<div class="flx-cta">
+		
+		<!-- abonnementen usps -->
+		<div class="flx-abo tr tr-1000 tr--fade-in">
+			<div class="container ovr-container">			
+				<div class="flx-section__content">
+					<h3 class="headingXXL spacer-margin-4">
+						{{abo.heading}}
+					</h3>
+					<div class="flx-grid flx-grid--1-1 flx-grid--align-start flx-grid--double-row-gap">
+					{{#each abo.usps}}				
+						<div class="flx-abo__tile">
+							<div class="flx-abo__icon" include="../assets/img/icons/{{icon}}.svg"></div>
+							<h3 class="headingM"><b>{{title}}</b></h3>
+							<p>{{description}}</p>
+							{{#if link}}<a class="arrowLink">{{link}}</a>{{/if}}
+						</div>
+					{{/each}}
+					</div>
+				</div>
+			</div>
+		</div>
+		
+		<!-- call to action -->
+		<div class="flx-cta tr tr-1000 tr--fade-in">
 			<div class="container ovr-container">
 				<div class="flx-section__content flx-section__content--center-md-lg">
 					<h3 class="headingXXL flx-cta__title tr tr-stag">{{{cta.heading}}}</h3>
@@ -93,7 +110,9 @@
 				</div>
 			</div>
 		</div>
-		<div class="flx-testimonial flx-gradient--ns-blue">
+		
+		<!-- testimonial -->
+		<div class="flx-testimonial flx-gradient--ns-blue tr tr-1000 tr--fade-in">
 			<div class="container ovr-container">
 				<div class="flx-section__content flx-testimonial__content">
 					<div class="flx-grid flx-grid--max-1 flx-grid--double-col-gap flx-grid--row-gap">

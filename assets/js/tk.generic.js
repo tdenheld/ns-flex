@@ -122,7 +122,7 @@ function scroll_trigger(i) {
 		.on("start", function(){
 			$(bg).toggleClass("alpha-1");
 			$(el + " .tr").toggleClass("is-active");
-			$(el_prev + " .tr").toggleClass("is-ended");
+			//$(el_prev + " .tr").toggleClass("is-ended");
 		})
 		//.addIndicators()
 		.addTo(controller);

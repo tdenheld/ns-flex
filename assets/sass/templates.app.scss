@@ -94,7 +94,7 @@
 	overflow: hidden;
 	padding: 42px 0;
 	@media (min-width: $sm) {
-		padding: 42px 0 30vh;
+		padding: 42px 0 10vh;
 	}
 	
 	&__content {
@@ -115,6 +115,10 @@
 				margin: 0 auto;
 				text-align: center;
 			}
+		}
+		
+		&--small {
+			max-width: 900px;
 		}
 	}
 	
@@ -161,7 +165,7 @@
 			}
 			
 			img {
-				box-shadow: 0 5px 40px rgba($ns-grey, 0.15);
+				box-shadow: $box-shadow-medium;
 			}
 		}
 	}
@@ -183,12 +187,36 @@
 
 // abo
 // ----------------------------
+.flx-ov {
+	@extend %bg-cover;
+	background-image: url("../../media/ov.jpg");
+	padding: $one-half-gutter 0;
+	@media (min-width: $md) {
+		padding: 18vh 0;
+	}
+	
+	&__text {
+		background-color: $ns-white;
+		box-shadow: $box-shadow-medium;
+		padding: $gutter;
+	}
+}
+
+
+// abo
+// ----------------------------
 .flx-abo {
-	max-width: 360px;
+	padding: $gutter 0;
+	@media (min-width: $md) {
+		padding: $triple-gutter 0;
+	}
+	
+	&__tile {
+		max-width: 400px;
+	}
 	
 	&__icon {
-		margin-bottom: $half-gutter;
-		height: 50px;
+		height: 48px;
 		
 		svg {
 			fill: $ns-blue;
@@ -200,13 +228,11 @@
 // call to action
 // ----------------------------
 .flx-cta {
-	margin-top: $gutter;
 	padding: $gutter 0;
-	background-color: $ns-yellow;
-	//@extend .flx-gradient--yellow;
+	//background-color: $ns-white;
+	@extend .flx-gradient--yellow;
 	@media (min-width: $md) {
-		margin-top: $double-gutter;
-		padding: $double-gutter 0;
+		padding: $triple-gutter 0;
 	}
 	
 	&__title {
@@ -225,7 +251,7 @@
 	
 	&__content {
 		margin: 0 auto;
-		max-width: 900px;
+		max-width: 820px;
 	}
 	
 	&__img {
@@ -280,14 +306,30 @@
 		}
 	}
 	
+	&--3-2 {
+		@media (min-width: $md) {
+			grid-template-columns: 3fr 2fr;
+		}
+	}
+	
 	&--max-1 {
 		@media (min-width: $md) {
 			grid-template-columns: max-content 1fr;
 		}
 	}
 	
+	&--max-max {
+		@media (min-width: $md) {
+			grid-template-columns: max-content  max-content;
+		}
+	}
+	
 	&--row-gap {
 		grid-row-gap: $gutter;
+	}
+	
+	&--double-row-gap {
+		grid-row-gap: $double-gutter;
 	}
 	
 	&--double-col-gap {
