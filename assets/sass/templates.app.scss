@@ -38,7 +38,7 @@
 		}
 		
 		svg {
-			opacity: 0.5;
+			opacity: 0.4;
 		}
 	}
 	
@@ -278,6 +278,8 @@
 // ----------------------------
 .flx-bg {
 	@extend %full-absolute;
+	transition: all 1s $ease;
+	opacity: 0;
 	background-size: cover;
 	
 	&__container-fixed {
@@ -299,27 +301,29 @@
 // ----------------------------
 .flx-gradient {
 	@extend %full-absolute;
+	transition: all 1s $ease;
+	opacity: 0;
 	
-	&--light-blue-1 {
+	&--vivid-blue {
 		background: linear-gradient(
 			135deg, $ns-light-blue 0%, #4BCED4 100%);
-		opacity: 0.35;
+		opacity: 0.3;
 	}
 	
-	&--light-blue-2 {
+	&--cerulean {
 		background: linear-gradient(
 			93deg, #94DCF6 0%, #C6EDFD 100%);
 	}
 	
-	&--blue-top {
+	&--cobalt-blue {
 		background: linear-gradient(to bottom,
 			rgba($ns-blue, 1) 0%,
 			rgba($ns-blue, 1) 10%,
 			rgba($ns-blue, 0) 100%);
-		opacity: 0.6;
+		opacity: 0.8;
 	}
 	
-	&--grey {
+	&--light-grey {
 		background: linear-gradient(
 			93deg, $ns-white 0%, $ns-grey-7 100%);
 	}
@@ -402,7 +406,7 @@
 }
 
 .tr-stag {
-	@for $i from 1 through 5 {
+	@for $i from 1 through 7 {
 		&:nth-child(#{$i}) {
 			opacity: 0;
 			transform: translate3d(0, (20px + ($i * 10)), 0);
