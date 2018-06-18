@@ -47,7 +47,35 @@ var context = {
 			"button-class": "button--nsYellow",
 			"grid": "2-3",
 		},
-	],	
+	],
+	
+	"abo": {
+		"heading": "Je zit nergens aan vast",
+		"usps" : [
+			{
+				"icon": "discount--large",
+				"title": "Een maandje extra korting?",
+				"description": "Flex is verkrijgbaar met of zonder onze abonnementen. Je bepaalt per maand of je met extra korting reist.",
+				"link": "Meer over flex met een abonnement",
+			},{
+				"icon": "phone--medium",
+				"title": "Maandelijks aanpassen",
+				"description": "Flex kun je maandelijks opzeggen of aanpassen. Zonder kosten! Wij vertrouwen erop dat je nooit meer zonder wilt.",
+			},
+		],
+	},
+	
+	"cta": {
+		"heading": "<b>Het kost je (bijna) niets extra</b>",
+		"subhead": "NS Flex zonder abonnement <b><br>€ 0,- per maand</b>",
+		"description": "Je betaald eenmalig € 10 om je aan te melden.",
+		"button": "Stel samen",
+	},
+	
+	"testimonial": {
+		"quote": "Veel klanten lieten ons weten het gedoe met saldo op hun OV-chipkaart vervelend te vinden. We denken dat we met NS Flex reizen met het OV veel prettiger maken.",	
+		"sender": "— Marieke, bedenker van NS Flex",
+	},
 };
 
 var app = document.getElementById("app");

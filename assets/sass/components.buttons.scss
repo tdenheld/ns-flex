@@ -1,0 +1,74 @@
+/*-------------------
+       Buttons
+--------------------*/
+
+.flx-button {
+	transition: background-color 250ms $ease;
+	
+	&--ghost {
+		background: transparent;
+		border: 1px solid $ns-blue;
+		box-shadow: 0 1px 0 $ns-blue;
+		background-color: rgba($ns-blue, 0);
+		color: $ns-blue;
+		
+		&:hover {
+			box-shadow: 0 1px 0 $ns-blue;
+			background-color: rgba($ns-blue, 0.1);
+			color: $ns-blue;
+		}
+		
+		&--white {
+			color: $ns-white;
+			text-shadow: 1px 1px rgba($ns-grey, 0.5);
+			border: 1px solid $white;
+			box-shadow: 0 1px 0 $white;
+			background-color: rgba($ns-white, 0);
+			
+			&:hover{
+				box-shadow: 0 1px 0 $white;
+				color: $ns-white;
+				background-color: rgba($ns-white, 0.1);
+			}
+		}
+	}
+}
+
+// round scroll down button
+.btn-round {
+	position: absolute;
+	left: calc(50% - 20px);
+	bottom: $double-gutter;
+	margin: 0 auto;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+	vertical-align: middle;
+	width: 41px;
+	height: 41px;
+	background-color: $ns-white;
+	border-radius: 50%;
+	box-shadow: 0 0 8px rgba($ns-grey, 0.25);
+	cursor: pointer;
+	transition: transform $timing-medium $ease;
+	@media (min-width: $md) {
+		position: fixed;
+	}
+	
+	&:hover {
+		transform: scale(1.15);
+	}
+	
+	&--down {
+		svg {
+			position: relative;
+			top: 2px;
+			transform: rotate(90deg);
+		}
+	}
+	
+	svg {
+		fill: $ns-blue;
+	}
+}

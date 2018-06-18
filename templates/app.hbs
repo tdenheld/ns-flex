@@ -38,35 +38,23 @@
 	<div class="flx-bg__container-fixed">
 		<div class="flx-bg flx-bg--1eklas js-bg-4"></div>
 	</div>
-	<div class="flx-gradient flx-gradient--grey js-bg-5"></div>
+	<div class="flx-gradient flx-gradient--light-grey js-bg-5"></div>
 	
 	{{#each section}}	
-	<div class="flx-section flx-section--{{@index}}" id="flx-s{{@index}}">
+	<div class="flx-section" id="flx-s{{@index}}">
 		<div class="container ovr-container">
 			<div class="flx-grid flx-grid--{{grid}}">
 				<div class="flx-section__img flx-section__img--{{img-class}} flx-grid__{{order}} tr tr-750 tr--scale-in">
 					{{#if img}}<img src="../media/{{img}}" class="img-responsive" />{{/if}}
 				</div>
 				<div class="flx-section__content flx-section__content--{{text-modifier}}">
-					<h3 class="flx-section__title tr tr-stag">
-						{{{title}}}
-					</h3>
-					{{#if spacer}}
-					<div class="spacer-margin-4"></div>
-					{{/if}}
-					<p class="flx-section__description tr tr-stag">
-						{{{description}}}
-					</p>
-					{{#if label}}
-					<p class="flx-section__label tr tr-stag">
-						{{{label}}}
-					</p>
-					{{/if}}
+					<h3 class="flx-section__title tr tr-stag">{{{title}}}</h3>
+					{{#if spacer}}<div class="spacer-margin-4"></div>{{/if}}
+					<p class="flx-section__description tr tr-stag">{{{description}}}</p>
+					{{#if label}}<p class="flx-section__label tr tr-stag">{{{label}}}</p>{{/if}}
 					{{#if button}}
 					<div class="tr tr-stag">
-						<button class="button {{button-class}}">
-							{{{button}}}
-						</button>
+						<button class="button {{button-class}}">{{{button}}}</button>
 					</div>
 					{{/if}}
 				</div>
@@ -75,13 +63,47 @@
 	</div>
 	{{/each}}
 	
-	<div class="flx-section flx-section--5" id="flx-s5">
+	<div class="flx-section flx-section--last" id="flx-s5">
 		<div class="container ovr-container">
-			<div class="flx-section__content flx-section__content--center-md-lg">
-				<h3 class="flx-section__title flx-section__title--big tr tr-stag"><b>Je zit nergens aan vast</b></h3>
+			<div class="flx-section__content">
+				<h3 class="headingXXL no-margin tr tr-stag">
+					{{abo.heading}}
+				</h3>
 			</div>
-			<div class="flx-grid flx-grid--1-1">
+			<div class="flx-grid flx-grid--1-1 flx-grid--align-start">
+				{{#each abo.usps}}
 				<div class="flx-section__content">
+					<div class="flx-abo">
+						<div class="flx-abo__icon tr tr-stag" include="../assets/img/icons/{{icon}}.svg"></div>
+						<h3 class="headingM tr tr-stag"><b>{{title}}</b></h3>
+						<p class="tr tr-stag">{{description}}</p>
+						{{#if link}}<a class="arrowLink">{{link}}</a>{{/if}}
+					</div>
+				</div>
+				{{/each}}
+			</div>
+		</div>
+		<div class="flx-cta">
+			<div class="container ovr-container">
+				<div class="flx-section__content flx-section__content--center-md-lg">
+					<h3 class="headingXXL flx-cta__title tr tr-stag">{{{cta.heading}}}</h3>
+					<h4 class="headingL">{{{cta.subhead}}}</h4>
+					<p class="font-blue">{{{cta.description}}}</p>
+					<button class="button button--arrowRight">{{{cta.button}}}</button>
+				</div>
+			</div>
+		</div>
+		<div class="flx-testimonial flx-gradient--ns-blue">
+			<div class="container ovr-container">
+				<div class="flx-section__content flx-testimonial__content">
+					<div class="flx-grid flx-grid--max-1 flx-grid--double-col-gap flx-grid--row-gap">
+						<div class="flx-testimonial__img"></div>
+						<div class="flx-textimonial__text">
+							<div class="flx-testimonial__icon hidden-xs hidden-sm" include="../assets/img/icons/quote--large.svg"></div>
+							<h3 class="flx-testimonial__quote">{{{testimonial.quote}}}</h3>
+							<p class="flx-testimonial__sender">{{{testimonial.sender}}}</p>
+						</div>
+					</div>
 				</div>
 			</div>
 		</div>

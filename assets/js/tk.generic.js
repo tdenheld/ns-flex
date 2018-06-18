@@ -106,30 +106,34 @@ function scroll_trigger_intro() {
 scroll_trigger_intro();
 
 // section scroll constructor
-function scroll_trigger(i, bgToggle) {
-	
+function scroll_trigger(i) {
+	var id = document.getElementById("flx-s" + i);
 	var el = "#flx-s" + i;
 	var el_prev = "#flx-s" + (i-1);
 	var bg = ".js-bg-" + i;
 	
-	var scrll = new ScrollMagic.Scene({
-		triggerElement:	el,
-		duration: 999999,
-	})
-	.triggerHook(0.64)
-	.offset(0)
-	.on("start", function(){
-		$(bg).toggleClass(bgToggle);
-		$(el + " .tr").toggleClass("is-active");
-		$(el_prev + " .tr").toggleClass("is-ended");
-	})
-	//.addIndicators()
-	.addTo(controller);
+	if (id) {
+		var scrll = new ScrollMagic.Scene({
+			triggerElement:	el,
+			duration: 999999,
+		})
+		.triggerHook(0.64)
+		.offset(0)
+		.on("start", function(){
+			$(bg).toggleClass("alpha-1");
+			$(el + " .tr").toggleClass("is-active");
+			$(el_prev + " .tr").toggleClass("is-ended");
+		})
+		//.addIndicators()
+		.addTo(controller);
+	};
 };
 // init section scroll events
-for (i = 1; i <= 5; i++) {
-	scroll_trigger(i, "alpha-1");
+var sections = $(".flx-section");
+for (i = 1; i <= sections.length; i++) {
+	scroll_trigger(i);
 };
+
 
 
 

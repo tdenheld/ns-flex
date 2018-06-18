@@ -2,9 +2,9 @@
          App
 --------------------*/
 
+
 // hero 
 // ----------------------------
-
 .flx-hero {
 	overflow: hidden;	
 	position: absolute;
@@ -86,9 +86,9 @@
 }
 
 
-// section 1 
-// ----------------------------
 
+// sections 
+// ----------------------------
 .flx-section {
 	position: relative;
 	overflow: hidden;
@@ -110,6 +110,7 @@
 		}
 		
 		&--center-md-lg {
+			max-width: 740px;
 			@media (min-width: $md) {
 				margin: 0 auto;
 				text-align: center;
@@ -123,12 +124,6 @@
 		color: $ns-blue;
 		@media (min-width: $md) {
 			font-size: calculate-rem(40px);
-		}
-		
-		&--big {
-			@media (min-width: $md) {
-				@include font-style(64px, normal, 1.2);
-			}
 		}
 	}
 	
@@ -170,15 +165,108 @@
 			}
 		}
 	}
+	
+	&__divider {
+		margin: $gutter;
+		border-bottom: 1px solid $ns-grey-6;
+		@media (min-width: $md) {
+			margin: $double-gutter $gutter;
+		}
+	}
+	
+	&--last {
+		padding-bottom: 0;
+	}
 }
+
+
+
+// abo
+// ----------------------------
+.flx-abo {
+	max-width: 360px;
+	
+	&__icon {
+		margin-bottom: $half-gutter;
+		height: 50px;
+		
+		svg {
+			fill: $ns-blue;
+		}
+	}
+}
+
+
+// call to action
+// ----------------------------
+.flx-cta {
+	margin-top: $gutter;
+	padding: $gutter 0;
+	background-color: $ns-yellow;
+	//@extend .flx-gradient--yellow;
+	@media (min-width: $md) {
+		margin-top: $double-gutter;
+		padding: $double-gutter 0;
+	}
+	
+	&__title {
+		margin-bottom: $gutter;
+	}
+}
+
+
+// testimonial
+// ----------------------------
+.flx-testimonial {
+	padding: $gutter 0;
+	@media (min-width: $md) {
+		padding: $triple-gutter 0;
+	}
+	
+	&__content {
+		margin: 0 auto;
+		max-width: 900px;
+	}
+	
+	&__img {
+		width: 200px;
+		height: 200px;
+		border-radius: 50%;
+		background-image: url("../../media/marieke.jpg");
+		@extend %bg-cover;
+	}
+	
+	&__quote {
+		@include font-style(20px, normal, 1.6);
+		margin-bottom: 20px;
+		color: $ns-white;
+	}
+	
+	&__sender {
+		margin: 0;
+		color: $ns-white;
+	}
+	
+	&__icon {
+		margin-bottom: $half-gutter;
+		
+		svg {
+			fill: $ns-white;
+		}		
+	}
+}
+
 
 // grid
 // ----------------------------
-
 .flx-grid {
 	display: grid;
 	grid-column-gap: $gutter;
 	align-items: center;
+	
+	&--align-start {
+		align-items: start;
+	}
 	
 	&--1-1 {
 		@media (min-width: $md) {
@@ -192,236 +280,24 @@
 		}
 	}
 	
+	&--max-1 {
+		@media (min-width: $md) {
+			grid-template-columns: max-content 1fr;
+		}
+	}
+	
+	&--row-gap {
+		grid-row-gap: $gutter;
+	}
+	
+	&--double-col-gap {
+		grid-column-gap: $double-gutter;
+	}
+	
+	// child classes
 	&__reverse {
 		@media (min-width: $md) {
 			order: 3;
-		}
-	}
-}
-
-
-// buttons
-// -----------------------------------
-.flx-button {
-	transition: background-color 250ms $ease;
-	
-	&--ghost {
-		background: transparent;
-		border: 1px solid $ns-blue;
-		box-shadow: 0 1px 0 $ns-blue;
-		background-color: rgba($ns-blue, 0);
-		color: $ns-blue;
-		
-		&:hover {
-			box-shadow: 0 1px 0 $ns-blue;
-			background-color: rgba($ns-blue, 0.1);
-			color: $ns-blue;
-		}
-		
-		&--white {
-			color: $ns-white;
-			text-shadow: 1px 1px rgba($ns-grey, 0.5);
-			border: 1px solid $white;
-			box-shadow: 0 1px 0 $white;
-			background-color: rgba($ns-white, 0);
-			
-			&:hover{
-				box-shadow: 0 1px 0 $white;
-				color: $ns-white;
-				background-color: rgba($ns-white, 0.1);
-			}
-		}
-	}
-}
-
-// round scroll down button
-.btn-round {
-	position: absolute;
-	left: calc(50% - 20px);
-	bottom: $double-gutter;
-	margin: 0 auto;
-	display: flex;
-	justify-content: center;
-	align-items: center;
-	text-align: center;
-	vertical-align: middle;
-	width: 41px;
-	height: 41px;
-	background-color: $ns-white;
-	border-radius: 50%;
-	box-shadow: 0 0 8px rgba($ns-grey, 0.25);
-	cursor: pointer;
-	transition: transform $timing-medium $ease;
-	@media (min-width: $md) {
-		position: fixed;
-	}
-	
-	&:hover {
-		transform: scale(1.15);
-	}
-	
-	&--down {
-		svg {
-			position: relative;
-			top: 2px;
-			transform: rotate(90deg);
-		}
-	}
-	
-	svg {
-		fill: $ns-blue;
-	}
-}
-
-
-// background images
-// ----------------------------
-.flx-bg {
-	@extend %full-absolute;
-	transition: all 1s $ease;
-	opacity: 0;
-	background-size: cover;
-	
-	&__container-fixed {
-		display: none;
-		@extend %full-fixed;
-		&.is-active {
-			display: block;
-		}
-	}
-		
-	&--1eklas {
-		background-position: left center;
-		background-image: url("../../media/1eklas.jpg");
-	}
-}
-
-
-// background gradients
-// ----------------------------
-.flx-gradient {
-	@extend %full-absolute;
-	transition: all 1s $ease;
-	opacity: 0;
-	
-	&--vivid-blue {
-		background: linear-gradient(
-			135deg, $ns-light-blue 0%, #4BCED4 100%);
-		opacity: 0.3;
-	}
-	
-	&--cerulean {
-		background: linear-gradient(
-			93deg, #94DCF6 0%, #C6EDFD 100%);
-	}
-	
-	&--cobalt-blue {
-		background: linear-gradient(to bottom,
-			rgba($ns-blue, 1) 0%,
-			rgba($ns-blue, 1) 10%,
-			rgba($ns-blue, 0) 100%);
-		opacity: 0.8;
-	}
-	
-	&--light-grey {
-		background: linear-gradient(
-			93deg, $ns-white 0%, $ns-grey-7 100%);
-	}
-	
-	&--yellow {
-		background: linear-gradient(
-			93deg, $ns-yellow 0%, #FFE48A 100%);
-	}
-	
-	&--turquoise {
-		background: linear-gradient(
-			93deg, #79CEC3 0%, #BCFFF0 100%);
-	}
-}
-
-
-// transitions
-// ----------------------------
-
-.tr-400 {
-	transition: all 400ms $ease;
-}
-
-.tr-500 {
-	transition: all 500ms $ease;
-}
-
-.tr-750 {
-	transition: all 750ms $ease;
-}
-
-.tr-1000 {
-	transition: all 1s $ease;
-}
-
-.alpha-0 {
-	opacity: 0;
-}
-
-.alpha-1 {
-	opacity: 1;
-}
-
-.tr {
-	&--fade-in {
-		opacity: 0;
-		
-		&.is-active {
-			opacity: 1;
-		}
-	}
-	
-	&--fade-in-up {
-		opacity: 0;
-		transform: translate3d(0, 50px, 0);
-		
-		&.is-active {
-			opacity: 1;
-			transform: none;
-		}
-	}
-	
-	&--scale-in {
-		opacity: 0;
-		transform: scale(0.98);
-		@media (min-width: $md) {
-			transition-delay: 200ms;
-		}
-		
-		&.is-active {
-			opacity: 1;
-			transform: none;
-		}
-		
-		&.is-ended {
-			opacity: 0;
-			transform: scale(0.98);
-		}
-	}
-}
-
-.tr-stag {
-	@for $i from 1 through 7 {
-		&:nth-child(#{$i}) {
-			opacity: 0;
-			transform: translate3d(0, (20px + ($i * 10)), 0);
-			transition: all (300ms + ($i * 100)) $ease;
-			transition-delay: ($i * 20ms);
-			
-			&.is-active {
-				opacity: 1;
-				transform: none;
-			}
-			
-			&.is-ended {
-				opacity: 0;
-				transform: translate3d(0, (-20px + ($i * 10)), 0);
-			}
 		}
 	}
 }
