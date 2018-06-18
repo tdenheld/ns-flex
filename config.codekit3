@@ -9,6 +9,13 @@
 	],
 "creatorBuild": "26680",
 "files": {
+	"\/.gitignore": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/.gitignore",
+		"oF": 0
+		},
 	"\/.htaccess": {
 		"cB": 0,
 		"ft": 8192,
@@ -3038,17 +3045,6 @@
 		"opt": 0,
 		"plM": 3758088159,
 		"prP": 0
-		},
-	"\/media\/map.jpg": {
-		"ft": 16384,
-		"iS": 748955,
-		"jF": 0,
-		"oA": 0,
-		"oAP": "\/media\/map.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"q": 100
 		},
 	"\/media\/nooitmeer.svg": {
 		"ft": 2097152,
