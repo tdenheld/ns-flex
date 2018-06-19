@@ -27,6 +27,22 @@ var context = {
 		},
 	],
 	
+	"ov": {
+		"heading": "In al het openbaar vervoer",
+		"description": "NS Flex werkt in het hele OV in Nederland. Je kunt ermee betalen in trein, metro, tram en bus. Ga je graag met de fiets? Pak overal in Nederland een OV-fiets of maak gebruik van een bewaakte stalling.",
+	},
+	
+	"costs": {
+		"heading": "Inzicht in je reiskosten. Altijd en overal",
+		"description": "Zorgen over je maandbedrag? Stel zelf handige alerts in. Dan krijg je een seintje als je het bedrag bereikt dat jij hebt ingesteld.",
+		"img": "kostenteller.png",
+	},
+	
+	"first-class": {
+		"heading": "Druk in de trein?",
+		"description": "Op langere reizen of drukkere trajecten kan het fijn zijn om soms ruimer, rustiger en luxer te reizen. Met NS Flex kun je het tot een kwartier nadat je incheckt nog switchen naar de 1e klas. Je kunt dus in de trein nog beslissen.",
+	},
+	
 	"abo": {
 		"heading": "Je zit nergens aan vast",
 		"description": "Flex is verkrijgbaar met of zonder onze abonnementen. Je bepaalt per maand of je met extra <b>korting</b> reist. Daarnaast kun je <b>maandelijks opzeggen</b> of aanpassen. Zonder kosten!",

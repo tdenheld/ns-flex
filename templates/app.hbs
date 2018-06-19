@@ -66,6 +66,8 @@
 	</div>
 	{{/each}}
 	
+	
+	<!----------------------- traditional scrolling ------------------------>
 	<div class="flx-section flx-section--last" id="flx-s3">
 		<!-- al het OV -->
 		<div class="flx-ov">
@@ -74,11 +76,12 @@
 					<div></div>		
 					<div class="flx-section__content tr tr-stag">
 						<div class="flx-ov__text">
-							<h3 class="flx-section__title tr tr-stag"><b>In al het openbaar vervoer</b></h3>
+							<h3 class="flx-section__title tr tr-stag">
+								<b>{{ov.heading}}</b>
+							</h3>
 							<div class="spacer-margin-4"></div>
 							<p class="flx-section__description tr tr-stag">
-								NS Flex werkt in het hele OV in Nederland. Je kunt ermee betalen in trein, metro, tram en bus.
-								Ga je graag met de fiets? Pak overal in Nederland een OV-fiets of maak gebruik van een bewaakte stalling.
+								{{ov.description}}
 							</p>
 						</div>
 					</div>
@@ -91,15 +94,16 @@
 			<div class="container ovr-container">
 				<div class="flx-grid flx-grid--1-1-sm">		
 					<div class="flx-costs__content">
-						<h3 class="flx-section__title"><b>Inzicht in je reiskosten. Altijd en overal</b></h3>
+						<h3 class="flx-section__title">
+							<b>{{costs.heading}}</b>
+						</h3>
 						<div class="spacer-margin-4"></div>
 						<p class="flx-section__description">
-							Zorgen over je maandbedrag? Stel zelf handige alerts in. 
-							Dan krijg je een seintje als je het bedrag bereikt dat jij hebt ingesteld.
+							{{costs.description}}
 						</p>
 					</div>
 					<div class="flx-costs__img">
-						<img src="../media/kostenteller.png" class="img-responsive" />
+						<img src="../media/{{costs.img}}" class="img-responsive" />
 					</div>
 				</div>
 			</div>
@@ -113,14 +117,13 @@
 						<img src="../media/1eklas.jpg" class="img-responsive" />
 					</div>		
 					<div class="flx-section__content">
-						<h3 class="flx-section__title"><b>Druk in de trein?</b></h3>
+						<h3 class="flx-section__title">
+							<b>{{first-class.heading}}</b>
+						</h3>
 						<img src="../media/1eklas.jpg" class="img-responsive hidden-md hidden-lg" />
 						<div class="spacer-margin-4"></div>
 						<p class="flx-section__description">
-							Op langere reizen of drukkere trajecten kan het fijn zijn om 
-							soms ruimer, rustiger en luxer te reizen. Met NS Flex kun 
-							je het tot een kwartier nadat je incheckt nog switchen naar 
-							de 1e klas. Je kunt dus in de trein nog beslissen.
+							{{first-class.description}}
 						</p>
 						<div class="spacer-margin-4"></div>
 						<p class="flx-section__label">+ Zo werkt switchen naar 1e klas</p>
