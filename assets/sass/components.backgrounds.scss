@@ -62,6 +62,11 @@
 			93deg, $ns-white 0%, $ns-grey-7 100%);
 	}
 	
+	&--grey {
+		background: linear-gradient(
+			93deg, $ns-grey-8 0%, $ns-grey-7 100%);
+	}
+	
 	&--yellow {
 		background: linear-gradient(
 			93deg, $ns-yellow 0%, #FFE48A 100%);

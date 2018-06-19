@@ -35,7 +35,6 @@
 	<div class="flx-gradient flx-gradient--cerulean js-bg-0 hidden-md hidden-lg"></div>
 	<div class="flx-gradient flx-gradient--light-grey js-bg-1 hidden-md hidden-lg"></div>
 	<div class="flx-gradient flx-gradient--yellow js-bg-2"></div>
-	<div class="flx-gradient flx-gradient--light-grey js-bg-3"></div>
 	
 	<!-- big fat usps with gradient transitions -->
 	{{#each section}}	
@@ -48,28 +47,34 @@
 				<div class="flx-section__content flx-section__content--{{text-modifier}}">
 					<h3 class="flx-section__title tr tr-stag">{{{title}}}</h3>
 					{{#if spacer}}<div class="spacer-margin-4"></div>{{/if}}
-					<p class="flx-section__description tr tr-stag">{{{description}}}</p>
-					{{#if label}}<p class="flx-section__label tr tr-stag">{{{label}}}</p>{{/if}}
-					{{#if button}}
-					<div class="tr tr-stag">
-						<button class="button {{button-class}}">{{{button}}}</button>
-					</div>
-					{{/if}}
+					<p class="flx-section__description tr tr-stag">{{{description}}}</p>					
 				</div>
 			</div>
+			{{#if button}}
+			<div class="flx-section__divider flx-section__divider--alpha"></div>
+			<div class="flx-section__content flx-section__content--center-md-lg">
+				<p class="flx-section__description tr tr-stag"><b>{{{label}}}</b></p>
+				<div class="spacer-margin-2"></div>
+				<div class="tr tr-stag">
+					<button class="button {{button-class}}">{{{button}}}</button>
+				</div>
+			</div>
+			{{/if}}	
 		</div>
 	</div>
 	{{/each}}
 	
 	<div class="flx-section flx-section--last" id="flx-s3">
-		<div class="flx-ov tr tr-1000 tr--fade-in">
+		<!-- al het OV -->
+		<div class="flx-ov">
 			<div class="container ovr-container">
 				<div class="flx-grid flx-grid--1-1">
 					<div></div>		
 					<div class="flx-section__content tr tr-stag">
 						<div class="flx-ov__text">
-							<h3 class="headingL tr tr-stag"><b>In al het openbaar vervoer</b></h3>
-							<p class="no-margin headingXS tr tr-stag">
+							<h3 class="flx-section__title tr tr-stag"><b>In al het openbaar vervoer</b></h3>
+							<div class="spacer-margin-4"></div>
+							<p class="flx-section__description tr tr-stag">
 								NS Flex werkt in het hele OV in Nederland. Je kunt ermee betalen in trein, metro, tram en bus.
 								Ga je graag met de fiets? Pak overal in Nederland een OV-fiets of maak gebruik van een bewaakte stalling.</p>
 						</div>
@@ -78,23 +83,43 @@
 			</div>
 		</div>
 		
+		<!-- inzicht kosten -->
+		<div class="flx-costs">
+			<div class="container ovr-container">
+				<div class="flx-grid flx-grid--1-1">		
+					<div class="flx-section__content tr tr-stag">
+							<h3 class="flx-section__title tr tr-stag"><b>Inzicht in je reiskosten. Altijd en overal</b></h3>
+							<div class="spacer-margin-4"></div>
+							<p class="flx-section__description tr tr-stag">
+								Zorgen over je maandbedrag? Stel zelf handige alerts in.
+								 Dan krijg je een seintje als je het bedrag bereikt dat jij hebt ingesteld.</p>
+					</div>
+					<div class="flx-section__img flx-section__img--ui-element">
+						<img src="../media/kostenteller.svg" class="img-responsive" />
+					</div>
+				</div>
+			</div>
+		</div>
+		
 		<!-- abonnementen usps -->
-		<div class="flx-abo tr tr-1000 tr--fade-in">
+		<div class="flx-abo">
 			<div class="container ovr-container">			
 				<div class="flx-section__content">
-					<h3 class="headingXXL spacer-margin-4">
-						{{abo.heading}}
+					<h3 class="flx-section__title">
+						<b>{{abo.heading}}</b>
 					</h3>
-					<div class="flx-grid flx-grid--1-1 flx-grid--align-start flx-grid--double-row-gap">
+					<div class="spacer-margin-4"></div>
+					<div class="flx-grid flx-grid--1-1 flx-grid--align-start flx-grid--row-gap">
 					{{#each abo.usps}}				
 						<div class="flx-abo__tile">
-							<div class="flx-abo__icon" include="../assets/img/icons/{{icon}}.svg"></div>
-							<h3 class="headingM"><b>{{title}}</b></h3>
-							<p>{{description}}</p>
-							{{#if link}}<a class="arrowLink">{{link}}</a>{{/if}}
+							<!-- <div class="flx-abo__icon" include="../assets/img/icons/{{icon}}.svg"></div> -->
+							<!-- <h3 class="headingM"><b>{{title}}</b></h3> -->
+							<p class="flx-section__description">{{description}}</p>
 						</div>
 					{{/each}}
 					</div>
+					<div class="spacer-margin-4"></div>
+					<button class="button flx-button flx-button--ghost">{{{abo.link}}}</button>
 				</div>
 			</div>
 		</div>
@@ -103,10 +128,11 @@
 		<div class="flx-cta tr tr-1000 tr--fade-in">
 			<div class="container ovr-container">
 				<div class="flx-section__content flx-section__content--center-md-lg">
-					<h3 class="headingXXL flx-cta__title tr tr-stag">{{{cta.heading}}}</h3>
-					<h4 class="headingL">{{{cta.subhead}}}</h4>
+					<h3 class="flx-section__title tr tr-stag">{{{cta.heading}}}</h3>
+					<div class="spacer-margin-4"></div>
+					<h4 class="headingM spacer-margin-7">{{{cta.subhead}}}</h4>
 					<p class="font-blue">{{{cta.description}}}</p>
-					<button class="button button--arrowRight">{{{cta.button}}}</button>
+					<button class="button button--nsYellow button--arrowRight">{{{cta.button}}}</button>
 				</div>
 			</div>
 		</div>
@@ -118,7 +144,6 @@
 					<div class="flx-grid flx-grid--max-1 flx-grid--double-col-gap flx-grid--row-gap">
 						<div class="flx-testimonial__img"></div>
 						<div class="flx-textimonial__text">
-							<div class="flx-testimonial__icon hidden-xs hidden-sm" include="../assets/img/icons/quote--large.svg"></div>
 							<h3 class="flx-testimonial__quote">{{{testimonial.quote}}}</h3>
 							<p class="flx-testimonial__sender">{{{testimonial.sender}}}</p>
 						</div>
