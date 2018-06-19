@@ -2,6 +2,11 @@
      Backgrounds
 --------------------*/
 
+.flx-bg {
+	@extend %full-fixed;
+}
+
+
 // gradients
 // ----------------------------
 .flx-gradient {

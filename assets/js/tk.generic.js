@@ -8,6 +8,7 @@ $(document).ready(function(){
 var window_width = Number;
 var window_height = Number;
 var mobile = Boolean;
+var scrolled = false;
 
 
 	
@@ -23,15 +24,13 @@ function update_window_size() {
 	} else {
 		mobile = true;
 	};
-	
-	parallax_settings();
 };
 update_window_size();
 	
 // update when resizing
 $(window).resize(function() {
 	update_window_size();
-});	
+});
 
 
 
@@ -39,41 +38,21 @@ $(window).resize(function() {
 // functionality that"s on linked on scroll
 // ------------------------------------------------------------
 
-var scrolled = false;
-
 $(window).scroll(function() {
 	scrolled = true;
-	update_animation();
+	if (scrolled) {
+		requestAnimationFrame(scrolling);
+	};
 });
 
-function update_animation() {
-	if (scrolled && mobile == false) {
-		requestAnimationFrame(parallax_scroll);
-	};
-};
-
-function parallax_settings() {
-	$(".js-parallax--front").css({"position" : "relative", "top" : $(".js-parallax--back").innerHeight()});
-};
-
-function parallax_scroll() {
+function scrolling() {
 	var pos = $(window).scrollTop();
-	
-	// move background at slower speed
-	if (pos < window_height * 2) {
-		$(".js-parallax--back").css({"transform" : "translate3d(0," + Math.round(0 - pos / 2) + "px, 0)"});
-	};
-	if (pos < 0) {
-		$(".js-parallax--back").css({"transform" : "translate3d(0," + Math.round(0 - pos) + "px, 0)"});
-	};
-	
 	// fade arrow scroll down button
 	if (pos > 60) {
 		$(".js-hero-scroll-down--round").addClass("alpha-0");
 	} else {
 		$(".js-hero-scroll-down--round").removeClass("alpha-0");
 	};
-	
 	scrolled = false;
 };
 
@@ -92,7 +71,7 @@ function scroll_trigger_intro() {
 		triggerElement:	"#flx-s0",
 		duration: 999999,
 	})
-	.triggerHook(0.86)
+	.triggerHook(0.7)
 	.offset(0)
 	.on("start", function(){
 		$(".js-bg-0").toggleClass("alpha-1");
@@ -116,7 +95,7 @@ function scroll_trigger(i) {
 			triggerElement:	el,
 			duration: 999999,
 		})
-		.triggerHook(0.66)
+		.triggerHook(0.7)
 		.offset(0)
 		.on("start", function(){
 			$(bg).toggleClass("alpha-1");
