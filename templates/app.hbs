@@ -6,9 +6,10 @@
 	</div>
 	<div class="flx-hero__flow" include="../media/flow.svg"></div>
 	
-	<!-- background images for intro -->
+	<!-- background images for desktop -->
 	<div class="flx-gradient flx-gradient--cerulean js-bg-0 hidden-xs hidden-sm"></div>
 	<div class="flx-gradient flx-gradient--light-grey js-bg-1 hidden-xs hidden-sm"></div>
+	<div class="flx-gradient flx-gradient--yellow js-bg-2 hidden-xs hidden-sm"></div>
 	
 	<div class="ani ani--fade-in-up-small ani--delay-500">
 		<div class="js-parallax--back flx-hero__size">
@@ -16,7 +17,8 @@
 				<div class="flx-hero__content js-hero-content tr-750">
 					<h1 class="flx-hero__title">{{hero.title}}</h1> 
 					<h2 class="flx-hero__subtitle">{{hero.subtitle}}</h2>
-					<button class="button button--nsYellow flx-hero__button js-hero-scroll-down hidden-xs">
+					<div class="spacer-margin-2"></div>
+					<button class="button button--nsYellow button--arrowRight hidden-xs">
 						{{hero.button}}
 					</button>
 				</div>
@@ -31,10 +33,10 @@
 </div>
 
 <div class="js-parallax--front">
-	<!-- background images for sections below intro - first one is needed for mobile cause thats not parallax -->
+	<!-- backgrounds for mobile -->
 	<div class="flx-gradient flx-gradient--cerulean js-bg-0 hidden-md hidden-lg"></div>
 	<div class="flx-gradient flx-gradient--light-grey js-bg-1 hidden-md hidden-lg"></div>
-	<div class="flx-gradient flx-gradient--yellow js-bg-2"></div>
+	<div class="flx-gradient flx-gradient--yellow js-bg-2 hidden-md hidden-lg"></div>
 	
 	<!-- big fat usps with gradient transitions -->
 	{{#each section}}	
@@ -56,7 +58,7 @@
 				<p class="flx-section__description tr tr-stag"><b>{{{label}}}</b></p>
 				<div class="spacer-margin-2"></div>
 				<div class="tr tr-stag">
-					<button class="button {{button-class}}">{{{button}}}</button>
+					<button class="button button--arrowRight">{{{button}}}</button>
 				</div>
 			</div>
 			{{/if}}	
@@ -76,7 +78,8 @@
 							<div class="spacer-margin-4"></div>
 							<p class="flx-section__description tr tr-stag">
 								NS Flex werkt in het hele OV in Nederland. Je kunt ermee betalen in trein, metro, tram en bus.
-								Ga je graag met de fiets? Pak overal in Nederland een OV-fiets of maak gebruik van een bewaakte stalling.</p>
+								Ga je graag met de fiets? Pak overal in Nederland een OV-fiets of maak gebruik van een bewaakte stalling.
+							</p>
 						</div>
 					</div>
 				</div>
@@ -86,16 +89,41 @@
 		<!-- inzicht kosten -->
 		<div class="flx-costs">
 			<div class="container ovr-container">
-				<div class="flx-grid flx-grid--1-1">		
-					<div class="flx-section__content tr tr-stag">
-							<h3 class="flx-section__title tr tr-stag"><b>Inzicht in je reiskosten. Altijd en overal</b></h3>
-							<div class="spacer-margin-4"></div>
-							<p class="flx-section__description tr tr-stag">
-								Zorgen over je maandbedrag? Stel zelf handige alerts in.
-								 Dan krijg je een seintje als je het bedrag bereikt dat jij hebt ingesteld.</p>
+				<div class="flx-grid flx-grid--1-1-sm">		
+					<div class="flx-costs__content">
+						<h3 class="flx-section__title"><b>Inzicht in je reiskosten. Altijd en overal</b></h3>
+						<div class="spacer-margin-4"></div>
+						<p class="flx-section__description">
+							Zorgen over je maandbedrag? Stel zelf handige alerts in. 
+							Dan krijg je een seintje als je het bedrag bereikt dat jij hebt ingesteld.
+						</p>
 					</div>
-					<div class="flx-section__img flx-section__img--ui-element">
-						<img src="../media/kostenteller.svg" class="img-responsive" />
+					<div class="flx-costs__img">
+						<img src="../media/kostenteller.png" class="img-responsive" />
+					</div>
+				</div>
+			</div>
+		</div>
+		
+		<!-- 1e klas switch -->
+		<div class="flx-first-class">
+			<div class="container ovr-container">
+				<div class="flx-grid flx-grid--1-1">
+					<div class="flx-section__img flx-section__img--100 hidden-xs hidden-sm">
+						<img src="../media/1eklas.jpg" class="img-responsive" />
+					</div>		
+					<div class="flx-section__content">
+						<h3 class="flx-section__title"><b>Druk in de trein?</b></h3>
+						<img src="../media/1eklas.jpg" class="img-responsive hidden-md hidden-lg" />
+						<div class="spacer-margin-4"></div>
+						<p class="flx-section__description">
+							Op langere reizen of drukkere trajecten kan het fijn zijn om 
+							soms ruimer, rustiger en luxer te reizen. Met NS Flex kun 
+							je het tot een kwartier nadat je incheckt nog switchen naar 
+							de 1e klas. Je kunt dus in de trein nog beslissen.
+						</p>
+						<div class="spacer-margin-4"></div>
+						<p class="flx-section__label">+ Zo werkt switchen naar 1e klas</p>
 					</div>
 				</div>
 			</div>
@@ -104,22 +132,14 @@
 		<!-- abonnementen usps -->
 		<div class="flx-abo">
 			<div class="container ovr-container">			
-				<div class="flx-section__content">
+				<div class="flx-section__content flx-section__content--small">
 					<h3 class="flx-section__title">
 						<b>{{abo.heading}}</b>
 					</h3>
 					<div class="spacer-margin-4"></div>
-					<div class="flx-grid flx-grid--1-1 flx-grid--align-start flx-grid--row-gap">
-					{{#each abo.usps}}				
-						<div class="flx-abo__tile">
-							<!-- <div class="flx-abo__icon" include="../assets/img/icons/{{icon}}.svg"></div> -->
-							<!-- <h3 class="headingM"><b>{{title}}</b></h3> -->
-							<p class="flx-section__description">{{description}}</p>
-						</div>
-					{{/each}}
-					</div>
+					<p class="flx-section__description">{{{abo.description}}}</p>
 					<div class="spacer-margin-4"></div>
-					<button class="button flx-button flx-button--ghost">{{{abo.link}}}</button>
+					<button class="button flx-button flx-button--ghost">Meer over abonnementen</button>
 				</div>
 			</div>
 		</div>
@@ -128,17 +148,17 @@
 		<div class="flx-cta tr tr-1000 tr--fade-in">
 			<div class="container ovr-container">
 				<div class="flx-section__content flx-section__content--center-md-lg">
-					<h3 class="flx-section__title tr tr-stag">{{{cta.heading}}}</h3>
+					<h3 class="flx-section__title">{{{cta.heading}}}</h3>
 					<div class="spacer-margin-4"></div>
-					<h4 class="headingM spacer-margin-7">{{{cta.subhead}}}</h4>
+					<h4 class="headingM spacer-margin-4">{{{cta.subhead}}}</h4>
 					<p class="font-blue">{{{cta.description}}}</p>
-					<button class="button button--nsYellow button--arrowRight">{{{cta.button}}}</button>
+					<button class="button button--arrowRight">{{{cta.button}}}</button>
 				</div>
 			</div>
 		</div>
 		
 		<!-- testimonial -->
-		<div class="flx-testimonial flx-gradient--ns-blue tr tr-1000 tr--fade-in">
+		<div class="flx-testimonial">
 			<div class="container ovr-container">
 				<div class="flx-section__content flx-testimonial__content">
 					<div class="flx-grid flx-grid--max-1 flx-grid--double-col-gap flx-grid--row-gap">
@@ -152,154 +172,11 @@
 			</div>
 		</div>
 	</div>	
-	<footer class="footer" data-noindex="true">
+	<footer class="footer ovr-footer" data-noindex="true">
 		<div class="container">
-		    <div class="grid grid--footer" data-controller="generic/ui/ResponsiveGrid" data-type="footermenu">
-		        <div class="grid__unit m-6-12 l-3-12" data-type="topfootermenuitem">
-		            <div class="tile tile--fullyTransparent">
-		                <div class="tile__title">
-		                    <h3 class="headingXXS footer__heading">Direct naar...</h3>
-		                </div>
-		                <div class="tile__content">
-		                    <ul class="list">
-		                        <li class="list__item">
-		                            <a href="/reisinformatie" class="arrowLink">
-		                            Reisinformatie</a>
-		                        </li>
-		                        <li class="list__item">
-		                            <a href="/uitgelicht" class="arrowLink">
-		                            Uitgelicht</a>
-		                        </li>
-		                        <li class="list__item">
-		                            <a href="/zakelijk" class="arrowLink">
-		                            Zakelijk</a>
-		                        </li>
-		                        <li class="list__item">
-		                            <a href="/klantenservice" class="arrowLink">
-		                            Klantenservice</a>
-		                        </li>
-		                    </ul>
-		                </div>
-		            </div>
-		        </div>
-		        <div class="grid__unit m-6-12 l-3-12" data-type="topfootermenuitem">
-		            <div class="tile tile--fullyTransparent">
-		                <div class="tile__title">
-		                    <h3 class="headingXXS footer__heading">Onze producten</h3>
-		                </div>
-		                <div class="tile__content">
-		                    <ul class="list">
-		                        <li class="list__item">
-		                            <a href="/producten/losse-kaartjes-toeslagen" class="arrowLink">
-		                            Kaartjes &amp; Toeslagen</a>
-		                        </li>
-		                        <li class="list__item">
-		                            <a href="/producten/abonnementen" class="arrowLink">
-		                            Abonnementen</a>
-		                        </li>
-		                        <li class="list__item">
-		                            <a href="/deur-tot-deur" class="arrowLink">
-		                            Deur tot deur</a>
-		                        </li>
-		                        <li class="list__item">
-		                            <a href="/dagje-uit" class="arrowLink">
-		                            Dagje uit</a>
-		                        </li>
-		                        <li class="list__item">
-		                            <a href="https://www.nsinternational.nl" class="arrowLink"
-		                                target="_blank"
-		                                rel="external noopener">
-		                            Internationale treinkaartjes</a>
-		                        </li>
-		                    </ul>
-		                </div>
-		            </div>
-		        </div>
-		        <div class="grid__unit m-6-12 l-3-12" data-type="topfootermenuitem">
-		            <div class="tile tile--fullyTransparent">
-		                <div class="tile__title">
-		                    <h3 class="headingXXS footer__heading">Meer NS</h3>
-		                </div>
-		                <div class="tile__content">
-		                    <ul class="list">
-		                        <li class="list__item">
-		                            <a href="/over-ns" class="arrowLink">
-		                            Over NS</a>
-		                        </li>
-		                        <li class="list__item">
-		                            <a href="https://werkenbijns.nl/" class="arrowLink"
-		                                target="_blank"
-		                                rel="external noopener"
-		                                >
-		                            Werken bij NS</a>
-		                        </li>
-		                        <li class="list__item">
-		                            <a href="/zakelijk/partners-in-mobiliteit.html" class="arrowLink">
-		                            Partners in mobiliteit</a>
-		                        </li>
-		                        <li class="list__item">
-		                            <a href="http://nieuws.ns.nl" class="arrowLink"
-		                                target="_blank"
-		                                rel="external noopener"
-		                                >
-		                            Nieuws</a>
-		                        </li>
-		                    </ul>
-		                </div>
-		            </div>
-		        </div>
-		        <div class="grid__unit m-6-12 l-3-12" data-type="socialfootermenuitem">
-		            <div class="tile tile--fullyTransparent">
-		                <div class="tile__title">
-		                    <h3 class="headingXXS footer__heading">
-		                        Sociale media
-		                    </h3>
-		                </div>
-		                <div class="tile__content">
-		                    <ul class="list">
-		                        <li class="list__item">
-		                            <a href="https://www.facebook.com/nederlandsespoorwegen" class="iconLink iconLink--facebook"
-		                                target="_blank"
-		                                rel="external noopener"
-		                                >
-		                            Facebook</a>
-		                        </li>
-		                        <li class="list__item">
-		                            <a href="https://twitter.com/ns_online" class="iconLink iconLink--twitter"
-		                                target="_blank"
-		                                rel="external noopener"
-		                                >
-		                            Twitter</a>
-		                        </li>
-		                        <li class="list__item">
-		                            <a href="https://www.instagram.com/ns_online/?hl=nl" class="iconLink iconLink--instagram"
-		                                target="_blank"
-		                                rel="external noopener"
-		                                >
-		                            Instagram</a>
-		                        </li>
-		                        <li class="list__item">
-		                            <a href="https://www.youtube.com/user/NS" class="iconLink iconLink--youtube"
-		                                target="_blank"
-		                                rel="external noopener"
-		                                >
-		                            YouTube</a>
-		                        </li>
-		                        <li class="list__item">
-		                            <a href="https://www.linkedin.com/company/nederlandsespoorwegen" class="iconLink iconLink--linkedin"
-		                                target="_blank"
-		                                rel="external noopener"
-		                                >
-		                            LinkedIn</a>
-		                        </li>
-		                    </ul>
-		                </div>
-		            </div>
-		        </div>
-		    </div>
 		    <div class="grid grid--footer" data-type="bottomfootermenu">
 		        <div class="grid__unit">
-		            <div class="footer__menuContainer separator--largeTop">
+		            <div class="footer__menuContainer">
 		                <ul class="footer__menu list list--horizontal" data-controller="generic/ui/EqualWidth">
 		                    <li class="list__item">
 		                        <a href="/disclaimer.html" class="arrowLink arrowLink--grey">

@@ -92,10 +92,9 @@ function scroll_trigger_intro() {
 		triggerElement:	"#flx-s0",
 		duration: 999999,
 	})
-	.triggerHook(0.64)
+	.triggerHook(0.86)
 	.offset(0)
 	.on("start", function(){
-		$(".flx-bg__container-fixed").toggleClass("is-active");
 		$(".js-bg-0").toggleClass("alpha-1");
 		$(".js-hero-content").toggleClass("alpha-0");
 		$("#flx-s0 .tr").toggleClass("is-active");
@@ -117,7 +116,7 @@ function scroll_trigger(i) {
 			triggerElement:	el,
 			duration: 999999,
 		})
-		.triggerHook(0.64)
+		.triggerHook(0.66)
 		.offset(0)
 		.on("start", function(){
 			$(bg).toggleClass("alpha-1");

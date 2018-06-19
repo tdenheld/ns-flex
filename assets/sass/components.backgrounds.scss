@@ -2,31 +2,7 @@
      Backgrounds
 --------------------*/
 
-
-// background images
-// ----------------------------
-.flx-bg {
-	@extend %full-absolute;
-	transition: all 1s $ease;
-	opacity: 0;
-	background-size: cover;
-	
-	&__container-fixed {
-		display: none;
-		@extend %full-fixed;
-		&.is-active {
-			display: block;
-		}
-	}
-		
-	&--1eklas {
-		background-position: left center;
-		background-image: url("../../media/1eklas.jpg");
-	}
-}
-
-
-// background gradients
+// gradients
 // ----------------------------
 .flx-gradient {
 	@extend %full-absolute;

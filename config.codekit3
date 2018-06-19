@@ -3036,7 +3036,7 @@
 		},
 	"\/media\/1eklas.jpg": {
 		"ft": 16384,
-		"iS": 1471044,
+		"iS": 768121,
 		"jF": 0,
 		"oA": 0,
 		"oAP": "\/media\/1eklas.jpg",
@@ -3075,6 +3075,17 @@
 		"plM": 3758088159,
 		"prP": 0
 		},
+	"\/media\/kostenteller.png": {
+		"ft": 32768,
+		"iS": 2110240,
+		"oA": 0,
+		"oAP": "\/media\/kostenteller.png",
+		"oF": 0,
+		"oIPL": 1,
+		"opt": 1,
+		"oT": 1,
+		"q": 100
+		},
 	"\/media\/kostenteller.svg": {
 		"ft": 2097152,
 		"miP": 0,
@@ -3084,6 +3095,17 @@
 		"opt": 0,
 		"plM": 3758088159,
 		"prP": 0
+		},
+	"\/media\/marieke-ph.jpg": {
+		"ft": 16384,
+		"iS": 8939575,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "\/media\/marieke-ph.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 1,
+		"q": 100
 		},
 	"\/media\/marieke.jpg": {
 		"ft": 16384,
