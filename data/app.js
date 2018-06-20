@@ -39,7 +39,7 @@ var context = {
 	"first-class": {
 		"heading": "Druk in de trein?",
 		"description": "Op langere reizen of drukkere trajecten kan het fijn zijn om soms ruimer, rustiger en luxer te reizen. Met NS Flex kun je het tot een kwartier nadat je incheckt nog switchen naar de 1e klas. Je kunt dus in de trein nog beslissen.",
-		"img": "1eklas.jpg",
+		"img": "tyler-nix-626687-unsplash.jpg",
 	},
 	
 	"abo": {

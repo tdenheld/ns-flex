@@ -39,7 +39,7 @@ templates['app'] = template({"1":function(container,depth0,helpers,partials,data
     + alias2(alias1(((stack1 = (depth0 != null ? depth0.hero : depth0)) != null ? stack1.title : stack1), depth0))
     + "</h1> \n				<h2 class=\"flx-hero__subtitle\">"
     + alias2(alias1(((stack1 = (depth0 != null ? depth0.hero : depth0)) != null ? stack1.subtitle : stack1), depth0))
-    + "</h2>\n				<button class=\"button button--nsYellow button--arrowRight\">\n					"
+    + "</h2>\n				<button class=\"button button--nsYellow\">\n					"
     + alias2(alias1(((stack1 = (depth0 != null ? depth0.hero : depth0)) != null ? stack1.button : stack1), depth0))
     + "\n				</button>\n			</div>\n		</div>\n	</div>\n	<div class=\"flx-hero__scrolldown ani ani--fade-in ani--delay-1250\">\n		<p class=\"flx-hero__label hidden-xs hidden-sm\">Scroll naar beneden<br>om meer te ontdekken</p>\n		<div class=\"btn-round btn-round--down flx-hero__button-down js-scroll-down\" include=\"../assets/img/icons/chevron-m--small.svg\"></div>\n	</div>\n</div>\n	\n		\n<!-- big fat usps with gradient transitions -->\n"
     + ((stack1 = helpers.each.call(alias3,(depth0 != null ? depth0.section : depth0),{"name":"each","hash":{},"fn":container.program(1, data, 0),"inverse":container.noop,"data":data})) != null ? stack1 : "")
