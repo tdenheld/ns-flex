@@ -3,58 +3,61 @@
 --------------------*/
 
 .flx-bg {
-	@extend %full-fixed;
+	transition: all 750ms $ease;
+	opacity: 0;
+	
+	&--absolute {
+		@extend %full-absolute;	
+	}
+	&--fixed {
+		@extend %full-fixed;
+	}
+	&--white {
+		background-color: $ns-white;
+	}
 }
-
 
 // gradients
 // ----------------------------
 .flx-gradient {
 	@extend %full-absolute;
-	transition: all 1s $ease;
+	transition: all 750ms $ease;
 	opacity: 0;
 	
 	&--vivid-blue {
 		background: linear-gradient(
 			135deg, $ns-light-blue 0%, #4BCED4 100%);
 		opacity: 0.3;
-	}
-	
+	}	
 	&--cerulean {
 		background: linear-gradient(
-			93deg, #94DCF6 0%, #C6EDFD 100%);
-	}
-	
+			110deg, #94DCF6 0%, #C6EDFD 100%);
+	}	
 	&--cobalt-blue {
 		background: linear-gradient(to bottom,
 			rgba($ns-blue, 1) 0%,
 			rgba($ns-blue, 1) 10%,
 			rgba($ns-blue, 0) 100%);
 		opacity: 0.8;
-	}
-	
+	}	
 	&--ns-blue {
 		background: linear-gradient(
-			93deg, #0050A8 0%, $ns-blue 100%);
-	}
-	
+			110deg, #0050A8 0%, $ns-blue 100%);
+	}	
 	&--light-grey {
 		background: linear-gradient(
-			93deg, $ns-white 0%, $ns-grey-7 100%);
-	}
-	
+			110deg, $ns-white 0%, $ns-grey-7 100%);
+	}	
 	&--grey {
 		background: linear-gradient(
-			93deg, $ns-grey-8 0%, $ns-grey-7 100%);
-	}
-	
+			110deg, $ns-grey-8 0%, $ns-grey-7 100%);
+	}	
 	&--yellow {
 		background: linear-gradient(
-			93deg, $ns-yellow 0%, #FFE48A 100%);
-	}
-	
+			110deg, $ns-yellow 0%, #FFE48A 100%);
+	}	
 	&--turquoise {
 		background: linear-gradient(
-			93deg, #79CEC3 0%, #BCFFF0 100%);
+			110deg, #79CEC3 0%, #BCFFF0 100%);
 	}
 }

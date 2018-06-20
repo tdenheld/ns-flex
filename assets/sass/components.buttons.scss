@@ -34,27 +34,51 @@
 	}
 }
 
+// read more link
+.flx-more {
+	display: flex;
+	align-items: center;
+	cursor: pointer;
+	color: $ns-light-blue;
+	transition: all 250ms $ease;
+	@include font-style(16px, normal, 0.6);
+
+	svg {
+		margin-right: $half-gutter;
+		fill: $ns-light-blue;
+		transition: all 250ms $ease;	
+	}
+	
+	&:hover {
+		color: $ns-blue;
+		svg {
+			fill: $ns-blue;
+			transform: translateX(5px);
+		}
+	}
+	
+	&--blue {
+		font-weight: bold;
+		color: $ns-blue;
+		
+		svg {
+			fill: $ns-blue;
+		}
+	}
+}
+
 // round scroll down button
 .btn-round {
-	position: absolute;
-	left: calc(50% - 20px);
-	bottom: $double-gutter;
-	margin: 0 auto;
 	display: flex;
 	justify-content: center;
 	align-items: center;
-	text-align: center;
-	vertical-align: middle;
-	width: 41px;
-	height: 41px;
+	width: 40px;
+	height: 40px;
 	background-color: $ns-white;
 	border-radius: 50%;
 	box-shadow: 0 0 8px rgba($ns-grey, 0.25);
 	cursor: pointer;
 	transition: transform $timing-medium $ease;
-	@media (min-width: $md) {
-		position: fixed;
-	}
 	
 	&:hover {
 		transform: scale(1.15);

@@ -75,9 +75,9 @@
 	@for $i from 1 through 7 {
 		&:nth-child(#{$i}) {
 			opacity: 0;
-			transform: translate3d(0, (20px + ($i * 10)), 0);
-			transition: all (300ms + ($i * 100)) $ease;
-			transition-delay: ($i * 20ms);
+			transform: translate3d(0, (20px + ($i * 8)), 0);
+			transition: all (300ms + ($i * 75)) $ease;
+			//transition-delay: ($i * 20ms);
 			
 			&.is-active {
 				opacity: 1;
@@ -86,7 +86,7 @@
 			
 			&.is-ended {
 				opacity: 0;
-				transform: translate3d(0, (-20px + ($i * 10)), 0);
+				transform: translate3d(0, (-20px + ($i * 8)), 0);
 			}
 		}
 	}

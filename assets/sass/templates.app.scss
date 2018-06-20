@@ -13,6 +13,7 @@
 	height: calc(100vh - 120px);
 	@media (min-width: $sm) {
 		height: calc(100vh - 60px);
+		margin-bottom: $double-gutter;
 	}
 	
 	&__bg {
@@ -20,7 +21,6 @@
 		width: 100vw;
 		height: 100vh;
 		@media (min-width: $md) {
-			position: fixed;
 			height: inherit;
 		}
 	}
@@ -71,6 +71,7 @@
 	}
 	
 	&__subtitle {
+		margin-bottom: $half-gutter;
 		@include font-style(36px, bold, 1.2);
 		color: $ns-white;
 		@media (min-width: $sm) {
@@ -83,6 +84,25 @@
 			font-size: calculate-rem(36px);
 		}
 	}
+	
+	&__scrolldown {
+		display: grid;
+		position: absolute;
+		bottom: $double-gutter;
+		text-shadow: 1px 1px 0 rgba($ns-black, 0.35);
+		width: 100vw;
+		justify-content: center;
+		text-align: center;
+	}
+	
+	&__label {
+		@include font-style(14px, bold, 1.3);
+		color: $ns-white;
+	}
+	
+	&__button-down {
+		margin: 0 auto;
+	}
 }
 
 
@@ -92,9 +112,36 @@
 .flx-section {
 	position: relative;
 	overflow: hidden;
-	padding: $half-gutter 0;
-	@media (min-width: $sm) {
+	
+	&--usps {
+		padding: $half-gutter 0;
+		@media (min-width: $sm) {
+			padding: $double-gutter 0;
+		}
+	}
+	
+	&__container {
 		padding: $gutter 0;
+		@media (min-width: $md) {
+			padding: $triple-gutter 0;
+		}
+		
+		&--small {
+			@media (min-width: $md) {
+				padding: $gutter 0;
+			}
+		}
+		
+		&--large {
+			padding: $one-half-gutter 0;
+			@media (min-width: $md) {
+				padding: 15vh 0;
+			}
+		}
+		
+		&--no-padding-top {
+			padding-top: 0;
+		}
 	}
 	
 	&__content {
@@ -109,12 +156,10 @@
 			}
 		}
 		
-		&--center-md-lg {
+		&--center {
 			max-width: 740px;
-			@media (min-width: $md) {
-				margin: 0 auto;
-				text-align: center;
-			}
+			margin: 0 auto;
+			text-align: center;
 		}
 		
 		&--small {
@@ -124,17 +169,18 @@
 	
 	&__title {
 		@include font-style(28px, normal, 1.3);
-		margin-bottom: 7px;
+		margin-bottom: $half-gutter;
 		color: $ns-blue;
 		@media (min-width: $md) {
 			font-size: calculate-rem(42px);
+			margin-bottom: $gutter;
 		}
 	}
 	
 	&__description {
 		@include font-style(18px, normal, 1.6);
 		color: $ns-blue;
-		margin: 0;
+		margin-bottom: $gutter;
 		@media (min-width: $md) {
 			font-size: calculate-rem(20px);
 		}
@@ -164,6 +210,10 @@
 				max-width: none;
 			}
 		}
+		
+		&--shadow {
+			box-shadow: $box-shadow-medium;
+		}
 	}
 	
 	&__divider {
@@ -177,10 +227,6 @@
 			border-bottom: 1px solid $ns-grey-alpha-15;
 		}
 	}
-	
-	&--last {
-		padding-bottom: 0;
-	}
 }
 
 
@@ -189,13 +235,9 @@
 // ----------------------------
 .flx-ov {
 	@extend %bg-cover;
-	background-image: url("../../media/ov.jpg");
-	padding: $one-half-gutter 0;
-	@media (min-width: $md) {
-		padding: 18vh 0;
-	}
+	background-image: url("../../media/cart.jpg");
 	
-	&__text {
+	&__text-container {
 		background-color: $ns-white;
 		box-shadow: $box-shadow-medium;
 		padding: $gutter;
@@ -208,7 +250,6 @@
 .flx-costs {
 	position: relative;
 	overflow: hidden;
-	@extend .flx-gradient--grey;
 	
 	&__content {
 		padding: $double-gutter $gutter;
@@ -233,70 +274,20 @@
 }
 
 
-// first class
-// ----------------------------
-.flx-first-class {
-	padding: $gutter 0;
-	background-color: $ns-white;
-	@media (min-width: $md) {
-		padding: $triple-gutter 0;
-	}
-}
-
-
-// abo
-// ----------------------------
-.flx-abo {
-	@extend .flx-gradient--grey;
-	padding: $gutter 0;
-	@media (min-width: $md) {
-		padding: $triple-gutter 0;
-	}
-	
-	&__tile {
-		max-width: 400px;
-	}
-	
-	&__icon {
-		height: 48px;
-		
-		svg {
-			fill: $ns-blue;
-		}
-	}
-}
-
-
-// call to action
-// ----------------------------
-.flx-cta {
-	@extend .flx-gradient--yellow;
-	padding: $gutter 0;
-	@media (min-width: $md) {
-		padding: $triple-gutter 0;
-	}
-}
-
-
 // testimonial
 // ----------------------------
-.flx-testimonial {
-	@extend .flx-gradient--grey;
-	padding: $gutter 0;
-	@media (min-width: $md) {
-		padding: $triple-gutter 0;
-	}
-	
+.flx-testimonial {	
 	&__content {
 		margin: 0 auto;
 		max-width: 820px;
 	}
 	
 	&__img {
+		margin: 0 auto;
 		width: 200px;
 		height: 200px;
 		border-radius: 50%;
-		background-image: url("../../media/marieke-ph.jpg");
+		background-image: url("../../media/marieke.jpg");
 		@extend %bg-cover;
 	}
 	
@@ -321,69 +312,8 @@
 }
 
 
-// grid
+// faq
 // ----------------------------
-.flx-grid {
-	display: grid;
-	grid-column-gap: $gutter;
-	align-items: center;
-	
-	&--align-start {
-		align-items: start;
-	}
-	
-	&--1-1 {
-		@media (min-width: $md) {
-			grid-template-columns: 1fr 1fr;
-		}
-	}
-	
-	&--1-1-sm {
-		@media (min-width: $sm) {
-			grid-template-columns: 1fr 1fr;
-		}
-	}
-	
-	&--2-3 {
-		@media (min-width: $md) {
-			grid-template-columns: 2fr 3fr;
-		}
-	}
-	
-	&--3-2 {
-		@media (min-width: $md) {
-			grid-template-columns: 3fr 2fr;
-		}
-	}
-	
-	&--max-1 {
-		@media (min-width: $md) {
-			grid-template-columns: max-content 1fr;
-		}
-	}
-	
-	&--max-max {
-		@media (min-width: $md) {
-			grid-template-columns: max-content  max-content;
-		}
-	}
-	
-	&--row-gap {
-		grid-row-gap: $gutter;
-	}
-	
-	&--double-row-gap {
-		grid-row-gap: $double-gutter;
-	}
-	
-	&--double-col-gap {
-		grid-column-gap: $double-gutter;
-	}
-	
-	// child classes
-	&__reverse {
-		@media (min-width: $md) {
-			order: 3;
-		}
-	}
+.flx-faq {
+	border-bottom: 1px solid $ns-grey-7;
 }

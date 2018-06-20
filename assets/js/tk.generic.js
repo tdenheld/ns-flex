@@ -65,24 +65,6 @@ function scrolling() {
 // init controller
 var controller = new ScrollMagic.Controller();
 
-// intro scroll trigger
-function scroll_trigger_intro() {
-	var scrll = new ScrollMagic.Scene({
-		triggerElement:	"#flx-s0",
-		duration: 999999,
-	})
-	.triggerHook(0.7)
-	.offset(0)
-	.on("start", function(){
-		$(".js-bg-0").toggleClass("alpha-1");
-		$(".js-hero-content").toggleClass("alpha-0");
-		$("#flx-s0 .tr").toggleClass("is-active");
-	})
-	//.addIndicators()
-	.addTo(controller);
-};
-scroll_trigger_intro();
-
 // section scroll constructor
 function scroll_trigger(i) {
 	var id = document.getElementById("flx-s" + i);
@@ -95,7 +77,7 @@ function scroll_trigger(i) {
 			triggerElement:	el,
 			duration: 999999,
 		})
-		.triggerHook(0.7)
+		.triggerHook(0.8)
 		.offset(0)
 		.on("start", function(){
 			$(bg).toggleClass("alpha-1");
@@ -108,7 +90,7 @@ function scroll_trigger(i) {
 };
 // init section scroll events
 var sections = $(".flx-section");
-for (i = 1; i <= sections.length; i++) {
+for (i = 0; i <= sections.length; i++) {
 	scroll_trigger(i);
 };
 
@@ -116,11 +98,9 @@ for (i = 1; i <= sections.length; i++) {
 
 
 
-
-
 // scrollto
 // ------------------------------------------------------------
-$(".js-hero-scroll-down").click(function(){
+$(".js-scroll-down").click(function(){
 	TweenLite.to(window, 1, {
 		ease: Power3.easeInOut,
 		scrollTo: {

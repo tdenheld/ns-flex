@@ -1,8 +1,9 @@
 <!------- background images ------->
-<div class="flx-bg">
-	<div class="flx-gradient flx-gradient--cerulean js-bg-0"></div>
-	<div class="flx-gradient flx-gradient--light-grey js-bg-1"></div>
+<div class="flx-bg--fixed">
+	<div class="flx-gradient flx-gradient--light-grey alpha-1"></div>
+	<div class="flx-gradient flx-gradient--cerulean js-bg-1"></div>
 	<div class="flx-gradient flx-gradient--yellow js-bg-2"></div>
+	<div class="flx-bg flx-bg--absolute flx-bg--white js-bg-5"></div>
 </div>
 
 <!------- hero ------->
@@ -21,188 +22,190 @@
 			<div class="flx-hero__content">
 				<h1 class="flx-hero__title">{{hero.title}}</h1> 
 				<h2 class="flx-hero__subtitle">{{hero.subtitle}}</h2>
-				<div class="spacer-margin-2"></div>
 				<button class="button button--nsYellow button--arrowRight">
 					{{hero.button}}
 				</button>
 			</div>
 		</div>
 	</div>
-	<div class="ani ani--fade-in ani--delay-1250">
-		<div class="btn-round btn-round--down tr-500 js-hero-scroll-down js-hero-scroll-down--round">
-			<div include="../assets/img/icons/chevron-m--small.svg"></div>
-		</div>
+	<div class="flx-hero__scrolldown ani ani--fade-in ani--delay-1250">
+		<p class="flx-hero__label hidden-xs hidden-sm">Scroll naar beneden<br>om meer te ontdekken</p>
+		<div class="btn-round btn-round--down flx-hero__button-down js-scroll-down" include="../assets/img/icons/chevron-m--small.svg"></div>
 	</div>
 </div>
 	
 		
 <!-- big fat usps with gradient transitions -->
 {{#each section}}	
-<div class="flx-section" id="flx-s{{@index}}">
+<div class="flx-section flx-section--usps" id="flx-s{{@index}}">
 	<div class="container ovr-container">
 		<div class="flx-grid flx-grid--{{grid}}">
-			<div class="flx-section__img flx-section__img--{{img-class}} flx-grid__{{order}} tr tr-750 tr--scale-in">
+			<div class="flx-section__img flx-section__img--{{img-class}} flx-grid__{{order}} tr tr-500 tr--scale-in">
 				{{#if img}}<img src="../media/{{img}}" class="img-responsive" />{{/if}}
 			</div>
 			<div class="flx-section__content flx-section__content--{{text-modifier}}">
 				<h3 class="flx-section__title tr tr-stag">{{{title}}}</h3>
-				{{#if spacer}}<div class="spacer-margin-4"></div>{{/if}}
-				<p class="flx-section__description tr tr-stag">{{{description}}}</p>					
+				<p class="flx-section__description tr tr-stag">{{{description}}}</p>
+				<div class="tr tr-stag">
+					<div class="flx-more flx-more--blue">
+						<span include="../assets/img/icons/plus--small.svg"></span>
+						Bekijk meer
+					</div>
+				</div>				
 			</div>
 		</div>
-		{{#if button}}
-		<div class="flx-section__divider flx-section__divider--alpha"></div>
-		<div class="flx-section__content flx-section__content--center-md-lg">
-			<p class="flx-section__description tr tr-stag"><b>{{{label}}}</b></p>
-			<div class="spacer-margin-2"></div>
-			<div class="tr tr-stag">
-				<button class="button button--arrowRight">{{{button}}}</button>
-			</div>
-		</div>
-		{{/if}}	
 	</div>
 </div>
 {{/each}}
 
-
-<!--------- traditional scrolling --------->
-<div class="flx-section flx-section--last" id="flx-s3">
-	<!-- al het OV -->
-	<div class="flx-ov">
+<!-- al het OV -->
+<div class="flx-section" id="flx-s3">
+	<div class="flx-ov flx-section__container flx-section__container--large tr tr-500 tr--fade-in">
 		<div class="container ovr-container">
 			<div class="flx-grid flx-grid--1-1">
 				<div></div>		
 				<div class="flx-section__content tr tr-stag">
-					<div class="flx-ov__text">
+					<div class="flx-ov__text-container">
 						<h3 class="flx-section__title tr tr-stag">
 							<b>{{ov.heading}}</b>
 						</h3>
-						<div class="spacer-margin-4"></div>
 						<p class="flx-section__description tr tr-stag">
 							{{ov.description}}
 						</p>
+						<div class="tr tr-stag">
+							<div class="flx-more">
+								<span include="../assets/img/icons/plus--small.svg"></span>
+								Bekijk meer
+							</div>
+						</div>	
 					</div>
 				</div>
 			</div>
 		</div>
 	</div>
-	
-	<!-- inzicht kosten -->
-	<div class="flx-costs">
+</div>
+
+<!-- inzicht kosten -->
+<div class="flx-section" id="flx-s4">
+	<div class="flx-costs flx-gradient--grey">
 		<div class="container ovr-container">
 			<div class="flx-grid flx-grid--1-1-sm">		
 				<div class="flx-costs__content">
-					<h3 class="flx-section__title">
+					<h3 class="flx-section__title tr tr-stag">
 						<b>{{costs.heading}}</b>
 					</h3>
-					<div class="spacer-margin-4"></div>
-					<p class="flx-section__description">
+					<p class="flx-section__description tr tr-stag">
 						{{costs.description}}
 					</p>
+					<div class="tr tr-stag">
+						<div class="flx-more">
+							<span include="../assets/img/icons/plus--small.svg"></span>
+							Bekijk meer
+						</div>
+					</div>
 				</div>
-				<div class="flx-costs__img">
+				<div class="flx-costs__img tr tr-500 tr--scale-in">
 					<img src="../media/{{costs.img}}" class="img-responsive" />
 				</div>
 			</div>
 		</div>
 	</div>
-	
-	<!-- 1e klas switch -->
-	<div class="flx-first-class">
+</div>
+
+<!-- 1e klas switch -->
+<div class="flx-section" id="flx-s5">
+	<div class="flx-section__container flx-bg--white">
 		<div class="container ovr-container">
 			<div class="flx-grid flx-grid--1-1">
-				<div class="flx-section__img flx-section__img--100 hidden-xs hidden-sm">
-					<img src="../media/1eklas.jpg" class="img-responsive" />
+				<div class="flx-section__img flx-section__img--100 tr tr-500 tr--scale-in">
+					<img src="../media/{{first-class.img}}" class="img-responsive" />
 				</div>		
 				<div class="flx-section__content">
-					<h3 class="flx-section__title">
-						<b>{{first-class.heading}}</b>
+					<h3 class="flx-section__title tr tr-stag">
+						<b>{{{first-class.heading}}}</b>
 					</h3>
-					<img src="../media/1eklas.jpg" class="img-responsive hidden-md hidden-lg" />
-					<div class="spacer-margin-4"></div>
-					<p class="flx-section__description">
-						{{first-class.description}}
+					<p class="flx-section__description tr tr-stag">
+						{{{first-class.description}}}
 					</p>
-					<div class="spacer-margin-4"></div>
-					<p class="flx-section__label">+ Zo werkt switchen naar 1e klas</p>
-				</div>
-			</div>
-		</div>
-	</div>
-	
-	<!-- abonnementen usps -->
-	<div class="flx-abo">
-		<div class="container ovr-container">			
-			<div class="flx-section__content flx-section__content--small">
-				<h3 class="flx-section__title">
-					<b>{{abo.heading}}</b>
-				</h3>
-				<div class="spacer-margin-4"></div>
-				<p class="flx-section__description">{{{abo.description}}}</p>
-				<div class="spacer-margin-4"></div>
-				<button class="button flx-button flx-button--ghost">Meer over abonnementen</button>
-			</div>
-		</div>
-	</div>
-	
-	<!-- call to action -->
-	<div class="flx-cta tr tr-1000 tr--fade-in">
-		<div class="container ovr-container">
-			<div class="flx-section__content flx-section__content--center-md-lg">
-				<h3 class="flx-section__title">{{{cta.heading}}}</h3>
-				<div class="spacer-margin-4"></div>
-				<h4 class="headingM spacer-margin-4">{{{cta.subhead}}}</h4>
-				<p class="font-blue">{{{cta.description}}}</p>
-				<button class="button button--arrowRight">{{{cta.button}}}</button>
-			</div>
-		</div>
-	</div>
-	
-	<!-- testimonial -->
-	<div class="flx-testimonial">
-		<div class="container ovr-container">
-			<div class="flx-section__content flx-testimonial__content">
-				<div class="flx-grid flx-grid--max-1 flx-grid--double-col-gap flx-grid--row-gap">
-					<div class="flx-testimonial__img"></div>
-					<div class="flx-textimonial__text">
-						<h3 class="flx-testimonial__quote">{{{testimonial.quote}}}</h3>
-						<p class="flx-testimonial__sender">{{{testimonial.sender}}}</p>
+					<div class="tr tr-stag">
+						<div class="flx-more">
+							<span include="../assets/img/icons/plus--small.svg"></span>
+							Bekijk meer
+						</div>
 					</div>
 				</div>
 			</div>
 		</div>
 	</div>
-</div>	
-<footer class="footer ovr-footer" data-noindex="true">
-	<div class="container">
-	    <div class="grid grid--footer" data-type="bottomfootermenu">
-	        <div class="grid__unit">
-	            <div class="footer__menuContainer">
-	                <ul class="footer__menu list list--horizontal" data-controller="generic/ui/EqualWidth">
-	                    <li class="list__item">
-	                        <a href="/disclaimer.html" class="arrowLink arrowLink--grey">
-	                        Disclaimer</a>
-	                    </li>
-	                    <li class="list__item">
-	                        <a href="/privacy.html" class="arrowLink arrowLink--grey">
-	                        Privacy</a>
-	                    </li>
-	                    <li class="list__item">
-	                        <a href="/bedrijfsinformatie.html" class="arrowLink arrowLink--grey">
-	                        Bedrijfsinformatie</a>
-	                    </li>
-	                    <li class="list__item">
-	                        <a href="/voorwaarden.html" class="arrowLink arrowLink--grey">
-	                        Voorwaarden en folders</a>
-	                    </li>
-	                </ul>
-	                <div class="nslogo nslogo--footer">
-	                    <a class="nslogo__link" href="/" title="Ga naar de homepagina">
-	                    <img class="nslogo__image" src="../assets/img/NS_logo.svg" height="20" width="52" alt="Logo Nederlandse Spoorwegen" />
-	                    </a>
-	                </div>
-	            </div>
-	        </div>
-	    </div>
+</div>
+
+<!-- abonnementen -->
+<div class="flx-section" id="flx-s6">
+	<div class="flx-section__container flx-section__container--no-padding-top flx-bg--white">
+		<div class="container ovr-container">
+			<div class="flx-grid flx-grid--1-1">
+				<div class="flx-section__img flx-section__img--100 flx-grid__reverse tr tr-500 tr--scale-in">
+					<img src="../media/{{abo.img}}" class="img-responsive" />
+				</div>			
+				<div class="flx-section__content">
+					<h3 class="flx-section__title tr tr-stag"><b>{{{abo.heading}}}</b></h3>
+					<p class="flx-section__description tr tr-stag">{{{abo.description}}}</p>
+					<div class="tr tr-stag">
+						<button class="button flx-button flx-button--ghost">{{{abo.more}}}</button>
+					</div>
+				</div>
+			</div>
+		</div>
 	</div>
-</footer>
+</div>
+
+<!-- call to action -->
+<div class="flx-section" id="flx-s7">
+	<div class="flx-section__container flx-section__container--large flx-gradient--yellow">
+		<div class="container ovr-container">
+			<div class="flx-section__content flx-section__content--center">
+				<h3 class="flx-section__title tr tr-stag">{{{cta.heading}}}</h3>
+				<h4 class="headingM spacer-margin-4 tr tr-stag">{{{cta.subhead}}}</h4>
+				<p class="font-blue tr tr-stag">{{{cta.description}}}</p>
+				<div class="tr tr-stag">
+					<button class="button button--arrowRight">{{{cta.button}}}</button>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+
+<!-- testimonial -->
+<div class="flx-section" id="flx-s8">
+	<div class="flx-section__container flx-section__container--small flx-gradient--grey">
+		<div class="container ovr-container">
+			<div class="flx-section__content flx-testimonial__content">
+				<div class="flx-grid flx-grid--max-1 flx-grid--double-col-gap flx-grid--row-gap">
+					<div class="flx-testimonial__img tr tr-500 tr--scale-in"></div>
+					<div class="flx-textimonial__text">
+						<h3 class="flx-testimonial__quote tr tr-stag">{{{testimonial.quote}}}</h3>
+						<p class="flx-testimonial__sender tr tr-stag">{{{testimonial.sender}}}</p>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+
+<!-- faq -->
+<div class="flx-section" id="flx-s9">
+	<div class="flx-section__container flx-faq">
+		<div class="container ovr-container">
+			<div class="flx-section__content">
+				<h3 class="flx-section__title">{{faq.heading}}</h3>
+				<ul class="list collapsibleList is-collapsible">
+					{{#each faq.questions}}
+					<li class="collapsibleList__item ovr-collapsibleList__item">
+						<h3 class="collapsibleList__header" id="keuzedagen" tabindex="0" aria-expanded="false" role="button">{{{question}}}</h3>   
+					</li>
+					{{/each}}
+				</ul>
+			</div>
+		</div>
+	</div>
+</div>

@@ -21,8 +21,6 @@ var context = {
 			"order": "reverse",
 			"img": "invoice.svg",
 			"title": "Aan het einde van de maand sturen we je 1 <b>overzichtelijke</b> rekening",
-			"label": "NS Flex vanaf € 0 per maand",
-			"button": "Bekijk de opties",
 			"grid": "1-1",
 		},
 	],
@@ -41,16 +39,19 @@ var context = {
 	"first-class": {
 		"heading": "Druk in de trein?",
 		"description": "Op langere reizen of drukkere trajecten kan het fijn zijn om soms ruimer, rustiger en luxer te reizen. Met NS Flex kun je het tot een kwartier nadat je incheckt nog switchen naar de 1e klas. Je kunt dus in de trein nog beslissen.",
+		"img": "1eklas.jpg",
 	},
 	
 	"abo": {
 		"heading": "Je zit nergens aan vast",
 		"description": "Flex is verkrijgbaar met of zonder onze abonnementen. Je bepaalt per maand of je met extra <b>korting</b> reist. Daarnaast kun je <b>maandelijks opzeggen</b> of aanpassen. Zonder kosten!",
+		"more": "Meer over abonnementen",
+		"img": "abos.png",
 	},
 	
 	"cta": {
 		"heading": "<b>Het kost je (bijna) niets extra</b>",
-		"subhead": "NS Flex zonder abonnement <b><br>€ 0,- per maand</b>",
+		"subhead": "NS Flex zonder abonnement <b><br>€ 0 per maand</b>",
 		"description": "Je betaalt eenmalig € 10 om je aan te melden.",
 		"button": "Stel NS Flex samen",
 	},
@@ -58,6 +59,17 @@ var context = {
 	"testimonial": {
 		"quote": "<q>Veel klanten lieten ons weten het gedoe met saldo op hun OV-chipkaart vervelend te vinden. We denken dat we met NS Flex reizen met het OV veel prettiger maken.</q>",	
 		"sender": "— Marieke, bedenker van NS Flex",
+	},
+	
+	"faq": {
+		"heading": "Nog onduidelijkheden?",	
+		"questions": [
+			{"question": "Hoe bestel ik NS Flex?"},
+			{"question": "Wat krijg ik als ik bestel?"},
+			{"question": "Wanneer wordt mijn factuur afgeschreven?"},
+			{"question": "Hoe komt het dat het € 0 is?"},
+			{"question": "Is dit geen oplichting? Wat is de truc?"},
+		],
 	},
 };
 
