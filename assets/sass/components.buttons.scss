@@ -3,7 +3,7 @@
 --------------------*/
 
 .flx-button {
-	transition: background-color 250ms $ease;
+	transition: all 200ms $ease;
 	
 	&--ghost {
 		background: transparent;
@@ -25,12 +25,26 @@
 			box-shadow: 0 1px 0 $white;
 			background-color: rgba($ns-white, 0);
 			
-			&:hover{
+			&:hover {
 				box-shadow: 0 1px 0 $white;
 				color: $ns-white;
 				background-color: rgba($ns-white, 0.1);
 			}
 		}
+	}
+	
+	&--rounded {
+		border-radius: 4px;
+	}
+	
+	&--yellow {
+		background: linear-gradient(
+			110deg, $ns-yellow 0%, #FFE48A 100%);
+	}
+	
+	&--blue {
+		background: linear-gradient(
+			110deg, #0050A8 0%, $ns-light-blue 100%);	
 	}
 }
 
@@ -94,5 +108,42 @@
 	
 	svg {
 		fill: $ns-blue;
+	}
+}
+
+// scroll down indicator
+.scroll-down {
+	cursor: pointer;
+	
+	&__icon {
+		// size and styling
+		width: 36px;
+		height: 72px;
+		border: 2px solid $ns-white;
+		border-radius: 36px;
+	}
+	
+	&__icon-circle {
+		// animation
+		// this one is a potential chrome helper CPU killer on retina screens
+		@keyframes fall-down {
+			0% 		{transform: none;}
+			48%		{transform: translate3d(0, 32px, 0);}
+			96%		{transform: translate3d(0, 32px, 0);}
+			100% 	{transform: none;}
+		}	
+		animation: fall-down 3s infinite;
+		animation-timing-function: $ease;	
+		animation-delay: 1.5s;	
+		
+		// size and styling
+		width: 12px;
+		height: 12px;
+		border: 2px solid $ns-white;
+		border-radius: 100%;
+		
+		// positioning
+		margin: 0 auto;
+		margin-top: 12px;
 	}
 }

@@ -4,8 +4,9 @@ var context = {
 	"hero": {
 		"title": "NS Flex",
 		"subtitle": "De makkelijkste manier om te reizen in het OV",
-		"button": "Stel samen"
 	},
+	
+	"button-cta-text": "Ja ik wil Flex",
 	
 	"section": [
 		{
@@ -26,7 +27,7 @@ var context = {
 	],
 	
 	"ov": {
-		"heading": "In al het openbaar vervoer",
+		"heading": "Flex in al het OV",
 		"description": "NS Flex werkt in het hele OV in Nederland. Je kunt ermee betalen in trein, metro, tram en bus. Ga je graag met de fiets? Pak overal in Nederland een OV-fiets of maak gebruik van een bewaakte stalling.",
 	},
 	
@@ -37,9 +38,9 @@ var context = {
 	},
 	
 	"first-class": {
-		"heading": "Druk in de trein?",
+		"heading": "Zonder gedoe,<br>reizen in stijl",
 		"description": "Op langere reizen of drukkere trajecten kan het fijn zijn om soms ruimer, rustiger en luxer te reizen. Met NS Flex kun je het tot een kwartier nadat je incheckt nog switchen naar de 1e klas. Je kunt dus in de trein nog beslissen.",
-		"img": "tyler-nix-626687-unsplash.jpg",
+		"img": "cake.jpg",
 	},
 	
 	"abo": {
@@ -50,10 +51,9 @@ var context = {
 	},
 	
 	"cta": {
-		"heading": "<b>Het kost je (bijna) niets extra</b>",
-		"subhead": "NS Flex zonder abonnement <b><br>€ 0 per maand</b>",
-		"description": "Je betaalt eenmalig € 10 om je aan te melden.",
-		"button": "Stel NS Flex samen",
+		"heading": "<b>NS Flex</b> zonder abonnement",
+		"subhead": "<b>Je betaalt eenmalig € 10</b>",
+		"description": "Naar keuze te combineren met een flexibel kortingsabonnement",
 	},
 	
 	"testimonial": {

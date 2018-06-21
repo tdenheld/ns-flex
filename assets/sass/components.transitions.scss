@@ -52,7 +52,7 @@
 	
 	&--scale-in {
 		opacity: 0;
-		transform: scale(0.98);
+		transform: scale(0.97);
 		@media (min-width: $md) {
 			transition-delay: 200ms;
 		}
@@ -64,7 +64,7 @@
 		
 		&.is-ended {
 			opacity: 0;
-			transform: scale(0.98);
+			transform: scale(0.97);
 		}
 	}
 }

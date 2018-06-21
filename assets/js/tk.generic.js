@@ -49,9 +49,9 @@ function scrolling() {
 	var pos = $(window).scrollTop();
 	// fade arrow scroll down button
 	if (pos > 60) {
-		$(".js-hero-scroll-down--round").addClass("alpha-0");
+		$(".js-scroll-down").addClass("alpha-0");
 	} else {
-		$(".js-hero-scroll-down--round").removeClass("alpha-0");
+		$(".js-scroll-down").removeClass("alpha-0");
 	};
 	scrolled = false;
 };

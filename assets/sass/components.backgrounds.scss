@@ -36,9 +36,14 @@
 	&--cobalt-blue {
 		background: linear-gradient(to bottom,
 			rgba($ns-blue, 1) 0%,
-			rgba($ns-blue, 1) 10%,
-			rgba($ns-blue, 0) 100%);
-		opacity: 0.8;
+			rgba($ns-blue, 0) 80%);
+		opacity: 0.6;
+	}
+	&--black {
+		background: linear-gradient(to bottom,
+			rgba($ns-black, 1) 0%,
+			rgba($ns-black, 0) 80%);
+		opacity: 0.35;
 	}	
 	&--ns-blue {
 		background: linear-gradient(

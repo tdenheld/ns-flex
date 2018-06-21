@@ -28,10 +28,7 @@
 	&__img {
 		@extend %full-absolute;
 		@extend %bg-cover;
-		background-image: url("../../media/ns-flex-sm.jpg");
-		@media (min-width: $sm) {
-			background-image: url("../../media/ns-flex-lg.jpg");
-		}
+		background-image: url("../../media/girl-green.jpg");
 	}
 	
 	&__flow {
@@ -48,7 +45,7 @@
 	
 	&__content {
 		margin-top: $half-gutter;
-		max-width: 900px;
+		max-width: 800px;
 		padding: $gutter;
 		text-shadow: $text-shadow-tile;
 		@media (min-width: $md) {
@@ -60,10 +57,7 @@
 		@include font-style(24px, normal, 1.2);
 		color: $ns-white;
 		@media (min-width: $sm) {
-			font-size: calculate-rem(40px);
-		}
-		@media (min-width: $lg) {
-			font-size: calculate-rem(56px);
+			font-size: calculate-rem(42px);
 		}
 		@media (max-height: 520px) and (max-width: $md) {
 			font-size: calculate-rem(24px);
@@ -75,10 +69,11 @@
 		@include font-style(36px, bold, 1.2);
 		color: $ns-white;
 		@media (min-width: $sm) {
+			margin-bottom: $gutter;
 			font-size: calculate-rem(60px);
 		}
 		@media (min-width: $lg) {
-			font-size: calculate-rem(80px);
+			font-size: calculate-rem(72px);
 		}
 		@media (max-height: 520px) and (max-width: $md) {
 			font-size: calculate-rem(36px);
@@ -235,7 +230,7 @@
 // ----------------------------
 .flx-ov {
 	@extend %bg-cover;
-	background-image: url("../../media/cart.jpg");
+	background-image: url("https://media.giphy.com/media/l6mxLLvfadIQw/giphy.gif");
 	
 	&__text-container {
 		background-color: $ns-white;

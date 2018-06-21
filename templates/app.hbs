@@ -11,7 +11,7 @@
 	<div class="flx-hero__bg">
 		<div class="ani ani--fade-in">
 			<div class="flx-hero__img"></div>
-			<div class="flx-gradient flx-gradient--vivid-blue"></div>
+			<!-- <div class="flx-gradient flx-gradient--vivid-blue"></div> -->
 			<div class="flx-gradient flx-gradient--cobalt-blue"></div>
 		</div>
 		<div class="flx-hero__flow" include="../media/flow.svg"></div>
@@ -22,16 +22,29 @@
 			<div class="flx-hero__content">
 				<h1 class="flx-hero__title">{{hero.title}}</h1> 
 				<h2 class="flx-hero__subtitle">{{hero.subtitle}}</h2>
-				<button class="button button--nsYellow">
-					{{hero.button}}
+				<button class="button button--nsYellow flx-button--yellow flx-button--rounded">
+					{{{button-cta-text}}}
 				</button>
 			</div>
 		</div>
 	</div>
-	<div class="flx-hero__scrolldown ani ani--fade-in ani--delay-1250">
-		<p class="flx-hero__label hidden-xs hidden-sm">Scroll naar beneden<br>om meer te ontdekken</p>
-		<div class="btn-round btn-round--down flx-hero__button-down js-scroll-down" include="../assets/img/icons/chevron-m--small.svg"></div>
+	<div class="js-scroll-down tr-750">
+		<div class="flx-hero__scrolldown ani ani--fade-in ani--delay-1250">
+			<div class="scroll-down">
+				<div class="scroll-down__icon">
+					<div class="scroll-down__icon-circle"></div>
+				</div>
+			</div>
+		</div>
 	</div>
+	<!--
+	<div class="js-scroll-down tr-750">
+		<div class="flx-hero__scrolldown ani ani--fade-in ani--delay-1250">
+			<p class="flx-hero__label hidden-xs hidden-sm">Scroll naar beneden<br>om meer te ontdekken</p>
+			<div class="btn-round btn-round--down flx-hero__button-down" include="../assets/img/icons/chevron-m--small.svg"></div>
+		</div>
+	</div>
+	-->
 </div>
 	
 		
@@ -151,7 +164,7 @@
 					<h3 class="flx-section__title tr tr-stag"><b>{{{abo.heading}}}</b></h3>
 					<p class="flx-section__description tr tr-stag">{{{abo.description}}}</p>
 					<div class="tr tr-stag">
-						<button class="button flx-button flx-button--ghost">{{{abo.more}}}</button>
+						<button class="button flx-button flx-button--ghost flx-button--rounded">{{{abo.more}}}</button>
 					</div>
 				</div>
 			</div>
@@ -165,10 +178,12 @@
 		<div class="container ovr-container">
 			<div class="flx-section__content flx-section__content--center">
 				<h3 class="flx-section__title tr tr-stag">{{{cta.heading}}}</h3>
-				<h4 class="headingM spacer-margin-4 tr tr-stag">{{{cta.subhead}}}</h4>
-				<p class="font-blue tr tr-stag">{{{cta.description}}}</p>
+				<h4 class="headingM spacer-margin-1 tr tr-stag">{{{cta.subhead}}}</h4>
+				<p class="font-blue spacer-margin-4 tr tr-stag">{{{cta.description}}}</p>
 				<div class="tr tr-stag">
-					<button class="button button--arrowRight">{{{cta.button}}}</button>
+					<button class="button flx-button--blue flx-button--rounded">
+						{{{button-cta-text}}}
+					</button>
 				</div>
 			</div>
 		</div>
