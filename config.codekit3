@@ -2906,16 +2906,6 @@
 		"sC": 1,
 		"tS": 0
 		},
-	"\/bower_components\/jquery\/jquery.js": {
-		"ft": 64,
-		"ma": 0,
-		"mi": 1,
-		"oA": 2,
-		"oAP": "\/bower_components\/jquery\/jquery.js",
-		"oF": 0,
-		"sC": 1,
-		"tS": 0
-		},
 	"\/bower_components\/ns\/modernizr.latest.js": {
 		"ft": 64,
 		"ma": 0,
@@ -2992,26 +2982,6 @@
 		"mi": 1,
 		"oA": 1,
 		"oAP": "\/bower_components\/scroll-magic\/scroll-magic.js",
-		"oF": 0,
-		"sC": 1,
-		"tS": 0
-		},
-	"\/bower_components\/vue\/vue.js": {
-		"ft": 64,
-		"ma": 0,
-		"mi": 1,
-		"oA": 2,
-		"oAP": "\/bower_components\/vue\/vue.js",
-		"oF": 0,
-		"sC": 1,
-		"tS": 0
-		},
-	"\/bower_components\/vue\/vue.min.js": {
-		"ft": 64,
-		"ma": 0,
-		"mi": 1,
-		"oA": 2,
-		"oAP": "\/bower_components\/vue\/vue.min.js",
 		"oF": 0,
 		"sC": 1,
 		"tS": 0
@@ -3288,9 +3258,16 @@
 		"oA": 0,
 		"oAP": "\/media\/ov.jpg",
 		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
+		"oIPL": 1,
+		"opt": 1,
 		"q": 80
+		},
+	"\/media\/ov.mp4": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/media\/ov.mp4",
+		"oF": 0
 		},
 	"\/media\/public-transport.jpg": {
 		"ft": 16384,

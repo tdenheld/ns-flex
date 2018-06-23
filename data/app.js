@@ -6,7 +6,7 @@ var context = {
 		"subtitle": "De makkelijkste manier om te reizen in het OV",
 	},
 	
-	"button-cta-text": "Ja ik wil Flex",
+	"button-cta-text": "Ja ik wil NS Flex",
 	
 	"section": [
 		{
@@ -40,7 +40,7 @@ var context = {
 	"first-class": {
 		"heading": "Zonder gedoe,<br>reizen in stijl",
 		"description": "Op langere reizen of drukkere trajecten kan het fijn zijn om soms ruimer, rustiger en luxer te reizen. Met NS Flex kun je het tot een kwartier nadat je incheckt nog switchen naar de 1e klas. Je kunt dus in de trein nog beslissen.",
-		"img": "cake.jpg",
+		"img": "oma.jpg",
 	},
 	
 	"abo": {
@@ -58,7 +58,7 @@ var context = {
 	
 	"testimonial": {
 		"quote": "<q>Veel klanten lieten ons weten het gedoe met saldo op hun OV-chipkaart vervelend te vinden. We denken dat we met NS Flex reizen met het OV veel prettiger maken.</q>",	
-		"sender": "— Marieke, bedenker van NS Flex",
+		"sender": "— Marieke, projectleider van NS Flex",
 	},
 	
 	"faq": {
