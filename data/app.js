@@ -58,7 +58,7 @@ var context = {
 	
 	"testimonial": {
 		"quote": "<q>Veel klanten lieten ons weten het gedoe met saldo op hun OV-chipkaart vervelend te vinden. We denken dat we met NS Flex reizen met het OV veel prettiger maken.</q>",	
-		"sender": "— Marieke, projectleider van NS Flex",
+		"sender": "<b>Marik, projectleider van NS Flex:</b>",
 	},
 	
 	"faq": {
