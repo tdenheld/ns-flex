@@ -1,6 +1,6 @@
 // Data template
 
-var context = {	
+var context_landing = {	
 	"hero": {
 		"title": "NS Flex",
 		"subtitle": "De makkelijkste manier om te reizen in het OV",
@@ -13,21 +13,21 @@ var context = {
 			"order": "reverse",
 			"img": "nooitmeer.svg",
 			"title": "Check <b>zorgeloos</b> in en uit zonder dat je saldo nodig hebt",
-			"grid": "1-1",
+			"more": "Met NS Flex hoef je geen saldo meer op je OV-chipkaart te zetten.",
 		},{
 			"img": "checkout.svg",
 			"title": "Vergeet je een keer uit te checken, dan corrigeren we dat <b>automatisch</b>",
-			"grid": "1-1",
+			"more": "We kijken met een geniaal algoritme wat je reisgedrag is. Klopt het niet? Corrigeer dan in een handomdraai in Mijn NS.",
 		},{
 			"order": "reverse",
 			"img": "invoice.svg",
 			"title": "Aan het einde van de maand sturen we je 1 <b>overzichtelijke</b> rekening",
-			"grid": "1-1",
+			"more": "Wil je tussendoor weten hoeveel je hebt gereist? Stel een kostenalert in.",
 		},
 	],
 	
 	"ov": {
-		"heading": "Flex in al het OV",
+		"heading": "Flexibel in al het OV",
 		"description": "NS Flex werkt in het hele OV in Nederland. Je kunt ermee betalen in trein, metro, tram en bus. Ga je graag met de fiets? Pak overal in Nederland een OV-fiets of maak gebruik van een bewaakte stalling.",
 	},
 	
@@ -54,6 +54,16 @@ var context = {
 		"heading": "<b>NS Flex</b> zonder abonnement",
 		"subhead": "<b>Je betaalt eenmalig € 10</b>",
 		"description": "Naar keuze te combineren met een flexibel kortingsabonnement",
+		"usps": [
+			{"usp": "Nooit meer saldo laden"},
+			{"usp": "Automatische correctie vergeten check-uit"},
+			{"usp": "1 overzichtelijke rekening"},
+			{"usp": "In de trein switchen naar 1e klas"},
+			{"usp": "Flexibel in het gehele OV"},
+			{"usp": "Maandelijks opzeggen of aanpassen"},
+			{"usp": "Altijd en overal inzicht in je reiskosten"},
+			{"usp": "Gemakkelijk reizen met korting"},
+		],
 	},
 	
 	"testimonial": {
@@ -73,6 +83,6 @@ var context = {
 	},
 };
 
-var app = document.getElementById("app");
-app.innerHTML = Handlebars.templates.app(context);
+var landing = document.getElementById("landing");
+landing.innerHTML = Handlebars.templates.landing(context_landing);
 

@@ -1,5 +1,5 @@
 /*-------------------
-         App
+       Landing
 --------------------*/
 
 
@@ -158,6 +158,10 @@
 		&--small {
 			max-width: 720px;
 		}
+		
+		&--lower {
+			margin-top: $double-gutter;
+		}
 	}
 	
 	&__title {
@@ -281,6 +285,38 @@
 
 // testimonial
 // ----------------------------
+.flx-cta {
+	&__usp-grid {
+		display: grid;
+		grid-gap: $gutter;
+		@media (min-width: $sm) {
+			grid-template-columns: repeat(2, 1fr);
+		}
+		@media (min-width: $md) {
+			grid-template-columns: repeat(4, 1fr);
+		}
+	}
+	
+	&__usp {
+		margin: 0 auto;
+		display: grid;
+		grid-gap: 7px;
+		grid-template-columns: max-content 1fr;
+		@include font-style(14px, normal, 1.3);
+		color: $ns-blue;
+		@media (min-width: $sm) {
+			margin: 0;
+		}
+			
+		svg {
+			fill: $ns-blue;
+		}
+	}
+}	
+	
+
+// testimonial
+// ----------------------------
 .flx-testimonial {	
 	&__content {
 		margin: 0 auto;
@@ -316,4 +352,11 @@
 // ----------------------------
 .flx-faq {
 	border-bottom: 1px solid $ns-grey-7;
+}
+
+
+// more
+// ----------------------------
+.flx-more {
+	display: none;
 }

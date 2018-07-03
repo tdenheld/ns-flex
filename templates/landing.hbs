@@ -7,7 +7,7 @@
 </div>
 
 <!------- hero ------->
-<div class="flx-hero js-hero-content tr-1000">
+<div class="flx-hero js-hero-content">
 	<div class="flx-hero__bg">
 		<div class="ani ani--fade-in">
 			<div class="flx-hero__img"></div>
@@ -41,17 +41,25 @@
 {{#each section}}	
 <div class="flx-section flx-section--usps" id="flx-s{{@index}}">
 	<div class="container ovr-container">
-		<div class="flx-grid flx-grid--{{grid}}">
-			<div class="flx-section__img flx-section__img--{{img-class}} flx-grid__{{order}} tr tr-500 tr--scale-in">
+		<div class="flx-grid flx-grid--1-1">
+			<div class="flx-section__img flx-grid__{{order}} tr tr-500 tr--scale-in">
 				{{#if img}}<img src="../media/{{img}}" class="img-responsive" />{{/if}}
 			</div>
-			<div class="flx-section__content flx-section__content--{{text-modifier}}">
+			<div class="flx-section__content flx-section__content--lower">
 				<h3 class="flx-section__title tr tr-stag">{{{title}}}</h3>
 				<p class="flx-section__description tr tr-stag">{{{description}}}</p>
-				<div class="tr tr-stag">
-					<div class="flx-more flx-more--blue">
+				<div class="tr tr-stag js-more">
+					<div class="btn-more btn-more--blue js-more-btn">
 						<span include="../assets/img/icons/plus--small.svg"></span>
 						Bekijk meer
+					</div>
+					<div class="flx-section__description flx-more js-more-content">
+						{{{more}}}
+						<br><br>
+						A small river named Duden flows by their place and 
+						supplies it with the necessary regelialia. It is a 
+						paradisematic country, in which roasted parts of sentences 
+						fly into your mouth. 
 					</div>
 				</div>				
 			</div>
@@ -76,7 +84,7 @@
 							{{ov.description}}
 						</p>
 						<div class="tr tr-stag">
-							<div class="flx-more">
+							<div class="btn-more">
 								<span include="../assets/img/icons/plus--small.svg"></span>
 								Bekijk meer
 							</div>
@@ -101,7 +109,7 @@
 						{{costs.description}}
 					</p>
 					<div class="tr tr-stag">
-						<div class="flx-more">
+						<div class="btn-more">
 							<span include="../assets/img/icons/plus--small.svg"></span>
 							Bekijk meer
 						</div>
@@ -123,7 +131,7 @@
 				<div class="flx-section__img flx-section__img--100 tr tr-500 tr--scale-in">
 					<img src="../media/{{first-class.img}}" class="img-responsive" />
 				</div>		
-				<div class="flx-section__content">
+				<div class="flx-section__content flx-section__content--lower">
 					<h3 class="flx-section__title tr tr-stag">
 						<b>{{{first-class.heading}}}</b>
 					</h3>
@@ -131,7 +139,7 @@
 						{{{first-class.description}}}
 					</p>
 					<div class="tr tr-stag">
-						<div class="flx-more">
+						<div class="btn-more">
 							<span include="../assets/img/icons/plus--small.svg"></span>
 							Bekijk meer
 						</div>
@@ -146,7 +154,7 @@
 <div class="flx-section" id="flx-s6">
 	<div class="flx-section__container flx-section__container--no-padding-top flx-bg--white">
 		<div class="container ovr-container">
-			<div class="flx-grid flx-grid--1-1">
+			<div class="flx-grid flx-grid--1-1 flx-grid--align-center">
 				<div class="flx-section__img flx-section__img--100 flx-grid__reverse tr tr-500 tr--scale-in">
 					<img src="../media/{{abo.img}}" class="img-responsive" />
 				</div>			
@@ -164,7 +172,7 @@
 
 <!-- call to action -->
 <div class="flx-section" id="flx-s7">
-	<div class="flx-section__container flx-section__container--large flx-gradient--yellow">
+	<div class="flx-section__container flx-gradient--yellow">
 		<div class="container ovr-container">
 			<div class="flx-section__content flx-section__content--center">
 				<h3 class="flx-section__title tr tr-stag">{{{cta.heading}}}</h3>
@@ -176,6 +184,17 @@
 					</button>
 				</div>
 			</div>
+			<div class="flx-section__divider flx-section__divider--alpha tr tr-500 tr--fade-in"></div>
+			<div class="flx-section__content tr tr-500 tr--fade-in">
+				<div class="flx-cta__usp-grid">
+					{{#each cta.usps}}
+					<div class="flx-cta__usp">
+						<span class="flx-cta__icon" include="../assets/img/icons/check-round--small.svg"></span>
+						<span>{{usp}}</span>
+					</div>
+					{{/each}}
+				</div>
+			</div>
 		</div>
 	</div>
 </div>
@@ -185,7 +204,7 @@
 	<div class="flx-section__container flx-section__container--small flx-gradient--grey">
 		<div class="container ovr-container">
 			<div class="flx-section__content flx-testimonial__content">
-				<div class="flx-grid flx-grid--max-1 flx-grid--double-col-gap flx-grid--row-gap">
+				<div class="flx-grid flx-grid--align-center flx-grid--max-1 flx-grid--double-col-gap flx-grid--row-gap">
 					<div class="flx-testimonial__img tr tr-500 tr--scale-in"></div>
 					<div class="flx-textimonial__text">
 						<h3 class="headingM spacer-margin-2 tr tr-stag">{{{testimonial.sender}}}</h3>

@@ -23,6 +23,13 @@
 		"oAP": "\/.htaccess",
 		"oF": 0
 		},
+	"\/abos.html": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/abos.html",
+		"oF": 0
+		},
 	"\/assets\/css\/style.css": {
 		"aP": 1,
 		"bl": 0,
@@ -2506,7 +2513,7 @@
 		"oS": 0,
 		"uL": 1
 		},
-	"\/assets\/sass\/templates.app.scss": {
+	"\/assets\/sass\/templates.abos.scss": {
 		"aP": 0,
 		"bl": 0,
 		"dP": 10,
@@ -2514,7 +2521,20 @@
 		"ft": 4,
 		"ma": 0,
 		"oA": 1,
-		"oAP": "\/assets\/sass\/templates.app.css",
+		"oAP": "\/assets\/sass\/templates.abos.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"\/assets\/sass\/templates.landing.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/assets\/sass\/templates.landing.css",
 		"oF": 0,
 		"oS": 0,
 		"uL": 1
@@ -2986,12 +3006,22 @@
 		"sC": 1,
 		"tS": 0
 		},
-	"\/data\/app.js": {
+	"\/data\/abos.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/data\/abos-min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"\/data\/landing.js": {
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
 		"oA": 1,
-		"oAP": "\/data\/app-min.js",
+		"oAP": "\/data\/landing-min.js",
 		"oF": 0,
 		"sC": 1,
 		"tS": 0
@@ -3301,11 +3331,18 @@
 		"plM": 3758088159,
 		"prP": 0
 		},
-	"\/templates\/app.hbs": {
+	"\/templates\/abos.hbs": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
-		"oAP": "\/templates\/app.hbs",
+		"oAP": "\/templates\/abos.hbs",
+		"oF": 0
+		},
+	"\/templates\/landing.hbs": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/templates\/landing.hbs",
 		"oF": 0
 		}
 	},
@@ -3360,7 +3397,7 @@
 			},
 		{
 			"followForSyntaxChecking": 1,
-			"linkedFileAbbreviatedPath": "\/data\/app.js",
+			"linkedFileAbbreviatedPath": "\/data\/landing.js",
 			"position": 6,
 			"type": 1
 			}
@@ -3375,7 +3412,7 @@
 	},
 "projectSettings": {
 	"abortBuildOnError": 1,
-	"alwaysUseExternalServer": 0,
+	"alwaysUseExternalServer": 1,
 	"animateCSSInjections": 1,
 	"autoBuildNewItems": 1,
 	"autoprefixerBrowserString": "> 1%, last 2 versions, Firefox ESR, Opera 12.1",
@@ -4766,7 +4803,7 @@
 			}
 		},
 	"esLintSourceType": 0,
-	"externalServerAddress": "http:\/\/localhost:8888",
+	"externalServerAddress": "http:\/\/localhost\/ns-flex\/",
 	"gitIgnoreBuildFolder": 1,
 	"hideConfigFile": 0,
 	"jsCheckerReservedNamesString": "",

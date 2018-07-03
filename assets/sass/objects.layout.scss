@@ -42,10 +42,9 @@
 .flx-grid {
 	display: grid;
 	grid-column-gap: $gutter;
-	align-items: center;
 	
-	&--align-start {
-		align-items: start;
+	&--align-center {
+		align-items: center;
 	}
 	
 	&--1-1 {
@@ -80,7 +79,7 @@
 	
 	&--max-max {
 		@media (min-width: $md) {
-			grid-template-columns: max-content  max-content;
+			grid-template-columns: max-content max-content;
 		}
 	}
 	

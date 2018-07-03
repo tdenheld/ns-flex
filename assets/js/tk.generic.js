@@ -115,6 +115,16 @@ $(".js-scroll-down").click(function(){
 
 
 
+// read more
+// ------------------------------------------------------------
+$(".js-more").click(function(){
+	$(".js-more-btn", this).hide();
+	$(".js-more-content", this).show();
+	console.log("help");
+});
+
+
+
 
 // include html
 // ------------------------------------------------------------
