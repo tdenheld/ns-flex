@@ -13,16 +13,13 @@ var context_landing = {
 			"order": "reverse",
 			"img": "nooitmeer.svg",
 			"title": "Check <b>zorgeloos</b> in en uit zonder dat je saldo nodig hebt",
-			"more": "Met NS Flex hoef je geen saldo meer op je OV-chipkaart te zetten.",
 		},{
 			"img": "checkout.svg",
 			"title": "Vergeet je een keer uit te checken, dan corrigeren we dat <b>automatisch</b>",
-			"more": "We kijken met een geniaal algoritme wat je reisgedrag is. Klopt het niet? Corrigeer dan in een handomdraai in Mijn NS.",
 		},{
 			"order": "reverse",
 			"img": "invoice.svg",
 			"title": "Aan het einde van de maand sturen we je 1 <b>overzichtelijke</b> rekening",
-			"more": "Wil je tussendoor weten hoeveel je hebt gereist? Stel een kostenalert in.",
 		},
 	],
 	

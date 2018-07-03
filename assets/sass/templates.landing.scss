@@ -158,9 +158,11 @@
 		&--small {
 			max-width: 720px;
 		}
-		
-		&--lower {
-			margin-top: $double-gutter;
+	}
+	
+	&__content-item {
+		&:last-child {
+			margin: 0;
 		}
 	}
 	
@@ -359,4 +361,5 @@
 // ----------------------------
 .flx-more {
 	display: none;
+	margin: 0;
 }

@@ -41,27 +41,15 @@
 {{#each section}}	
 <div class="flx-section flx-section--usps" id="flx-s{{@index}}">
 	<div class="container ovr-container">
-		<div class="flx-grid flx-grid--1-1">
+		<div class="flx-grid flx-grid--1-1 flx-grid--align-center">
 			<div class="flx-section__img flx-grid__{{order}} tr tr-500 tr--scale-in">
 				{{#if img}}<img src="../media/{{img}}" class="img-responsive" />{{/if}}
 			</div>
-			<div class="flx-section__content flx-section__content--lower">
-				<h3 class="flx-section__title tr tr-stag">{{{title}}}</h3>
-				<p class="flx-section__description tr tr-stag">{{{description}}}</p>
-				<div class="tr tr-stag js-more">
-					<div class="btn-more btn-more--blue js-more-btn">
-						<span include="../assets/img/icons/plus--small.svg"></span>
-						Bekijk meer
-					</div>
-					<div class="flx-section__description flx-more js-more-content">
-						{{{more}}}
-						<br><br>
-						A small river named Duden flows by their place and 
-						supplies it with the necessary regelialia. It is a 
-						paradisematic country, in which roasted parts of sentences 
-						fly into your mouth. 
-					</div>
-				</div>				
+			<div class="flx-section__content">
+				<h3 class="flx-section__content-item flx-section__title tr tr-stag">{{{title}}}</h3>
+				{{#if description}}
+				<p class="flx-section__content-item flx-section__description tr tr-stag">{{{description}}}</p>	
+				{{/if}}		
 			</div>
 		</div>
 	</div>
@@ -80,15 +68,9 @@
 						<h3 class="flx-section__title tr tr-stag">
 							<b>{{ov.heading}}</b>
 						</h3>
-						<p class="flx-section__description tr tr-stag">
+						<p class="flx-section__description no-margin tr tr-stag">
 							{{ov.description}}
 						</p>
-						<div class="tr tr-stag">
-							<div class="btn-more">
-								<span include="../assets/img/icons/plus--small.svg"></span>
-								Bekijk meer
-							</div>
-						</div>	
 					</div>
 				</div>
 			</div>
@@ -108,12 +90,6 @@
 					<p class="flx-section__description tr tr-stag">
 						{{costs.description}}
 					</p>
-					<div class="tr tr-stag">
-						<div class="btn-more">
-							<span include="../assets/img/icons/plus--small.svg"></span>
-							Bekijk meer
-						</div>
-					</div>
 				</div>
 				<div class="flx-costs__img tr tr-500 tr--scale-in">
 					<img src="../media/{{costs.img}}" class="img-responsive" />
@@ -127,21 +103,27 @@
 <div class="flx-section" id="flx-s5">
 	<div class="flx-section__container flx-bg--white">
 		<div class="container ovr-container">
-			<div class="flx-grid flx-grid--1-1">
+			<div class="flx-grid flx-grid--1-1 flx-grid--align-center">
 				<div class="flx-section__img flx-section__img--100 tr tr-500 tr--scale-in">
 					<img src="../media/{{first-class.img}}" class="img-responsive" />
 				</div>		
-				<div class="flx-section__content flx-section__content--lower">
+				<div class="flx-section__content">
 					<h3 class="flx-section__title tr tr-stag">
 						<b>{{{first-class.heading}}}</b>
 					</h3>
 					<p class="flx-section__description tr tr-stag">
 						{{{first-class.description}}}
 					</p>
-					<div class="tr tr-stag">
-						<div class="btn-more">
+					<div class="tr tr-stag js-more">
+						<div class="btn-more js-more-btn">
 							<span include="../assets/img/icons/plus--small.svg"></span>
 							Bekijk meer
+						</div>
+						<div class="flx-section__description flx-more js-more-content">
+							A small river named Duden flows by their place and 
+							supplies it with the necessary regelialia. It is a 
+							paradisematic country, in which roasted parts of sentences 
+							fly into your mouth. 
 						</div>
 					</div>
 				</div>

@@ -118,9 +118,10 @@ $(".js-scroll-down").click(function(){
 // read more
 // ------------------------------------------------------------
 $(".js-more").click(function(){
-	$(".js-more-btn", this).hide();
-	$(".js-more-content", this).show();
-	console.log("help");
+	var btn = $(".js-more-btn", this);
+	var content = $(".js-more-content", this);
+	btn.hide();
+	content.slideDown(200);
 });
 
 
