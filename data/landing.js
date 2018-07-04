@@ -47,6 +47,20 @@ var context_landing = {
 		"img": "abos.png",
 	},
 	
+	"summary": [
+		{
+			"icon": "ov-chipkaart--large",
+			"title": "Nooit meer saldo laden",
+		},{
+			"icon": "train-public-transport--large",
+			"title": "1 overzichtelijke rekening van je reizen in het OV",
+		},{
+			"icon": "switch-class--large",
+			"title": "Switch in de trein naar de 1e klas",
+			"class": "hidden-xs",
+		},
+	],
+	
 	"cta": {
 		"heading": "<b>NS Flex</b> zonder abonnement",
 		"subhead": "<b>Je betaalt eenmalig € 10</b>",
@@ -60,6 +74,58 @@ var context_landing = {
 			{"usp": "Maandelijks opzeggen of aanpassen"},
 			{"usp": "Altijd en overal inzicht in je reiskosten"},
 			{"usp": "Gemakkelijk reizen met korting"},
+		],
+	},
+	
+	"ext": {
+		"heading": "NS Flex – De uitgebreide versie",
+		"category": [
+			{
+				"title": "Wat je krijgt",
+				"description": "NS Flex natuurlijk",
+				"item": [
+					{
+						"title": "Nieuwe OV-chipkaart",
+						"description": "Binnen een week heb je een nieuwe OV-chipkaart met NS Flex erop in huis.",
+					},{
+						"title": "Vandaag nog te gebruiken",
+						"description": "Als je al een persoonlijke OV-chipkaart hebt kun je NS Flex binnen een uur ophalen bij de kaartautomaat (de laatste keer dat je bij de automaat staat).",
+					},{
+						"title": "Saldo terug",
+						"description": "Als je ervoor kiest NS Flex op je eigen OV-chipkaart te zetten, storten we het saldo dat nog op je kaart staat terug.",
+					},
+				],
+			},{
+				"title": "Je reiskosten",
+				"description": "Lekker overzichtelijk",
+				"item": [
+					{
+						"title": "Nieuwe OV-chipkaart",
+						"description": "Binnen een week heb je een nieuwe OV-chipkaart met NS Flex erop in huis.",
+					},{
+						"title": "Vandaag nog te gebruiken",
+						"description": "Als je al een persoonlijke OV-chipkaart hebt kun je NS Flex binnen een uur ophalen bij de kaartautomaat (de laatste keer dat je bij de automaat staat).",
+					},{
+						"title": "Saldo terug",
+						"description": "Als je ervoor kiest NS Flex op je eigen OV-chipkaart te zetten, storten we het saldo dat nog op je kaart staat terug.",
+					},
+				],
+			},{
+				"title": "€ 10 aanmeldkosten",
+				"description": "Lekker overzichtelijk",
+				"item": [
+					{
+						"title": "Nieuwe OV-chipkaart",
+						"description": "Binnen een week heb je een nieuwe OV-chipkaart met NS Flex erop in huis.",
+					},{
+						"title": "Vandaag nog te gebruiken",
+						"description": "Als je al een persoonlijke OV-chipkaart hebt kun je NS Flex binnen een uur ophalen bij de kaartautomaat (de laatste keer dat je bij de automaat staat).",
+					},{
+						"title": "Saldo terug",
+						"description": "Als je ervoor kiest NS Flex op je eigen OV-chipkaart te zetten, storten we het saldo dat nog op je kaart staat terug.",
+					},
+				],
+			},
 		],
 	},
 	
@@ -81,5 +147,7 @@ var context_landing = {
 };
 
 var landing = document.getElementById("landing");
-landing.innerHTML = Handlebars.templates.landing(context_landing);
+if (landing) {
+	landing.innerHTML = Handlebars.templates.landing(context_landing);
+};
 

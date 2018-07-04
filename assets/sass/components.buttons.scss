@@ -46,6 +46,13 @@
 		background: linear-gradient(
 			110deg, #0050A8 0%, $ns-light-blue 100%);	
 	}
+	
+	&__link, &__link:hover {
+		text-decoration: none;
+		outline: none;
+		border: none;
+		box-shadow: none;
+	}
 }
 
 // read more link
@@ -54,7 +61,7 @@
 	align-items: center;
 	cursor: pointer;
 	color: $ns-light-blue;
-	transition: all 250ms $ease;
+	transition: color 250ms $ease;
 	@include font-style(16px, normal, 0.6);
 
 	svg {

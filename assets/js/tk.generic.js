@@ -120,8 +120,9 @@ $(".js-scroll-down").click(function(){
 $(".js-more").click(function(){
 	var btn = $(".js-more-btn", this);
 	var content = $(".js-more-content", this);
-	btn.hide();
-	content.slideDown(200);
+	TweenLite.set(btn, {autoAlpha:0});
+	TweenLite.to(btn, 0.1, {display:"none"});
+	content.slideDown(250);
 });
 
 

@@ -7,13 +7,13 @@
 </div>
 
 <!------- hero ------->
-<div class="flx-hero js-hero-content">
+<div class="flx-hero">
 	<div class="flx-hero__bg">
 		<div class="ani ani--fade-in">
 			<div class="flx-hero__img"></div>
 			<div class="flx-gradient flx-gradient--cobalt-blue"></div>
 		</div>
-		<div class="flx-hero__flow" include="../media/flow.svg"></div>
+		<div class="flx-hero__flow" include="../media/flow-white.svg"></div>
 	</div>
 	<div class="ani ani--fade-in-up-small ani--delay-500">
 		<div class="container ovr-container">
@@ -117,7 +117,7 @@
 					<div class="tr tr-stag js-more">
 						<div class="btn-more js-more-btn">
 							<span include="../assets/img/icons/plus--small.svg"></span>
-							Bekijk meer
+							Hoe werkt het?
 						</div>
 						<div class="flx-section__description flx-more js-more-content">
 							A small river named Duden flows by their place and 
@@ -144,7 +144,11 @@
 					<h3 class="flx-section__title tr tr-stag"><b>{{{abo.heading}}}</b></h3>
 					<p class="flx-section__description tr tr-stag">{{{abo.description}}}</p>
 					<div class="tr tr-stag">
-						<button class="button flx-button flx-button--ghost flx-button--rounded">{{{abo.more}}}</button>
+						<a href="/abonnementen" class="flx-button__link">
+							<button class="button flx-button flx-button--ghost flx-button--rounded">
+								{{{abo.more}}}
+							</button>
+						</a>
 					</div>
 				</div>
 			</div>
@@ -152,8 +156,24 @@
 	</div>
 </div>
 
-<!-- call to action -->
+<!-- summary -->
 <div class="flx-section" id="flx-s7">
+	<div class="flx-section__container flx-section__container--small flx-gradient--light-grey flx-border-grey-top">
+		<div class="container ovr-container">
+			<div class="flx-summary">
+				{{#each summary}}
+				<div class="flx-summary__item tr tr-stag {{class}}">
+					<div class="flx-summary__icon" include="../assets/img/icons/{{icon}}.svg"></div>
+					<h3 class="flx-summary__title">{{title}}</h3>
+				</div>
+				{{/each}}
+			</div>
+		</div>
+	</div>
+</div>
+
+<!-- call to action -->
+<div class="flx-section" id="flx-s8">
 	<div class="flx-section__container flx-gradient--yellow">
 		<div class="container ovr-container">
 			<div class="flx-section__content flx-section__content--center">
@@ -166,6 +186,7 @@
 					</button>
 				</div>
 			</div>
+			<!--
 			<div class="flx-section__divider flx-section__divider--alpha tr tr-500 tr--fade-in"></div>
 			<div class="flx-section__content">
 				<div class="flx-cta__usp-grid">
@@ -177,20 +198,58 @@
 					{{/each}}
 				</div>
 			</div>
+			-->
+		</div>
+	</div>
+</div>
+
+<!-- alles op een rij -->
+<div class="flx-section" id="flx-s9">
+	<div class="flx-section__container flx-section__container--small">
+		<div class="container ovr-container">
+			<div class="flx-ext js-more">
+				<div class="flx-ext__btn-container">
+					<div class="btn-more js-more-btn">
+						<span include="../assets/img/icons/plus--small.svg"></span>
+						Alles op een rij
+					</div>
+				</div>
+				<div class="flx-more js-more-content">
+					<div class="flx-ext__container">
+						<h3 class="headingXL spacer-margin-8">{{{ext.heading}}}</h3>
+						<div class="flx-ext__grid">
+						{{#each ext.category}}
+							<div class="flx-ext__category">
+								<div class="flx-ext__heading">
+									<h4 class="headingL no-margin"><b>{{{title}}}</b></h4>
+									<p class="headingS no-margin">{{{description}}}</p>
+								</div>
+								{{#each item}}
+								<div class="flx-ext__item">
+									<h5 class="no-margin">{{{title}}}</h5>
+									<p class="no-margin">{{{description}}}</p>
+								</div>
+								{{/each}}
+							</div>
+						{{/each}}
+						</div>
+					</div>
+				</div>
+			</div>
 		</div>
 	</div>
 </div>
 
 <!-- testimonial -->
-<div class="flx-section" id="flx-s8">
+<div class="flx-section" id="flx-s10">
 	<div class="flx-section__container flx-section__container--small flx-gradient--grey">
 		<div class="container ovr-container">
 			<div class="flx-section__content flx-testimonial__content">
 				<div class="flx-grid flx-grid--align-center flx-grid--max-1 flx-grid--double-col-gap flx-grid--row-gap">
-					<div class="flx-testimonial__img tr tr-500 tr--scale-in"></div>
-					<div class="flx-textimonial__text">
-						<h3 class="headingM spacer-margin-2 tr tr-stag">{{{testimonial.sender}}}</h3>
-						<p class="flx-testimonial__quote tr tr-stag">{{{testimonial.quote}}}</p>
+					<div class="flx-testimonial__img"></div>
+					<div class="flx-testimonial__text">
+						<h3 class="headingM spacer-margin-2">{{{testimonial.sender}}}</h3>
+						<p class="flx-testimonial__quote">{{{testimonial.quote}}}</p>
 					</div>
 				</div>
 			</div>
@@ -199,7 +258,7 @@
 </div>
 
 <!-- faq -->
-<div class="flx-section" id="flx-s9">
+<div class="flx-section" id="flx-s11">
 	<div class="flx-section__container flx-faq">
 		<div class="container ovr-container">
 			<div class="flx-section__content">
