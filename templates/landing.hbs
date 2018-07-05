@@ -119,12 +119,11 @@
 							<span include="../assets/img/icons/plus--small.svg"></span>
 							Hoe werkt het?
 						</div>
-						<div class="flx-section__description flx-more js-more-content">
-							A small river named Duden flows by their place and 
-							supplies it with the necessary regelialia. It is a 
-							paradisematic country, in which roasted parts of sentences 
-							fly into your mouth. 
-						</div>
+						<ol class="flx-section__description flx-section__ol flx-more js-more-content">
+							<li>Ga naar Mijn NS</li>
+							<li>Switch van klasse op het dashboard</li>
+							<li>Na 04:00 's nachts wordt je klasse automatisch weer teruggezet</li>
+						</ol>
 					</div>
 				</div>
 			</div>
@@ -158,12 +157,12 @@
 
 <!-- summary -->
 <div class="flx-section" id="flx-s7">
-	<div class="flx-section__container flx-section__container--small flx-gradient--light-grey flx-border-grey-top">
+	<div class="flx-section__container flx-section__container--small flx-gradient--grey">
 		<div class="container ovr-container">
 			<div class="flx-summary">
 				{{#each summary}}
-				<div class="flx-summary__item tr tr-stag {{class}}">
-					<div class="flx-summary__icon" include="../assets/img/icons/{{icon}}.svg"></div>
+				<div class="flx-summary__item tr tr-stag">
+					<div class="flx-summary__icon" include="../media/{{icon}}.svg"></div>
 					<h3 class="flx-summary__title">{{title}}</h3>
 				</div>
 				{{/each}}
@@ -177,63 +176,20 @@
 	<div class="flx-section__container flx-gradient--yellow">
 		<div class="container ovr-container">
 			<div class="flx-section__content flx-section__content--center">
-				<h3 class="flx-section__title tr tr-stag">{{{cta.heading}}}</h3>
-				<h4 class="headingM spacer-margin-1 tr tr-stag">{{{cta.subhead}}}</h4>
-				<p class="font-blue spacer-margin-4 tr tr-stag">{{{cta.description}}}</p>
+				<h3 class="flx-section__title tr tr-stag"><b>{{{cta.heading}}}</b></h3>
+				<p class="flx-cta__description tr tr-stag">{{{cta.description}}}</p>
 				<div class="tr tr-stag">
 					<button class="button flx-button--blue flx-button--rounded">
 						{{{button-cta-text}}}
 					</button>
 				</div>
-			</div>
-			<!--
-			<div class="flx-section__divider flx-section__divider--alpha tr tr-500 tr--fade-in"></div>
-			<div class="flx-section__content">
 				<div class="flx-cta__usp-grid">
 					{{#each cta.usps}}
 					<div class="flx-cta__usp tr tr-stag">
 						<span class="flx-cta__icon" include="../assets/img/icons/check-round--small.svg"></span>
-						<span>{{usp}}</span>
+						<span>{{{usp}}}</span>
 					</div>
 					{{/each}}
-				</div>
-			</div>
-			-->
-		</div>
-	</div>
-</div>
-
-<!-- alles op een rij -->
-<div class="flx-section" id="flx-s9">
-	<div class="flx-section__container flx-section__container--small">
-		<div class="container ovr-container">
-			<div class="flx-ext js-more">
-				<div class="flx-ext__btn-container">
-					<div class="btn-more js-more-btn">
-						<span include="../assets/img/icons/plus--small.svg"></span>
-						Alles op een rij
-					</div>
-				</div>
-				<div class="flx-more js-more-content">
-					<div class="flx-ext__container">
-						<h3 class="headingXL spacer-margin-8">{{{ext.heading}}}</h3>
-						<div class="flx-ext__grid">
-						{{#each ext.category}}
-							<div class="flx-ext__category">
-								<div class="flx-ext__heading">
-									<h4 class="headingL no-margin"><b>{{{title}}}</b></h4>
-									<p class="headingS no-margin">{{{description}}}</p>
-								</div>
-								{{#each item}}
-								<div class="flx-ext__item">
-									<h5 class="no-margin">{{{title}}}</h5>
-									<p class="no-margin">{{{description}}}</p>
-								</div>
-								{{/each}}
-							</div>
-						{{/each}}
-						</div>
-					</div>
 				</div>
 			</div>
 		</div>
@@ -246,10 +202,10 @@
 		<div class="container ovr-container">
 			<div class="flx-section__content flx-testimonial__content">
 				<div class="flx-grid flx-grid--align-center flx-grid--max-1 flx-grid--double-col-gap flx-grid--row-gap">
-					<div class="flx-testimonial__img"></div>
+					<div class="flx-testimonial__img tr tr-500 tr--scale-in"></div>
 					<div class="flx-testimonial__text">
-						<h3 class="headingM spacer-margin-2">{{{testimonial.sender}}}</h3>
-						<p class="flx-testimonial__quote">{{{testimonial.quote}}}</p>
+						<h3 class="headingM spacer-margin-2 tr tr-stag">{{{testimonial.sender}}}</h3>
+						<p class="flx-testimonial__quote tr tr-stag">{{{testimonial.quote}}}</p>
 					</div>
 				</div>
 			</div>

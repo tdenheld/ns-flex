@@ -3119,6 +3119,26 @@
 		"plM": 3758088159,
 		"prP": 0
 		},
+	"\/media\/exit.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "\/media\/exit.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"\/media\/factuur.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "\/media\/factuur.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
 	"\/media\/flexibel.jpg": {
 		"ft": 16384,
 		"iS": 40759,
@@ -3237,11 +3257,11 @@
 		"plM": 3758088159,
 		"prP": 0
 		},
-	"\/media\/korting.svg": {
+	"\/media\/kalender.svg": {
 		"ft": 2097152,
 		"miP": 0,
 		"oA": 2,
-		"oAP": "\/media\/korting.svg",
+		"oAP": "\/media\/kalender.svg",
 		"oF": 0,
 		"opt": 0,
 		"plM": 3758088159,
@@ -3343,6 +3363,16 @@
 		"oIPL": 0,
 		"opt": 0,
 		"q": 100
+		},
+	"\/media\/ov-chip.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "\/media\/ov-chip.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
 		},
 	"\/media\/ov.jpg": {
 		"ft": 16384,

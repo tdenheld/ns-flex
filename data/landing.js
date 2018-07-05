@@ -49,31 +49,23 @@ var context_landing = {
 	
 	"summary": [
 		{
-			"icon": "ov-chipkaart--large",
+			"icon": "ov-chip",
 			"title": "Nooit meer saldo laden",
 		},{
-			"icon": "train-public-transport--large",
+			"icon": "factuur",
 			"title": "1 overzichtelijke rekening van je reizen in het OV",
 		},{
-			"icon": "switch-class--large",
-			"title": "Switch in de trein naar de 1e klas",
-			"class": "hidden-xs",
+			"icon": "exit",
+			"title": "Je zit nergens aan vast",
 		},
 	],
 	
 	"cta": {
-		"heading": "<b>NS Flex</b> zonder abonnement",
-		"subhead": "<b>Je betaalt eenmalig € 10</b>",
-		"description": "Naar keuze te combineren met een flexibel kortingsabonnement",
+		"heading": "NS Flex<br>Net zo flexibel als jij",
+		"description": "Naar keuze te combineren<br>met een flexibel kortingsabonnement",
 		"usps": [
-			{"usp": "Nooit meer saldo laden"},
-			{"usp": "Automatische correctie vergeten check-uit"},
-			{"usp": "1 overzichtelijke rekening"},
-			{"usp": "In de trein switchen naar 1e klas"},
-			{"usp": "Flexibel in het gehele OV"},
-			{"usp": "Maandelijks opzeggen of aanpassen"},
-			{"usp": "Altijd en overal inzicht in je reiskosten"},
-			{"usp": "Gemakkelijk reizen met korting"},
+			{"usp": "Binnen 1 uur flex reizen als je al een OV&#8209;chipkaart hebt"},
+			{"usp": "Binnen 1 week in huis met een nieuwe OV&#8209;chipkaart"},
 		],
 	},
 	
@@ -137,11 +129,11 @@ var context_landing = {
 	"faq": {
 		"heading": "Nog onduidelijkheden?",	
 		"questions": [
-			{"question": "Hoe bestel ik NS Flex?"},
-			{"question": "Wat krijg ik als ik bestel?"},
-			{"question": "Wanneer wordt mijn factuur afgeschreven?"},
-			{"question": "Hoe komt het dat het € 0 is?"},
-			{"question": "Is dit geen oplichting? Wat is de truc?"},
+			{"question": "Dit klinkt te goed om waar te zijn, what’s the catch?"},
+			{"question": "Wat kost het?"},
+			{"question": "Ik heb al een abonnement, kan ik dan ook NS Flex gebruiken?"},
+			{"question": "Wat gebeurt er met het saldo op mijn kaart?"},
+			{"question": "Ik heb nog meer vragen..."},
 		],
 	},
 };
