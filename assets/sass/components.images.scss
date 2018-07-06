@@ -16,10 +16,10 @@
 // Scaling
 // -----------------------------------
 .img-cover {
-	@extend %bg-cover;
+	@include bg(cover);
 }
 .img-contain {
-	@extend %bg-contain;
+	@include bg(contain);
 }
 
 

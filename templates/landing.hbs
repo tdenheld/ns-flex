@@ -117,12 +117,12 @@
 					<div class="tr tr-stag js-more">
 						<div class="btn-more js-more-btn">
 							<span include="../assets/img/icons/plus--small.svg"></span>
-							Hoe werkt het?
+							{{{first-class.button}}}
 						</div>
 						<ol class="flx-section__description flx-section__ol flx-more js-more-content">
-							<li>Ga naar Mijn NS</li>
-							<li>Switch van klasse op het dashboard</li>
-							<li>Na 04:00 's nachts wordt je klasse automatisch weer teruggezet</li>
+							{{#each first-class.list}}
+								<li>{{{item}}}</li>
+							{{/each}}
 						</ol>
 					</div>
 				</div>

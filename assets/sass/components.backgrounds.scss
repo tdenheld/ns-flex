@@ -7,10 +7,10 @@
 	opacity: 0;
 	
 	&--absolute {
-		@extend %full-absolute;	
+		@include full(absolute);	
 	}
 	&--fixed {
-		@extend %full-fixed;
+		@include full(fixed);
 	}
 	&--white {
 		background-color: $ns-white;
@@ -20,7 +20,7 @@
 // gradients
 // ----------------------------
 .flx-gradient {
-	@extend %full-absolute;
+	@include full(absolute);
 	transition: all 750ms $ease;
 	opacity: 0;
 	

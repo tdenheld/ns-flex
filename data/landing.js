@@ -11,7 +11,7 @@ var context_landing = {
 	"section": [
 		{
 			"order": "reverse",
-			"img": "nooitmeer.svg",
+			"img": "public-transport.svg",
 			"title": "Check <b>zorgeloos</b> in en uit zonder dat je saldo nodig hebt",
 		},{
 			"img": "checkout.svg",
@@ -24,7 +24,7 @@ var context_landing = {
 	],
 	
 	"ov": {
-		"heading": "Flexibel in al het OV",
+		"heading": "Flexibel in het gehele OV",
 		"description": "NS Flex werkt in het hele OV in Nederland. Je kunt ermee betalen in trein, metro, tram en bus. Ga je graag met de fiets? Pak overal in Nederland een OV-fiets of maak gebruik van een bewaakte stalling.",
 	},
 	
@@ -35,9 +35,15 @@ var context_landing = {
 	},
 	
 	"first-class": {
-		"heading": "Zonder gedoe,<br>reizen in stijl",
+		"heading": "Zonder gedoe,<br>reizen met klasse",
 		"description": "Op langere reizen of drukkere trajecten kan het fijn zijn om soms ruimer, rustiger en luxer te reizen. Met NS Flex kun je het tot een kwartier nadat je incheckt nog switchen naar de 1e klas. Je kunt dus in de trein nog beslissen.",
-		"img": "oma.jpg",
+		"img": "bike-yellow.jpg",
+		"button": "Hoe werk het?",
+		"list": [
+			{"item": "Ga naar Mijn NS"},
+			{"item": "Switch van klasse op het dashboard"},
+			{"item": "Stel de geldigheidsduur in"},
+		],
 	},
 	
 	"abo": {
@@ -66,58 +72,6 @@ var context_landing = {
 		"usps": [
 			{"usp": "Binnen 1 uur flex reizen als je al een OV&#8209;chipkaart hebt"},
 			{"usp": "Binnen 1 week in huis met een nieuwe OV&#8209;chipkaart"},
-		],
-	},
-	
-	"ext": {
-		"heading": "NS Flex – De uitgebreide versie",
-		"category": [
-			{
-				"title": "Wat je krijgt",
-				"description": "NS Flex natuurlijk",
-				"item": [
-					{
-						"title": "Nieuwe OV-chipkaart",
-						"description": "Binnen een week heb je een nieuwe OV-chipkaart met NS Flex erop in huis.",
-					},{
-						"title": "Vandaag nog te gebruiken",
-						"description": "Als je al een persoonlijke OV-chipkaart hebt kun je NS Flex binnen een uur ophalen bij de kaartautomaat (de laatste keer dat je bij de automaat staat).",
-					},{
-						"title": "Saldo terug",
-						"description": "Als je ervoor kiest NS Flex op je eigen OV-chipkaart te zetten, storten we het saldo dat nog op je kaart staat terug.",
-					},
-				],
-			},{
-				"title": "Je reiskosten",
-				"description": "Lekker overzichtelijk",
-				"item": [
-					{
-						"title": "Nieuwe OV-chipkaart",
-						"description": "Binnen een week heb je een nieuwe OV-chipkaart met NS Flex erop in huis.",
-					},{
-						"title": "Vandaag nog te gebruiken",
-						"description": "Als je al een persoonlijke OV-chipkaart hebt kun je NS Flex binnen een uur ophalen bij de kaartautomaat (de laatste keer dat je bij de automaat staat).",
-					},{
-						"title": "Saldo terug",
-						"description": "Als je ervoor kiest NS Flex op je eigen OV-chipkaart te zetten, storten we het saldo dat nog op je kaart staat terug.",
-					},
-				],
-			},{
-				"title": "€ 10 aanmeldkosten",
-				"description": "Lekker overzichtelijk",
-				"item": [
-					{
-						"title": "Nieuwe OV-chipkaart",
-						"description": "Binnen een week heb je een nieuwe OV-chipkaart met NS Flex erop in huis.",
-					},{
-						"title": "Vandaag nog te gebruiken",
-						"description": "Als je al een persoonlijke OV-chipkaart hebt kun je NS Flex binnen een uur ophalen bij de kaartautomaat (de laatste keer dat je bij de automaat staat).",
-					},{
-						"title": "Saldo terug",
-						"description": "Als je ervoor kiest NS Flex op je eigen OV-chipkaart te zetten, storten we het saldo dat nog op je kaart staat terug.",
-					},
-				],
-			},
 		],
 	},
 	
