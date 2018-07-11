@@ -46,14 +46,16 @@
 		background: linear-gradient(
 			110deg, #0050A8 0%, $ns-light-blue 100%);	
 	}
-	
-	&__link, &__link:hover {
-		text-decoration: none;
-		outline: none;
-		border: none;
-		box-shadow: none;
-	}
 }
+
+.flx-button__link,
+.flx-button__link:hover {
+	text-decoration: none;
+	outline: none;
+	border: none;
+	box-shadow: none;
+}
+
 
 // read more link
 .btn-more {
@@ -121,36 +123,36 @@
 // scroll down indicator
 .scroll-down {
 	cursor: pointer;
+}
+
+.scroll-down__icon {
+	// size and styling
+	width: 36px;
+	height: 72px;
+	border: 2px solid $ns-white;
+	border-radius: 36px;
+}
+
+.scroll-down__icon-circle {
+	// animation
+	// this one is a potential chrome helper CPU killer on retina screens
+	@keyframes fall-down {
+		0% 		{transform: none;}
+		48%		{transform: translate3d(0, 32px, 0);}
+		96%		{transform: translate3d(0, 32px, 0);}
+		100% 	{transform: none;}
+	}	
+	animation: fall-down 3s infinite;
+	animation-timing-function: $ease;	
+	animation-delay: 1.5s;	
 	
-	&__icon {
-		// size and styling
-		width: 36px;
-		height: 72px;
-		border: 2px solid $ns-white;
-		border-radius: 36px;
-	}
+	// size and styling
+	width: 12px;
+	height: 12px;
+	border: 2px solid $ns-white;
+	border-radius: 100%;
 	
-	&__icon-circle {
-		// animation
-		// this one is a potential chrome helper CPU killer on retina screens
-		@keyframes fall-down {
-			0% 		{transform: none;}
-			48%		{transform: translate3d(0, 32px, 0);}
-			96%		{transform: translate3d(0, 32px, 0);}
-			100% 	{transform: none;}
-		}	
-		animation: fall-down 3s infinite;
-		animation-timing-function: $ease;	
-		animation-delay: 1.5s;	
-		
-		// size and styling
-		width: 12px;
-		height: 12px;
-		border: 2px solid $ns-white;
-		border-radius: 100%;
-		
-		// positioning
-		margin: 0 auto;
-		margin-top: 12px;
-	}
+	// positioning
+	margin: 0 auto;
+	margin-top: 12px;
 }

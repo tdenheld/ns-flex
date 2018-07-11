@@ -11,10 +11,10 @@ var context_landing = {
 	"section": [
 		{
 			"order": "reverse",
-			"img": "public-transport.svg",
+			"img": "checkout.svg",
 			"title": "Check <b>zorgeloos</b> in en uit zonder dat je saldo nodig hebt",
 		},{
-			"img": "checkout.svg",
+			"img": "public-transport.svg",
 			"title": "Vergeet je een keer uit te checken, dan corrigeren we dat <b>automatisch</b>",
 		},{
 			"order": "reverse",

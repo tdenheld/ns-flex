@@ -9,27 +9,106 @@
 	<div class="ani ani--fade-in-up-small ani--delay-500">
 		<div class="container ovr-container">
 			<div class="flx-hero__content">
-				<h1 class="flx-hero__title">NS Flex + abonnementen</h1> 
-				<h2 class="flx-hero__subtitle">Nieuw: Flexibele abonnementen</h2>
+				<h1 class="flx-hero__title">{{title}}</h1> 
+				<h2 class="flx-hero__subtitle">{{subtitle}}</h2>
 				<button class="button flx-button--blue flx-button--rounded">
-					Kies nu je korting
+					{{button-cta}}
 				</button>
 			</div>
 		</div>
 	</div>
 </div>
 
-<!------- section ------->
+<!-- intro -->
 <div class="flx-section flx-section--usps flx-gradient--light-grey ani ani--fade-in ani--delay-750" id="flx-s0">
 	<div class="container ovr-container">
 		<div class="flx-grid flx-grid--1-1 flx-grid--align-center">
 			<div class="flx-section__img tr tr-500 tr--scale-in">
-				<img src="../media/kalender.svg" class="img-responsive" />
+				<img src="../media/{{usp.icon}}" class="img-responsive" />
 			</div>
 			<div class="flx-section__content">
 				<h3 class="flx-section__content-item flx-section__title flx-section__title--abo tr tr-stag">
-					Kies de korting die <b>nu</b> bij je past. Als je wilt, pas je de korting <b>elke maand</b> aan.
+					{{{usp.title}}}
 				</h3>
+			</div>
+		</div>
+	</div>
+</div>
+
+<!-- overview -->
+<div class="flx-section" id="flx-s1">
+	<div class="flx-section__container flx-bg--white">
+		<div class="container ovr-container">
+			<div class="flx-grid flx-grid--1-1 flx-grid--align-center">
+				<div class="flx-section__img flx-section__img--100 tr tr-500 tr--scale-in flx-grid__reverse">
+					<img src="../media/{{overview.img}}" class="img-responsive" />
+				</div>		
+				<div class="flx-section__content">
+					<h3 class="flx-section__content-item flx-section__title flx-section__title--abo tr tr-stag">
+						{{{overview.title}}}
+					</h3>
+					<p class="flx-section__content-item flx-section__description tr tr-stag">
+						{{{overview.description}}}
+					</p>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+
+<!-- summary -->
+<div class="flx-section" id="flx-s2">
+	<div class="flx-section__container flx-section__container--small flx-gradient--grey">
+		<div class="container ovr-container">
+			<div class="flx-summary">
+				{{#each summary}}
+				<div class="flx-summary__item tr tr-stag">
+					<div class="flx-summary__icon" include="../media/{{icon}}.svg"></div>
+					<h3 class="flx-summary__title">{{{title}}}</h3>
+				</div>
+				{{/each}}
+			</div>
+		</div>
+	</div>
+</div>
+
+<!-- call to action -->
+<div class="flx-section" id="flx-s3">
+	<div class="flx-section__container flx-section__container--small flx-gradient--yellow">
+		<div class="container ovr-container">
+			<div class="flx-section__content flx-section__content--center">
+				<h3 class="flx-section__title tr tr-stag"><b>{{{cta.heading}}}</b></h3>
+				<p class="flx-cta__description tr tr-stag">{{{cta.description}}}</p>
+				<div class="tr tr-stag">
+					<button class="button flx-button--blue flx-button--rounded">
+						{{button-cta}}
+					</button>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+
+<!-- faq -->
+<div class="flx-section" id="flx-s4">
+	<div class="flx-section__container flx-faq">
+		<div class="container ovr-container">
+			<div class="flx-section__content">
+				<div class="flx-faq__text">
+					<h3 class="flx-section__title flx-section__title--abo tr tr-stag">
+						{{faq.heading}}
+					</h3>
+					<p class="flx-section__description tr tr-stag">
+						{{{faq.description}}}
+					</p>
+				</div>
+				<ul class="list collapsibleList is-collapsible">
+					{{#each faq.questions}}
+					<li class="collapsibleList__item ovr-collapsibleList__item tr tr-stag">
+						<h3 class="collapsibleList__header" id="keuzedagen" tabindex="0" aria-expanded="false" role="button">{{{question}}}</h3>   
+					</li>
+					{{/each}}
+				</ul>
 			</div>
 		</div>
 	</div>

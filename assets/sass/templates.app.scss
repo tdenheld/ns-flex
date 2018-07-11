@@ -1,7 +1,6 @@
 /*-------------------
-       Landing
+         App
 --------------------*/
-
 
 // hero 
 // ----------------------------
@@ -109,8 +108,11 @@
 	.flx-hero__flow {								
 		svg {
 			opacity: 0.8;
-			@media (min-width: $lg) {
-				height: $hero-height-abos;
+			width: auto;
+			height: $hero-height-abos;			
+			@media (max-aspect-ratio: 6/5) {
+				width: 100%;
+				height: auto;
 			}
 		}
 	}
@@ -126,6 +128,7 @@
 		text-shadow: none;
 	}
 }
+
 
 
 
@@ -208,7 +211,7 @@
 	&--abo {
 		@include font-style(24px, normal, 1.4);
 		@media (min-width: $md) {
-			font-size: calculate-rem(36px);
+			font-size: calculate-rem(32px);
 		}
 	}
 }
@@ -359,6 +362,7 @@
 	@media (min-width: $sm) {
 		height: 80px;
 	}
+	
 	svg {
 		fill: $ns-blue;
 		width: 42px;
@@ -372,6 +376,8 @@
 	margin: 0;
 	@include font-style(16px, normal, 1.4);
 }
+
+
 
 
 // call to action
@@ -404,41 +410,8 @@
 		fill: $ns-blue;
 	}
 }
-
-
-
-// alles op een rij
-// ----------------------------
-.flx-ext {
-	padding: 0 $gutter;
-}
-
-.flx-ext__btn-container {
-	display: flex;
-	justify-content: center;
-}
-
-.flx-ext__container {
-	padding: $double-gutter 0;
-}
-
-.flx-ext__grid {
-	display: grid;
-	grid-column-gap: $double-gutter;
-	@media (min-width: $sm) {
-		grid-template-columns: repeat(3, 1fr);
-	}
-}
-
-.flx-ext__category {
-	margin-bottom: $double-gutter;
-}
-
-.flx-ext__heading,
-.flx-ext__item {
-	margin-bottom: $gutter;
-}
 	
+
 	
 
 // testimonial
@@ -473,11 +446,22 @@
 
 
 
+
 // faq
 // ----------------------------
 .flx-faq {
 	border-bottom: 1px solid $ns-grey-7;
 }
+
+.flx-faq__text {
+	max-width: 720px;
+	margin-bottom: $one-half-gutter;
+	@media (min-width: $md) {
+		margin-bottom: 70px;
+	}
+}
+
+
 
 
 // more
