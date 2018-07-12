@@ -17,7 +17,7 @@ templates['abos'] = template({"1":function(container,depth0,helpers,partials,dat
 },"5":function(container,depth0,helpers,partials,data) {
     var stack1, helper, alias1=depth0 != null ? depth0 : (container.nullContext || {}), alias2=helpers.helperMissing, alias3="function", alias4=container.escapeExpression;
 
-  return "					<div class=\"tile flx-ros__tile\">\n						<div class=\"flx-ros__icon\" include=\"../assets/img/icons/"
+  return "					<div class=\"tile flx-ros__tile tr tr-stag\">\n						<div class=\"flx-ros__icon\" include=\"../assets/img/icons/"
     + alias4(((helper = (helper = helpers.icon || (depth0 != null ? depth0.icon : depth0)) != null ? helper : alias2),(typeof helper === alias3 ? helper.call(alias1,{"name":"icon","hash":{},"data":data}) : helper)))
     + ".svg\"></div>\n						<h3><b>"
     + alias4(((helper = (helper = helpers.category || (depth0 != null ? depth0.category : depth0)) != null ? helper : alias2),(typeof helper === alias3 ? helper.call(alias1,{"name":"category","hash":{},"data":data}) : helper)))
@@ -25,7 +25,7 @@ templates['abos'] = template({"1":function(container,depth0,helpers,partials,dat
     + alias4(((helper = (helper = helpers.description || (depth0 != null ? depth0.description : depth0)) != null ? helper : alias2),(typeof helper === alias3 ? helper.call(alias1,{"name":"description","hash":{},"data":data}) : helper)))
     + "</p>\n						<a "
     + ((stack1 = helpers["if"].call(alias1,(depth0 != null ? depth0.url : depth0),{"name":"if","hash":{},"fn":container.program(6, data, 0),"inverse":container.noop,"data":data})) != null ? stack1 : "")
-    + " class=\"arrowLink js-show-ros\">"
+    + " class=\"arrowLink js-show-ros-abos\">"
     + alias4(((helper = (helper = helpers.link || (depth0 != null ? depth0.link : depth0)) != null ? helper : alias2),(typeof helper === alias3 ? helper.call(alias1,{"name":"link","hash":{},"data":data}) : helper)))
     + "</a>\n					</div>\n";
 },"6":function(container,depth0,helpers,partials,data) {
@@ -34,6 +34,14 @@ templates['abos'] = template({"1":function(container,depth0,helpers,partials,dat
   return "href=\""
     + container.escapeExpression(((helper = (helper = helpers.url || (depth0 != null ? depth0.url : depth0)) != null ? helper : helpers.helperMissing),(typeof helper === "function" ? helper.call(depth0 != null ? depth0 : (container.nullContext || {}),{"name":"url","hash":{},"data":data}) : helper)))
     + "\"";
+},"8":function(container,depth0,helpers,partials,data) {
+    var helper, alias1=depth0 != null ? depth0 : (container.nullContext || {}), alias2=helpers.helperMissing, alias3="function", alias4=container.escapeExpression;
+
+  return "				<div class=\"flx-ros__adds tr tr-stag js-show-ros-adds\">\n					<div class=\"flx-ros__adds-content\">\n						<h3 class=\"no-margin flx-ros__adds-heading js-ros-adds-heading\">"
+    + alias4(((helper = (helper = helpers.category || (depth0 != null ? depth0.category : depth0)) != null ? helper : alias2),(typeof helper === alias3 ? helper.call(alias1,{"name":"category","hash":{},"data":data}) : helper)))
+    + "</h3>\n						<span class=\"flx-ros__icon flx-ros__adds-icon js-ros-adds-icon\" include=\"../assets/img/icons/plus--small.svg\"></span>\n					</div>\n					<!-- abonnementen container -->\n					<div class=\"ros-adds js-ros-adds\" include=\"../components/"
+    + alias4(((helper = (helper = helpers.component || (depth0 != null ? depth0.component : depth0)) != null ? helper : alias2),(typeof helper === alias3 ? helper.call(alias1,{"name":"component","hash":{},"data":data}) : helper)))
+    + ".html\"></div>\n				</div>\n";
 },"compiler":[7,">= 4.0.0"],"main":function(container,depth0,helpers,partials,data) {
     var stack1, helper, alias1=depth0 != null ? depth0 : (container.nullContext || {}), alias2=helpers.helperMissing, alias3="function", alias4=container.escapeExpression, alias5=container.lambda;
 
@@ -67,11 +75,13 @@ templates['abos'] = template({"1":function(container,depth0,helpers,partials,dat
     + ((stack1 = alias5(((stack1 = (depth0 != null ? depth0.faq : depth0)) != null ? stack1.description : stack1), depth0)) != null ? stack1 : "")
     + "\n					</p>\n				</div>\n				<ul class=\"list collapsibleList is-collapsible\">\n"
     + ((stack1 = helpers.each.call(alias1,((stack1 = (depth0 != null ? depth0.faq : depth0)) != null ? stack1.questions : stack1),{"name":"each","hash":{},"fn":container.program(3, data, 0),"inverse":container.noop,"data":data})) != null ? stack1 : "")
-    + "				</ul>\n			</div>\n		</div>\n	</div>\n</div>\n\n<!-- ros abonnementen -->\n<div class=\"flx-section\" id=\"flx-s5\">\n	<div class=\"flx-section__container flx-section__container--small flx-gradient--grey\">\n		<div class=\"container ovr-container\">\n			<div class=\"flx-section__content\">\n				<h3 class=\"flx-section__title flx-section__title--abo tr tr-stag\">\n					"
+    + "				</ul>\n			</div>\n		</div>\n	</div>\n</div>\n\n<!-- ros abonnementen -->\n<div class=\"flx-section\" id=\"flx-s5\">\n	<div class=\"flx-section__container flx-section__container--small flx-gradient--grey\">\n		<div class=\"container ovr-container\">\n			\n			<!-- tiles -->\n			<div class=\"flx-section__content\">\n				<h3 class=\"flx-section__title flx-section__title--abo tr tr-stag\">\n					"
     + ((stack1 = alias5(((stack1 = (depth0 != null ? depth0.ros : depth0)) != null ? stack1.heading : stack1), depth0)) != null ? stack1 : "")
-    + "\n				</h3>\n				<div class=\"flx-ros\">\n"
+    + "\n				</h3>\n				<div class=\"flx-ros__grid\">\n"
     + ((stack1 = helpers.each.call(alias1,((stack1 = (depth0 != null ? depth0.ros : depth0)) != null ? stack1.tile : stack1),{"name":"each","hash":{},"fn":container.program(5, data, 0),"inverse":container.noop,"data":data})) != null ? stack1 : "")
-    + "				</div>\n			</div>\n		</div>\n	</div>\n</div>";
+    + "				</div>\n			</div>\n			\n			<!-- abonnementen container -->\n			<div class=\"ros-abos js-ros-abos\" id=\"ros-abos\" include=\"../components/ros-abos.html\"></div>\n			\n			<!-- extras -->\n			<div class=\"flx-section__content\">\n"
+    + ((stack1 = helpers.each.call(alias1,((stack1 = (depth0 != null ? depth0.ros : depth0)) != null ? stack1.adds : stack1),{"name":"each","hash":{},"fn":container.program(8, data, 0),"inverse":container.noop,"data":data})) != null ? stack1 : "")
+    + "			</div>\n		</div>\n	</div>\n</div>";
 },"useData":true});
 templates['landing'] = template({"1":function(container,depth0,helpers,partials,data) {
     var stack1, helper, alias1=depth0 != null ? depth0 : (container.nullContext || {}), alias2=helpers.helperMissing, alias3="function", alias4=container.escapeExpression;

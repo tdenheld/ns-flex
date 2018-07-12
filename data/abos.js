@@ -51,7 +51,7 @@ var context_abos = {
 		"tile": [
 			{
 				"icon": "subscription--large",
-				"category": "Abonnementen op saldo om op te laden",
+				"category": "Abonnementen op saldo",
 				"description": "De oude vertrouwde vaste abonnementen op saldo. Neem het niet. Je bent dom als je dit neemt.",
 				"link": "Bekijk meer",
 			},{
@@ -66,6 +66,17 @@ var context_abos = {
 				"description": "Met Traject Vrij reist u onbeperkt op 1 traject, elke dag, de hele dag.",
 				"link": "Bekijk meer",
 				"url": "https://www.ns.nl/abonnementen/traject-vrij.html",
+			},
+		],
+		
+		"adds": [
+			{
+				"category": "Extra Voordeel",
+				"component": "ros-discount",
+			},
+			{
+				"category": "Meer over abonnementen",
+				"component": "ros-misc",
 			},
 		],
 	},

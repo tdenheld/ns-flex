@@ -2980,6 +2980,27 @@
 		"sC": 1,
 		"tS": 0
 		},
+	"\/components\/ros-abos.html": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/components\/ros-abos.html",
+		"oF": 0
+		},
+	"\/components\/ros-discount.html": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/components\/ros-discount.html",
+		"oF": 0
+		},
+	"\/components\/ros-misc.html": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/components\/ros-misc.html",
+		"oF": 0
+		},
 	"\/data\/abos.js": {
 		"ft": 64,
 		"ma": 0,

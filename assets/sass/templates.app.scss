@@ -476,7 +476,7 @@
 
 // ros
 // ----------------------------
-.flx-ros {
+.flx-ros__grid {
 	display: grid;
 	grid-gap: $gutter;
 	@media (min-width: $sm) {
@@ -495,5 +495,61 @@
 .flx-ros__icon {
 	svg {
 		fill: $ns-blue;
+	}
+}
+
+.flx-ros__adds {
+	position: relative;
+	padding: $gutter 0;	
+	border-top: 1px solid $ns-grey-6;
+	border-bottom: 1px solid $ns-grey-6;
+	cursor: pointer;
+	transition: all 250ms $ease;
+	
+	&:not(:first-child) {
+		margin-top: -1px;
+	}
+}
+
+.flx-ros__adds-content {
+	margin: 0 auto;
+	display: flex;
+	justify-content: space-between;
+	
+	svg {
+		position: relative;
+		top: 4px;
+		margin-right: 10px;
+	}
+}
+
+.flx-ros__adds-heading {
+	&.is-active {
+		font-weight: bold;
+	}
+}
+
+.flx-ros__adds-icon {
+	svg {
+		transition: $fade-all;
+		transform-origin: center center;
+	}
+	&.is-active {
+		svg {
+			transform: rotate(135deg);
+		}
+	}
+}
+
+.ros-abos {
+	display: none;
+	padding: $gutter;
+}
+
+.ros-adds {
+	display: none;
+	padding: $gutter 0 0;
+	@media (min-width: $sm) {
+		padding: $gutter 0;	
 	}
 }
