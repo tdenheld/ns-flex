@@ -3323,6 +3323,17 @@
 		"plM": 3758088159,
 		"prP": 0
 		},
+	"\/media\/yellow-lady.png": {
+		"ft": 32768,
+		"iS": 3558300,
+		"oA": 0,
+		"oAP": "\/media\/yellow-lady.png",
+		"oF": 0,
+		"oIPL": 1,
+		"opt": 1,
+		"oT": 1,
+		"q": 80
+		},
 	"\/templates\/abos.hbs": {
 		"cB": 0,
 		"ft": 8192,

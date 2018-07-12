@@ -11,7 +11,7 @@
 			<div class="flx-hero__content">
 				<h1 class="flx-hero__title">{{title}}</h1> 
 				<h2 class="flx-hero__subtitle">{{subtitle}}</h2>
-				<button class="button flx-button--blue flx-button--rounded">
+				<button class="button flx-button--blue">
 					{{button-cta}}
 				</button>
 			</div>
@@ -80,7 +80,7 @@
 				<h3 class="flx-section__title tr tr-stag"><b>{{{cta.heading}}}</b></h3>
 				<p class="flx-cta__description tr tr-stag">{{{cta.description}}}</p>
 				<div class="tr tr-stag">
-					<button class="button flx-button--blue flx-button--rounded">
+					<button class="button flx-button--blue">
 						{{button-cta}}
 					</button>
 				</div>
@@ -109,6 +109,29 @@
 					</li>
 					{{/each}}
 				</ul>
+			</div>
+		</div>
+	</div>
+</div>
+
+<!-- ros abonnementen -->
+<div class="flx-section" id="flx-s5">
+	<div class="flx-section__container flx-section__container--small flx-gradient--grey">
+		<div class="container ovr-container">
+			<div class="flx-section__content">
+				<h3 class="flx-section__title flx-section__title--abo tr tr-stag">
+					{{{ros.heading}}}
+				</h3>
+				<div class="flx-ros">
+					{{#each ros.tile}}
+					<div class="tile flx-ros__tile">
+						<div class="flx-ros__icon" include="../assets/img/icons/{{icon}}.svg"></div>
+						<h3><b>{{category}}</b></h3>
+						<p>{{description}}</p>
+						<a {{#if url}}href="{{url}}"{{/if}} class="arrowLink js-show-ros">{{link}}</a>
+					</div>
+					{{/each}}
+				</div>
 			</div>
 		</div>
 	</div>

@@ -470,3 +470,30 @@
 	display: none;
 	margin: 0;
 }
+
+
+
+
+// ros
+// ----------------------------
+.flx-ros {
+	display: grid;
+	grid-gap: $gutter;
+	@media (min-width: $sm) {
+		grid-template-columns: repeat(2, 1fr);	
+	}
+	@media (min-width: $md) {
+		grid-template-columns: repeat(3, 1fr);	
+	}
+}
+
+.flx-ros__tile {
+	display: grid;
+	grid-template-rows: 50px max-content 1fr max-content;
+}
+
+.flx-ros__icon {
+	svg {
+		fill: $ns-blue;
+	}
+}
