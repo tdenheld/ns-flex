@@ -214,6 +214,13 @@
 			font-size: calculate-rem(32px);
 		}
 	}
+	
+	&--more-margin {
+		margin-bottom: $gutter;
+		@media (min-width: $md) {
+			margin-bottom: $one-half-gutter;
+		}
+	}
 }
 
 .flx-section__description {
@@ -474,6 +481,73 @@
 
 
 
+// stories
+// ----------------------------	
+.flx-stories {
+	position: relative;
+	min-height: 320px;
+	@media (min-width: $sm) {
+		min-height: 420px;
+	}
+	@media (min-width: $md) {
+		min-height: 640px;
+	}
+}
+
+.flx-stories__bg {
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	@include bg(cover);
+	background-image: url("../../media/flamingo.jpg");
+}
+
+.flx-stories__gradient {
+	position: absolute;
+	width: 100%;
+	height: 100%;	
+	background: linear-gradient(to bottom,
+		rgba($ns-black, 1) 10%,
+		rgba($ns-black, 0) 40%,
+		rgba($ns-black, 0) 60%,
+		rgba($ns-black, 1) 90%);
+	opacity: 0.2;
+	transition: $fade-all;
+	&:hover {
+		opacity: 0.5;
+	}
+}
+
+.flx-stories__loader {
+	display: grid;
+	grid-template-columns: repeat(3, 1fr);
+	grid-gap: 4px;
+	position: absolute;
+	width: 100%;
+	padding: $half-gutter;
+}
+
+.flx-stories__loader-line {
+	background-color: $ns-white;
+	height: 2px;
+	opacity: 0.5;
+	
+	&:nth-child(1) {
+		opacity: 1;
+	}
+}
+
+.flx-stories__caption {
+	position: absolute;
+	padding: $gutter;
+	bottom: 0;
+	color: $ns-white;
+	text-shadow: $text-shadow-tile;
+}
+
+
+
+
 // ros
 // ----------------------------
 .flx-ros__grid {
@@ -496,6 +570,18 @@
 	svg {
 		fill: $ns-blue;
 	}
+	
+	&--acc {
+		svg {
+			transition: $fade-all;
+			transform-origin: center center;
+		}
+		&.is-active {
+			svg {
+				transform: rotate(135deg);
+			}
+		}
+	}
 }
 
 .flx-ros__adds {
@@ -511,10 +597,11 @@
 	}
 }
 
-.flx-ros__adds-content {
+.flx-ros__acc {
 	margin: 0 auto;
 	display: flex;
 	justify-content: space-between;
+	align-items: center;
 	
 	svg {
 		position: relative;
@@ -523,21 +610,11 @@
 	}
 }
 
-.flx-ros__adds-heading {
+.flx-ros__heading {
+	margin-right: $gutter;
+	margin-bottom: 0;
 	&.is-active {
-		font-weight: bold;
-	}
-}
-
-.flx-ros__adds-icon {
-	svg {
-		transition: $fade-all;
-		transform-origin: center center;
-	}
-	&.is-active {
-		svg {
-			transform: rotate(135deg);
-		}
+		//font-weight: bold;
 	}
 }
 
@@ -546,10 +623,17 @@
 	padding: $gutter;
 }
 
-.ros-adds {
+.ros-content {
 	display: none;
 	padding: $gutter 0 0;
 	@media (min-width: $sm) {
-		padding: $gutter 0;	
+		padding: $gutter 0;
+	}
+	
+	&--abos {
+		@media (max-width: $sm) {
+			margin-left: -$gutter;
+			margin-right: -$gutter;
+		}
 	}
 }

@@ -35,8 +35,31 @@
 	</div>
 </div>
 
-<!-- overview -->
+<!-- stories -->
 <div class="flx-section" id="flx-s1">
+	<div class="flx-section__container no-padding-bottom">
+		<div class="container ovr-container">
+			<div class="flx-section__content no-padding-bottom tr tr-500 tr--fade-in">
+				<div class="flx-stories">
+					<div class="flx-stories__bg"></div>
+					<div class="flx-stories__gradient"></div>
+					<div class="flx-stories__loader">
+						<div class="flx-stories__loader-line"></div>
+						<div class="flx-stories__loader-line"></div>
+						<div class="flx-stories__loader-line"></div>
+					</div>
+					<div class="flx-stories__caption">
+						<h3 class="headingXXL font-white no-margin"><b>Even niets...</b></h3>
+						<p class="no-margin">Op vakantie heb ik geen abonnement nodig</p>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+
+<!-- overview -->
+<div class="flx-section" id="flx-s2">
 	<div class="flx-section__container flx-bg--white">
 		<div class="container ovr-container">
 			<div class="flx-grid flx-grid--1-1 flx-grid--align-center">
@@ -57,7 +80,7 @@
 </div>
 
 <!-- summary -->
-<div class="flx-section" id="flx-s2">
+<div class="flx-section" id="flx-s3">
 	<div class="flx-section__container flx-section__container--small flx-gradient--grey">
 		<div class="container ovr-container">
 			<div class="flx-summary">
@@ -73,12 +96,12 @@
 </div>
 
 <!-- call to action -->
-<div class="flx-section" id="flx-s3">
+<div class="flx-section" id="flx-s4">
 	<div class="flx-section__container flx-section__container--small flx-gradient--yellow">
 		<div class="container ovr-container">
 			<div class="flx-section__content flx-section__content--center">
 				<h3 class="flx-section__title tr tr-stag"><b>{{{cta.heading}}}</b></h3>
-				<p class="flx-cta__description tr tr-stag">{{{cta.description}}}</p>
+				<p class="flx-section__description tr tr-stag">{{{cta.description}}}</p>
 				<div class="tr tr-stag">
 					<button class="button flx-button--blue">
 						{{button-cta}}
@@ -90,7 +113,7 @@
 </div>
 
 <!-- faq -->
-<div class="flx-section" id="flx-s4">
+<div class="flx-section" id="flx-s5">
 	<div class="flx-section__container flx-faq">
 		<div class="container ovr-container">
 			<div class="flx-section__content">
@@ -115,42 +138,25 @@
 </div>
 
 <!-- ros abonnementen -->
-<div class="flx-section" id="flx-s5">
+<div class="flx-section" id="flx-s6">
 	<div class="flx-section__container flx-section__container--small flx-gradient--grey">
 		<div class="container ovr-container">
-			
-			<!-- tiles -->
 			<div class="flx-section__content">
-				<h3 class="flx-section__title flx-section__title--abo tr tr-stag">
+				<h3 class="flx-section__title flx-section__title--abo flx-section__title--more-margin tr tr-stag">
 					{{{ros.heading}}}
 				</h3>
-				<div class="flx-ros__grid">
-					{{#each ros.tile}}
-					<div class="tile flx-ros__tile tr tr-stag">
-						<div class="flx-ros__icon" include="../assets/img/icons/{{icon}}.svg"></div>
-						<h3><b>{{category}}</b></h3>
-						<p>{{description}}</p>
-						<a {{#if url}}href="{{url}}"{{/if}} class="arrowLink js-show-ros-abos">{{link}}</a>
+				<div class="tr tr-stag">
+					{{#each ros.adds}}
+					<div class="flx-ros__adds js-ros">
+						<div class="flx-ros__acc">
+							<h3 class="flx-ros__heading js-ros-heading">{{category}}</h3>
+							<span class="flx-ros__icon flx-ros__icon--acc js-ros-icon" include="../assets/img/icons/plus--small.svg"></span>
+						</div>
+						<!-- abonnementen container -->
+						<div class="ros-content {{class}} js-ros-content" include="../components/{{component}}.html"></div>
 					</div>
 					{{/each}}
 				</div>
-			</div>
-			
-			<!-- abonnementen container -->
-			<div class="ros-abos js-ros-abos" id="ros-abos" include="../components/ros-abos.html"></div>
-			
-			<!-- extras -->
-			<div class="flx-section__content">
-				{{#each ros.adds}}
-				<div class="flx-ros__adds tr tr-stag js-show-ros-adds">
-					<div class="flx-ros__adds-content">
-						<h3 class="no-margin flx-ros__adds-heading js-ros-adds-heading">{{category}}</h3>
-						<span class="flx-ros__icon flx-ros__adds-icon js-ros-adds-icon" include="../assets/img/icons/plus--small.svg"></span>
-					</div>
-					<!-- abonnementen container -->
-					<div class="ros-adds js-ros-adds" include="../components/{{component}}.html"></div>
-				</div>
-				{{/each}}
 			</div>
 		</div>
 	</div>

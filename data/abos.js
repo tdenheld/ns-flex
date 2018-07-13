@@ -3,7 +3,7 @@
 var context_abos = {	
 	"title": "NS Flex + abonnementen",
 	"subtitle": "Nieuw: Flexibele abonnementen",
-	"button-cta": "Kies nu je korting",
+	"button-cta": "Ja ik wil NS Flex",
 	
 	"usp": {
 		"icon": "kalender.svg",
@@ -13,7 +13,7 @@ var context_abos = {
 	"overview": {
 		"img": "abos.png",
 		"title": "Wist je al dat je vanaf 1 reis buiten de spits goedkoper uit bent?",
-		"description": "<b>Wanneer ga jij met korting reizen?</b>",
+		"description": "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean.",
 	},
 	
 	"summary": [
@@ -31,7 +31,7 @@ var context_abos = {
 	
 	"cta": {
 		"heading": "NS Flex<br>Net zo flexibel als jij",
-		"description": "Naar keuze te combineren<br>met een flexibel kortingsabonnement",
+		"description": "Nu vanaf € 2 met maandelijks<br>aanpasbaar kortingsabonnement",
 	},
 	
 	"faq": {
@@ -47,7 +47,7 @@ var context_abos = {
 	},
 	
 	"ros": {
-		"heading": "Niet gevonden wat je zocht?",
+		"heading": "<b>Niet gevonden wat je zocht?</b>",
 		"tile": [
 			{
 				"icon": "subscription--large",
@@ -71,11 +71,14 @@ var context_abos = {
 		
 		"adds": [
 			{
+				"category": "Abonnementen op saldo",
+				"component": "ros-abos",
+				"class": "ros-content--abos",
+			},{
 				"category": "Extra Voordeel",
 				"component": "ros-discount",
-			},
-			{
-				"category": "Meer over abonnementen",
+			},{
+				"category": "Zakelijke abonnementen, Snel regelen en meer",
 				"component": "ros-misc",
 			},
 		],

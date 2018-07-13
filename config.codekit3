@@ -3044,7 +3044,7 @@
 		"iS": 88300,
 		"oA": 0,
 		"oAP": "\/media\/abos.png",
-		"oF": 0,
+		"oF": 1,
 		"oIPL": 1,
 		"opt": 1,
 		"oT": 1,
@@ -3056,7 +3056,7 @@
 		"jF": 0,
 		"oA": 0,
 		"oAP": "\/media\/bike-yellow.jpg",
-		"oF": 0,
+		"oF": 1,
 		"oIPL": 0,
 		"opt": 1,
 		"q": 100
@@ -3067,7 +3067,7 @@
 		"jF": 0,
 		"oA": 0,
 		"oAP": "\/media\/bike.jpg",
-		"oF": 0,
+		"oF": 1,
 		"oIPL": 1,
 		"opt": 1,
 		"q": 80
@@ -3078,7 +3078,7 @@
 		"jF": 0,
 		"oA": 0,
 		"oAP": "\/media\/cake.jpg",
-		"oF": 0,
+		"oF": 1,
 		"oIPL": 0,
 		"opt": 0,
 		"q": 100
@@ -3089,7 +3089,7 @@
 		"jF": 0,
 		"oA": 0,
 		"oAP": "\/media\/cart.jpg",
-		"oF": 0,
+		"oF": 1,
 		"oIPL": 1,
 		"opt": 1,
 		"q": 80
@@ -3100,17 +3100,28 @@
 		"jF": 0,
 		"oA": 0,
 		"oAP": "\/media\/cart2.jpg",
-		"oF": 0,
+		"oF": 1,
 		"oIPL": 0,
 		"opt": 1,
 		"q": 100
 		},
+	"\/media\/cart3.jpg": {
+		"ft": 16384,
+		"iS": 1222710,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "\/media\/cart3.jpg",
+		"oF": 1,
+		"oIPL": 1,
+		"opt": 1,
+		"q": 80
+		},
 	"\/media\/checkout.svg": {
 		"ft": 2097152,
 		"miP": 0,
-		"oA": 2,
+		"oA": 0,
 		"oAP": "\/media\/checkout.svg",
-		"oF": 0,
+		"oF": 1,
 		"opt": 0,
 		"plM": 3758088159,
 		"prP": 0
@@ -3118,9 +3129,9 @@
 	"\/media\/discount.svg": {
 		"ft": 2097152,
 		"miP": 0,
-		"oA": 2,
+		"oA": 0,
 		"oAP": "\/media\/discount.svg",
-		"oF": 0,
+		"oF": 1,
 		"opt": 0,
 		"plM": 3758088159,
 		"prP": 0
@@ -3128,9 +3139,9 @@
 	"\/media\/exit.svg": {
 		"ft": 2097152,
 		"miP": 0,
-		"oA": 2,
+		"oA": 0,
 		"oAP": "\/media\/exit.svg",
-		"oF": 0,
+		"oF": 1,
 		"opt": 0,
 		"plM": 3758088159,
 		"prP": 0
@@ -3138,9 +3149,9 @@
 	"\/media\/factuur.svg": {
 		"ft": 2097152,
 		"miP": 0,
-		"oA": 2,
+		"oA": 0,
 		"oAP": "\/media\/factuur.svg",
-		"oF": 0,
+		"oF": 1,
 		"opt": 0,
 		"plM": 3758088159,
 		"prP": 0
@@ -3148,19 +3159,30 @@
 	"\/media\/filter.svg": {
 		"ft": 2097152,
 		"miP": 0,
-		"oA": 2,
+		"oA": 0,
 		"oAP": "\/media\/filter.svg",
-		"oF": 0,
+		"oF": 1,
 		"opt": 0,
 		"plM": 3758088159,
 		"prP": 0
 		},
+	"\/media\/flamingo.jpg": {
+		"ft": 16384,
+		"iS": 1334609,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "\/media\/flamingo.jpg",
+		"oF": 1,
+		"oIPL": 1,
+		"opt": 1,
+		"q": 80
+		},
 	"\/media\/flow-blue.svg": {
 		"ft": 2097152,
 		"miP": 0,
-		"oA": 2,
+		"oA": 0,
 		"oAP": "\/media\/flow-blue.svg",
-		"oF": 0,
+		"oF": 1,
 		"opt": 0,
 		"plM": 3758088159,
 		"prP": 0
@@ -3168,9 +3190,9 @@
 	"\/media\/flow-white.svg": {
 		"ft": 2097152,
 		"miP": 0,
-		"oA": 2,
+		"oA": 0,
 		"oAP": "\/media\/flow-white.svg",
-		"oF": 0,
+		"oF": 1,
 		"opt": 0,
 		"plM": 3758088159,
 		"prP": 0
@@ -3181,7 +3203,7 @@
 		"jF": 0,
 		"oA": 0,
 		"oAP": "\/media\/girl-green.jpg",
-		"oF": 0,
+		"oF": 1,
 		"oIPL": 1,
 		"opt": 1,
 		"q": 80
@@ -3192,7 +3214,7 @@
 		"jF": 0,
 		"oA": 0,
 		"oAP": "\/media\/girl-pink.jpg",
-		"oF": 0,
+		"oF": 1,
 		"oIPL": 0,
 		"opt": 1,
 		"q": 80
@@ -3203,7 +3225,7 @@
 		"jF": 0,
 		"oA": 0,
 		"oAP": "\/media\/girl-yellow-2.jpg",
-		"oF": 0,
+		"oF": 1,
 		"oIPL": 1,
 		"opt": 1,
 		"q": 80
@@ -3214,7 +3236,7 @@
 		"jF": 0,
 		"oA": 0,
 		"oAP": "\/media\/girl-yellow.jpg",
-		"oF": 0,
+		"oF": 1,
 		"oIPL": 1,
 		"opt": 1,
 		"q": 80
@@ -3225,7 +3247,7 @@
 		"jF": 0,
 		"oA": 0,
 		"oAP": "\/media\/goudetant.jpg",
-		"oF": 0,
+		"oF": 1,
 		"oIPL": 0,
 		"opt": 1,
 		"q": 100
@@ -3233,9 +3255,9 @@
 	"\/media\/invoice.svg": {
 		"ft": 2097152,
 		"miP": 0,
-		"oA": 2,
+		"oA": 0,
 		"oAP": "\/media\/invoice.svg",
-		"oF": 0,
+		"oF": 1,
 		"opt": 0,
 		"plM": 3758088159,
 		"prP": 0
@@ -3243,9 +3265,9 @@
 	"\/media\/kalender.svg": {
 		"ft": 2097152,
 		"miP": 0,
-		"oA": 2,
+		"oA": 0,
 		"oAP": "\/media\/kalender.svg",
-		"oF": 0,
+		"oF": 1,
 		"opt": 0,
 		"plM": 3758088159,
 		"prP": 0
@@ -3255,7 +3277,7 @@
 		"iS": 229684,
 		"oA": 0,
 		"oAP": "\/media\/kostenteller.png",
-		"oF": 0,
+		"oF": 1,
 		"oIPL": 0,
 		"opt": 0,
 		"oT": 1,
@@ -3264,9 +3286,9 @@
 	"\/media\/kostenteller.svg": {
 		"ft": 2097152,
 		"miP": 0,
-		"oA": 2,
+		"oA": 0,
 		"oAP": "\/media\/kostenteller.svg",
-		"oF": 0,
+		"oF": 1,
 		"opt": 0,
 		"plM": 3758088159,
 		"prP": 0
@@ -3277,7 +3299,7 @@
 		"jF": 0,
 		"oA": 0,
 		"oAP": "\/media\/man-portret.jpg",
-		"oF": 0,
+		"oF": 1,
 		"oIPL": 0,
 		"opt": 0,
 		"q": 100
@@ -3288,7 +3310,7 @@
 		"jF": 0,
 		"oA": 0,
 		"oAP": "\/media\/marieke.jpg",
-		"oF": 0,
+		"oF": 1,
 		"oIPL": 0,
 		"opt": 0,
 		"q": 80
@@ -3296,9 +3318,9 @@
 	"\/media\/nooitmeer.svg": {
 		"ft": 2097152,
 		"miP": 0,
-		"oA": 2,
+		"oA": 0,
 		"oAP": "\/media\/nooitmeer.svg",
-		"oF": 0,
+		"oF": 1,
 		"opt": 0,
 		"plM": 3758088159,
 		"prP": 0
@@ -3306,9 +3328,9 @@
 	"\/media\/ov-chip.svg": {
 		"ft": 2097152,
 		"miP": 0,
-		"oA": 2,
+		"oA": 0,
 		"oAP": "\/media\/ov-chip.svg",
-		"oF": 0,
+		"oF": 1,
 		"opt": 0,
 		"plM": 3758088159,
 		"prP": 0
@@ -3319,7 +3341,7 @@
 		"jF": 0,
 		"oA": 0,
 		"oAP": "\/media\/ov.jpg",
-		"oF": 0,
+		"oF": 1,
 		"oIPL": 1,
 		"opt": 1,
 		"q": 80
@@ -3327,9 +3349,9 @@
 	"\/media\/public-transport.svg": {
 		"ft": 2097152,
 		"miP": 0,
-		"oA": 2,
+		"oA": 0,
 		"oAP": "\/media\/public-transport.svg",
-		"oF": 0,
+		"oF": 1,
 		"opt": 0,
 		"plM": 3758088159,
 		"prP": 0
@@ -3337,9 +3359,9 @@
 	"\/media\/trainsmile.svg": {
 		"ft": 2097152,
 		"miP": 0,
-		"oA": 2,
+		"oA": 0,
 		"oAP": "\/media\/trainsmile.svg",
-		"oF": 0,
+		"oF": 1,
 		"opt": 0,
 		"plM": 3758088159,
 		"prP": 0
@@ -3349,7 +3371,7 @@
 		"iS": 3558300,
 		"oA": 0,
 		"oAP": "\/media\/yellow-lady.png",
-		"oF": 0,
+		"oF": 1,
 		"oIPL": 1,
 		"opt": 1,
 		"oT": 1,
