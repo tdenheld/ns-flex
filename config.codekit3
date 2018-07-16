@@ -3356,6 +3356,14 @@
 		"plM": 3758088159,
 		"prP": 0
 		},
+	"\/media\/train.gif": {
+		"ft": 4194304,
+		"iS": 2077084,
+		"oA": 0,
+		"oAP": "\/media\/train.gif",
+		"oF": 0,
+		"opt": 0
+		},
 	"\/media\/trainsmile.svg": {
 		"ft": 2097152,
 		"miP": 0,
@@ -3365,6 +3373,17 @@
 		"opt": 0,
 		"plM": 3758088159,
 		"prP": 0
+		},
+	"\/media\/work.jpg": {
+		"ft": 16384,
+		"iS": 1209918,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "\/media\/work.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 1,
+		"q": 100
 		},
 	"\/media\/yellow-lady.png": {
 		"ft": 32768,

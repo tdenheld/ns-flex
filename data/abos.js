@@ -10,6 +10,18 @@ var context_abos = {
 		"title": "Kies de korting die <b>nu</b> bij je past. Als je wilt, pas je de korting <b>elke maand</b> aan.",
 	},
 	
+	"stories": {
+		"heading": "Zo ziet flexibel eruit...",
+		"line": [
+			{},{},{},
+		],
+		"caption": {
+			"month": "September",
+			"title": "Een nieuwe baan? Stel <b>tijdelijk je korting</b> in.",
+			"description": "Reis je alleen in de spits? Stel tijdelijk je korting in."
+		},
+	},
+	
 	"overview": {
 		"img": "abos.png",
 		"title": "Wist je al dat je vanaf 1 reis buiten de spits goedkoper uit bent?",

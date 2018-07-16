@@ -37,21 +37,30 @@
 
 <!-- stories -->
 <div class="flx-section" id="flx-s1">
-	<div class="flx-section__container no-padding-bottom">
+	<div class="flx-stories tr tr-500 tr--fade-in">
+		<div class="flx-stories__gradient"></div>
 		<div class="container ovr-container">
-			<div class="flx-section__content no-padding-bottom tr tr-500 tr--fade-in">
-				<div class="flx-stories">
-					<div class="flx-stories__bg"></div>
-					<div class="flx-stories__gradient"></div>
-					<div class="flx-stories__loader">
-						<div class="flx-stories__loader-line"></div>
-						<div class="flx-stories__loader-line"></div>
-						<div class="flx-stories__loader-line"></div>
+			<div class="flx-stories__container">
+				<div class="flx-stories__loader tr tr-stag">
+					{{#each stories.line}}
+					<div class="flx-stories__loader-line">
+						<div class="flx-stories__loader-line__bg"></div>
+						<div class="flx-stories__loader-line__loading"></div>
 					</div>
-					<div class="flx-stories__caption">
-						<h3 class="headingXXL font-white no-margin"><b>Even niets...</b></h3>
-						<p class="no-margin">Op vakantie heb ik geen abonnement nodig</p>
+					{{/each}}
+				</div>
+				<h3 class="flx-stories__caption tr tr-stag">
+					{{{stories.heading}}}
+				</h3>
+				<div class="flx-stories__caption tr tr-stag">
+					<!--
+					<div class="flx-stories__month">
+						<span include="../assets/img/icons/calendar--small.svg"></span>
+						{{stories.caption.month}}
 					</div>
+					-->
+					<h3 class="flx-stories__title">{{{stories.caption.title}}}</h3>
+					<!-- <p class="no-margin">{{stories.caption.description}}</p> -->
 				</div>
 			</div>
 		</div>
