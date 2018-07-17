@@ -2,6 +2,20 @@
          Ros
 --------------------*/
 
+.flx-ros {
+	padding: $gutter 0;
+	@media (min-width: $md) {
+		padding: $double-gutter 0;
+	}
+}
+
+.flx-ros__container {
+	padding: 0 21px;
+	@media (min-width: $md) {
+		padding: 0;
+	}
+}
+
 .flx-ros__grid {
 	display: grid;
 	grid-gap: $gutter;

@@ -19,90 +19,88 @@
 	</div>
 </div>
 
-<!-- intro -->
-<div class="flx-section flx-section--usps ani ani--fade-in ani--delay-600" id="flx-s0">
-	<div class="container ovr-container">
-		<div class="flx-section__content--abo">
-			<div class="flx-grid flx-grid--max-1 flx-grid--align-center">
-				<div class="flx-section__img flx-section__img--abo ani ani--fade-in ani--delay-750">
-					<img src="../media/{{usp.icon}}" class="img-responsive" />
+<div class="flx-bg--grey">
+	<div class="container flx-abos-container">
+		
+		<!-- intro -->
+		<div class="flx-section flx-section--usps ani ani--fade-in ani--delay-600" id="flx-s0">
+			<div class="flx-section__content--abo">
+				<div class="flx-grid flx-grid--max-1 flx-grid--align-center">
+					<div class="flx-section__img flx-section__img--abo ani ani--fade-in ani--delay-750">
+						<img src="../media/{{usp.icon}}" class="img-responsive" />
+					</div>
+					<div class="flx-section__content">
+						<h3 class="flx-section__content-item flx-section__title flx-section__title--abo ani ani--fade-in-up-small ani--delay-600">
+							{{{usp.title}}}
+						</h3>
+					</div>
 				</div>
-				<div class="flx-section__content">
-					<h3 class="flx-section__content-item flx-section__title flx-section__title--abo ani ani--fade-in-up-small ani--delay-600">
-						{{{usp.title}}}
+			</div>
+		</div>
+
+		<!-- stories -->
+		<div class="flx-section" id="flx-s1">
+			<div class="flx-stories">
+				<div class="flx-stories__gradient"></div>
+				<div class="flx-stories__container">
+					<h3 class="flx-stories__caption tr tr-stag">
+						{{{stories.heading}}}
 					</h3>
+					<div></div>
+					<div class="flx-stories__caption tr tr-stag">
+						<h3 class="flx-stories__title">{{{stories.caption.title}}}</h3>
+					</div>
 				</div>
 			</div>
 		</div>
-	</div>
-</div>
 
-<!-- stories -->
-<div class="flx-section" id="flx-s1">
-	<div class="container ovr-container">
-		<div class="flx-stories">
-			<div class="flx-stories__gradient"></div>
-			<div class="flx-stories__container">
-				<h3 class="flx-stories__caption tr tr-stag">
-					{{{stories.heading}}}
-				</h3>
-				<div></div>
-				<div class="flx-stories__caption tr tr-stag">
-					<h3 class="flx-stories__title">{{{stories.caption.title}}}</h3>
+		<!-- overview -->
+		<div class="flx-section" id="flx-s2">
+			<div class="flx-section__container flx-section__container--small flx-bg--white padding-left-gutter">
+				<div class="flx-grid flx-grid--1-1 flx-grid--align-center">		
+					<div class="flx-section__content">
+						<h3 class="flx-section__content-item flx-section__title flx-section__title--abo tr tr-stag">
+							{{{overview.title}}}
+						</h3>
+						<p class="flx-section__content-item flx-section__description tr tr-stag">
+							{{{overview.description}}}
+						</p>
+					</div>
+					<div class="flx-section__img flx-section__img--100 tr tr-500 tr--scale-in">
+						<img src="../media/{{overview.img}}" class="img-responsive" />
+					</div>
 				</div>
 			</div>
 		</div>
-	</div>
-</div>
 
-<!-- overview -->
-<div class="flx-section" id="flx-s2">
-	<div class="flx-section__container flx-bg--white">
-		<div class="container ovr-container">
-			<div class="flx-grid flx-grid--1-1 flx-grid--align-center">
-				<div class="flx-section__img flx-section__img--100 tr tr-500 tr--scale-in flx-grid__reverse">
-					<img src="../media/{{overview.img}}" class="img-responsive" />
-				</div>		
-				<div class="flx-section__content">
-					<h3 class="flx-section__content-item flx-section__title flx-section__title--abo tr tr-stag">
-						{{{overview.title}}}
-					</h3>
-					<p class="flx-section__content-item flx-section__description tr tr-stag">
-						{{{overview.description}}}
-					</p>
+		<!-- summary -->
+		<div class="flx-section" id="flx-s3">
+			<div class="flx-section__container
+			flx-section__container--small
+			flx-section__container--abos
+			flx-border-grey-top">
+				<div class="flx-summary">
+					{{#each summary}}
+					<div class="flx-summary__item tr tr-stag">
+						<div class="flx-summary__icon" include="../media/{{icon}}.svg"></div>
+						<h3 class="flx-summary__title">{{{title}}}</h3>
+					</div>
+					{{/each}}
 				</div>
 			</div>
 		</div>
-	</div>
-</div>
 
-<!-- summary -->
-<div class="flx-section" id="flx-s3">
-	<div class="flx-section__container flx-section__container--small flx-border-grey-top">
-		<div class="container ovr-container">
-			<div class="flx-summary">
-				{{#each summary}}
-				<div class="flx-summary__item tr tr-stag">
-					<div class="flx-summary__icon" include="../media/{{icon}}.svg"></div>
-					<h3 class="flx-summary__title">{{{title}}}</h3>
-				</div>
-				{{/each}}
-			</div>
-		</div>
-	</div>
-</div>
-
-<!-- call to action -->
-<div class="flx-section" id="flx-s4">
-	<div class="flx-section__container flx-section__container--small flx-gradient--yellow">
-		<div class="container ovr-container">
-			<div class="flx-section__content flx-section__content--center">
-				<h3 class="flx-section__title tr tr-stag"><b>{{{cta.heading}}}</b></h3>
-				<p class="flx-section__description tr tr-stag">{{{cta.description}}}</p>
-				<div class="tr tr-stag">
-					<button class="button flx-button--blue">
-						{{button-cta}}
-					</button>
+		<!-- call to action -->
+		<div class="flx-section" id="flx-s4">
+			<div class="flx-section__container flx-gradient--yellow">
+				<div class="flx-section__content flx-section__content--center">
+					<h3 class="flx-section__title tr tr-stag"><b>{{{cta.heading}}}</b></h3>
+					<p class="flx-section__description tr tr-stag">{{{cta.description}}}</p>
+					<div class="tr tr-stag">
+						<button class="button flx-button--blue">
+							{{button-cta}}
+						</button>
+					</div>
 				</div>
 			</div>
 		</div>
@@ -111,9 +109,9 @@
 
 <!-- ros abonnementen -->
 <div class="flx-section" id="flx-s6">
-	<div class="flx-section__container flx-section__container--small flx-gradient--grey">
-		<div class="container ovr-container">
-			<div class="flx-section__content">
+	<div class="flx-section__container flx-section__container--small flx-bg--grey">
+		<div class="container flx-ros__container">
+			<div class="flx-ros">
 				<h3 class="flx-section__title flx-section__title--abo flx-section__title--more-margin tr tr-stag">
 					{{{ros.heading}}}
 				</h3>				
