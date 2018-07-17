@@ -1,0 +1,158 @@
+/*-------------------
+       Sections
+--------------------*/
+
+.flx-section {
+	position: relative;
+	overflow: hidden;
+}
+
+.flx-section--usps {
+	padding: $half-gutter 0;
+	@media (min-width: $sm) {
+		padding: 24px 0;
+	}
+}
+
+.flx-section__container {
+	padding: $gutter 0;
+	@media (min-width: $md) {
+		padding: $triple-gutter 0;
+	}
+	
+	&--small {
+		@media (min-width: $md) {
+			padding: $gutter 0;
+		}
+	}
+	
+	&--large {
+		padding: $one-half-gutter 0;
+		@media (min-width: $md) {
+			padding: 15vh 0;
+		}
+	}
+	
+	&--no-padding-top {
+		padding-top: 0;
+	}
+}
+
+.flx-section__content {
+	padding: $gutter;
+	
+	&--white {
+		.flx-section__title,
+		.flx-section__description,
+		.flx-section__label {
+			color: $ns-white;
+			text-shadow: 1px 1px rgba($ns-grey, 0.5);
+		}
+	}
+	
+	&--center {
+		max-width: 740px;
+		margin: 0 auto;
+		text-align: center;
+	}
+	
+	&--abo {
+		max-width: 880px;
+		margin: 0 auto;
+	}
+}
+
+.flx-section__content-item {
+	&:last-child {
+		margin: 0;
+	}
+}
+
+.flx-section__title {
+	@include font-style(28px, normal, 1.3);
+	margin-bottom: $half-gutter;
+	color: $ns-blue;
+	@media (min-width: $md) {
+		font-size: calculate-rem(42px);
+		margin-bottom: $gutter;
+	}
+	
+	&--abo {
+		@include font-style(24px, normal, 1.4);
+		@media (min-width: $md) {
+			font-size: calculate-rem(32px);
+		}
+	}
+	
+	&--more-margin {
+		margin-bottom: $gutter;
+		@media (min-width: $md) {
+			margin-bottom: $one-half-gutter;
+		}
+	}
+}
+
+.flx-section__description {
+	@include font-style(18px, normal, 1.6);
+	color: $ns-blue;
+	margin-bottom: $gutter;
+	@media (min-width: $md) {
+		font-size: calculate-rem(20px);
+	}
+}
+
+.flx-section__label {
+	font-weight: bold;
+	margin-top: $gutter;
+	margin-bottom: 10px;
+	color: $ns-blue;
+}
+
+.flx-section__img {
+	padding: $gutter $gutter 0;
+	line-height: 0;
+	width: 200px;
+	@media (min-width: $md) {
+		padding: $gutter;
+		width: 60%;
+		justify-self: center;
+	}
+	
+	&--100 {
+		width: 100%;
+		max-width: 440px;
+		@media (min-width: $md) {	
+			max-width: none;
+		}
+	}
+	
+	&--shadow {
+		box-shadow: $box-shadow-medium;
+	}
+	
+	&--abo {
+		@media (min-width: $md) {
+			width: 300px;	
+		}
+	}
+}
+
+.flx-section__divider {
+	margin: $gutter;
+	border-bottom: 1px solid $ns-grey-6;
+	@media (min-width: $md) {
+		margin: $double-gutter $gutter;
+	}
+	
+	&--alpha {
+		border-bottom: 1px solid $ns-grey-alpha-15;
+	}
+}
+
+.flx-section__ol {
+	line-height: 1.3;
+	
+	li {
+		margin-bottom: 20px;
+	}
+}

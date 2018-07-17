@@ -17,7 +17,7 @@ var context_abos = {
 		],
 		"caption": {
 			"month": "September",
-			"title": "Een nieuwe baan? Stel <b>tijdelijk je korting</b> in.",
+			"title": "Terug van een heerlijke vakantie? Stel <b>tijdelijk je korting</b> in.",
 			"description": "Reis je alleen in de spits? Stel tijdelijk je korting in."
 		},
 	},

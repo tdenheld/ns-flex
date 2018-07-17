@@ -20,16 +20,18 @@
 </div>
 
 <!-- intro -->
-<div class="flx-section flx-section--usps flx-gradient--light-grey ani ani--fade-in ani--delay-750" id="flx-s0">
+<div class="flx-section flx-section--usps ani ani--fade-in ani--delay-600" id="flx-s0">
 	<div class="container ovr-container">
-		<div class="flx-grid flx-grid--1-1 flx-grid--align-center">
-			<div class="flx-section__img tr tr-500 tr--scale-in">
-				<img src="../media/{{usp.icon}}" class="img-responsive" />
-			</div>
-			<div class="flx-section__content">
-				<h3 class="flx-section__content-item flx-section__title flx-section__title--abo tr tr-stag">
-					{{{usp.title}}}
-				</h3>
+		<div class="flx-section__content--abo">
+			<div class="flx-grid flx-grid--max-1 flx-grid--align-center">
+				<div class="flx-section__img flx-section__img--abo ani ani--fade-in ani--delay-750">
+					<img src="../media/{{usp.icon}}" class="img-responsive" />
+				</div>
+				<div class="flx-section__content">
+					<h3 class="flx-section__content-item flx-section__title flx-section__title--abo ani ani--fade-in-up-small ani--delay-600">
+						{{{usp.title}}}
+					</h3>
+				</div>
 			</div>
 		</div>
 	</div>
@@ -37,30 +39,16 @@
 
 <!-- stories -->
 <div class="flx-section" id="flx-s1">
-	<div class="flx-stories tr tr-500 tr--fade-in">
-		<div class="flx-stories__gradient"></div>
-		<div class="container ovr-container">
+	<div class="container ovr-container">
+		<div class="flx-stories">
+			<div class="flx-stories__gradient"></div>
 			<div class="flx-stories__container">
-				<div class="flx-stories__loader tr tr-stag">
-					{{#each stories.line}}
-					<div class="flx-stories__loader-line">
-						<div class="flx-stories__loader-line__bg"></div>
-						<div class="flx-stories__loader-line__loading"></div>
-					</div>
-					{{/each}}
-				</div>
 				<h3 class="flx-stories__caption tr tr-stag">
 					{{{stories.heading}}}
 				</h3>
+				<div></div>
 				<div class="flx-stories__caption tr tr-stag">
-					<!--
-					<div class="flx-stories__month">
-						<span include="../assets/img/icons/calendar--small.svg"></span>
-						{{stories.caption.month}}
-					</div>
-					-->
 					<h3 class="flx-stories__title">{{{stories.caption.title}}}</h3>
-					<!-- <p class="no-margin">{{stories.caption.description}}</p> -->
 				</div>
 			</div>
 		</div>
@@ -90,7 +78,7 @@
 
 <!-- summary -->
 <div class="flx-section" id="flx-s3">
-	<div class="flx-section__container flx-section__container--small flx-gradient--grey">
+	<div class="flx-section__container flx-section__container--small flx-border-grey-top">
 		<div class="container ovr-container">
 			<div class="flx-summary">
 				{{#each summary}}
@@ -121,31 +109,6 @@
 	</div>
 </div>
 
-<!-- faq -->
-<div class="flx-section" id="flx-s5">
-	<div class="flx-section__container flx-faq">
-		<div class="container ovr-container">
-			<div class="flx-section__content">
-				<div class="flx-faq__text">
-					<h3 class="flx-section__title flx-section__title--abo tr tr-stag">
-						{{faq.heading}}
-					</h3>
-					<p class="flx-section__description tr tr-stag">
-						{{{faq.description}}}
-					</p>
-				</div>
-				<ul class="list collapsibleList is-collapsible">
-					{{#each faq.questions}}
-					<li class="collapsibleList__item ovr-collapsibleList__item tr tr-stag">
-						<h3 class="collapsibleList__header" id="keuzedagen" tabindex="0" aria-expanded="false" role="button">{{{question}}}</h3>   
-					</li>
-					{{/each}}
-				</ul>
-			</div>
-		</div>
-	</div>
-</div>
-
 <!-- ros abonnementen -->
 <div class="flx-section" id="flx-s6">
 	<div class="flx-section__container flx-section__container--small flx-gradient--grey">
@@ -153,7 +116,7 @@
 			<div class="flx-section__content">
 				<h3 class="flx-section__title flx-section__title--abo flx-section__title--more-margin tr tr-stag">
 					{{{ros.heading}}}
-				</h3>
+				</h3>				
 				<div class="tr tr-stag">
 					{{#each ros.adds}}
 					<div class="flx-ros__adds js-ros">

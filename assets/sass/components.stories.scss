@@ -1,0 +1,99 @@
+/*-------------------
+       Stories
+--------------------*/
+
+.flx-stories {
+	position: relative;
+	@include bg(cover);
+	background-image: url("../../media/work.jpg");
+	@media (min-width: $sm) {
+		margin: 0 $gutter;
+	}
+}
+
+.flx-stories__gradient {
+	@include full(absolute);	
+	background: linear-gradient(to bottom,
+		rgba($ns-black, 0.5) 10%,
+		rgba($ns-black, 0) 30%,
+		rgba($ns-black, 0) 40%,
+		rgba($ns-black, 1) 90%);
+	opacity: 0.5;
+}
+
+.flx-stories__container {
+	position: relative;
+	display: grid;
+	grid-template-rows: max-content 1fr max-content;
+	padding: 20px $gutter $gutter;
+	min-height: 320px;
+	@media (min-width: $sm) {
+		min-height: 480px;
+	}
+	@media (min-width: $lg) {
+		min-height: 640px;
+	}
+}
+
+.flx-stories__loader {
+	position: relative;
+	display: grid;
+	margin-bottom: $half-gutter;
+	grid-template-columns: repeat(3, 1fr);
+	grid-gap: 6px;
+}
+
+.flx-stories__loader-line {
+	position: relative;
+	height: 2px;
+	&:first-child {
+		.flx-stories__loader-line__loading {
+			@keyframes loop__x {
+				from {transform: scaleX(0);}
+				to {transform: scaleX(1);}
+			}
+			animation: loop__x 6s linear infinite both;			
+		}
+	}
+}
+
+.flx-stories__loader-line__bg {
+	@include full(absolute);
+	background-color: $ns-white;
+	opacity: 0.35;
+}
+
+.flx-stories__loader-line__loading {
+	position: absolute;
+	width: 100%;
+	transform-origin: 0 0;
+	transform: scaleX(0);
+	height: 100%;
+	background-color: $ns-white;
+}
+
+.flx-stories__caption {
+	max-width: 700px;
+	color: $ns-white;
+	text-shadow: $text-shadow-tile;
+}
+
+.flx-stories__title {
+	color: $white;
+	@include font-style(28px, normal, 1.3);
+	margin: 0;
+	@media (min-width: $sm) {
+		font-size: calculate-rem(48px);
+	}
+}
+
+.flx-stories__month {
+	@include font-style(14px, bold, 1.5);
+	
+	svg {
+		position: relative;
+		top: 3px;
+		fill: $ns-white;
+		margin-right: 7px;
+	}
+}
