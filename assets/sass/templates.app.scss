@@ -194,24 +194,32 @@
 
 
 
-// more
-// ----------------------------
-.flx-more {
-	display: none;
-	margin: 0;
-}
-
-
-
-
 // abonnementen
 // ----------------------------
 .flx-abos__container {
 	background-color: $ns-white;
 	box-shadow: $box-shadow-container;
 	margin-top: -42px;
-	
 	@media (min-width: $md) {
 		margin-top: -70px;
+	}
+}
+
+
+
+
+// misc
+// ----------------------------
+.flx-more {
+	display: none;
+	margin: 0;
+}
+
+.flx-link {
+	color: $ns-blue;
+	box-shadow: 0 1px 0 $ns-grey-alpha-40;
+	font-weight: normal;
+	&:hover {
+		box-shadow: 0 1px 0 rgba($ns-blue, 1);
 	}
 }

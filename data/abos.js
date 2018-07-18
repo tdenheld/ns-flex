@@ -58,10 +58,12 @@ var context_abos = {
 	],
 	
 	"cta": {
-		"heading": "De abonnementen van NS Flex<br>Net zo flexibel als jij",
+		"heading": "Abonnementen van NS Flex<br>Net zo flexibel als jij",
 		"description": "Nu vanaf € 2<br>Maandelijks aanpassen of uitzetten",
+		"link": "Meer weten over NS Flex",
 	},
 	
+/*
 	"faq": {
 		"heading": "Klinkt dit té goed om waar te zijn?",	
 		"description": "Dat klopt, maar er is geen addertje. We geloven dat flexibele abonnementen van deze tijd zijn en hopen dat er hierdoor uiteindelijk meer met de trein gereisd wordt.",
@@ -73,9 +75,11 @@ var context_abos = {
 			{"question": "Ik heb nog meer vragen..."},
 		],
 	},
+*/
 	
 	"ros": {
-		"heading": "<b>Niet gevonden wat je zocht?</b>",
+		"heading": "Wil je liever geen NS Flex?",
+/*
 		"tile": [
 			{
 				"icon": "subscription--large",
@@ -96,6 +100,7 @@ var context_abos = {
 				"url": "https://www.ns.nl/abonnementen/traject-vrij.html",
 			},
 		],
+*/
 		
 		"adds": [
 			{
