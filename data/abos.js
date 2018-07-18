@@ -11,21 +11,37 @@ var context_abos = {
 	},
 	
 	"stories": {
-		"heading": "Zo ziet flexibel eruit...",
-		"line": [
-			{},{},{},
+		"heading": "Dat is korting<br>wanneer het jou uitkomt",
+		"item": [
+			{
+				"section": "s2",
+				"img": "hoewerkt1.jpg",
+				"month": "september",
+				"title": "Op vakantie",
+				"description": "Geen korting nodig",
+				"suggestion": "Abonnement 1 maand uit",
+			},{
+				"section": "s3",
+				"img": "hoewerkt2.jpg",
+				"month": "oktober",
+				"title": "Weer aan het werk",
+				"description": "4 dagen per week naar kantoor",
+				"suggestion": "Altijd Voordeel",
+			},{
+				"section": "s4",
+				"img": "hoewerkt3.jpg",
+				"month": "december",
+				"title": "4x op familiebezoek",
+				"description": "Korting in de daluren",
+				"suggestion": "Dal Voordeel",
+			},
 		],
-		"caption": {
-			"month": "September",
-			"title": "Terug van een heerlijke vakantie? Stel <b>tijdelijk je korting</b> in.",
-			"description": "Reis je alleen in de spits? Stel tijdelijk je korting in."
-		},
 	},
 	
 	"overview": {
 		"img": "abos.png",
-		"title": "Wist je al dat je vanaf 1 reis buiten de spits goedkoper uit bent?",
-		"description": "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean.",
+		"title": "Al voordeliger als je 1x reist in het weekend",
+		"description": "We hebben een nieuwe korting toegevoegd: Weekend Voordeel. Daarmee reis je met 40% korting in het weekend. Voor maar € 2 per maand!",
 	},
 	
 	"summary": [
@@ -42,8 +58,8 @@ var context_abos = {
 	],
 	
 	"cta": {
-		"heading": "NS Flex<br>Net zo flexibel als jij",
-		"description": "Nu vanaf € 2 met maandelijks<br>aanpasbaar kortingsabonnement",
+		"heading": "De abonnementen van NS Flex<br>Net zo flexibel als jij",
+		"description": "Nu vanaf € 2<br>Maandelijks aanpassen of uitzetten",
 	},
 	
 	"faq": {

@@ -62,8 +62,13 @@
 .flx-summary {
 	display: grid;
 	grid-gap: $gutter;
+	padding: 0 $gutter;
 	@media (min-width: $sm) {
 		grid-template-columns: repeat(3, 1fr);	
+	}
+	
+	&--abos {
+		padding: 0;
 	}
 }
 

@@ -1,27 +1,29 @@
-<!------- hero ------->
-<div class="flx-hero flx-hero--abo">
-	<div class="flx-hero__bg">
-		<div class="ani ani--fade-in">
-			<div class="flx-hero__img"></div>
+<div class="flx-bg--grey">
+	
+	<!------- hero ------->
+	<div class="flx-hero flx-hero--abo">
+		<div class="flx-hero__bg">
+			<div class="ani ani--fade-in">
+				<div class="flx-hero__img"></div>
+			</div>
+			<div class="flx-hero__flow" include="../media/flow-white.svg"></div>
 		</div>
-		<div class="flx-hero__flow" include="../media/flow-white.svg"></div>
-	</div>
-	<div class="ani ani--fade-in-up-small ani--delay-500">
-		<div class="container ovr-container">
-			<div class="flx-hero__content">
-				<h1 class="flx-hero__title">{{title}}</h1> 
-				<h2 class="flx-hero__subtitle">{{subtitle}}</h2>
-				<button class="button flx-button--blue">
-					{{button-cta}}
-				</button>
+		<div class="ani ani--fade-in-up-small ani--delay-500">
+			<div class="container ovr-container">
+				<div class="flx-hero__content">
+					<h1 class="flx-hero__title">{{title}}</h1> 
+					<h2 class="flx-hero__subtitle">{{subtitle}}</h2>
+					<button class="button flx-button--blue">
+						{{button-cta}}
+					</button>
+				</div>
 			</div>
 		</div>
 	</div>
-</div>
-
-<div class="flx-bg--grey">
-	<div class="container flx-abos__container">
-		
+	
+	<!------- container ------->
+	<div class="container flx-abos__container ani ani--fade-in ani--delay-500">
+				
 		<!-- intro -->
 		<div class="flx-section flx-section--usps ani ani--fade-in ani--delay-600" id="flx-s0">
 			<div class="flx-section__content--usps-small">
@@ -39,28 +41,42 @@
 		</div>
 		
 		<!-- stories -->
-		<div class="flx-section" id="flx-s1">
-			<div class="flx-stories">
-				<div class="flx-stories__gradient"></div>
-				<div class="flx-stories__container">
-					<h3 class="flx-stories__caption tr tr-stag">
-						{{{stories.heading}}}
+		<div class="flx-section__container flx-section__container--small flx-section__container--abos flx-border-grey-top-bottom">
+			<div class="flx-section" id="flx-s1">
+				<div class="flx-section__content flx-section__content--cta">
+					<h3 class="flx-section__title tr tr-stag">
+						<b>{{{stories.heading}}}</b>
 					</h3>
-					<div></div>
-					<div class="flx-stories__caption tr tr-stag">
-						<h3 class="flx-stories__title">{{{stories.caption.title}}}</h3>
+				</div>
+			</div>		
+			{{#each stories.item}}
+			<div class="flx-section" id="flx-{{section}}">
+				<div class="flx-stories__item">
+					<img src="../media/{{img}}" class="flx-stories__img tr tr-500 tr--scale-in">
+					<div class="flx-stories__month tr tr-stag">
+						<div include="../assets/img/icons/calendar--medium.svg"></div>
+						<p class="flx-stories__month-label">{{month}}</p>
+					</div>
+					<div class="flx-stories__content">
+						<h4 class="flx-stories__title tr tr-stag">{{title}}</h4>
+						<p class="flx-stories__description tr tr-stag">{{description}}</p>
+						<div class="flx-stories__suggestion tr tr-stag">
+							<div class="flx-stories__line"></div>
+							{{suggestion}}
+						</div>
 					</div>
 				</div>
 			</div>
+			{{/each}}
 		</div>
 
 		<!-- overview -->
-		<div class="flx-section" id="flx-s2">
+		<div class="flx-section" id="flx-s5">
 			<div class="flx-section__container flx-section__container--small flx-bg--white">
 				<div class="flx-grid flx-grid--1-1 flx-grid--align-center">		
 					<div class="flx-section__content flx-section__content--txt-block-left">
 						<h3 class="flx-section__content-item flx-section__title flx-section__title--abo tr tr-stag">
-							{{{overview.title}}}
+							<b>{{{overview.title}}}</b>
 						</h3>
 						<p class="flx-section__content-item flx-section__description tr tr-stag">
 							{{{overview.description}}}
@@ -74,12 +90,9 @@
 		</div>
 
 		<!-- summary -->
-		<div class="flx-section" id="flx-s3">
-			<div class="flx-section__container
-			flx-section__container--small
-			flx-section__container--abos
-			flx-border-grey-top">
-				<div class="flx-summary">
+		<div class="flx-section" id="flx-s6">
+			<div class="flx-section__container flx-section__container--small flx-section__container--abos flx-border-grey-top">
+				<div class="flx-summary flx-summary--abos">
 					{{#each summary}}
 					<div class="flx-summary__item tr tr-stag">
 						<div class="flx-summary__icon" include="../media/{{icon}}.svg"></div>
@@ -91,7 +104,7 @@
 		</div>
 
 		<!-- call to action -->
-		<div class="flx-section" id="flx-s4">
+		<div class="flx-section" id="flx-s7">
 			<div class="flx-section__container flx-gradient--yellow">
 				<div class="flx-section__content flx-section__content--cta">
 					<h3 class="flx-section__title tr tr-stag"><b>{{{cta.heading}}}</b></h3>
@@ -108,7 +121,7 @@
 </div>
 
 <!-- ros abonnementen -->
-<div class="flx-section" id="flx-s6">
+<div class="flx-section" id="flx-s8">
 	<div class="flx-section__container flx-section__container--small flx-bg--grey">
 		<div class="container flx-ros__container">
 			<div class="flx-ros">
