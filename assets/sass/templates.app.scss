@@ -2,15 +2,6 @@
          App
 --------------------*/
 
-.flx-abos-container {
-	background-color: $ns-white;
-	box-shadow: $box-shadow-container;
-	margin-top: -42px;
-	
-	@media (min-width: $md) {
-		margin-top: -70px;
-	}
-}
 
 // al het ov
 // ----------------------------	
@@ -175,7 +166,7 @@
 	
 	svg {
 		fill: $ns-white;
-	}		
+	}	
 }
 
 
@@ -203,4 +194,19 @@
 .flx-more {
 	display: none;
 	margin: 0;
+}
+
+
+
+
+// abonnementen
+// ----------------------------
+.flx-abos__container {
+	background-color: $ns-white;
+	box-shadow: $box-shadow-container;
+	margin-top: -42px;
+	
+	@media (min-width: $md) {
+		margin-top: -70px;
+	}
 }

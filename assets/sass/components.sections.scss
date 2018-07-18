@@ -38,9 +38,7 @@
 	}
 	
 	&--abos {
-
-			margin: 0 $gutter;
-
+		margin: 0 $gutter;
 	}
 }
 
@@ -56,15 +54,21 @@
 		}
 	}
 	
-	&--center {
+	&--cta {
 		max-width: 740px;
 		margin: 0 auto;
 		text-align: center;
 	}
 	
-	&--abo {
+	&--usps-small {
 		max-width: 880px;
 		margin: 0 auto;
+	}
+	
+	&--txt-block-left {
+		@media (min-width: $md) { 
+			padding-left: $double-gutter;
+		}
 	}
 }
 
