@@ -1,7 +1,7 @@
 // Data template
 
 var context_abos = {	
-	"title": "NS Flex",
+	"title": "Abonnementen",
 	"subtitle": "Nieuw: Flexibele abonnementen",
 	"button-cta": "Bekijk abonnementen",
 	

@@ -65,9 +65,7 @@ templates['abos'] = template({"1":function(container,depth0,helpers,partials,dat
     + alias4(alias5(((stack1 = (depth0 != null ? depth0.ros : depth0)) != null ? stack1["button-open"] : stack1), depth0))
     + "</button>\n					</div>\n				</div>\n				<!-- abonnementen container -->\n				<div class=\"flx-ros__content js-ros-content\">\n					<div class=\"flx-section__content--cta flx-ros__description\">\n						<p class=\"font-blue\">"
     + alias4(alias5(((stack1 = (depth0 != null ? depth0.ros : depth0)) != null ? stack1.description : stack1), depth0))
-    + "</p>\n						<button class=\"button button--nsWhite js-ros-btn-hide\">\n							<span class=\"flx-ros__btn-icon\" include=\"../assets/img/icons/minus--small.svg\"></span>\n							"
-    + alias4(alias5(((stack1 = (depth0 != null ? depth0.ros : depth0)) != null ? stack1["button-close"] : stack1), depth0))
-    + "\n						</button>\n					</div>\n					<div include=\"../components/ros-all.html\"></div>\n				</div>\n			</div>\n		</div>\n	</div>\n</div>";
+    + "</p>\n					</div>\n					<div include=\"../components/ros-all.html\"></div>\n				</div>\n			</div>\n		</div>\n	</div>\n</div>";
 },"useData":true});
 templates['landing'] = template({"1":function(container,depth0,helpers,partials,data) {
     var stack1, helper, alias1=depth0 != null ? depth0 : (container.nullContext || {}), alias2=helpers.helperMissing, alias3="function", alias4=container.escapeExpression;
