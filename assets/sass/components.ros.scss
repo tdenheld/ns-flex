@@ -22,9 +22,9 @@
 }
 
 .flx-ros__description {
-	padding-bottom: 56px;
+	padding: 0 $gutter 42px;
 	@media (min-width: $md) {
-		padding-bottom: 90px;
+		padding: 0 $gutter 90px;
 	}
 }
 

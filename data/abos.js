@@ -14,21 +14,18 @@ var context_abos = {
 		"heading": "Dat is korting<br>wanneer het jou uitkomt",
 		"item": [
 			{
-				"section": "s2",
 				"img": "hoewerkt1.jpg",
 				"month": "september",
 				"title": "Op vakantie",
 				"description": "Geen korting nodig",
 				"suggestion": "Abonnement 1 maand uit",
 			},{
-				"section": "s3",
 				"img": "hoewerkt2.jpg",
 				"month": "oktober",
 				"title": "Weer aan het werk",
 				"description": "4 dagen per week naar kantoor",
 				"suggestion": "Altijd Voordeel",
 			},{
-				"section": "s4",
 				"img": "hoewerkt3.jpg",
 				"month": "december",
 				"title": "4x op familiebezoek",

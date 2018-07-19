@@ -90,9 +90,10 @@ function scroll_trigger(i) {
 };
 // init section scroll events
 var sections = $(".flx-section");
-for (i = 0; i <= sections.length; i++) {
+sections.each(function(i){
+	$(this).attr("id", "flx-s" + i);
 	scroll_trigger(i);
-};
+});
 
 
 
@@ -129,19 +130,6 @@ $(".js-more").click(function(){
 
 // show ROS items
 // ------------------------------------------------------------
-$(".js-show-ros-abos").click(function(){
-	$(".js-ros-abos").slideDown(200, function(){
-		TweenLite.to(window, 1, {
-			ease: Power3.easeInOut,
-			scrollTo: {
-				y: "#ros-abos",
-				offsetY: 60,
-				autoKill: false,
-			},
-		});
-	});
-});
-
 $(".js-ros-btn").click(function(){;
 	var content = $(".js-ros-content");
 	content.fadeIn(250);
@@ -152,7 +140,7 @@ $(".js-ros-btn").click(function(){;
 	TweenLite.to(window, 0.7, {
 		ease: Power3.easeInOut,
 		scrollTo: {
-			y: $(window).scrollTop() + 180,
+			y: $(window).scrollTop() + 240,
 			autoKill: false,
 		},
 	});
@@ -204,8 +192,6 @@ function include_html() {
     };
 };
 include_html();
-
-
 
 
 

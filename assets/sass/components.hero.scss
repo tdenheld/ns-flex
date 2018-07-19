@@ -62,7 +62,7 @@
 
 .flx-hero__subtitle {
 	margin-bottom: $half-gutter;
-	@include font-style(36px, bold, 1.2);
+	@include font-style(30px, bold, 1.2);
 	color: $ns-white;
 	@media (min-width: $sm) {
 		margin-bottom: $gutter;
@@ -72,7 +72,7 @@
 		font-size: calculate-rem(72px);
 	}
 	@media (max-height: 520px) and (max-width: $md) {
-		font-size: calculate-rem(36px);
+		font-size: calculate-rem(30px);
 	}
 }
 

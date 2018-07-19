@@ -12,7 +12,7 @@
 			<div class="container ovr-container">
 				<div class="flx-hero__content">
 					<h1 class="flx-hero__title">{{title}}</h1> 
-					<h2 class="flx-hero__subtitle">{{subtitle}}</h2>
+					<h1 class="flx-hero__subtitle">{{subtitle}}</h1>
 					<button class="button flx-button--blue">
 						{{button-cta}}
 					</button>
@@ -25,7 +25,7 @@
 	<div class="container flx-abos__container box-shadow-container">
 				
 		<!-- intro -->
-		<div class="flx-section flx-section--usps ani ani--fade-in ani--delay-600" id="flx-s0">
+		<div class="flx-section flx-section--usps ani ani--fade-in ani--delay-600">
 			<div class="flx-section__content--usps-small">
 				<div class="flx-grid flx-grid--max-1 flx-grid--align-center">
 					<div class="flx-section__img flx-section__img--abo ani ani--fade-in ani--delay-750">
@@ -42,7 +42,7 @@
 		
 		<!-- stories -->
 		<div class="flx-section__container flx-section__container--small flx-section__container--abos flx-border-grey-top-bottom">
-			<div class="flx-section" id="flx-s1">
+			<div class="flx-section">
 				<div class="flx-section__content flx-section__content--cta">
 					<h3 class="flx-section__title tr tr-stag">
 						<b>{{{stories.heading}}}</b>
@@ -50,7 +50,7 @@
 				</div>
 			</div>		
 			{{#each stories.item}}
-			<div class="flx-section" id="flx-{{section}}">
+			<div class="flx-section">
 				<div class="flx-stories__item">
 					<img src="../media/{{img}}" class="flx-stories__img tr tr-500 tr--scale-in">
 					<div class="flx-stories__month tr tr-stag">
@@ -71,7 +71,7 @@
 		</div>
 
 		<!-- overview -->
-		<div class="flx-section" id="flx-s5">
+		<div class="flx-section">
 			<div class="flx-section__container flx-section__container--small flx-bg--white">
 				<div class="flx-grid flx-grid--1-1 flx-grid--align-center">
 					<div class="flx-section__img flx-section__img--100 tr tr-500 tr--scale-in flx-grid__reverse">
@@ -90,7 +90,7 @@
 		</div>
 
 		<!-- summary -->
-		<div class="flx-section" id="flx-s6">
+		<div class="flx-section">
 			<div class="flx-section__container flx-section__container--small flx-section__container--abos flx-border-grey-top">
 				<div class="flx-summary flx-summary--abos">
 					{{#each summary}}
@@ -104,7 +104,7 @@
 		</div>
 
 		<!-- call to action -->
-		<div class="flx-section" id="flx-s7">
+		<div class="flx-section">
 			<div class="flx-section__container flx-gradient--yellow">
 				<div class="flx-section__content flx-section__content--cta">
 					<h3 class="flx-section__title tr tr-stag"><b>{{{cta.heading}}}</b></h3>
@@ -121,12 +121,12 @@
 	</div>
 
 	<!-- ros abonnementen -->
-	<div class="flx-section" id="flx-s8">
+	<div class="flx-section">
 		<div class="flx-section__container">
 			<div class="container">
 				<div class="flx-section__content flx-section__content--cta">
 					<h3 class="flx-section__title no-margin tr tr-stag">
-						{{ros.title}}
+						{{{ros.title}}}
 					</h3>
 					<p class="flx-section__description tr tr-stag">{{ros.subtitle}}</p>
 					<div class="tr tr-stag">
