@@ -24,16 +24,6 @@ templates['abos'] = template({"1":function(container,depth0,helpers,partials,dat
     + ".svg\"></div>\n						<h3 class=\"flx-summary__title\">"
     + ((stack1 = ((helper = (helper = helpers.title || (depth0 != null ? depth0.title : depth0)) != null ? helper : alias2),(typeof helper === alias3 ? helper.call(alias1,{"name":"title","hash":{},"data":data}) : helper))) != null ? stack1 : "")
     + "</h3>\n					</div>\n";
-},"5":function(container,depth0,helpers,partials,data) {
-    var helper, alias1=depth0 != null ? depth0 : (container.nullContext || {}), alias2=helpers.helperMissing, alias3="function", alias4=container.escapeExpression;
-
-  return "					<div class=\"flx-ros__adds js-ros\">\n						<div class=\"flx-ros__acc\">\n							<h3 class=\"flx-ros__heading js-ros-heading\">"
-    + alias4(((helper = (helper = helpers.category || (depth0 != null ? depth0.category : depth0)) != null ? helper : alias2),(typeof helper === alias3 ? helper.call(alias1,{"name":"category","hash":{},"data":data}) : helper)))
-    + "</h3>\n							<span class=\"flx-ros__icon flx-ros__icon--acc js-ros-icon\" include=\"../assets/img/icons/plus--small.svg\"></span>\n						</div>\n						<!-- abonnementen container -->\n						<div class=\"ros-content "
-    + alias4(((helper = (helper = helpers["class"] || (depth0 != null ? depth0["class"] : depth0)) != null ? helper : alias2),(typeof helper === alias3 ? helper.call(alias1,{"name":"class","hash":{},"data":data}) : helper)))
-    + " js-ros-content\" include=\"../components/"
-    + alias4(((helper = (helper = helpers.component || (depth0 != null ? depth0.component : depth0)) != null ? helper : alias2),(typeof helper === alias3 ? helper.call(alias1,{"name":"component","hash":{},"data":data}) : helper)))
-    + ".html\"></div>\n					</div>\n";
 },"compiler":[7,">= 4.0.0"],"main":function(container,depth0,helpers,partials,data) {
     var stack1, helper, alias1=depth0 != null ? depth0 : (container.nullContext || {}), alias2=helpers.helperMissing, alias3="function", alias4=container.escapeExpression, alias5=container.lambda;
 
@@ -61,17 +51,23 @@ templates['abos'] = template({"1":function(container,depth0,helpers,partials,dat
     + ((stack1 = helpers.each.call(alias1,(depth0 != null ? depth0.summary : depth0),{"name":"each","hash":{},"fn":container.program(3, data, 0),"inverse":container.noop,"data":data})) != null ? stack1 : "")
     + "				</div>\n			</div>\n		</div>\n\n		<!-- call to action -->\n		<div class=\"flx-section\" id=\"flx-s7\">\n			<div class=\"flx-section__container flx-gradient--yellow\">\n				<div class=\"flx-section__content flx-section__content--cta\">\n					<h3 class=\"flx-section__title tr tr-stag\"><b>"
     + ((stack1 = alias5(((stack1 = (depth0 != null ? depth0.cta : depth0)) != null ? stack1.heading : stack1), depth0)) != null ? stack1 : "")
-    + "</b></h3>\n					<p class=\"flx-section__description tr tr-stag\">"
+    + "</b></h3>\n					<p class=\"flx-section__description flx-section__description--cta tr tr-stag\">"
     + ((stack1 = alias5(((stack1 = (depth0 != null ? depth0.cta : depth0)) != null ? stack1.description : stack1), depth0)) != null ? stack1 : "")
     + "</p>\n					<div class=\"tr tr-stag spacer-margin-2\">\n						<button class=\"button flx-button--blue\">\n							"
     + alias4(((helper = (helper = helpers["button-cta"] || (depth0 != null ? depth0["button-cta"] : depth0)) != null ? helper : alias2),(typeof helper === alias3 ? helper.call(alias1,{"name":"button-cta","hash":{},"data":data}) : helper)))
     + "\n						</button>\n					</div>\n					<a href=\"/\" class=\"flx-link font-blue\">"
     + alias4(alias5(((stack1 = (depth0 != null ? depth0.cta : depth0)) != null ? stack1.link : stack1), depth0))
-    + "</a>\n				</div>\n			</div>\n		</div>\n	</div>\n</div>\n\n<!-- ros abonnementen -->\n<div class=\"flx-section\" id=\"flx-s8\">\n	<div class=\"flx-section__container flx-section__container--small flx-bg--grey\">\n		<div class=\"container flx-ros__container\">\n			<div class=\"flx-ros\">\n				<h3 class=\"flx-section__title flx-section__title--abo flx-section__title--more-margin tr tr-stag\">\n					<b>"
-    + alias4(alias5(((stack1 = (depth0 != null ? depth0.ros : depth0)) != null ? stack1.heading : stack1), depth0))
-    + "</b>\n				</h3>				\n				<div class=\"tr tr-stag\">\n"
-    + ((stack1 = helpers.each.call(alias1,((stack1 = (depth0 != null ? depth0.ros : depth0)) != null ? stack1.adds : stack1),{"name":"each","hash":{},"fn":container.program(5, data, 0),"inverse":container.noop,"data":data})) != null ? stack1 : "")
-    + "				</div>\n			</div>\n		</div>\n	</div>\n</div>";
+    + "</a>\n				</div>\n			</div>\n		</div>\n	</div>\n\n	<!-- ros abonnementen -->\n	<div class=\"flx-section\" id=\"flx-s8\">\n		<div class=\"flx-section__container\">\n			<div class=\"container\">\n				<div class=\"flx-section__content flx-section__content--cta\">\n					<h3 class=\"flx-section__title no-margin tr tr-stag\">\n						"
+    + alias4(alias5(((stack1 = (depth0 != null ? depth0.ros : depth0)) != null ? stack1.title : stack1), depth0))
+    + "\n					</h3>\n					<p class=\"flx-section__description tr tr-stag\">"
+    + alias4(alias5(((stack1 = (depth0 != null ? depth0.ros : depth0)) != null ? stack1.subtitle : stack1), depth0))
+    + "</p>\n					<div class=\"tr tr-stag\">\n						<button class=\"button button--nsWhite js-ros-btn\">"
+    + alias4(alias5(((stack1 = (depth0 != null ? depth0.ros : depth0)) != null ? stack1["button-open"] : stack1), depth0))
+    + "</button>\n					</div>\n				</div>\n				<!-- abonnementen container -->\n				<div class=\"flx-ros__content js-ros-content\">\n					<div class=\"flx-section__content--cta flx-ros__description\">\n						<p class=\"font-blue\">"
+    + alias4(alias5(((stack1 = (depth0 != null ? depth0.ros : depth0)) != null ? stack1.description : stack1), depth0))
+    + "</p>\n						<button class=\"button button--nsWhite js-ros-btn-hide\">\n							<span class=\"flx-ros__btn-icon\" include=\"../assets/img/icons/minus--small.svg\"></span>\n							"
+    + alias4(alias5(((stack1 = (depth0 != null ? depth0.ros : depth0)) != null ? stack1["button-close"] : stack1), depth0))
+    + "\n						</button>\n					</div>\n					<div include=\"../components/ros-all.html\"></div>\n				</div>\n			</div>\n		</div>\n	</div>\n</div>";
 },"useData":true});
 templates['landing'] = template({"1":function(container,depth0,helpers,partials,data) {
     var stack1, helper, alias1=depth0 != null ? depth0 : (container.nullContext || {}), alias2=helpers.helperMissing, alias3="function", alias4=container.escapeExpression;

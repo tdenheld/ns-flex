@@ -108,7 +108,7 @@
 			<div class="flx-section__container flx-gradient--yellow">
 				<div class="flx-section__content flx-section__content--cta">
 					<h3 class="flx-section__title tr tr-stag"><b>{{{cta.heading}}}</b></h3>
-					<p class="flx-section__description tr tr-stag">{{{cta.description}}}</p>
+					<p class="flx-section__description flx-section__description--cta tr tr-stag">{{{cta.description}}}</p>
 					<div class="tr tr-stag spacer-margin-2">
 						<button class="button flx-button--blue">
 							{{button-cta}}
@@ -119,27 +119,30 @@
 			</div>
 		</div>
 	</div>
-</div>
 
-<!-- ros abonnementen -->
-<div class="flx-section" id="flx-s8">
-	<div class="flx-section__container flx-section__container--small flx-bg--grey">
-		<div class="container flx-ros__container">
-			<div class="flx-ros">
-				<h3 class="flx-section__title flx-section__title--abo flx-section__title--more-margin tr tr-stag">
-					<b>{{ros.heading}}</b>
-				</h3>				
-				<div class="tr tr-stag">
-					{{#each ros.adds}}
-					<div class="flx-ros__adds js-ros">
-						<div class="flx-ros__acc">
-							<h3 class="flx-ros__heading js-ros-heading">{{category}}</h3>
-							<span class="flx-ros__icon flx-ros__icon--acc js-ros-icon" include="../assets/img/icons/plus--small.svg"></span>
-						</div>
-						<!-- abonnementen container -->
-						<div class="ros-content {{class}} js-ros-content" include="../components/{{component}}.html"></div>
+	<!-- ros abonnementen -->
+	<div class="flx-section" id="flx-s8">
+		<div class="flx-section__container">
+			<div class="container">
+				<div class="flx-section__content flx-section__content--cta">
+					<h3 class="flx-section__title no-margin tr tr-stag">
+						{{ros.title}}
+					</h3>
+					<p class="flx-section__description tr tr-stag">{{ros.subtitle}}</p>
+					<div class="tr tr-stag">
+						<button class="button button--nsWhite js-ros-btn">{{ros.button-open}}</button>
 					</div>
-					{{/each}}
+				</div>
+				<!-- abonnementen container -->
+				<div class="flx-ros__content js-ros-content">
+					<div class="flx-section__content--cta flx-ros__description">
+						<p class="font-blue">{{ros.description}}</p>
+						<button class="button button--nsWhite js-ros-btn-hide">
+							<span class="flx-ros__btn-icon" include="../assets/img/icons/minus--small.svg"></span>
+							{{ros.button-close}}
+						</button>
+					</div>
+					<div include="../components/ros-all.html"></div>
 				</div>
 			</div>
 		</div>

@@ -142,13 +142,29 @@ $(".js-show-ros-abos").click(function(){
 	});
 });
 
-$(".js-ros").click(function(){
-	var icon = $(".js-ros-icon", this);
-	var heading = $(".js-ros-heading", this);
-	var content = $(".js-ros-content", this);
-	icon.toggleClass("is-active");
-	heading.toggleClass("is-active");
-	content.slideToggle(250);
+$(".js-ros-btn").click(function(){;
+	var content = $(".js-ros-content");
+	content.fadeIn(250);
+	TweenLite.to(this, 0.25, {
+		ease: Power3.easeInOut,
+		autoAlpha: 0,
+	});
+	TweenLite.to(window, 0.7, {
+		ease: Power3.easeInOut,
+		scrollTo: {
+			y: $(window).scrollTop() + 180,
+			autoKill: false,
+		},
+	});
+});
+
+$(".js-ros-btn-hide").click(function(){;
+	var content = $(".js-ros-content");
+	content.fadeOut(250);
+	TweenLite.to(".js-ros-btn", 0.25, {
+		ease: Power3.easeInOut,
+		autoAlpha: 1,
+	});
 });
 
 

@@ -2,20 +2,6 @@
          Ros
 --------------------*/
 
-.flx-ros {
-	padding: $gutter 0;
-	@media (min-width: $md) {
-		padding: $double-gutter 0;
-	}
-}
-
-.flx-ros__container {
-	padding: 0 21px;
-	@media (min-width: $md) {
-		padding: 0;
-	}
-}
-
 .flx-ros__grid {
 	display: grid;
 	grid-gap: $gutter;
@@ -27,79 +13,26 @@
 	}
 }
 
-.flx-ros__tile {
-	display: grid;
-	grid-template-rows: 50px max-content 1fr max-content;
-}
-
-.flx-ros__icon {
-	svg {
-		fill: $ns-blue;
-	}
-	
-	&--acc {
-		svg {
-			transition: $fade-all;
-			transform-origin: center center;
-		}
-		&.is-active {
-			svg {
-				transform: rotate(135deg);
-			}
-		}
+.flx-ros__content {
+	display: none;
+	margin-top: -56px;
+	@media (min-width: $md) {
+		margin-top: -70px;
 	}
 }
 
-.flx-ros__adds {
+.flx-ros__description {
+	padding-bottom: 56px;
+	@media (min-width: $md) {
+		padding-bottom: 90px;
+	}
+}
+
+.flx-ros__btn-icon {
 	position: relative;
-	padding: $gutter 0;	
-	border-top: 1px solid $ns-grey-6;
-	border-bottom: 1px solid $ns-grey-6;
-	cursor: pointer;
-	transition: all 250ms $ease;
-	
-	&:not(:first-child) {
-		margin-top: -1px;
-	}
-}
-
-.flx-ros__acc {
-	margin: 0 auto;
-	display: flex;
-	justify-content: space-between;
-	align-items: center;
-	
+	top: -4px;
+	margin-right: 7px;
 	svg {
-		position: relative;
-		top: 4px;
-		margin-right: 10px;
-	}
-}
-
-.flx-ros__heading {
-	margin-right: $gutter;
-	margin-bottom: 0;
-	&.is-active {
-		//font-weight: bold;
-	}
-}
-
-.ros-abos {
-	display: none;
-	padding: $gutter;
-}
-
-.ros-content {
-	display: none;
-	padding: $gutter 0 0;
-	@media (min-width: $sm) {
-		padding: $gutter 0;
-	}
-	
-	&--abos {
-		@media (max-width: $sm) {
-			margin-left: -$gutter;
-			margin-right: -$gutter;
-		}
+		fill: $ns-light-blue;
 	}
 }

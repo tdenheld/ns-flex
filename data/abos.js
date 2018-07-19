@@ -58,63 +58,17 @@ var context_abos = {
 	],
 	
 	"cta": {
-		"heading": "Abonnementen van NS Flex<br>Net zo flexibel als jij",
-		"description": "Nu vanaf € 2<br>Maandelijks aanpassen of uitzetten",
+		"heading": "Abonnementen van NS Flex",
+		"description": "Nu vanaf € 2 per maand.<br>Maandelijks aanpassen of uitzetten",
 		"link": "Meer weten over NS Flex",
 	},
 	
-/*
-	"faq": {
-		"heading": "Klinkt dit té goed om waar te zijn?",	
-		"description": "Dat klopt, maar er is geen addertje. We geloven dat flexibele abonnementen van deze tijd zijn en hopen dat er hierdoor uiteindelijk meer met de trein gereisd wordt.",
-		"questions": [
-			{"question": "Hoe werkt NS Flex?"},
-			{"question": "Wat kost het?"},
-			{"question": "Ik heb al een abonnement, kan ik dan ook NS Flex gebruiken?"},
-			{"question": "Wat gebeurt er met het saldo op mijn kaart?"},
-			{"question": "Ik heb nog meer vragen..."},
-		],
-	},
-*/
-	
 	"ros": {
-		"heading": "Wil je liever geen NS Flex?",
-/*
-		"tile": [
-			{
-				"icon": "subscription--large",
-				"category": "Abonnementen op saldo",
-				"description": "De oude vertrouwde vaste abonnementen op saldo. Neem het niet. Je bent dom als je dit neemt.",
-				"link": "Bekijk meer",
-			},{
-				"icon": "business-card--large",
-				"category": "Zakelijke abonnementen",
-				"description": "Ben je ondernemer? NS-Business Card is dé mobiliteitskaart voor ondernemend Nederland.",
-				"link": "Bekijk meer",
-				"url": "https://www.ns.nl/zakelijk",
-			},{
-				"icon": "route--large",
-				"category": "Traject Vrij abonnement",
-				"description": "Met Traject Vrij reist u onbeperkt op 1 traject, elke dag, de hele dag.",
-				"link": "Bekijk meer",
-				"url": "https://www.ns.nl/abonnementen/traject-vrij.html",
-			},
-		],
-*/
-		
-		"adds": [
-			{
-				"category": "Abonnementen op saldo",
-				"component": "ros-abos",
-				"class": "ros-content--abos",
-			},{
-				"category": "Extra Voordeel",
-				"component": "ros-discount",
-			},{
-				"category": "Zakelijke abonnementen, Snel regelen en meer",
-				"component": "ros-misc",
-			},
-		],
+		"title": "Wil je liever geen NS Flex?",
+		"subtitle": "Je kunt ook nog steeds kiezen voor onze klassieke abonnementen",
+		"description": "Vind je achteraf betalen te spannend? Dit zijn abonnementen van NS waarbij je van te voren geld op je kaart zet om te kunnen reizen. Vaak zijn deze abonnementen per jaar afsluitbaar.",
+		"button-open": "Klassieke abonnementen",
+		"button-close": "Verbergen",
 	},
 };
 

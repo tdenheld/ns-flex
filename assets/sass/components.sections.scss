@@ -109,6 +109,10 @@
 	@media (min-width: $md) {
 		font-size: calculate-rem(20px);
 	}
+	
+	&--cta {
+		margin-bottom: $one-half-gutter;
+	}
 }
 
 .flx-section__label {
