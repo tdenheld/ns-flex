@@ -146,15 +146,6 @@ $(".js-ros-btn").click(function(){;
 	});
 });
 
-$(".js-ros-btn-hide").click(function(){;
-	var content = $(".js-ros-content");
-	content.fadeOut(250);
-	TweenLite.to(".js-ros-btn", 0.25, {
-		ease: Power3.easeInOut,
-		autoAlpha: 1,
-	});
-});
-
 
 
 
