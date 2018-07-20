@@ -67,8 +67,8 @@ var context_landing = {
 	],
 	
 	"cta": {
-		"heading": "NS Flex<br>Net zo flexibel als jij",
-		"description": "Naar keuze te combineren<br>met een flexibel kortingsabonnement",
+		"heading": "<b>NS Flex</b> zonder abonnement<br><b>€ 0 per maand</b>",
+		"description": "Je betaalt eenmalig € 10 om je aan te melden",
 		"usps": [
 			{"usp": "Binnen 1 uur flex reizen als je al een OV&#8209;chipkaart hebt"},
 			{"usp": "Binnen 1 week in huis met een nieuwe OV&#8209;chipkaart"},

@@ -156,9 +156,9 @@ templates['landing'] = template({"1":function(container,depth0,helpers,partials,
     + ((stack1 = alias1(((stack1 = (depth0 != null ? depth0.abo : depth0)) != null ? stack1.more : stack1), depth0)) != null ? stack1 : "")
     + "\n							</button>\n						</a>\n					</div>\n				</div>\n			</div>\n		</div>\n	</div>\n</div>\n\n<!-- summary -->\n<div class=\"flx-section\">\n	<div class=\"flx-section__container flx-section__container--small flx-gradient--grey\">\n		<div class=\"container ovr-container\">\n			<div class=\"flx-summary\">\n"
     + ((stack1 = helpers.each.call(alias3,(depth0 != null ? depth0.summary : depth0),{"name":"each","hash":{},"fn":container.program(8, data, 0),"inverse":container.noop,"data":data})) != null ? stack1 : "")
-    + "			</div>\n		</div>\n	</div>\n</div>\n\n<!-- call to action -->\n<div class=\"flx-section\">\n	<div class=\"flx-section__container flx-gradient--yellow\">\n		<div class=\"container ovr-container\">\n			<div class=\"flx-section__content flx-section__content--cta\">\n				<h3 class=\"flx-section__title tr tr-stag\"><b>"
+    + "			</div>\n		</div>\n	</div>\n</div>\n\n<!-- call to action -->\n<div class=\"flx-section\">\n	<div class=\"flx-section__container flx-gradient--yellow\">\n		<div class=\"container ovr-container\">\n			<div class=\"flx-section__content flx-section__content--cta\">\n				<h3 class=\"flx-section__title tr tr-stag\">"
     + ((stack1 = alias1(((stack1 = (depth0 != null ? depth0.cta : depth0)) != null ? stack1.heading : stack1), depth0)) != null ? stack1 : "")
-    + "</b></h3>\n				<p class=\"flx-cta__description tr tr-stag\">"
+    + "</h3>\n				<p class=\"flx-cta__description tr tr-stag\">"
     + ((stack1 = alias1(((stack1 = (depth0 != null ? depth0.cta : depth0)) != null ? stack1.description : stack1), depth0)) != null ? stack1 : "")
     + "</p>\n				<div class=\"tr tr-stag\">\n					<button class=\"button flx-button--blue\">\n						"
     + ((stack1 = ((helper = (helper = helpers["button-cta-text"] || (depth0 != null ? depth0["button-cta-text"] : depth0)) != null ? helper : alias4),(typeof helper === alias5 ? helper.call(alias3,{"name":"button-cta-text","hash":{},"data":data}) : helper))) != null ? stack1 : "")
