@@ -54,14 +54,8 @@
 		}
 	}
 	
-	&--cta {
-		max-width: 740px;
-		margin: 0 auto;
-		text-align: center;
-	}
-	
-	&--usps-small {
-		max-width: 880px;
+	&--mw-800 {
+		max-width: 800px;
 		margin: 0 auto;
 	}
 	
@@ -146,7 +140,7 @@
 	
 	&--abo {
 		@media (min-width: $md) {
-			width: 300px;	
+			width: 240px;	
 		}
 	}
 }

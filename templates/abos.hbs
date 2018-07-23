@@ -22,28 +22,30 @@
 	</div>
 	
 	<!------- container ------->
-	<div class="container flx-abos__container box-shadow-container">
+	<div class="container flx-abos__container flx-abos__container--top box-shadow-container">
 				
 		<!-- intro -->
+		{{#each usps}}
 		<div class="flx-section flx-section--usps ani ani--fade-in ani--delay-600">
-			<div class="flx-section__content--usps-small">
-				<div class="flx-grid flx-grid--max-1 flx-grid--align-center">
-					<div class="flx-section__img flx-section__img--abo ani ani--fade-in ani--delay-750">
-						<img src="../media/{{usp.icon}}" class="img-responsive" />
+			<div class="flx-section__content--mw-800">
+				<div class="flx-grid flx-grid--{{grid}} flx-grid--align-center ani ani--fade-in ani--delay-750">
+					<div class="flx-section__img flx-grid__{{order}} flx-section__img--abo tr tr-500 tr--scale-in">
+						<img src="../media/{{icon}}" class="img-responsive" />
 					</div>
 					<div class="flx-section__content">
-						<h3 class="flx-section__content-item flx-section__title flx-section__title--abo ani ani--fade-in-up-small ani--delay-600">
-							{{{usp.title}}}
+						<h3 class="flx-section__content-item flx-section__title flx-section__title--abo tr tr-stag">
+							{{{title}}}
 						</h3>
 					</div>
 				</div>
 			</div>
 		</div>
-		
+		{{/each}}
+					
 		<!-- stories -->
 		<div class="flx-section__container flx-section__container--small flx-section__container--abos flx-border-grey-top-bottom">
 			<div class="flx-section">
-				<div class="flx-section__content flx-section__content--cta">
+				<div class="flx-section__content flx-section__content--mw-800 txt-center">
 					<h3 class="flx-section__title tr tr-stag">
 						<b>{{{stories.heading}}}</b>
 					</h3>
@@ -68,6 +70,28 @@
 				</div>
 			</div>
 			{{/each}}
+		</div>
+		
+		<!-- inzicht kosten -->
+		<div class="flx-section">
+			<div class="flx-costs flx-section__container--abos flx-bg--white divider">
+				<div class="container ovr-container">
+					<div class="flx-grid flx-grid--1-1-sm">	
+						<div></div>	
+						<div class="flx-costs__content">
+							<h3 class="flx-section__content-item flx-section__title tr tr-stag">
+								<b>{{costs.heading}}</b>
+							</h3>
+							<p class="flx-section__content-item flx-section__description tr tr-stag">
+								{{{costs.description}}}
+							</p>
+						</div>
+						<div class="flx-costs__img flx-costs__img--abos tr tr-500 tr--scale-in">
+							<img src="../media/{{costs.img}}" class="img-responsive" />
+						</div>
+					</div>
+				</div>
+			</div>
 		</div>
 
 		<!-- overview -->
@@ -106,9 +130,9 @@
 		<!-- call to action -->
 		<div class="flx-section">
 			<div class="flx-section__container flx-gradient--yellow">
-				<div class="flx-section__content flx-section__content--cta">
+				<div class="flx-section__content flx-section__content--mw-800 txt-center">
 					<h3 class="flx-section__title tr tr-stag"><b>{{{cta.heading}}}</b></h3>
-					<p class="flx-section__description flx-section__description--cta tr tr-stag">{{{cta.description}}}</p>
+					<p class="flx-section__description flx-section__content--mw-800 txt-center tr tr-stag">{{{cta.description}}}</p>
 					<div class="tr tr-stag spacer-margin-2">
 						<button class="button flx-button--blue">
 							{{button-cta}}
@@ -124,7 +148,7 @@
 	<div class="flx-section">
 		<div class="flx-section__container">
 			<div class="container">
-				<div class="flx-section__content flx-section__content--cta">
+				<div class="flx-section__content flx-section__content--mw-800 txt-center">
 					<h3 class="flx-section__title no-margin tr tr-stag">
 						{{{ros.title}}}
 					</h3>
@@ -135,7 +159,7 @@
 				</div>
 				<!-- abonnementen container -->
 				<div class="flx-ros__content js-ros-content">
-					<div class="flx-section__content--cta flx-ros__description">
+					<div class="flx-section__content--mw-800 txt-center flx-ros__description">
 						<p class="font-blue">{{ros.description}}</p>
 					</div>
 					<div include="../components/ros-all.html"></div>

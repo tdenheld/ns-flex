@@ -3236,6 +3236,16 @@
 		"opt": 1,
 		"q": 80
 		},
+	"\/media\/flex.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "\/media\/flex.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
 	"\/media\/flow-blue.svg": {
 		"ft": 2097152,
 		"miP": 0,
@@ -3321,6 +3331,16 @@
 		"oIPL": 0,
 		"opt": 1,
 		"q": 100
+		},
+	"\/media\/heart.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "\/media\/heart.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
 		},
 	"\/media\/hoewerkt1.jpg": {
 		"ft": 16384,
@@ -3414,8 +3434,8 @@
 		"oA": 0,
 		"oAP": "\/media\/marieke.jpg",
 		"oF": 1,
-		"oIPL": 0,
-		"opt": 0,
+		"oIPL": 1,
+		"opt": 1,
 		"q": 80
 		},
 	"\/media\/nooitmeer.svg": {
@@ -3476,6 +3496,17 @@
 		"opt": 0,
 		"plM": 3758088159,
 		"prP": 0
+		},
+	"\/media\/tram.jpg": {
+		"ft": 16384,
+		"iS": 2501512,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "\/media\/tram.jpg",
+		"oF": 0,
+		"oIPL": 1,
+		"opt": 1,
+		"q": 89
 		},
 	"\/media\/work.jpg": {
 		"ft": 16384,

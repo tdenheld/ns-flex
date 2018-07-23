@@ -10,7 +10,7 @@
 	width: 100%;
 	height: 40vh;
 	@include bg(cover);
-	background-image: url("../../media/ov.jpg");
+	background-image: url("../../media/tram.jpg");
 	@media (min-width: $md) {
 		height: 100%;
 	}
@@ -38,6 +38,9 @@
 .flx-costs__content {
 	padding: $double-gutter $gutter;
 	@media (min-width: $md) {
+		padding: 10vw $gutter;
+	}	
+	@media (min-width: $lg) {
 		padding: 160px $gutter;
 	}
 }
@@ -53,6 +56,13 @@
 		padding: 0;
 		right: 0;
 		width: 40%;
+	}
+	
+	&--abos {
+		@media (min-width: $sm) {
+			left: 8%;
+			right: auto;
+		}
 	}
 }
 
@@ -156,7 +166,7 @@
 	width: 200px;
 	height: 200px;
 	border-radius: 50%;
-	background-image: url("../../media/man-portret.jpg");
+	background-image: url("../../media/marieke.jpg");
 	@include bg(cover);
 }
 
@@ -177,31 +187,17 @@
 
 
 
-// faq
-// ----------------------------
-.flx-faq {
-	border-bottom: 1px solid $ns-grey-7;
-}
-
-.flx-faq__text {
-	max-width: 720px;
-	margin-bottom: $one-half-gutter;
-	@media (min-width: $md) {
-		margin-bottom: 70px;
-	}
-}
-
-
-
-
 // abonnementen
 // ----------------------------
 .flx-abos__container {
 	background-color: $ns-white;
 	box-shadow: $box-shadow-container;
-	margin-top: -42px;
-	@media (min-width: $md) {
-		margin-top: -70px;
+	
+	&--top {
+		margin-top: -42px;
+		@media (min-width: $md) {
+			margin-top: -70px;
+		}
 	}
 }
 

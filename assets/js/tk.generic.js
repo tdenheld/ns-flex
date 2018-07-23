@@ -77,12 +77,11 @@ function scroll_trigger(i) {
 			triggerElement:	el,
 			duration: 999999,
 		})
-		.triggerHook(0.8)
+		.triggerHook(0.82)
 		.offset(0)
 		.on("start", function(){
 			$(bg).toggleClass("alpha-1");
 			$(el + " .tr").toggleClass("is-active");
-			//$(el_prev + " .tr").toggleClass("is-ended");
 		})
 		//.addIndicators()
 		.addTo(controller);

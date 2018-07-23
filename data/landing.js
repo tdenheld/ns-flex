@@ -77,11 +77,11 @@ var context_landing = {
 	
 	"testimonial": {
 		"quote": "<q>Veel klanten lieten ons weten het gedoe met saldo op hun OV-chipkaart vervelend te vinden. We denken dat we met NS Flex reizen met het OV veel prettiger maken.</q>",	
-		"sender": "<b>Marik, projectleider van NS Flex:</b>",
+		"sender": "<b>Marieke van NS Flex</b>",
 	},
 	
 	"faq": {
-		"heading": "Nog onduidelijkheden?",	
+		"heading": "Nog niet helemaal duidelijk?",	
 		"questions": [
 			{"question": "Dit klinkt te goed om waar te zijn, what’s the catch?"},
 			{"question": "Wat kost het?"},

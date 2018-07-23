@@ -5,13 +5,21 @@ var context_abos = {
 	"subtitle": "Nieuw: Flexibele abonnementen",
 	"button-cta": "Bekijk abonnementen",
 	
-	"usp": {
-		"icon": "kalender.svg",
-		"title": "Kies de korting die <b>nu</b> bij je past. Als je wilt, pas je de korting <b>elke maand</b> aan.",
-	},
+	"usps": [
+		{
+			"icon": "heart.svg",
+			"title": "Met NS flex kies je de korting die <b>deze maand</b> bij je past",
+			"grid": "max-1",
+		},{
+			"icon": "flex.svg",
+			"title": "Als je wilt pas je de korting <b>elke maand</b> aan",
+			"grid": "max-1",
+			//"order": "reverse",
+		},
+	],
 	
 	"stories": {
-		"heading": "Dat is korting<br>wanneer het jou uitkomt",
+		"heading": "Zo heb je altijd de juiste korting",
 		"item": [
 			{
 				"img": "hoewerkt1.jpg",
@@ -33,6 +41,12 @@ var context_abos = {
 				"suggestion": "Dal Voordeel",
 			},
 		],
+	},
+	
+	"costs": {
+		"heading": "Je checkt zorgeloos in en uit",
+		"description": "We brengen je reiskosten pas aan het einde van je maand in rekening, samen met je abonnement. Je hebt dus nooit meer saldo nodig. Je hebt bovendien <b>altijd inzicht in je reiskosten</b> via Mijn NS.",
+		"img": "kostenteller.png",
 	},
 	
 	"overview": {
