@@ -126,6 +126,14 @@
 		justify-self: center;
 	}
 	
+	&--80 {
+		width: 80%;
+		max-width: 440px;
+		@media (min-width: $md) {	
+			max-width: none;
+		}
+	}
+	
 	&--100 {
 		width: 100%;
 		max-width: 440px;
