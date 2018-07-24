@@ -50,7 +50,7 @@ var context_abos = {
 	},
 	
 	"overview": {
-		"img": "abos.png",
+		"img": "abos-weekend.png",
 		"title": "Al voordeliger als je 1x reist in het weekend",
 		"description": "We hebben een nieuwe korting toegevoegd: Weekend Voordeel. Daarmee reis je met 40% korting in het weekend. Voor maar € 2 per maand!",
 	},
@@ -70,7 +70,7 @@ var context_abos = {
 	
 	"cta": {
 		"heading": "Abonnementen van NS Flex",
-		"description": "Nu vanaf € 2 per maand.<br>Maandelijks aanpassen of uitzetten",
+		"description": "Al vanaf € 2 per maand.<br>Maandelijks aanpassen of uitzetten",
 		"link": "Meer weten over NS Flex",
 	},
 	

@@ -94,8 +94,8 @@
 	color: $ns-white;
 }
 
-// abonnementen modifier
-.flx-hero--abo {
+// hero with less height
+.flx-hero--small {
 	height: $hero-height-abos;
 	margin-bottom: 0;
 	@media (min-width: $md) {
@@ -105,13 +105,8 @@
 		height: 70vh;
 	}
 	
-	.flx-hero__img {
-		background-image: url("../../media/girl-yellow-2.jpg");
-	}
-	
 	.flx-hero__flow {								
 		svg {
-			opacity: 0.8;
 			width: auto;
 			height: $hero-height-abos;
 			@media (max-aspect-ratio: 5/5) {
@@ -132,9 +127,20 @@
 			margin-top: $gutter;
 		}
 	}
-	
+}
+
+// abonnementen modifier
+.flx-hero--abo {
+	.flx-hero__flow {								
+		svg {
+			opacity: 0.8;
+		}
+	}	
 	.flx-hero__title, .flx-hero__subtitle {
 		color: $ns-blue;
 		text-shadow: none;
+	}
+	.flx-hero__img {
+		background-image: url("../../media/girl-yellow-2.jpg");
 	}
 }

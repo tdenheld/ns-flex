@@ -1,5 +1,6 @@
 RewriteEngine On
 RewriteRule		^abonnementen/?$			abos.html    	[NC,L]
+RewriteRule		^sell/?$					sell.html    	[NC,L]
 
 
 <IfModule mod_headers.c>

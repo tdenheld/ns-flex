@@ -50,7 +50,7 @@ var context_landing = {
 		"heading": "Je zit nergens aan vast",
 		"description": "Flex is verkrijgbaar met of zonder onze abonnementen. Je bepaalt per maand of je met extra <b>korting</b> reist. Daarnaast kun je <b>maandelijks opzeggen</b> of aanpassen. Zonder kosten!",
 		"more": "Meer over abonnementen",
-		"img": "abos.png",
+		"img": "abos-dal.png",
 	},
 	
 	"summary": [
@@ -97,3 +97,7 @@ if (landing) {
 	landing.innerHTML = Handlebars.templates.landing(context_landing);
 };
 
+var sell = document.getElementById("sell");
+if (sell) {
+	sell.innerHTML = Handlebars.templates.sell(context_landing);
+};
