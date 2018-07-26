@@ -123,6 +123,13 @@
 // scroll down indicator
 .scroll-down {
 	cursor: pointer;
+	
+	&--blue {
+		.scroll-down__icon,
+		.scroll-down__icon-circle {
+			border-color: $ns-blue;
+		}
+	}
 }
 
 .scroll-down__icon {

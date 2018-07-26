@@ -3120,16 +3120,6 @@
 		"oT": 1,
 		"q": 100
 		},
-	"\/media\/Artboard 1.svg": {
-		"ft": 2097152,
-		"miP": 0,
-		"oA": 2,
-		"oAP": "\/media\/Artboard 1.svg",
-		"oF": 0,
-		"opt": 0,
-		"plM": 3758088159,
-		"prP": 0
-		},
 	"\/media\/bike-yellow.jpg": {
 		"ft": 16384,
 		"iS": 110250,
@@ -3287,6 +3277,16 @@
 		"plM": 3758088159,
 		"prP": 0
 		},
+	"\/media\/flow-yellow.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "\/media\/flow-yellow.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
 	"\/media\/girl-green.jpg": {
 		"ft": 16384,
 		"iS": 4064653,
@@ -3322,14 +3322,14 @@
 		},
 	"\/media\/girl-yellow-2.jpg": {
 		"ft": 16384,
-		"iS": 1044999,
+		"iS": 129814,
 		"jF": 0,
 		"oA": 0,
 		"oAP": "\/media\/girl-yellow-2.jpg",
-		"oF": 1,
-		"oIPL": 1,
-		"opt": 1,
-		"q": 80
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
 		},
 	"\/media\/girl-yellow.jpg": {
 		"ft": 16384,
@@ -3362,6 +3362,24 @@
 		"opt": 0,
 		"plM": 3758088159,
 		"prP": 0
+		},
+	"\/media\/hero.png": {
+		"ft": 32768,
+		"iS": 0,
+		"oA": 0,
+		"oAP": "\/media\/hero.png",
+		"oF": 0,
+		"oIPL": 1,
+		"opt": 1,
+		"oT": 1,
+		"q": 80
+		},
+	"\/media\/hero_tmp1201206213": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/media\/hero_tmp1201206213",
+		"oF": 0
 		},
 	"\/media\/hoewerkt1.jpg": {
 		"ft": 16384,
@@ -3539,17 +3557,6 @@
 		"oIPL": 0,
 		"opt": 1,
 		"q": 100
-		},
-	"\/media\/yellow-lady.png": {
-		"ft": 32768,
-		"iS": 3558300,
-		"oA": 0,
-		"oAP": "\/media\/yellow-lady.png",
-		"oF": 1,
-		"oIPL": 1,
-		"opt": 1,
-		"oT": 1,
-		"q": 80
 		},
 	"\/sell.html": {
 		"cB": 0,

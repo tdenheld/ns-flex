@@ -15,6 +15,9 @@
 	&--white {
 		background-color: $ns-white;
 	}
+	&--yellow {
+		background-color: $ns-yellow;
+	}
 	&--grey {
 		background-color: $ns-grey-7;
 	}
@@ -70,6 +73,11 @@
 	&--turquoise {
 		background: linear-gradient(
 			110deg, #79CEC3 0%, #BCFFF0 100%);
+	}
+	&--hero {
+		background: linear-gradient(
+			110deg, #00a29c 0%, #4bc3c6 100%);
+		opacity: 1;
 	}
 }
 
