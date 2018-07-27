@@ -14,7 +14,6 @@ var context_abos = {
 			"icon": "flex.svg",
 			"title": "Als je wilt pas je de korting <b>elke maand</b> aan",
 			"grid": "max-1",
-			//"order": "reverse",
 		},
 	],
 	
