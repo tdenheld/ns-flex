@@ -22,12 +22,16 @@
 .flx-hero__img {
 	@include full(absolute);
 	@include bg(cover);
-	background-image: url("../../media/girl-green.png");
+	background-image: url("../../media/hero.png");
+}
+
+.flx-hero__grained {
+	@include full(absolute);
 }
 
 .flx-hero__flow {	
 	svg {
-		opacity: 0.4;
+		opacity: 0.99;
 		height: $hero-height-landing;			
 		@media (max-aspect-ratio: 17/10) {
 			width: 100%;
@@ -40,7 +44,7 @@
 	margin-top: $half-gutter;
 	max-width: 800px;
 	padding: $gutter;
-	text-shadow: $text-shadow-tile;
+	//text-shadow: $text-shadow-tile;
 	@media (min-width: $md) {
 		margin-top: 8vh;
 	}
@@ -48,7 +52,7 @@
 
 .flx-hero__title {
 	@include font-style(24px, normal, 1.2);
-	color: $ns-white;
+	//color: $ns-white;
 	@media (min-width: $sm) {
 		font-size: calculate-rem(30px);
 	}
@@ -63,7 +67,7 @@
 .flx-hero__subtitle {
 	margin-bottom: $half-gutter;
 	@include font-style(30px, bold, 1.2);
-	color: $ns-white;
+	//color: $ns-white;
 	@media (min-width: $sm) {
 		margin-bottom: $gutter;
 		font-size: calculate-rem(56px);
@@ -141,6 +145,6 @@
 		text-shadow: none;
 	}
 	.flx-hero__img {
-		background-image: url("../../media/girl-yellow-2.jpg");
+		background-image: url("../../media/hero_abo.png");
 	}
 }

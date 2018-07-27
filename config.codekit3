@@ -2612,6 +2612,16 @@
 		"oO": 0,
 		"oS": 1
 		},
+	"\/bower_components\/grained\/grained.min.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 2,
+		"oAP": "\/bower_components\/grained\/grained.min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
 	"\/bower_components\/greensock-js\/easing\/CustomBounce.js": {
 		"ft": 64,
 		"ma": 0,
@@ -3363,6 +3373,17 @@
 		"plM": 3758088159,
 		"prP": 0
 		},
+	"\/media\/hero.jpg": {
+		"ft": 16384,
+		"iS": 1967157,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "\/media\/hero.jpg",
+		"oF": 0,
+		"oIPL": 1,
+		"opt": 1,
+		"q": 81
+		},
 	"\/media\/hero.png": {
 		"ft": 32768,
 		"iS": 0,
@@ -3372,13 +3393,24 @@
 		"oIPL": 1,
 		"opt": 1,
 		"oT": 1,
-		"q": 80
+		"q": 99
 		},
-	"\/media\/hero_tmp1201206213": {
+	"\/media\/hero_abo.png": {
+		"ft": 32768,
+		"iS": 0,
+		"oA": 0,
+		"oAP": "\/media\/hero_abo.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/media\/hero_abo_tmp1797734968": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
-		"oAP": "\/media\/hero_tmp1201206213",
+		"oAP": "\/media\/hero_abo_tmp1797734968",
 		"oF": 0
 		},
 	"\/media\/hoewerkt1.jpg": {
