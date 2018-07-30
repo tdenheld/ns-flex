@@ -71,6 +71,7 @@ var context_abos = {
 		"heading": "Abonnementen van NS Flex",
 		"description": "Al vanaf € 2 per maand.<br>Maandelijks aanpassen of uitzetten",
 		"link": "Meer weten over NS Flex",
+		"url": "https://ns.nl/nsflex/webshop",
 	},
 	
 	"ros": {

@@ -50,6 +50,7 @@ var context_landing = {
 		"heading": "Je zit nergens aan vast",
 		"description": "Flex is verkrijgbaar met of zonder onze abonnementen. Je bepaalt per maand of je met extra <b>korting</b> reist. Daarnaast kun je <b>maandelijks opzeggen</b> of aanpassen. Zonder kosten!",
 		"more": "Meer over abonnementen",
+		"url": "/abonnementen.html",
 		"img": "abos-dal.png",
 	},
 	
@@ -73,6 +74,7 @@ var context_landing = {
 			{"usp": "Binnen 1 uur flex reizen als je al een OV&#8209;chipkaart hebt"},
 			{"usp": "Binnen 1 week in huis met een nieuwe OV&#8209;chipkaart"},
 		],
+		"url": "https://ns.nl/nsflex/webshop",
 	},
 	
 	"testimonial": {
