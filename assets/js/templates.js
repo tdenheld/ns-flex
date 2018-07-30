@@ -45,9 +45,9 @@ templates['abos'] = template({"1":function(container,depth0,helpers,partials,dat
     + alias4(((helper = (helper = helpers.title || (depth0 != null ? depth0.title : depth0)) != null ? helper : alias2),(typeof helper === alias3 ? helper.call(alias1,{"name":"title","hash":{},"data":data}) : helper)))
     + "</h1> \n					<h1 class=\"flx-hero__subtitle\">"
     + alias4(((helper = (helper = helpers.subtitle || (depth0 != null ? depth0.subtitle : depth0)) != null ? helper : alias2),(typeof helper === alias3 ? helper.call(alias1,{"name":"subtitle","hash":{},"data":data}) : helper)))
-    + "</h1>\n					<button class=\"button flx-button--blue\">\n						"
+    + "</h1>\n					<a href=\"https://ns.nl/nsflex/webshop\" class=\"button flx-button--blue\">\n						"
     + alias4(((helper = (helper = helpers["button-cta"] || (depth0 != null ? depth0["button-cta"] : depth0)) != null ? helper : alias2),(typeof helper === alias3 ? helper.call(alias1,{"name":"button-cta","hash":{},"data":data}) : helper)))
-    + "\n					</button>\n				</div>\n			</div>\n		</div>\n	</div>\n	\n	<!------- container ------->\n	<div class=\"container flx-abos__container flx-abos__container--top box-shadow-container\">\n				\n		<!-- intro -->\n"
+    + "\n					</a>\n				</div>\n			</div>\n		</div>\n	</div>\n	\n	<!------- container ------->\n	<div class=\"container flx-abos__container flx-abos__container--top box-shadow-container\">\n				\n		<!-- intro -->\n"
     + ((stack1 = helpers.each.call(alias1,(depth0 != null ? depth0.usps : depth0),{"name":"each","hash":{},"fn":container.program(1, data, 0),"inverse":container.noop,"data":data})) != null ? stack1 : "")
     + "					\n		<!-- stories -->\n		<div class=\"flx-section__container flx-section__container--small flx-section__container--abos flx-border-grey-top-bottom\">\n			<div class=\"flx-section\">\n				<div class=\"flx-section__content flx-section__content--mw-800 txt-center\">\n					<h3 class=\"flx-section__title tr tr-stag\">\n						<b>"
     + ((stack1 = alias5(((stack1 = (depth0 != null ? depth0.stories : depth0)) != null ? stack1.heading : stack1), depth0)) != null ? stack1 : "")
@@ -71,9 +71,9 @@ templates['abos'] = template({"1":function(container,depth0,helpers,partials,dat
     + ((stack1 = alias5(((stack1 = (depth0 != null ? depth0.cta : depth0)) != null ? stack1.heading : stack1), depth0)) != null ? stack1 : "")
     + "</b></h3>\n					<p class=\"flx-section__description flx-section__content--mw-800 txt-center tr tr-stag\">"
     + ((stack1 = alias5(((stack1 = (depth0 != null ? depth0.cta : depth0)) != null ? stack1.description : stack1), depth0)) != null ? stack1 : "")
-    + "</p>\n					<div class=\"tr tr-stag spacer-margin-2\">\n						<button class=\"button flx-button--blue\">\n							"
+    + "</p>\n					<div class=\"tr tr-stag spacer-margin-2\">\n						<a href=\"https://ns.nl/nsflex/webshop\" class=\"button flx-button--blue\">\n							"
     + alias4(((helper = (helper = helpers["button-cta"] || (depth0 != null ? depth0["button-cta"] : depth0)) != null ? helper : alias2),(typeof helper === alias3 ? helper.call(alias1,{"name":"button-cta","hash":{},"data":data}) : helper)))
-    + "\n						</button>\n					</div>\n					<a href=\"/\" class=\"flx-link font-blue\">"
+    + "\n						</a>\n					</div>\n					<a href=\"/\" class=\"flx-link font-blue\">"
     + alias4(alias5(((stack1 = (depth0 != null ? depth0.cta : depth0)) != null ? stack1.link : stack1), depth0))
     + "</a>\n				</div>\n			</div>\n		</div>\n	</div>\n\n	<!-- ros abonnementen -->\n	<div class=\"flx-section\">\n		<div class=\"flx-section__container\">\n			<div class=\"container\">\n				<div class=\"flx-section__content flx-section__content--mw-800 txt-center\">\n					<h3 class=\"flx-section__title no-margin tr tr-stag\">\n						"
     + ((stack1 = alias5(((stack1 = (depth0 != null ? depth0.ros : depth0)) != null ? stack1.title : stack1), depth0)) != null ? stack1 : "")
@@ -142,9 +142,9 @@ templates['landing'] = template({"1":function(container,depth0,helpers,partials,
     + alias2(alias1(((stack1 = (depth0 != null ? depth0.hero : depth0)) != null ? stack1.title : stack1), depth0))
     + "</h1> \n				<h2 class=\"flx-hero__subtitle\">"
     + alias2(alias1(((stack1 = (depth0 != null ? depth0.hero : depth0)) != null ? stack1.subtitle : stack1), depth0))
-    + "</h2>\n				<button class=\"button flx-button--blue\">\n					"
+    + "</h2>\n				<a href=\"https://ns.nl/nsflex/webshop\" class=\"button flx-button--blue\">\n					"
     + ((stack1 = ((helper = (helper = helpers["button-cta-text"] || (depth0 != null ? depth0["button-cta-text"] : depth0)) != null ? helper : alias4),(typeof helper === alias5 ? helper.call(alias3,{"name":"button-cta-text","hash":{},"data":data}) : helper))) != null ? stack1 : "")
-    + "\n				</button>\n			</div>\n		</div>\n	</div>\n</div>	\n<div class=\"js-scroll-down tr-750\">\n	<div class=\"flx-hero__scrolldown ani ani--fade-in ani--delay-1250\">\n		<div class=\"scroll-down scroll-down--blue\">\n			<div class=\"scroll-down__icon\">\n				<div class=\"scroll-down__icon-circle\"></div>\n			</div>\n		</div>\n	</div>\n</div>\n		\n<!-- big fat usps with gradient transitions -->\n"
+    + "\n				</a>\n			</div>\n		</div>\n	</div>\n</div>	\n<div class=\"js-scroll-down tr-750\">\n	<div class=\"flx-hero__scrolldown ani ani--fade-in ani--delay-1250\">\n		<div class=\"scroll-down scroll-down--blue\">\n			<div class=\"scroll-down__icon\">\n				<div class=\"scroll-down__icon-circle\"></div>\n			</div>\n		</div>\n	</div>\n</div>\n		\n<!-- big fat usps with gradient transitions -->\n"
     + ((stack1 = helpers.each.call(alias3,(depth0 != null ? depth0.section : depth0),{"name":"each","hash":{},"fn":container.program(1, data, 0),"inverse":container.noop,"data":data})) != null ? stack1 : "")
     + "\n<!-- al het OV -->\n<div class=\"flx-section\">\n	<div class=\"flx-ov__bg tr tr-500 tr--fade-in\"></div>\n	<div class=\"flx-section__container flx-section__container--large\">\n		<div class=\"container ovr-container\">\n			<div class=\"flx-grid flx-grid--2-3\">\n				<div></div>		\n				<div class=\"flx-section__content tr tr-stag\">\n					<div class=\"flx-ov__text-container\">\n						<h3 class=\"flx-section__content-item flx-section__title tr tr-stag\">\n							<b>"
     + alias2(alias1(((stack1 = (depth0 != null ? depth0.ov : depth0)) != null ? stack1.heading : stack1), depth0))
@@ -180,9 +180,9 @@ templates['landing'] = template({"1":function(container,depth0,helpers,partials,
     + ((stack1 = alias1(((stack1 = (depth0 != null ? depth0.cta : depth0)) != null ? stack1.heading : stack1), depth0)) != null ? stack1 : "")
     + "</h3>\n				<p class=\"flx-cta__description tr tr-stag\">"
     + ((stack1 = alias1(((stack1 = (depth0 != null ? depth0.cta : depth0)) != null ? stack1.description : stack1), depth0)) != null ? stack1 : "")
-    + "</p>\n				<div class=\"tr tr-stag\">\n					<button class=\"button flx-button--blue\">\n						"
+    + "</p>\n				<div class=\"tr tr-stag\">\n					<a href=\"https://ns.nl/nsflex/webshop\" class=\"button flx-button--blue\">\n						"
     + ((stack1 = ((helper = (helper = helpers["button-cta-text"] || (depth0 != null ? depth0["button-cta-text"] : depth0)) != null ? helper : alias4),(typeof helper === alias5 ? helper.call(alias3,{"name":"button-cta-text","hash":{},"data":data}) : helper))) != null ? stack1 : "")
-    + "\n					</button>\n				</div>\n				<div class=\"flx-cta__usp-grid\">\n"
+    + "\n					</a>\n				</div>\n				<div class=\"flx-cta__usp-grid\">\n"
     + ((stack1 = helpers.each.call(alias3,((stack1 = (depth0 != null ? depth0.cta : depth0)) != null ? stack1.usps : stack1),{"name":"each","hash":{},"fn":container.program(10, data, 0),"inverse":container.noop,"data":data})) != null ? stack1 : "")
     + "				</div>\n			</div>\n		</div>\n	</div>\n</div>\n\n<!-- testimonial -->\n<div class=\"flx-section\">\n	<div class=\"flx-section__container flx-section__container--small flx-gradient--grey\">\n		<div class=\"container ovr-container\">\n			<div class=\"flx-section__content flx-testimonial__content\">\n				<div class=\"flx-grid flx-grid--align-center flx-grid--max-1 flx-grid--double-col-gap flx-grid--row-gap\">\n					<div class=\"flx-testimonial__img tr tr-500 tr--scale-in\"></div>\n					<div class=\"flx-testimonial__text\">\n						<h3 class=\"headingM spacer-margin-2 tr tr-stag\">"
     + ((stack1 = alias1(((stack1 = (depth0 != null ? depth0.testimonial : depth0)) != null ? stack1.sender : stack1), depth0)) != null ? stack1 : "")
@@ -221,9 +221,9 @@ templates['sell'] = template({"1":function(container,depth0,helpers,partials,dat
     + ((stack1 = alias1(((stack1 = (depth0 != null ? depth0.cta : depth0)) != null ? stack1.description : stack1), depth0)) != null ? stack1 : "")
     + "</p>\n					<div class=\"flx-cta__usp-grid flx-cta__usp-grid--left\">\n"
     + ((stack1 = helpers.each.call(alias3,((stack1 = (depth0 != null ? depth0.cta : depth0)) != null ? stack1.usps : stack1),{"name":"each","hash":{},"fn":container.program(1, data, 0),"inverse":container.noop,"data":data})) != null ? stack1 : "")
-    + "					</div>\n					<button class=\"button button--nsYellow flx-button--yellow flx-button--fw\">\n						"
+    + "					</div>\n					<a href=\"https://ns.nl/nsflex/webshop\" class=\"button button--nsYellow flx-button--yellow flx-button--fw\">\n						"
     + ((stack1 = ((helper = (helper = helpers["button-cta-text"] || (depth0 != null ? depth0["button-cta-text"] : depth0)) != null ? helper : helpers.helperMissing),(typeof helper === "function" ? helper.call(alias3,{"name":"button-cta-text","hash":{},"data":data}) : helper))) != null ? stack1 : "")
-    + "\n					</button>\n				</div>\n			</div>\n		</div>\n	</div>\n</div>\n\n<!-- usps -->\n<div class=\"flx-section\">\n	<div class=\"flx-section__container divider\">\n		<div class=\"container ovr-container\">\n			<div class=\"flx-section__content flx-section__content--mw-800 txt-center\">\n				<h3 class=\"flx-section__title tr tr-stag\">"
+    + "\n					</a>\n				</div>\n			</div>\n		</div>\n	</div>\n</div>\n\n<!-- usps -->\n<div class=\"flx-section\">\n	<div class=\"flx-section__container divider\">\n		<div class=\"container ovr-container\">\n			<div class=\"flx-section__content flx-section__content--mw-800 txt-center\">\n				<h3 class=\"flx-section__title tr tr-stag\">"
     + ((stack1 = alias1(((stack1 = ((stack1 = (depth0 != null ? depth0.sell : depth0)) != null ? stack1.usps : stack1)) != null ? stack1.heading : stack1), depth0)) != null ? stack1 : "")
     + "</h3>\n			</div>\n			<div class=\"flx-summary\">\n"
     + ((stack1 = helpers.each.call(alias3,(depth0 != null ? depth0.summary : depth0),{"name":"each","hash":{},"fn":container.program(3, data, 0),"inverse":container.noop,"data":data})) != null ? stack1 : "")
