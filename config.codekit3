@@ -16,6 +16,13 @@
 		"oAP": "\/.htaccess",
 		"oF": 0
 		},
+	"\/_redirects": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/_redirects",
+		"oF": 0
+		},
 	"\/abos.html": {
 		"cB": 0,
 		"ft": 8192,
