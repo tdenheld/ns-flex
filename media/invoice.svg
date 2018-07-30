@@ -1,0 +1,26 @@
+<svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" width="46" height="48" viewBox="0 0 46 48">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #003082;
+      }
+    </style>
+  </defs>
+  <title>invoice</title>
+  <g>
+    <path class="cls-1" d="M23.878,5.048,23.756,5H0V43H29V10.1ZM24,6.51,27.341,10H24ZM28,42H1V6H23v5h5Z"/>
+    <rect class="cls-1" x="6" y="17" width="9" height="1"/>
+    <rect class="cls-1" x="22" y="17" width="1" height="1"/>
+    <rect class="cls-1" x="6" y="25" width="9" height="1"/>
+    <rect class="cls-1" x="6" y="21" width="9" height="1"/>
+    <rect class="cls-1" x="16" y="17" width="5" height="1"/>
+    <rect class="cls-1" x="16" y="25" width="5" height="1"/>
+    <rect class="cls-1" x="16" y="21" width="5" height="1"/>
+    <rect class="cls-1" x="22" y="25" width="1" height="1"/>
+    <rect class="cls-1" x="22" y="21" width="1" height="1"/>
+    <rect class="cls-1" x="6" y="29" width="9" height="1"/>
+    <rect class="cls-1" x="22" y="29" width="1" height="1"/>
+    <rect class="cls-1" x="16" y="29" width="5" height="1"/>
+    <rect class="cls-1" x="18" y="34" width="5" height="1"/>
+  </g>
+</svg>

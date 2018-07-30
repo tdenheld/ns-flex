@@ -9,13 +9,6 @@
 	],
 "creatorBuild": "26680",
 "files": {
-	"\/.gitignore": {
-		"cB": 0,
-		"ft": 8192,
-		"oA": 0,
-		"oAP": "\/.gitignore",
-		"oF": 0
-		},
 	"\/.htaccess": {
 		"cB": 0,
 		"ft": 8192,
@@ -3128,61 +3121,6 @@
 		"opt": 1,
 		"q": 100
 		},
-	"\/media\/bike.jpg": {
-		"ft": 16384,
-		"iS": 3698726,
-		"jF": 0,
-		"oA": 0,
-		"oAP": "\/media\/bike.jpg",
-		"oF": 1,
-		"oIPL": 1,
-		"opt": 1,
-		"q": 80
-		},
-	"\/media\/cake.jpg": {
-		"ft": 16384,
-		"iS": 97184,
-		"jF": 0,
-		"oA": 0,
-		"oAP": "\/media\/cake.jpg",
-		"oF": 1,
-		"oIPL": 0,
-		"opt": 0,
-		"q": 100
-		},
-	"\/media\/cart.jpg": {
-		"ft": 16384,
-		"iS": 1640290,
-		"jF": 0,
-		"oA": 0,
-		"oAP": "\/media\/cart.jpg",
-		"oF": 1,
-		"oIPL": 1,
-		"opt": 1,
-		"q": 80
-		},
-	"\/media\/cart2.jpg": {
-		"ft": 16384,
-		"iS": 100427,
-		"jF": 0,
-		"oA": 0,
-		"oAP": "\/media\/cart2.jpg",
-		"oF": 1,
-		"oIPL": 0,
-		"opt": 1,
-		"q": 100
-		},
-	"\/media\/cart3.jpg": {
-		"ft": 16384,
-		"iS": 1222710,
-		"jF": 0,
-		"oA": 0,
-		"oAP": "\/media\/cart3.jpg",
-		"oF": 1,
-		"oIPL": 1,
-		"opt": 1,
-		"q": 80
-		},
 	"\/media\/checkout.svg": {
 		"ft": 2097152,
 		"miP": 0,
@@ -3233,17 +3171,6 @@
 		"plM": 3758088159,
 		"prP": 0
 		},
-	"\/media\/flamingo.jpg": {
-		"ft": 16384,
-		"iS": 1334609,
-		"jF": 0,
-		"oA": 0,
-		"oAP": "\/media\/flamingo.jpg",
-		"oF": 1,
-		"oIPL": 1,
-		"opt": 1,
-		"q": 80
-		},
 	"\/media\/flex.svg": {
 		"ft": 2097152,
 		"miP": 0,
@@ -3284,70 +3211,15 @@
 		"plM": 3758088159,
 		"prP": 0
 		},
-	"\/media\/girl-green.jpg": {
-		"ft": 16384,
-		"iS": 4064653,
-		"jF": 0,
-		"oA": 0,
-		"oAP": "\/media\/girl-green.jpg",
-		"oF": 1,
-		"oIPL": 1,
-		"opt": 1,
-		"q": 80
-		},
 	"\/media\/girl-green.png": {
 		"ft": 32768,
-		"iS": 0,
+		"iS": 444985,
 		"oA": 0,
 		"oAP": "\/media\/girl-green.png",
 		"oF": 0,
-		"oIPL": 1,
-		"opt": 1,
-		"oT": 1,
-		"q": 80
-		},
-	"\/media\/girl-pink.jpg": {
-		"ft": 16384,
-		"iS": 3604876,
-		"jF": 0,
-		"oA": 0,
-		"oAP": "\/media\/girl-pink.jpg",
-		"oF": 1,
-		"oIPL": 0,
-		"opt": 1,
-		"q": 80
-		},
-	"\/media\/girl-yellow-2.jpg": {
-		"ft": 16384,
-		"iS": 129814,
-		"jF": 0,
-		"oA": 0,
-		"oAP": "\/media\/girl-yellow-2.jpg",
-		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
-		"q": 100
-		},
-	"\/media\/girl-yellow.jpg": {
-		"ft": 16384,
-		"iS": 1120226,
-		"jF": 0,
-		"oA": 0,
-		"oAP": "\/media\/girl-yellow.jpg",
-		"oF": 1,
-		"oIPL": 1,
-		"opt": 1,
-		"q": 80
-		},
-	"\/media\/goudetant.jpg": {
-		"ft": 16384,
-		"iS": 67781,
-		"jF": 0,
-		"oA": 0,
-		"oAP": "\/media\/goudetant.jpg",
-		"oF": 1,
-		"oIPL": 0,
-		"opt": 1,
+		"oT": 1,
 		"q": 100
 		},
 	"\/media\/heart.svg": {
@@ -3359,17 +3231,6 @@
 		"opt": 0,
 		"plM": 3758088159,
 		"prP": 0
-		},
-	"\/media\/hero.jpg": {
-		"ft": 16384,
-		"iS": 1967157,
-		"jF": 0,
-		"oA": 0,
-		"oAP": "\/media\/hero.jpg",
-		"oF": 0,
-		"oIPL": 1,
-		"opt": 1,
-		"q": 81
 		},
 	"\/media\/hero.png": {
 		"ft": 32768,
@@ -3468,27 +3329,6 @@
 		"oT": 1,
 		"q": 100
 		},
-	"\/media\/kostenteller.svg": {
-		"ft": 2097152,
-		"miP": 0,
-		"oA": 0,
-		"oAP": "\/media\/kostenteller.svg",
-		"oF": 1,
-		"opt": 0,
-		"plM": 3758088159,
-		"prP": 0
-		},
-	"\/media\/man-portret.jpg": {
-		"ft": 16384,
-		"iS": 1341211,
-		"jF": 0,
-		"oA": 0,
-		"oAP": "\/media\/man-portret.jpg",
-		"oF": 1,
-		"oIPL": 0,
-		"opt": 0,
-		"q": 100
-		},
 	"\/media\/marieke.jpg": {
 		"ft": 16384,
 		"iS": 170294,
@@ -3500,16 +3340,6 @@
 		"opt": 1,
 		"q": 80
 		},
-	"\/media\/nooitmeer.svg": {
-		"ft": 2097152,
-		"miP": 0,
-		"oA": 0,
-		"oAP": "\/media\/nooitmeer.svg",
-		"oF": 1,
-		"opt": 0,
-		"plM": 3758088159,
-		"prP": 0
-		},
 	"\/media\/ov-chip.svg": {
 		"ft": 2097152,
 		"miP": 0,
@@ -3520,40 +3350,11 @@
 		"plM": 3758088159,
 		"prP": 0
 		},
-	"\/media\/ov.jpg": {
-		"ft": 16384,
-		"iS": 1632735,
-		"jF": 0,
-		"oA": 0,
-		"oAP": "\/media\/ov.jpg",
-		"oF": 1,
-		"oIPL": 1,
-		"opt": 1,
-		"q": 80
-		},
 	"\/media\/public-transport.svg": {
 		"ft": 2097152,
 		"miP": 0,
 		"oA": 0,
 		"oAP": "\/media\/public-transport.svg",
-		"oF": 1,
-		"opt": 0,
-		"plM": 3758088159,
-		"prP": 0
-		},
-	"\/media\/train.gif": {
-		"ft": 4194304,
-		"iS": 2077084,
-		"oA": 0,
-		"oAP": "\/media\/train.gif",
-		"oF": 0,
-		"opt": 0
-		},
-	"\/media\/trainsmile.svg": {
-		"ft": 2097152,
-		"miP": 0,
-		"oA": 0,
-		"oAP": "\/media\/trainsmile.svg",
 		"oF": 1,
 		"opt": 0,
 		"plM": 3758088159,
@@ -3569,17 +3370,6 @@
 		"oIPL": 1,
 		"opt": 1,
 		"q": 89
-		},
-	"\/media\/work.jpg": {
-		"ft": 16384,
-		"iS": 1209918,
-		"jF": 0,
-		"oA": 0,
-		"oAP": "\/media\/work.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 1,
-		"q": 100
 		},
 	"\/sell.html": {
 		"cB": 0,
