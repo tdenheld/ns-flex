@@ -2435,19 +2435,6 @@
 		"oS": 0,
 		"uL": 1
 		},
-	"\/assets\/sass\/components.ros.scss": {
-		"aP": 0,
-		"bl": 0,
-		"dP": 10,
-		"dS": 0,
-		"ft": 4,
-		"ma": 0,
-		"oA": 1,
-		"oAP": "\/assets\/sass\/components.ros.css",
-		"oF": 0,
-		"oS": 0,
-		"uL": 1
-		},
 	"\/assets\/sass\/components.sections.scss": {
 		"aP": 0,
 		"bl": 0,
@@ -3401,8 +3388,19 @@
 		"oA": 0,
 		"oAP": "\/media\/hero_abo.png",
 		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
+		"oIPL": 1,
+		"opt": 1,
+		"oT": 1,
+		"q": 100
+		},
+	"\/media\/hero_sell.png": {
+		"ft": 32768,
+		"iS": 0,
+		"oA": 0,
+		"oAP": "\/media\/hero_sell.png",
+		"oF": 0,
+		"oIPL": 1,
+		"opt": 1,
 		"oT": 1,
 		"q": 100
 		},

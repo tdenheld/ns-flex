@@ -90,6 +90,15 @@ var context_landing = {
 			{"question": "Ik heb nog meer vragen..."},
 		],
 	},
+	
+	"sell": {
+		"heading": "NS Flex",
+		"price": "€ 0",
+		"unit": " / mnd",
+		"usps": {
+			"heading": "<b>Daarom NS Flex</b>",
+		},
+	},
 };
 
 var landing = document.getElementById("landing");

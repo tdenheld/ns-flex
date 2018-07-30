@@ -136,6 +136,11 @@
 	justify-content: center;
 	margin-top: $one-half-gutter;
 	text-align: left;
+	
+	&--left {
+		margin: 0 0 $gutter;
+		justify-content: left;
+	}
 }
 
 .flx-cta__usp {
@@ -152,6 +157,10 @@
 		
 	svg {
 		fill: $ns-blue;
+	}
+	
+	&--left {
+		margin: 0 0 10px;
 	}
 }
 	
@@ -205,6 +214,92 @@
 	}
 }
 
+
+
+
+// ros
+// ----------------------------
+.flx-ros__grid {
+	display: grid;
+	grid-gap: $gutter;
+	@media (min-width: $sm) {
+		grid-template-columns: repeat(2, 1fr);	
+	}
+	@media (min-width: $md) {
+		grid-template-columns: repeat(3, 1fr);	
+	}
+}
+
+.flx-ros__content {
+	display: none;
+	margin-top: -56px;
+	@media (min-width: $md) {
+		margin-top: -70px;
+	}
+}
+
+.flx-ros__description {
+	padding: 0 $gutter 42px;
+	@media (min-width: $md) {
+		padding: 0 $gutter 90px;
+	}
+}
+
+.flx-ros__btn-icon {
+	position: relative;
+	top: -4px;
+	margin-right: 7px;
+	svg {
+		fill: $ns-light-blue;
+	}
+}
+
+
+
+// sell
+// ----------------------------
+.flx-sell-box__hero-container {
+	margin: auto;	
+}
+
+.flx-sell-box__hero-grid {
+	display: grid;
+	padding: $gutter;
+	@media (min-width: $sm) {
+		grid-template-columns: 2fr 3fr;
+	}
+	
+	@media (min-width: $md) {
+		grid-template-columns: 3fr 2fr;
+	}
+	
+	@media (min-width: $lg) {
+		grid-template-columns: 2fr 1fr;
+	}
+}
+
+.flx-sell-box {
+	padding: $gutter;
+	background-color: $ns-white;
+	box-shadow: 0 0 70px $ns-grey-alpha-15;
+	border-radius: 8px;	
+}
+
+.flx-sell-box__header {
+	display: flex;
+	justify-content: space-between;
+	margin-bottom: 20px;
+}
+
+.flx-sell-box__unit {
+	@include font-style(14px, normal, 1.4);
+	color: $ns-grey-4;
+}
+
+.flx-sell-box__description {
+	@include font-style(18px, normal, 1.4);
+	color: $ns-blue;
+}
 
 
 

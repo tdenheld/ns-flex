@@ -23,6 +23,7 @@
 	@include full(absolute);
 	@include bg(cover);
 	background-image: url("../../media/hero.png");
+	filter: drop-shadow(-10px 30px 50px rgba(#d38600, 0.8));
 }
 
 .flx-hero__grained {
@@ -44,7 +45,6 @@
 	margin-top: $half-gutter;
 	max-width: 800px;
 	padding: $gutter;
-	//text-shadow: $text-shadow-tile;
 	@media (min-width: $md) {
 		margin-top: 8vh;
 	}
@@ -52,7 +52,6 @@
 
 .flx-hero__title {
 	@include font-style(24px, normal, 1.2);
-	//color: $ns-white;
 	@media (min-width: $sm) {
 		font-size: calculate-rem(30px);
 	}
@@ -67,7 +66,6 @@
 .flx-hero__subtitle {
 	margin-bottom: $half-gutter;
 	@include font-style(30px, bold, 1.2);
-	//color: $ns-white;
 	@media (min-width: $sm) {
 		margin-bottom: $gutter;
 		font-size: calculate-rem(56px);
@@ -98,30 +96,43 @@
 	color: $ns-white;
 }
 
+
+// white text
+.flx-hero--white-txt {
+	.flx-hero__content {
+		text-shadow: $text-shadow-tile;
+	}
+	
+	.flx-hero__title, .flx-hero__subtitle {
+		color: $ns-white;
+	}
+}
+	
+	
 // hero with less height
 .flx-hero--small {
-	height: $hero-height-abos;
+	height: $hero-height-small;
 	margin-bottom: 0;
 	@media (min-width: $md) {
-		min-height: 500px;
+		min-height: 480px;
 	}
 	@media (min-width: $sm) and (max-height: 600px) {
-		height: 70vh;
+		height: $hero-height-small;
 	}
 	
 	.flx-hero__flow {								
 		svg {
 			width: auto;
-			height: $hero-height-abos;
+			height: $hero-height-small;
 			@media (max-aspect-ratio: 5/5) {
 				width: 100%;
 				height: auto;
 			}
 			@media (min-width: $md) {
-				min-height: 500px;
+				min-height: 480px;
 			}
 			@media (min-width: $sm) and (max-height: 600px) {
-				height: 70vh;
+				height: $hero-height-small;
 			}
 		}
 	}
@@ -133,18 +144,31 @@
 	}
 }
 
-// abonnementen modifier
-.flx-hero--abo {
-	.flx-hero__flow {								
-		svg {
-			opacity: 0.8;
-		}
-	}	
-	.flx-hero__title, .flx-hero__subtitle {
-		color: $ns-blue;
-		text-shadow: none;
+// hero with even lesser height
+.flx-hero--smaller {
+	height: auto;
+	margin-bottom: 0;
+	@media (min-width: $md) {
+		min-height: 480px;
 	}
+}
+
+
+// abonnementen
+.flx-hero--abo {
 	.flx-hero__img {
 		background-image: url("../../media/hero_abo.png");
 	}
 }
+
+
+// sell
+.flx-hero--sell {
+	display: flex;
+	align-items: center;
+	
+	.flx-hero__img {
+		background-image: url("../../media/hero_sell.png");
+		filter: drop-shadow(-10px 30px 50px rgba($ns-blue, 0.6));
+	}
+} 

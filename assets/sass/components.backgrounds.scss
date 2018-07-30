@@ -37,6 +37,11 @@
 		background: linear-gradient(
 			135deg, $ns-light-blue 0%, #4BCED4 100%);
 		opacity: 0.3;
+	}
+	&--blue-to-light {
+		background: linear-gradient(
+			135deg, $ns-blue 0%, $ns-light-blue 100%);
+		opacity: 0.3;
 	}	
 	&--cerulean {
 		background: linear-gradient(
