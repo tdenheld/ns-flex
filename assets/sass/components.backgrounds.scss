@@ -79,10 +79,15 @@
 		background: linear-gradient(
 			110deg, #79CEC3 0%, #BCFFF0 100%);
 	}
-	&--hero {
+	&--vibrant {
 		background: linear-gradient(
 			110deg, #00a29c 0%, #4bc3c6 100%);
 		opacity: 1;
+	}
+	&--stone {
+		background: linear-gradient(
+			110deg, #e1ab93 0%, #edc0a9 100%);
+		opacity: 0.75;
 	}
 }
 

@@ -35,9 +35,9 @@ var context_landing = {
 	},
 	
 	"first-class": {
-		"heading": "Zonder gedoe,<br>reizen met klasse",
+		"heading": "Jij bepaalt.<br>Op elk moment",
 		"description": "Op langere reizen of drukkere trajecten kan het fijn zijn om soms ruimer, rustiger en luxer te reizen. Met NS Flex kun je het tot een kwartier nadat je incheckt nog switchen naar de 1e klas. Je kunt dus in de trein nog beslissen.",
-		"img": "bike-yellow.jpg",
+		"img": "girl-blue.jpg",
 		"button": "Hoe werk het?",
 		"list": [
 			{"item": "Ga naar Mijn NS"},

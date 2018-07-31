@@ -149,7 +149,18 @@
 	height: auto;
 	margin-bottom: 0;
 	@media (min-width: $md) {
-		min-height: 480px;
+		min-height: 560px;
+	}
+	.flx-hero__flow {
+		position: relative;								
+		svg {
+			height: auto;
+			@media (min-width: $md) and (min-aspect-ratio: 6/5) {
+				position: absolute;
+				right: 0;
+				height: 560px;		
+			}
+		}
 	}
 }
 
@@ -158,6 +169,7 @@
 .flx-hero--abo {
 	.flx-hero__img {
 		background-image: url("../../media/hero_abo.png");
+		filter: drop-shadow(-10px 30px 50px rgba($ns-black, 0.25));
 	}
 }
 
@@ -169,6 +181,5 @@
 	
 	.flx-hero__img {
 		background-image: url("../../media/hero_sell.png");
-		filter: drop-shadow(-10px 30px 50px rgba($ns-blue, 0.5));
 	}
 } 
