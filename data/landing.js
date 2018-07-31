@@ -98,8 +98,23 @@ var context_landing = {
 		"price": "€ 0",
 		"unit": " / mnd",
 		"usps": {
-			"heading": "<b>Daarom NS Flex</b>",
+			"heading": "Daarom NS Flex",
 		},
+		"summary": [
+			{
+				"icon": "ov-chip--left",
+				"title": "Nooit meer saldo laden",
+				"description": "Maar een overzichtelijke rekening achteraf.",
+			},{
+				"icon": "factuur--left",
+				"title": "Altijd inzicht in je reiskosten",
+				"description": "Inclusief kostenalerts die je zelf kunt instellen.",
+			},{
+				"icon": "exit--left",
+				"title": "Je zit nergens aan vast",
+				"description": "Je betaald alleen de reizen die je maakt. Reis je nietdan betaal je ook niets.",
+			},
+		],
 	},
 };
 

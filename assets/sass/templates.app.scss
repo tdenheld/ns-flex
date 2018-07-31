@@ -256,53 +256,6 @@
 
 
 
-// sell
-// ----------------------------
-.flx-sell-box__hero-container {
-	margin: auto;	
-}
-
-.flx-sell-box__hero-grid {
-	display: grid;
-	padding: $gutter;
-	@media (min-width: $sm) {
-		grid-template-columns: 2fr 3fr;
-	}
-	
-	@media (min-width: $md) {
-		grid-template-columns: 3fr 2fr;
-	}
-	
-	@media (min-width: $lg) {
-		grid-template-columns: 2fr 1fr;
-	}
-}
-
-.flx-sell-box {
-	padding: $gutter;
-	background-color: $ns-white;
-	box-shadow: 0 0 70px $ns-grey-alpha-15;
-	border-radius: 8px;	
-}
-
-.flx-sell-box__header {
-	display: flex;
-	justify-content: space-between;
-	margin-bottom: 20px;
-}
-
-.flx-sell-box__unit {
-	@include font-style(14px, normal, 1.4);
-	color: $ns-grey-4;
-}
-
-.flx-sell-box__description {
-	@include font-style(18px, normal, 1.4);
-	color: $ns-blue;
-}
-
-
-
 // misc
 // ----------------------------
 .flx-more {

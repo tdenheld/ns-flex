@@ -3,25 +3,25 @@
 --------------------*/
 
 .inline-block {
-	display: inline-block !important;
+	display: inline-block;
 }
 .display-flex {
-	display: flex !important;
+	display: flex;
 }
 .no-padding {
-	padding: 0 !important;
+	padding: 0;
 }
 .no-margin {
-	margin: 0 !important;
+	margin: 0;
 }
 .w-100 {
-	width: 100% !important;
+	width: 100%;
 }
 .h-100 {
-	height: 100% !important;
+	height: 100%;
 }
 .fade-all {
-	transition: $fade-all !important;
+	transition: $fade-all;
 }
 
 
@@ -42,12 +42,33 @@
 
 // Layout
 // -------------------------
+@for $i from 1 through 16 {
+	// margin
+	.spacer-margin-#{$i} {
+		@include spacer($i, false);
+	}
+	
+	//padding
+	.spacer-padding-#{$i} {
+		@include spacer($i, true);
+	}
+}
+.spacer-default {
+	margin-bottom: $half-gutter;
+	@media (min-width: $sm) {
+		margin-bottom: $gutter;
+	}
+}
+.spacer-inline-block {
+	display: inline-block;
+	width: 100%;
+}
 
 .pull-right {
-  float: right !important;
+  float: right;
 }
 .pull-left {
-  float: left !important;
+  float: left;
 }
 .center-v {
 	vertical-align: middle;
@@ -84,39 +105,38 @@
 
 // Visibility
 // -------------------------
-
 .hide {
-  display: none !important;
+  display: none;
 }
 .show {
-  display: block !important;
+  display: block;
 }
 .invisible {
-  visibility: hidden !important;
+  visibility: hidden;
 }
 .visible-xs {
 	@media (min-width: $sm) {
-		display: none !important;
+		display: none;
 	}
 }
 .hidden-xs {
 	@media (max-width: $sm) {
-		display: none !important;
+		display: none;
 	}
 }
 .hidden-sm {
 	@media (min-width: $sm) and (max-width: $md) {
-		display: none !important;
+		display: none;
 	}
 }
 .hidden-md {
 	@media (min-width: $md) and (max-width: $lg) {
-		display: none !important;
+		display: none;
 	}
 }
 .hidden-lg {
 	@media (min-width: $lg) {
-		display: none !important;
+		display: none;
 	}
 }
 
@@ -124,30 +144,29 @@
 
 // Fonts
 // -------------------------
-
 .font-dark-blue {
-	color: $ns-grey !important;
+	color: $ns-grey;
 }
 .font-white {
-	color: $ns-white !important;
+	color: $ns-white;
 }
 .font-yellow {
-	color: $ns-yellow !important;
+	color: $ns-yellow;
 }
 .font-blue {
-	color: $ns-blue !important;
+	color: $ns-blue;
 }
 .font-light-blue {
-	color: $ns-light-blue !important;
+	color: $ns-light-blue;
 }
 .font-grey-4 {
-	color: $ns-grey-4 !important;
+	color: $ns-grey-4;
 }
 .regular {
-	font-weight: normal !important;
+	font-weight: normal;
 }
 .bold {
-	font-weight: bold !important;
+	font-weight: bold;
 }
 .no-wrap {
 	white-space: nowrap;
@@ -158,50 +177,50 @@
 // Colours
 // -------------------------
 .blue {
-	color: $ns-blue !important;
+	color: $ns-blue;
 	svg {
-		fill: $ns-blue !important;
+		fill: $ns-blue;
 	}
 }
 .light-blue {
-	color: $ns-light-blue !important;
+	color: $ns-light-blue;
 	svg {
-		fill: $ns-light-blue !important;
+		fill: $ns-light-blue;
 	}
 }
 .red {
-	color: $ns-red-alert !important;
+	color: $ns-red-alert;
 	svg {
-		fill: $ns-red-alert !important;
+		fill: $ns-red-alert;
 	}
 }
 .white {
-	color: $ns-white !important;
+	color: $ns-white;
 	svg {
-		fill: $ns-white !important;
+		fill: $ns-white;
 	}
 }
 .grey-4 {
-	color: $ns-grey-4 !important;
+	color: $ns-grey-4;
 	svg {
-		fill: $ns-grey-4 !important;
+		fill: $ns-grey-4;
 	}
 }
 
 .bg-blue {
-	background-color: $ns-blue !important;
+	background-color: $ns-blue;
 }
 .bg-light-blue {
-	background-color: $ns-light-blue !important;
+	background-color: $ns-light-blue;
 }
 .bg-yellow {
-	background-color: $ns-yellow !important;
+	background-color: $ns-yellow;
 }
 .bg-grey-8 {
-	background-color: $ns-grey-8 !important;
+	background-color: $ns-grey-8;
 }
 .bg-grey-7 {
-	background-color: $ns-grey-7 !important;
+	background-color: $ns-grey-7;
 }
 
 
@@ -238,11 +257,11 @@
 // Shadows
 // -------------------------
 .box-shadow-soft {
-	box-shadow: $box-shadow-soft !important;
+	box-shadow: $box-shadow-soft;
 }
 .box-shadow-hard {
-	box-shadow: $box-shadow-hard !important;
+	box-shadow: $box-shadow-hard;
 }
 .box-shadow-container {
-	box-shadow: $box-shadow-container !important;
+	box-shadow: $box-shadow-container;
 }
