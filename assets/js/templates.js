@@ -48,7 +48,7 @@ templates['abos'] = template({"1":function(container,depth0,helpers,partials,dat
     + "</h2>\n					<a href=\""
     + alias2(alias1(((stack1 = ((stack1 = (depth0 != null ? depth0.global : depth0)) != null ? stack1.cta : stack1)) != null ? stack1.url : stack1), depth0))
     + "\" class=\"button flx-button--blue\">\n						"
-    + alias2(alias1(((stack1 = ((stack1 = (depth0 != null ? depth0.global : depth0)) != null ? stack1.cta : stack1)) != null ? stack1.button : stack1), depth0))
+    + alias2(alias1(((stack1 = (depth0 != null ? depth0.abos : depth0)) != null ? stack1["button-cta"] : stack1), depth0))
     + "\n					</a>\n				</div>\n			</div>\n		</div>\n	</div>\n	\n	<!------- container ------->\n	<div class=\"container flx-abos__container flx-abos__container--top box-shadow-container\">\n				\n		<!-- intro -->\n"
     + ((stack1 = helpers.each.call(alias3,((stack1 = (depth0 != null ? depth0.abos : depth0)) != null ? stack1.usps : stack1),{"name":"each","hash":{},"fn":container.program(1, data, 0),"inverse":container.noop,"data":data})) != null ? stack1 : "")
     + "			\n		<!-- stories -->\n		<div class=\"flx-section__container flx-section__container--small flx-section__container--abos flx-border-grey-top-bottom\">\n			<div class=\"flx-section\">\n				<div class=\"flx-section__content flx-section__content--mw-800 txt-center\">	\n					<h3 class=\"flx-section__title tr tr-stag\">\n						<b>"
@@ -76,7 +76,7 @@ templates['abos'] = template({"1":function(container,depth0,helpers,partials,dat
     + "</p>\n					<div class=\"tr tr-stag spacer-margin-2\">\n						<a href=\""
     + alias2(alias1(((stack1 = ((stack1 = (depth0 != null ? depth0.global : depth0)) != null ? stack1.cta : stack1)) != null ? stack1.url : stack1), depth0))
     + "\" class=\"button flx-button--blue\">\n							"
-    + alias2(alias1(((stack1 = ((stack1 = (depth0 != null ? depth0.global : depth0)) != null ? stack1.cta : stack1)) != null ? stack1.button : stack1), depth0))
+    + alias2(alias1(((stack1 = (depth0 != null ? depth0.abos : depth0)) != null ? stack1["button-cta"] : stack1), depth0))
     + "\n						</a>\n					</div>\n					<div class=\"tr tr-stag\">\n						<a href=\"/\" class=\"flx-link font-blue\">"
     + alias2(alias1(((stack1 = ((stack1 = (depth0 != null ? depth0.abos : depth0)) != null ? stack1.cta : stack1)) != null ? stack1.link : stack1), depth0))
     + "</a>\n					</div>\n				</div>\n			</div>\n		</div>\n	</div>\n\n	<!-- ros abonnementen -->\n	<div class=\"flx-section\">\n		<div class=\"flx-section__container\">\n			<div class=\"container\">\n				<div class=\"flx-section__content flx-section__content--mw-800 txt-center\">\n					<h3 class=\"flx-section__title no-margin tr tr-stag\">\n						"
@@ -221,13 +221,19 @@ templates['sell'] = template({"1":function(container,depth0,helpers,partials,dat
     + alias4(((helper = (helper = helpers.description || (depth0 != null ? depth0.description : depth0)) != null ? helper : alias2),(typeof helper === alias3 ? helper.call(alias1,{"name":"description","hash":{},"data":data}) : helper)))
     + "</p>\n				</div>\n";
 },"5":function(container,depth0,helpers,partials,data) {
-    var stack1, helper, alias1=depth0 != null ? depth0 : (container.nullContext || {}), alias2=helpers.helperMissing, alias3="function";
+    var stack1, helper, alias1=depth0 != null ? depth0 : (container.nullContext || {});
 
-  return "					<div class=\"flx-section__paragraph\">\n						<h4 class=\"flx-section__subtitle tr tr-stag\"><b>"
-    + ((stack1 = ((helper = (helper = helpers.title || (depth0 != null ? depth0.title : depth0)) != null ? helper : alias2),(typeof helper === alias3 ? helper.call(alias1,{"name":"title","hash":{},"data":data}) : helper))) != null ? stack1 : "")
-    + "</b></h4>\n						<p class=\"flx-section__description-small-grey tr tr-stag\">"
-    + ((stack1 = ((helper = (helper = helpers.description || (depth0 != null ? depth0.description : depth0)) != null ? helper : alias2),(typeof helper === alias3 ? helper.call(alias1,{"name":"description","hash":{},"data":data}) : helper))) != null ? stack1 : "")
-    + "</p>\n					</div>\n";
+  return "					<div class=\"flx-section__paragraph tr tr-stag\">\n						<h4 class=\"flx-section__subtitle spacer-margin-2\"><b>"
+    + ((stack1 = ((helper = (helper = helpers.title || (depth0 != null ? depth0.title : depth0)) != null ? helper : helpers.helperMissing),(typeof helper === "function" ? helper.call(alias1,{"name":"title","hash":{},"data":data}) : helper))) != null ? stack1 : "")
+    + "</b></h4>\n						<ul class=\"no-margin\">\n"
+    + ((stack1 = helpers.each.call(alias1,(depth0 != null ? depth0.list : depth0),{"name":"each","hash":{},"fn":container.program(6, data, 0),"inverse":container.noop,"data":data})) != null ? stack1 : "")
+    + "						</ul>\n					</div>\n";
+},"6":function(container,depth0,helpers,partials,data) {
+    var stack1, helper;
+
+  return "							<li class=\"font-blue\">"
+    + ((stack1 = ((helper = (helper = helpers.txt || (depth0 != null ? depth0.txt : depth0)) != null ? helper : helpers.helperMissing),(typeof helper === "function" ? helper.call(depth0 != null ? depth0 : (container.nullContext || {}),{"name":"txt","hash":{},"data":data}) : helper))) != null ? stack1 : "")
+    + "</li>\n";
 },"compiler":[7,">= 4.0.0"],"main":function(container,depth0,helpers,partials,data) {
     var stack1, alias1=container.lambda, alias2=container.escapeExpression, alias3=depth0 != null ? depth0 : (container.nullContext || {});
 

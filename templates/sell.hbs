@@ -70,9 +70,13 @@
 						{{{sell.chipcards.heading}}}
 					</h3>
 					{{#each sell.chipcards.item}}
-					<div class="flx-section__paragraph">
-						<h4 class="flx-section__subtitle tr tr-stag"><b>{{{title}}}</b></h4>
-						<p class="flx-section__description-small-grey tr tr-stag">{{{description}}}</p>
+					<div class="flx-section__paragraph tr tr-stag">
+						<h4 class="flx-section__subtitle spacer-margin-2"><b>{{{title}}}</b></h4>
+						<ul class="no-margin">
+						{{#each list}}
+							<li class="font-blue">{{{txt}}}</li>
+						{{/each}}
+						</ul>
 					</div>
 					{{/each}}
 				</div>
