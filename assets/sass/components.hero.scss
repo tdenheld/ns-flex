@@ -96,15 +96,21 @@
 }
 
 
-// white text
-.flx-hero--white-txt {
-	.flx-hero__content {
-		text-shadow: $text-shadow-tile;
-	}
-	
+// text styling
+.flx-hero--white-txt {	
 	.flx-hero__title, .flx-hero__subtitle {
 		color: $ns-white;
 	}
+}
+.flx-txt-shadow--thin {
+	text-shadow: 1px 1px 0 rgba($ns-black, 0.5);
+}
+.flx-txt-shadow--heavy {
+	text-shadow: $text-shadow-tile;
+}
+.flx-txt-glow--yellow {
+	text-shadow: 1px 1px 0 rgba($ns-yellow, 0.5),
+				 0 0 1px rgba($ns-yellow, 1);
 }
 	
 	

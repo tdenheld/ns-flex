@@ -18,10 +18,10 @@
 	<div class="ani ani--fade-in-up-small ani--delay-500">
 		<div class="container ovr-container">
 			<div class="flx-hero__content">
-				<h1 class="flx-hero__title">{{hero.title}}</h1> 
-				<h2 class="flx-hero__subtitle">{{hero.subtitle}}</h2>
-				<a href="{{cta.url}}" class="button flx-button--blue">
-					{{{button-cta-text}}}
+				<h1 class="flx-hero__title">{{global.title}}</h1> 
+				<h2 class="flx-hero__subtitle flx-txt-glow--yellow">{{landing.hero.subtitle}}</h2>
+				<a href="{{global.cta.url}}" class="button flx-button--blue">
+					{{{global.cta.button}}}
 				</a>
 			</div>
 		</div>
@@ -38,7 +38,7 @@
 </div>
 		
 <!-- big fat usps with gradient transitions -->
-{{#each section}}	
+{{#each landing.section}}	
 <div class="flx-section flx-section--usps">
 	<div class="container ovr-container">
 		<div class="flx-grid flx-grid--1-1 flx-grid--align-center">
@@ -66,10 +66,10 @@
 				<div class="flx-section__content tr tr-stag">
 					<div class="flx-ov__text-container">
 						<h3 class="flx-section__content-item flx-section__title tr tr-stag">
-							<b>{{ov.heading}}</b>
+							<b>{{landing.ov.heading}}</b>
 						</h3>
 						<p class="flx-section__content-item flx-section__description tr tr-stag">
-							{{ov.description}}
+							{{landing.ov.description}}
 						</p>
 					</div>
 				</div>
@@ -85,14 +85,14 @@
 			<div class="flx-grid flx-grid--1-1-sm">		
 				<div class="flx-costs__content">
 					<h3 class="flx-section__content-item flx-section__title tr tr-stag">
-						<b>{{costs.heading}}</b>
+						<b>{{landing.costs.heading}}</b>
 					</h3>
 					<p class="flx-section__content-item flx-section__description tr tr-stag">
-						{{costs.description}}
+						{{landing.costs.description}}
 					</p>
 				</div>
 				<div class="flx-costs__img tr tr-500 tr--scale-in">
-					<img src="../media/{{costs.img}}" class="img-responsive" />
+					<img src="../media/{{landing.costs.img}}" class="img-responsive" />
 				</div>
 			</div>
 		</div>
@@ -105,22 +105,22 @@
 		<div class="container ovr-container">
 			<div class="flx-grid flx-grid--1-1 flx-grid--align-center">
 				<div class="flx-section__img flx-section__img--100 tr tr-500 tr--scale-in">
-					<img src="../media/{{first-class.img}}" class="img-responsive" />
+					<img src="../media/{{landing.first-class.img}}" class="img-responsive" />
 				</div>		
 				<div class="flx-section__content">
 					<h3 class="flx-section__title tr tr-stag">
-						<b>{{{first-class.heading}}}</b>
+						<b>{{{landing.first-class.heading}}}</b>
 					</h3>
 					<p class="flx-section__description tr tr-stag">
-						{{{first-class.description}}}
+						{{{landing.first-class.description}}}
 					</p>
 					<div class="tr tr-stag js-more">
 						<div class="btn-more js-more-btn">
 							<span include="../assets/img/icons/plus--small.svg"></span>
-							{{{first-class.button}}}
+							{{{landing.first-class.button}}}
 						</div>
 						<ol class="flx-section__description flx-section__ol flx-more js-more-content">
-							{{#each first-class.list}}
+							{{#each landing.first-class.list}}
 								<li>{{{item}}}</li>
 							{{/each}}
 						</ol>
@@ -137,14 +137,14 @@
 		<div class="container ovr-container">
 			<div class="flx-grid flx-grid--1-1 flx-grid--align-center">
 				<div class="flx-section__img flx-section__img--100 flx-grid__reverse tr tr-500 tr--scale-in">
-					<img src="../media/{{abo.img}}" class="img-responsive" />
+					<img src="../media/{{landing.abo.img}}" class="img-responsive" />
 				</div>			
 				<div class="flx-section__content">
-					<h3 class="flx-section__title tr tr-stag"><b>{{{abo.heading}}}</b></h3>
-					<p class="flx-section__description tr tr-stag">{{{abo.description}}}</p>
+					<h3 class="flx-section__title tr tr-stag"><b>{{{landing.abo.heading}}}</b></h3>
+					<p class="flx-section__description tr tr-stag">{{{landing.abo.description}}}</p>
 					<div class="tr tr-stag">
-						<a href="{{abo.url}}" class="button flx-button flx-button--ghost">
-							{{{abo.more}}}
+						<a href="{{landing.abo.url}}" class="button flx-button flx-button--ghost">
+							{{{landing.abo.more}}}
 						</a>
 					</div>
 				</div>
@@ -158,7 +158,7 @@
 	<div class="flx-section__container flx-section__container--small flx-gradient--grey">
 		<div class="container ovr-container">
 			<div class="flx-summary">
-				{{#each summary}}
+				{{#each landing.summary}}
 				<div class="flx-summary__item tr tr-stag">
 					<div class="flx-summary__icon" include="../media/{{icon}}.svg"></div>
 					<h3 class="flx-summary__title">{{title}}</h3>
@@ -174,15 +174,15 @@
 	<div class="flx-section__container flx-gradient--yellow">
 		<div class="container ovr-container">
 			<div class="flx-section__content flx-section__content--mw-800 txt-center">
-				<h3 class="flx-section__title tr tr-stag">{{{cta.heading}}}</h3>
-				<p class="flx-cta__description tr tr-stag">{{{cta.description}}}</p>
+				<h3 class="flx-section__title tr tr-stag">{{{landing.cta.heading}}}</h3>
+				<p class="flx-cta__description tr tr-stag">{{{landing.cta.description}}}</p>
 				<div class="tr tr-stag">
-					<a href="{{cta.url}}" class="button flx-button--blue">
-						{{{button-cta-text}}}
+					<a href="{{global.cta.url}}" class="button flx-button--blue">
+						{{{global.cta.button}}}
 					</a>
 				</div>
 				<div class="flx-cta__usp-grid">
-					{{#each cta.usps}}
+					{{#each landing.cta.usps}}
 					<div class="flx-cta__usp tr tr-stag">
 						<span class="flx-cta__icon" include="../assets/img/icons/check-round--small.svg"></span>
 						<span>{{{usp}}}</span>
@@ -202,8 +202,8 @@
 				<div class="flx-grid flx-grid--align-center flx-grid--max-1 flx-grid--double-col-gap flx-grid--row-gap">
 					<div class="flx-testimonial__img tr tr-500 tr--scale-in"></div>
 					<div class="flx-testimonial__text">
-						<h3 class="headingM spacer-margin-2 tr tr-stag">{{{testimonial.sender}}}</h3>
-						<p class="flx-testimonial__quote tr tr-stag">{{{testimonial.quote}}}</p>
+						<h3 class="headingM spacer-margin-2 tr tr-stag">{{{landing.testimonial.sender}}}</h3>
+						<p class="flx-testimonial__quote tr tr-stag">{{{landing.testimonial.quote}}}</p>
 					</div>
 				</div>
 			</div>
@@ -216,9 +216,9 @@
 	<div class="flx-section__container divider">
 		<div class="container ovr-container">
 			<div class="flx-section__content">
-				<h3 class="flx-section__title">{{faq.heading}}</h3>
+				<h3 class="flx-section__title">{{landing.faq.heading}}</h3>
 				<ul class="list collapsibleList is-collapsible">
-					{{#each faq.questions}}
+					{{#each landing.faq.questions}}
 					<li class="collapsibleList__item ovr-collapsibleList__item">
 						<h3 class="collapsibleList__header" id="keuzedagen" tabindex="0" aria-expanded="false" role="button">{{{question}}}</h3>   
 					</li>

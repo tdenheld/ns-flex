@@ -75,6 +75,7 @@ var context_landing = {
 			{"usp": "Binnen 1 week in huis met een nieuwe OV&#8209;chipkaart"},
 		],
 		"url": "https://ns.nl/nsflex/webshop",
+		"link": "Meer weten over NS Flex",
 	},
 	
 	"testimonial": {
@@ -99,22 +100,35 @@ var context_landing = {
 		"unit": " / mnd",
 		"usps": {
 			"heading": "Daarom NS Flex",
+			"item": [
+				{
+					"icon": "ov-chip--left",
+					"title": "Nooit meer saldo laden",
+					"description": "Maar een overzichtelijke rekening achteraf.",
+				},{
+					"icon": "factuur--left",
+					"title": "Altijd inzicht in je reiskosten",
+					"description": "Inclusief kostenalerts die je zelf kunt instellen.",
+				},{
+					"icon": "exit--left",
+					"title": "Je zit nergens aan vast",
+					"description": "Je betaald alleen de reizen die je maakt. Reis je nietdan betaal je ook niets.",
+				},
+			],
+		},	
+		"chipcards": {
+			"img": "boy-blue-baloon.jpg",
+			"heading": "Je kunt direct instappen",
+			"item": [
+				{
+					"title": "Met je eigen OV-chipkaart",
+					"description": "Bestel NS Flex op je eigen OV-chipkaart (met pasfoto). NS Flex staat dan binnen een uur voor je klaar bij de kaartautomaat. Je kunt direct inchecken en reizen.",
+				},{
+					"title": "Gratis nieuwe OV-chipkaart",
+					"description": "Kies je voor een gratis nieuwe OV-chipkaart, dan heb je NS Flex binnen een week in huis. Met je nieuwe kaart kun je direct reizen.",
+				},
+			],
 		},
-		"summary": [
-			{
-				"icon": "ov-chip--left",
-				"title": "Nooit meer saldo laden",
-				"description": "Maar een overzichtelijke rekening achteraf.",
-			},{
-				"icon": "factuur--left",
-				"title": "Altijd inzicht in je reiskosten",
-				"description": "Inclusief kostenalerts die je zelf kunt instellen.",
-			},{
-				"icon": "exit--left",
-				"title": "Je zit nergens aan vast",
-				"description": "Je betaald alleen de reizen die je maakt. Reis je nietdan betaal je ook niets.",
-			},
-		],
 	},
 };
 

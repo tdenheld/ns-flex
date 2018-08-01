@@ -3067,8 +3067,18 @@
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
-		"oA": 1,
+		"oA": 0,
 		"oAP": "\/data\/abos-min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"\/data\/app-content.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 1,
+		"oAP": "\/data\/app-content-min.js",
 		"oF": 0,
 		"sC": 1,
 		"tS": 0
@@ -3077,7 +3087,7 @@
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
-		"oA": 1,
+		"oA": 0,
 		"oAP": "\/data\/landing-min.js",
 		"oF": 0,
 		"sC": 1,
@@ -3122,6 +3132,17 @@
 		"opt": 0,
 		"oT": 1,
 		"q": 100
+		},
+	"\/media\/boy-blue-baloon.jpg": {
+		"ft": 16384,
+		"iS": 178650,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "\/media\/boy-blue-baloon.jpg",
+		"oF": 0,
+		"oIPL": 1,
+		"opt": 1,
+		"q": 90
 		},
 	"\/media\/checkout.svg": {
 		"ft": 2097152,
@@ -3232,6 +3253,17 @@
 		"opt": 0,
 		"plM": 3758088159,
 		"prP": 0
+		},
+	"\/media\/girl-blue-wall.jpg": {
+		"ft": 16384,
+		"iS": 2110158,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "\/media\/girl-blue-wall.jpg",
+		"oF": 0,
+		"oIPL": 1,
+		"opt": 1,
+		"q": 93
 		},
 	"\/media\/girl-blue.jpg": {
 		"ft": 16384,
@@ -3373,6 +3405,17 @@
 		"opt": 1,
 		"q": 80
 		},
+	"\/media\/metro.jpg": {
+		"ft": 16384,
+		"iS": 292892,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "\/media\/metro.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
 	"\/media\/ov-chip--left.svg": {
 		"ft": 2097152,
 		"miP": 0,
@@ -3494,14 +3537,8 @@
 			},
 		{
 			"followForSyntaxChecking": 1,
-			"linkedFileAbbreviatedPath": "\/data\/landing.js",
+			"linkedFileAbbreviatedPath": "\/data\/app-content.js",
 			"position": 6,
-			"type": 1
-			},
-		{
-			"followForSyntaxChecking": 1,
-			"linkedFileAbbreviatedPath": "\/data\/abos.js",
-			"position": 7,
 			"type": 1
 			}
 		]

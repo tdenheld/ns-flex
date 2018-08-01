@@ -19,17 +19,17 @@
 						<h2 class="headingXL no-margin">{{sell.price}}<span class="flx-sell-box__unit">{{sell.unit}}</span></h2>
 					</div>
 					<div class="divider spacer-margin-4"></div>
-					<p class="flx-sell-box__description spacer-margin-4">{{{cta.description}}}</p>
+					<p class="flx-sell-box__description spacer-margin-4">{{{landing.cta.description}}}</p>
 					<div class="flx-cta__usp-grid flx-cta__usp-grid--left">
-						{{#each cta.usps}}
+						{{#each landing.cta.usps}}
 						<div class="flx-cta__usp flx-cta__usp--left grey-4">
 							<span class="flx-cta__icon" include="../assets/img/icons/check-round--small.svg"></span>
 							<span>{{{usp}}}</span>
 						</div>
 						{{/each}}
 					</div>
-					<a href="{{cta.url}}" class="button flx-button--blue flx-button--fw">
-						{{{button-cta-text}}}
+					<a href="{{global.cta.url}}" class="button flx-button--blue flx-button--fw">
+						{{{global.cta.button}}}
 					</a>
 				</div>
 			</div>
@@ -39,20 +39,86 @@
 
 <!-- usps -->
 <div class="flx-section">
-	<div class="flx-section__container flx-section__container--small divider">
+	<div class="flx-section__container flx-section__container--small">
 		<div class="container ovr-container">
 			<div class="flx-section__content">
 				<h3 class="headingXL tr tr-stag">{{{sell.usps.heading}}}</h3>
 			</div>
 			<div class="flx-sell-usps">
-				{{#each sell.summary}}
+				{{#each sell.usps.item}}
 				<div class="tr tr-stag">
 					<div class="flx-sell-usps__icon" include="../media/{{icon}}.svg"></div>
-					<h3 class="flx-sell-usps__title"><b>{{title}}</b></h3>
-					<p class="flx-sell-usps__description">{{description}}</p>
+					<h3 class="flx-section__subtitle"><b>{{title}}</b></h3>
+					<p class="flx-section__description-small-grey">{{description}}</p>
 				</div>
 				{{/each}}
 			</div>
+		</div>
+	</div>
+</div>
+
+<!-- chipcards -->
+<div class="flx-section">
+	<div class="flx-section__container">
+		<div class="container ovr-container">
+			<div class="flx-grid flx-grid--1-1 flx-grid--align-center">
+				<div class="flx-section__img flx-section__img--100 flx-grid__reverse tr tr-500 tr--scale-in">
+					<img src="../media/{{sell.chipcards.img}}" class="img-responsive" />
+				</div>		
+				<div class="flx-section__content">
+					<h3 class="headingXL spacer-margin-4 tr tr-stag">
+						{{{sell.chipcards.heading}}}
+					</h3>
+					{{#each sell.chipcards.item}}
+					<div class="flx-section__paragraph">
+						<h4 class="flx-section__subtitle tr tr-stag"><b>{{{title}}}</b></h4>
+						<p class="flx-section__description-small-grey tr tr-stag">{{{description}}}</p>
+					</div>
+					{{/each}}
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+
+<!-- alles staat voor je klaar -->
+<div class="flx-section">
+	<div class="flx-costs flx-gradient--grey">
+		<div class="container ovr-container">
+			<div class="flx-grid flx-grid--1-1-sm">	
+				<div></div>	
+				<div class="flx-costs__content">
+					<h3 class="flx-section__content-item flx-section__title tr tr-stag">
+						<b>{{{sell.costs.heading}}}</b>
+					</h3>
+					<p class="flx-section__content-item flx-section__description tr tr-stag">
+						{{{sell.costs.description}}}
+					</p>
+				</div>
+				<div class="flx-costs__img flx-costs__img--abos tr tr-500 tr--scale-in">
+					<img src="../media/{{landing.costs.img}}" class="img-responsive" />
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+
+<!-- call to action -->
+<div class="flx-section">
+	<div class="flx-section__container flx-gradient--yellow">
+		<div class="flx-section__content flx-section__content--mw-800 txt-center">
+			<h3 class="flx-section__title tr tr-stag">
+				{{{landing.cta.heading}}}
+			</h3>
+			<p class="flx-section__description flx-section__content--mw-800 txt-center tr tr-stag">
+				{{{landing.cta.description}}}
+			</p>
+			<div class="tr tr-stag spacer-margin-2">
+				<a href="{{global.cta.url}}" class="button flx-button--blue">
+					{{{global.cta.button}}}
+				</a>
+			</div>
+			<a href="/" class="flx-link font-blue">{{abos.cta.link}}</a>
 		</div>
 	</div>
 </div>
