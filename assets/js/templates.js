@@ -77,9 +77,9 @@ templates['abos'] = template({"1":function(container,depth0,helpers,partials,dat
     + alias2(alias1(((stack1 = ((stack1 = (depth0 != null ? depth0.global : depth0)) != null ? stack1.cta : stack1)) != null ? stack1.url : stack1), depth0))
     + "\" class=\"button flx-button--blue\">\n							"
     + alias2(alias1(((stack1 = ((stack1 = (depth0 != null ? depth0.global : depth0)) != null ? stack1.cta : stack1)) != null ? stack1.button : stack1), depth0))
-    + "\n						</a>\n					</div>\n					<a href=\"/\" class=\"flx-link font-blue\">"
+    + "\n						</a>\n					</div>\n					<div class=\"tr tr-stag\">\n						<a href=\"/\" class=\"flx-link font-blue\">"
     + alias2(alias1(((stack1 = ((stack1 = (depth0 != null ? depth0.abos : depth0)) != null ? stack1.cta : stack1)) != null ? stack1.link : stack1), depth0))
-    + "</a>\n				</div>\n			</div>\n		</div>\n	</div>\n\n	<!-- ros abonnementen -->\n	<div class=\"flx-section\">\n		<div class=\"flx-section__container\">\n			<div class=\"container\">\n				<div class=\"flx-section__content flx-section__content--mw-800 txt-center\">\n					<h3 class=\"flx-section__title no-margin tr tr-stag\">\n						"
+    + "</a>\n					</div>\n				</div>\n			</div>\n		</div>\n	</div>\n\n	<!-- ros abonnementen -->\n	<div class=\"flx-section\">\n		<div class=\"flx-section__container\">\n			<div class=\"container\">\n				<div class=\"flx-section__content flx-section__content--mw-800 txt-center\">\n					<h3 class=\"flx-section__title no-margin tr tr-stag\">\n						"
     + ((stack1 = alias1(((stack1 = ((stack1 = (depth0 != null ? depth0.abos : depth0)) != null ? stack1.ros : stack1)) != null ? stack1.title : stack1), depth0)) != null ? stack1 : "")
     + "\n					</h3>\n					<p class=\"flx-section__description tr tr-stag\">"
     + alias2(alias1(((stack1 = ((stack1 = (depth0 != null ? depth0.abos : depth0)) != null ? stack1.ros : stack1)) != null ? stack1.subtitle : stack1), depth0))
@@ -232,7 +232,7 @@ templates['sell'] = template({"1":function(container,depth0,helpers,partials,dat
     var stack1, alias1=container.lambda, alias2=container.escapeExpression, alias3=depth0 != null ? depth0 : (container.nullContext || {});
 
   return "<!-- hero -->\n<div class=\"flx-hero flx-hero--smaller flx-hero--sell flx-hero--white-txt\">\n	<div class=\"flx-hero__bg\">\n		<div class=\"ani ani--fade-in\">\n			<div class=\"flx-gradient flx-gradient--yellow alpha-1\"></div>\n			<div class=\"flx-hero__flow\" include=\"../media/flow-white.svg\"></div>\n			<div class=\"flx-hero__img hidden-xs\"></div>\n		</div>\n	</div>\n	\n	<!-- sell box -->\n	<div class=\"flx-sell-box__hero-container\">\n		<div class=\"container ovr-container ani ani--fade-in-up-small ani--delay-500\">\n			<div class=\"flx-sell-box__hero-grid\">\n				<div></div>\n				<div class=\"flx-sell-box\">\n					<div class=\"flx-sell-box__header\">\n						<h1 class=\"headingXL no-margin\"><b>"
-    + alias2(alias1(((stack1 = (depth0 != null ? depth0.sell : depth0)) != null ? stack1.heading : stack1), depth0))
+    + alias2(alias1(((stack1 = (depth0 != null ? depth0.global : depth0)) != null ? stack1.title : stack1), depth0))
     + "</b></h1>\n						<h2 class=\"headingXL no-margin\">"
     + alias2(alias1(((stack1 = (depth0 != null ? depth0.sell : depth0)) != null ? stack1.price : stack1), depth0))
     + "<span class=\"flx-sell-box__unit\">"
@@ -269,8 +269,8 @@ templates['sell'] = template({"1":function(container,depth0,helpers,partials,dat
     + alias2(alias1(((stack1 = ((stack1 = (depth0 != null ? depth0.global : depth0)) != null ? stack1.cta : stack1)) != null ? stack1.url : stack1), depth0))
     + "\" class=\"button flx-button--blue\">\n					"
     + ((stack1 = alias1(((stack1 = ((stack1 = (depth0 != null ? depth0.global : depth0)) != null ? stack1.cta : stack1)) != null ? stack1.button : stack1), depth0)) != null ? stack1 : "")
-    + "\n				</a>\n			</div>\n			<a href=\"/\" class=\"flx-link font-blue\">"
+    + "\n				</a>\n			</div>\n			<div class=\"tr tr-stag\">\n				<a href=\"/\" class=\"flx-link font-blue\">"
     + alias2(alias1(((stack1 = ((stack1 = (depth0 != null ? depth0.abos : depth0)) != null ? stack1.cta : stack1)) != null ? stack1.link : stack1), depth0))
-    + "</a>\n		</div>\n	</div>\n</div>";
+    + "</a>\n			</div>\n		</div>\n	</div>\n</div>";
 },"useData":true});
 })();

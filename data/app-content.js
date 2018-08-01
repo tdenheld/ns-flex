@@ -194,7 +194,6 @@ var context = {
 	// ------------------------------------------------------------------------------------------
 	// ------------------------------------------------------------------------------------------
 	"sell": {
-		"heading": "NS Flex",
 		"price": "€ 0",
 		"unit": " / mnd",
 		"usps": {
@@ -217,7 +216,7 @@ var context = {
 		},
 			
 		"chipcards": {
-			"img": "girl-blue-wall.jpg",
+			"img": "boy-blue-baloon.jpg",
 			"heading": "Je kunt direct instappen",
 			"item": [
 				{
