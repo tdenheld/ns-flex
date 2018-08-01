@@ -221,16 +221,10 @@ var context = {
 			"item": [
 				{
 					"title": "Met je eigen OV-chipkaart",
-					"list": [
-						{"txt": "NS Flex staat binnen een uur voor je klaar bij de kaartautomaat."},
-						{"txt": "Je kunt direct inchecken en reizen."},
-						{"txt": "Het saldo dat nog op je kaart staat storten we automatisch naar je terug."},
-					],
+					"description": "NS Flex staat binnen een uur klaar bij de kaartautomaat. Je kunt daarna direct inchecken en reizen. Het saldo dat nog op je kaart staat storten we automatisch naar je terug.",
 				},{
 					"title": "Of gratis nieuwe OV-chipkaart",
-					"list": [
-						{"txt": "Je hebt NS Flex binnen een week in huis. Met je nieuwe kaart kun je direct reizen."},
-					],
+					"description": "Kies je voor een gratis nieuwe OV-chipkaart, dan heb je NS Flex binnen een week in huis. Met je nieuwe kaart kun je direct reizen.",
 				},
 			],
 		},

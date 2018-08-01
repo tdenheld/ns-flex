@@ -221,19 +221,13 @@ templates['sell'] = template({"1":function(container,depth0,helpers,partials,dat
     + alias4(((helper = (helper = helpers.description || (depth0 != null ? depth0.description : depth0)) != null ? helper : alias2),(typeof helper === alias3 ? helper.call(alias1,{"name":"description","hash":{},"data":data}) : helper)))
     + "</p>\n				</div>\n";
 },"5":function(container,depth0,helpers,partials,data) {
-    var stack1, helper, alias1=depth0 != null ? depth0 : (container.nullContext || {});
+    var stack1, helper, alias1=depth0 != null ? depth0 : (container.nullContext || {}), alias2=helpers.helperMissing, alias3="function";
 
-  return "					<div class=\"flx-section__paragraph tr tr-stag\">\n						<h4 class=\"flx-section__subtitle spacer-margin-2\"><b>"
-    + ((stack1 = ((helper = (helper = helpers.title || (depth0 != null ? depth0.title : depth0)) != null ? helper : helpers.helperMissing),(typeof helper === "function" ? helper.call(alias1,{"name":"title","hash":{},"data":data}) : helper))) != null ? stack1 : "")
-    + "</b></h4>\n						<ul class=\"no-margin\">\n"
-    + ((stack1 = helpers.each.call(alias1,(depth0 != null ? depth0.list : depth0),{"name":"each","hash":{},"fn":container.program(6, data, 0),"inverse":container.noop,"data":data})) != null ? stack1 : "")
-    + "						</ul>\n					</div>\n";
-},"6":function(container,depth0,helpers,partials,data) {
-    var stack1, helper;
-
-  return "							<li class=\"font-blue\">"
-    + ((stack1 = ((helper = (helper = helpers.txt || (depth0 != null ? depth0.txt : depth0)) != null ? helper : helpers.helperMissing),(typeof helper === "function" ? helper.call(depth0 != null ? depth0 : (container.nullContext || {}),{"name":"txt","hash":{},"data":data}) : helper))) != null ? stack1 : "")
-    + "</li>\n";
+  return "					<div class=\"flx-section__paragraph\">\n						<h4 class=\"flx-section__subtitle tr tr-stag\"><b>"
+    + ((stack1 = ((helper = (helper = helpers.title || (depth0 != null ? depth0.title : depth0)) != null ? helper : alias2),(typeof helper === alias3 ? helper.call(alias1,{"name":"title","hash":{},"data":data}) : helper))) != null ? stack1 : "")
+    + "</b></h4>\n						<p class=\"flx-section__description-small-grey tr tr-stag\">"
+    + ((stack1 = ((helper = (helper = helpers.description || (depth0 != null ? depth0.description : depth0)) != null ? helper : alias2),(typeof helper === alias3 ? helper.call(alias1,{"name":"description","hash":{},"data":data}) : helper))) != null ? stack1 : "")
+    + "</p>\n					</div>\n";
 },"compiler":[7,">= 4.0.0"],"main":function(container,depth0,helpers,partials,data) {
     var stack1, alias1=container.lambda, alias2=container.escapeExpression, alias3=depth0 != null ? depth0 : (container.nullContext || {});
 
