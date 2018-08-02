@@ -12,7 +12,7 @@
 	"\/_redirects": {
 		"cB": 0,
 		"ft": 8192,
-		"oA": 0,
+		"oA": 1,
 		"oAP": "\/_redirects",
 		"oF": 0
 		},
@@ -2312,7 +2312,7 @@
 		"ma": 0,
 		"mi": 1,
 		"oA": 1,
-		"oAP": "\/assets\/js\/templates-min.js",
+		"oAP": "\/assets\/js\/templates.min.js",
 		"oF": 0,
 		"sC": 1,
 		"tS": 0
@@ -2323,7 +2323,7 @@
 		"mi": 1,
 		"oA": 0,
 		"oAP": "\/assets\/js\/tk.generic.min.js",
-		"oF": 2,
+		"oF": 0,
 		"sC": 0,
 		"tS": 0
 		},
@@ -2332,22 +2332,22 @@
 		"ma": 0,
 		"mi": 1,
 		"oA": 0,
-		"oAP": "\/assets\/js\/tk.generic.min-min.js",
+		"oAP": "\/assets\/js\/tk.generic.min.min.js",
 		"oF": 0,
 		"sC": 1,
 		"tS": 0
 		},
 	"\/assets\/sass\/_style.scss": {
-		"aP": 1,
+		"aP": 0,
 		"bl": 0,
 		"dP": 10,
 		"dS": 0,
 		"ft": 4,
 		"ma": 0,
-		"oA": 0,
-		"oAP": "\/assets\/css\/style.css",
-		"oF": 3,
-		"oS": 3,
+		"oA": 1,
+		"oAP": "\/assets\/sass\/_style.css",
+		"oF": 0,
+		"oS": 0,
 		"uL": 1
 		},
 	"\/assets\/sass\/components.animate.scss": {
@@ -2769,7 +2769,7 @@
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
-		"oA": 1,
+		"oA": 2,
 		"oAP": "\/bower_components\/greensock-js\/plugins\/MorphSVGPlugin.js",
 		"oF": 0,
 		"sC": 1,
@@ -3068,7 +3068,7 @@
 		"ma": 0,
 		"mi": 1,
 		"oA": 1,
-		"oAP": "\/data\/app-content-min.js",
+		"oAP": "\/data\/app-content.min.js",
 		"oF": 0,
 		"sC": 1,
 		"tS": 0
@@ -3094,9 +3094,9 @@
 	"\/media\/abos-dal.png": {
 		"ft": 32768,
 		"iS": 46358,
-		"oA": 0,
+		"oA": 1,
 		"oAP": "\/media\/abos-dal.png",
-		"oF": 0,
+		"oF": 1,
 		"oIPL": 0,
 		"opt": 0,
 		"oT": 1,
@@ -3105,9 +3105,9 @@
 	"\/media\/abos-weekend.png": {
 		"ft": 32768,
 		"iS": 42478,
-		"oA": 0,
+		"oA": 1,
 		"oAP": "\/media\/abos-weekend.png",
-		"oF": 0,
+		"oF": 1,
 		"oIPL": 0,
 		"opt": 0,
 		"oT": 1,
@@ -3115,19 +3115,19 @@
 		},
 	"\/media\/boy-blue-baloon.jpg": {
 		"ft": 16384,
-		"iS": 178650,
+		"iS": 64325,
 		"jF": 0,
-		"oA": 0,
+		"oA": 1,
 		"oAP": "\/media\/boy-blue-baloon.jpg",
-		"oF": 0,
-		"oIPL": 1,
-		"opt": 1,
-		"q": 90
+		"oF": 1,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
 		},
 	"\/media\/checkout.svg": {
 		"ft": 2097152,
 		"miP": 0,
-		"oA": 0,
+		"oA": 1,
 		"oAP": "\/media\/checkout.svg",
 		"oF": 1,
 		"opt": 0,
@@ -3137,7 +3137,7 @@
 	"\/media\/discount.svg": {
 		"ft": 2097152,
 		"miP": 0,
-		"oA": 0,
+		"oA": 1,
 		"oAP": "\/media\/discount.svg",
 		"oF": 1,
 		"opt": 0,
@@ -3147,9 +3147,9 @@
 	"\/media\/exit--left.svg": {
 		"ft": 2097152,
 		"miP": 0,
-		"oA": 2,
+		"oA": 1,
 		"oAP": "\/media\/exit--left.svg",
-		"oF": 0,
+		"oF": 1,
 		"opt": 0,
 		"plM": 3758088159,
 		"prP": 0
@@ -3157,7 +3157,7 @@
 	"\/media\/exit.svg": {
 		"ft": 2097152,
 		"miP": 0,
-		"oA": 0,
+		"oA": 1,
 		"oAP": "\/media\/exit.svg",
 		"oF": 1,
 		"opt": 0,
@@ -3167,9 +3167,9 @@
 	"\/media\/factuur--left.svg": {
 		"ft": 2097152,
 		"miP": 0,
-		"oA": 2,
+		"oA": 1,
 		"oAP": "\/media\/factuur--left.svg",
-		"oF": 0,
+		"oF": 1,
 		"opt": 0,
 		"plM": 3758088159,
 		"prP": 0
@@ -3177,7 +3177,7 @@
 	"\/media\/factuur.svg": {
 		"ft": 2097152,
 		"miP": 0,
-		"oA": 0,
+		"oA": 1,
 		"oAP": "\/media\/factuur.svg",
 		"oF": 1,
 		"opt": 0,
@@ -3187,7 +3187,7 @@
 	"\/media\/filter.svg": {
 		"ft": 2097152,
 		"miP": 0,
-		"oA": 0,
+		"oA": 1,
 		"oAP": "\/media\/filter.svg",
 		"oF": 1,
 		"opt": 0,
@@ -3197,9 +3197,9 @@
 	"\/media\/flex.svg": {
 		"ft": 2097152,
 		"miP": 0,
-		"oA": 2,
+		"oA": 1,
 		"oAP": "\/media\/flex.svg",
-		"oF": 0,
+		"oF": 1,
 		"opt": 0,
 		"plM": 3758088159,
 		"prP": 0
@@ -3220,7 +3220,7 @@
 		"oA": 1,
 		"oAP": "\/media\/flow-white.svg",
 		"oF": 1,
-		"opt": 1,
+		"opt": 0,
 		"plM": 3758088159,
 		"prP": 0
 		},
@@ -3236,22 +3236,22 @@
 		},
 	"\/media\/girl-blue-wall.jpg": {
 		"ft": 16384,
-		"iS": 2110158,
+		"iS": 1193226,
 		"jF": 0,
-		"oA": 0,
+		"oA": 1,
 		"oAP": "\/media\/girl-blue-wall.jpg",
-		"oF": 0,
-		"oIPL": 1,
-		"opt": 1,
-		"q": 93
+		"oF": 1,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
 		},
 	"\/media\/girl-blue.jpg": {
 		"ft": 16384,
 		"iS": 240237,
 		"jF": 0,
-		"oA": 0,
+		"oA": 1,
 		"oAP": "\/media\/girl-blue.jpg",
-		"oF": 0,
+		"oF": 1,
 		"oIPL": 0,
 		"opt": 0,
 		"q": 100
@@ -3259,9 +3259,9 @@
 	"\/media\/girl-green.png": {
 		"ft": 32768,
 		"iS": 444985,
-		"oA": 0,
+		"oA": 1,
 		"oAP": "\/media\/girl-green.png",
-		"oF": 0,
+		"oF": 1,
 		"oIPL": 0,
 		"opt": 0,
 		"oT": 1,
@@ -3270,43 +3270,43 @@
 	"\/media\/heart.svg": {
 		"ft": 2097152,
 		"miP": 0,
-		"oA": 2,
+		"oA": 1,
 		"oAP": "\/media\/heart.svg",
-		"oF": 0,
+		"oF": 1,
 		"opt": 0,
 		"plM": 3758088159,
 		"prP": 0
 		},
 	"\/media\/hero.png": {
 		"ft": 32768,
-		"iS": 0,
-		"oA": 0,
+		"iS": 433910,
+		"oA": 1,
 		"oAP": "\/media\/hero.png",
-		"oF": 0,
-		"oIPL": 1,
-		"opt": 1,
+		"oF": 1,
+		"oIPL": 0,
+		"opt": 0,
 		"oT": 1,
-		"q": 99
+		"q": 100
 		},
 	"\/media\/hero_abo.png": {
 		"ft": 32768,
-		"iS": 0,
-		"oA": 0,
+		"iS": 278443,
+		"oA": 1,
 		"oAP": "\/media\/hero_abo.png",
-		"oF": 0,
-		"oIPL": 1,
-		"opt": 1,
+		"oF": 1,
+		"oIPL": 0,
+		"opt": 0,
 		"oT": 1,
 		"q": 100
 		},
 	"\/media\/hero_sell.png": {
 		"ft": 32768,
-		"iS": 0,
-		"oA": 0,
+		"iS": 341699,
+		"oA": 1,
 		"oAP": "\/media\/hero_sell.png",
-		"oF": 0,
-		"oIPL": 1,
-		"opt": 1,
+		"oF": 1,
+		"oIPL": 0,
+		"opt": 0,
 		"oT": 1,
 		"q": 100
 		},
@@ -3314,9 +3314,9 @@
 		"ft": 16384,
 		"iS": 309421,
 		"jF": 0,
-		"oA": 0,
+		"oA": 1,
 		"oAP": "\/media\/hoewerkt1.jpg",
-		"oF": 0,
+		"oF": 1,
 		"oIPL": 0,
 		"opt": 0,
 		"q": 100
@@ -3325,9 +3325,9 @@
 		"ft": 16384,
 		"iS": 224099,
 		"jF": 0,
-		"oA": 0,
+		"oA": 1,
 		"oAP": "\/media\/hoewerkt2.jpg",
-		"oF": 0,
+		"oF": 1,
 		"oIPL": 0,
 		"opt": 0,
 		"q": 100
@@ -3336,9 +3336,9 @@
 		"ft": 16384,
 		"iS": 179277,
 		"jF": 0,
-		"oA": 0,
+		"oA": 1,
 		"oAP": "\/media\/hoewerkt3.jpg",
-		"oF": 0,
+		"oF": 1,
 		"oIPL": 0,
 		"opt": 0,
 		"q": 100
@@ -3346,7 +3346,7 @@
 	"\/media\/invoice.svg": {
 		"ft": 2097152,
 		"miP": 0,
-		"oA": 0,
+		"oA": 1,
 		"oAP": "\/media\/invoice.svg",
 		"oF": 1,
 		"opt": 0,
@@ -3356,17 +3356,17 @@
 	"\/media\/kalender.svg": {
 		"ft": 2097152,
 		"miP": 0,
-		"oA": 0,
+		"oA": 1,
 		"oAP": "\/media\/kalender.svg",
 		"oF": 1,
-		"opt": 1,
+		"opt": 0,
 		"plM": 3758088159,
 		"prP": 0
 		},
 	"\/media\/kostenteller.png": {
 		"ft": 32768,
 		"iS": 229684,
-		"oA": 0,
+		"oA": 1,
 		"oAP": "\/media\/kostenteller.png",
 		"oF": 1,
 		"oIPL": 0,
@@ -3376,22 +3376,22 @@
 		},
 	"\/media\/marieke.jpg": {
 		"ft": 16384,
-		"iS": 170294,
+		"iS": 21828,
 		"jF": 0,
-		"oA": 0,
+		"oA": 1,
 		"oAP": "\/media\/marieke.jpg",
 		"oF": 1,
-		"oIPL": 1,
-		"opt": 1,
-		"q": 80
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
 		},
 	"\/media\/metro.jpg": {
 		"ft": 16384,
 		"iS": 292892,
 		"jF": 0,
-		"oA": 0,
+		"oA": 1,
 		"oAP": "\/media\/metro.jpg",
-		"oF": 0,
+		"oF": 1,
 		"oIPL": 0,
 		"opt": 0,
 		"q": 100
@@ -3399,9 +3399,9 @@
 	"\/media\/ov-chip--left.svg": {
 		"ft": 2097152,
 		"miP": 0,
-		"oA": 2,
+		"oA": 1,
 		"oAP": "\/media\/ov-chip--left.svg",
-		"oF": 0,
+		"oF": 1,
 		"opt": 0,
 		"plM": 3758088159,
 		"prP": 0
@@ -3409,7 +3409,7 @@
 	"\/media\/ov-chip.svg": {
 		"ft": 2097152,
 		"miP": 0,
-		"oA": 0,
+		"oA": 1,
 		"oAP": "\/media\/ov-chip.svg",
 		"oF": 1,
 		"opt": 0,
@@ -3419,7 +3419,7 @@
 	"\/media\/public-transport.svg": {
 		"ft": 2097152,
 		"miP": 0,
-		"oA": 0,
+		"oA": 1,
 		"oAP": "\/media\/public-transport.svg",
 		"oF": 1,
 		"opt": 0,
@@ -3428,14 +3428,14 @@
 		},
 	"\/media\/tram.jpg": {
 		"ft": 16384,
-		"iS": 2501512,
+		"iS": 514742,
 		"jF": 0,
-		"oA": 0,
+		"oA": 1,
 		"oAP": "\/media\/tram.jpg",
-		"oF": 0,
-		"oIPL": 1,
-		"opt": 1,
-		"q": 89
+		"oF": 1,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
 		},
 	"\/sell.html": {
 		"cB": 0,
@@ -3493,7 +3493,7 @@
 			},
 		{
 			"followForSyntaxChecking": 1,
-			"linkedFileAbbreviatedPath": "\/bower_components\/greensock-js\/plugins\/ScrollToPlugin.js",
+			"linkedFileAbbreviatedPath": "\/bower_components\/greensock-js\/TimelineMax.js",
 			"position": 2,
 			"type": 0
 			},
@@ -3505,7 +3505,7 @@
 			},
 		{
 			"followForSyntaxChecking": 1,
-			"linkedFileAbbreviatedPath": "\/bower_components\/greensock-js\/TimelineMax.js",
+			"linkedFileAbbreviatedPath": "\/bower_components\/greensock-js\/plugins\/ScrollToPlugin.js",
 			"position": 4,
 			"type": 0
 			},
@@ -4727,7 +4727,7 @@
 			},
 		"object-property-newline": {
 			"active": 0,
-			"optionString": "{'allowMultiplePropertiesPerLine': true}"
+			"optionString": "{'allowAllPropertiesOnSameLine': true}"
 			},
 		"object-shorthand": {
 			"active": 0,
@@ -4923,7 +4923,7 @@
 			}
 		},
 	"esLintSourceType": 0,
-	"externalServerAddress": "http:\/\/localhost\/ns-flex\/",
+	"externalServerAddress": "http:\/\/localhost:8888",
 	"gitIgnoreBuildFolder": 1,
 	"hideConfigFile": 0,
 	"jsCheckerReservedNamesString": "",
@@ -5332,18 +5332,18 @@
 		"autoOutputPathReplace2": "",
 		"autoOutputPathStyle": 0,
 		"outputFormat": 0,
-		"quality": 100
+		"quality": 80
 		},
 	"languageDefaultsJS": {
 		"autoOutputAction": 0,
-		"autoOutputPathFilenamePattern": "*-min.js",
+		"autoOutputPathFilenamePattern": "*.min.js",
 		"autoOutputPathRelativePath": "\/min",
 		"autoOutputPathReplace1": "",
 		"autoOutputPathReplace2": "",
 		"autoOutputPathStyle": 0,
 		"createSourceMap": 0,
 		"minifyOutput": 1,
-		"syntaxCheckerStyle": 1,
+		"syntaxCheckerStyle": 0,
 		"transpilerStyle": 0
 		},
 	"languageDefaultsJSON": {
@@ -5421,7 +5421,7 @@
 		"autoOutputPathReplace2": "",
 		"autoOutputPathStyle": 0,
 		"optimizerType": 1,
-		"quality": 100
+		"quality": 80
 		},
 	"languageDefaultsPUG": {
 		"autoOutputAction": 0,
@@ -5444,8 +5444,8 @@
 		"createSourceMap": 0,
 		"debugStyle": 0,
 		"decimalPrecision": 10,
-		"outputStyle": 0,
-		"shouldRunAutoprefixer": 0,
+		"outputStyle": 3,
+		"shouldRunAutoprefixer": 1,
 		"shouldRunBless": 0,
 		"useLibsass": 1
 		},
