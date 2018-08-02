@@ -81,7 +81,7 @@
 		margin-bottom: $gutter;
 	}
 	
-	&--abo {
+	&--small {
 		@include font-style(24px, normal, 1.4);
 		@media (min-width: $md) {
 			font-size: calculate-rem(32px);
@@ -112,12 +112,6 @@
 	&--cta {
 		margin-bottom: $one-half-gutter;
 	}
-}
-
-.flx-section__description-small-grey {
-	margin: 0;
-	@include font-style(16px, normal, 1.6);
-	color: $ns-grey-4;
 }
 
 .flx-section__paragraph {

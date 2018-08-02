@@ -2338,16 +2338,16 @@
 		"tS": 0
 		},
 	"\/assets\/sass\/_style.scss": {
-		"aP": 0,
+		"aP": 1,
 		"bl": 0,
 		"dP": 10,
 		"dS": 0,
 		"ft": 4,
 		"ma": 0,
-		"oA": 1,
-		"oAP": "\/assets\/sass\/_style.css",
-		"oF": 0,
-		"oS": 0,
+		"oA": 0,
+		"oAP": "\/assets\/css\/style.css",
+		"oF": 3,
+		"oS": 3,
 		"uL": 1
 		},
 	"\/assets\/sass\/components.animate.scss": {
@@ -3401,16 +3401,6 @@
 		"miP": 0,
 		"oA": 1,
 		"oAP": "\/media\/ov-chip--left.svg",
-		"oF": 1,
-		"opt": 0,
-		"plM": 3758088159,
-		"prP": 0
-		},
-	"\/media\/ov-chip.svg": {
-		"ft": 2097152,
-		"miP": 0,
-		"oA": 1,
-		"oAP": "\/media\/ov-chip.svg",
 		"oF": 1,
 		"opt": 0,
 		"plM": 3758088159,

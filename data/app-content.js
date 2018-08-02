@@ -133,19 +133,19 @@ var context = {
 					"month": "september",
 					"title": "Op vakantie",
 					"description": "Geen korting nodig",
-					"suggestion": "Abonnement 1 maand uit",
+					"suggestion": "Zet abonnement 1 maand uit",
 				},{
 					"img": "hoewerkt2.jpg",
 					"month": "oktober",
 					"title": "Weer aan het werk",
-					"description": "4 dagen per week naar kantoor",
-					"suggestion": "Altijd Voordeel",
+					"description": "Vaker in de spits",
+					"suggestion": "Zet Altijd Voordeel aan",
 				},{
 					"img": "hoewerkt3.jpg",
 					"month": "december",
-					"title": "4x op familiebezoek",
-					"description": "Korting in de daluren",
-					"suggestion": "Dal Voordeel",
+					"title": "Vaak op familiebezoek",
+					"description": "Korting op feestdagen",
+					"suggestion": "Switchen naar Dal Voordeel",
 				},
 			],
 		},
@@ -183,7 +183,7 @@ var context = {
 		"ros": {
 			"title": "Wil je liever geen NS Flex?",
 			"subtitle": "Je kunt ook nog steeds kiezen voor onze klassieke abonnementen",
-			"description": "Vind je achteraf betalen te spannend? Dit zijn abonnementen van NS waarbij je van te voren geld op je kaart zet om te kunnen reizen. Vaak zijn deze abonnementen per jaar afsluitbaar.",
+			"description": "Met deze abonnementen zet je vooraf saldo op je kaart. Hiervoor moet je naar een kaartautomaat of een laadpunt. Deze abonnementen zijn niet voor dezelfde prijs maandelijks aanpasbaar.",
 			"button-open": "Klassieke abonnementen",
 			"button-close": "Verbergen",
 		},
@@ -200,15 +200,15 @@ var context = {
 			"heading": "Daarom NS Flex",
 			"item": [
 				{
-					"icon": "ov-chip--left",
+					"icon": "ov-chip",
 					"title": "Nooit meer saldo laden",
 					"description": "Je krijgt per maand een overzichtelijke rekening.",
 				},{
-					"icon": "factuur--left",
+					"icon": "factuur",
 					"title": "Altijd inzicht in je reiskosten",
 					"description": "Inclusief kostenalerts die je zelf instelt (beschikbaar vanaf oktober).",
 				},{
-					"icon": "exit--left",
+					"icon": "exit",
 					"title": "Je zit nergens aan vast",
 					"description": "Je betaalt alleen de reizen die je maakt. Reis je niet, dan kost het je ook niets.",
 				},

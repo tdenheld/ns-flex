@@ -56,12 +56,18 @@
 	grid-column-gap: $gutter;
 	grid-row-gap: $gutter;
 	padding: 0 $gutter;
+	text-align: center;
 	@media (min-width: $sm) {
 		grid-template-columns: repeat(3, 1fr);
 	}
 	@media (min-width: $lg) {
 		grid-column-gap: $triple-gutter;
 	}
+}
+
+.flx-sell-usps__item {
+	margin: 0 auto;
+	max-width: 380px;
 }
 
 .flx-sell-usps__icon {

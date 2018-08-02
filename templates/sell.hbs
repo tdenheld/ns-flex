@@ -39,17 +39,14 @@
 
 <!-- usps -->
 <div class="flx-section">
-	<div class="flx-section__container flx-section__container--small">
+	<div class="flx-section__container">
 		<div class="container ovr-container">
-			<div class="flx-section__content">
-				<h3 class="headingXL tr tr-stag">{{{sell.usps.heading}}}</h3>
-			</div>
 			<div class="flx-sell-usps">
 				{{#each sell.usps.item}}
-				<div class="tr tr-stag">
+				<div class="flx-sell-usps__item tr tr-stag">
 					<div class="flx-sell-usps__icon" include="../media/{{icon}}.svg"></div>
 					<h3 class="flx-section__subtitle"><b>{{title}}</b></h3>
-					<p class="flx-section__description-small-grey">{{description}}</p>
+					<p class="font-grey-4 no-margin">{{description}}</p>
 				</div>
 				{{/each}}
 			</div>
@@ -59,20 +56,20 @@
 
 <!-- chipcards -->
 <div class="flx-section">
-	<div class="flx-section__container">
+	<div class="flx-section__container flx-section__container--no-padding-top">
 		<div class="container ovr-container">
 			<div class="flx-grid flx-grid--1-1 flx-grid--align-center">
 				<div class="flx-section__img flx-section__img--100 flx-grid__reverse tr tr-500 tr--scale-in">
 					<img src="../media/{{sell.chipcards.img}}" class="img-responsive" />
 				</div>		
 				<div class="flx-section__content">
-					<h3 class="headingXL spacer-margin-4 tr tr-stag">
-						{{{sell.chipcards.heading}}}
+					<h3 class="flx-section__title spacer-margin-4 tr tr-stag">
+						<b>{{{sell.chipcards.heading}}}</b>
 					</h3>
 					{{#each sell.chipcards.item}}
 					<div class="flx-section__paragraph">
 						<h4 class="flx-section__subtitle tr tr-stag"><b>{{{title}}}</b></h4>
-						<p class="flx-section__description-small-grey tr tr-stag">{{{description}}}</p>
+						<p class="flx-section__description no-margin tr tr-stag">{{{description}}}</p>
 					</div>
 					{{/each}}
 				</div>
