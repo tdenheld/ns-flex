@@ -3116,9 +3116,9 @@
 	"\/media\/binoculars.svg": {
 		"ft": 2097152,
 		"miP": 0,
-		"oA": 2,
+		"oA": 1,
 		"oAP": "\/media\/binoculars.svg",
-		"oF": 0,
+		"oF": 1,
 		"opt": 0,
 		"plM": 3758088159,
 		"prP": 0
@@ -3194,21 +3194,21 @@
 		"plM": 3758088159,
 		"prP": 0
 		},
-	"\/media\/filter.svg": {
+	"\/media\/filter--small.svg": {
 		"ft": 2097152,
 		"miP": 0,
 		"oA": 1,
-		"oAP": "\/media\/filter.svg",
+		"oAP": "\/media\/filter--small.svg",
 		"oF": 1,
 		"opt": 0,
 		"plM": 3758088159,
 		"prP": 0
 		},
-	"\/media\/flex.svg": {
+	"\/media\/filter.svg": {
 		"ft": 2097152,
 		"miP": 0,
 		"oA": 1,
-		"oAP": "\/media\/flex.svg",
+		"oAP": "\/media\/filter.svg",
 		"oF": 1,
 		"opt": 0,
 		"plM": 3758088159,
@@ -3280,9 +3280,9 @@
 	"\/media\/heart--small.svg": {
 		"ft": 2097152,
 		"miP": 0,
-		"oA": 2,
+		"oA": 1,
 		"oAP": "\/media\/heart--small.svg",
-		"oF": 0,
+		"oF": 1,
 		"opt": 0,
 		"plM": 3758088159,
 		"prP": 0
@@ -3297,6 +3297,17 @@
 		"plM": 3758088159,
 		"prP": 0
 		},
+	"\/media\/hero.jpg": {
+		"ft": 16384,
+		"iS": 293306,
+		"jF": 0,
+		"oA": 1,
+		"oAP": "\/media\/hero.jpg",
+		"oF": 1,
+		"oIPL": 1,
+		"opt": 1,
+		"q": 80
+		},
 	"\/media\/hero.png": {
 		"ft": 32768,
 		"iS": 433910,
@@ -3308,6 +3319,17 @@
 		"oT": 1,
 		"q": 100
 		},
+	"\/media\/hero_abo.jpg": {
+		"ft": 16384,
+		"iS": 244470,
+		"jF": 0,
+		"oA": 1,
+		"oAP": "\/media\/hero_abo.jpg",
+		"oF": 1,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 80
+		},
 	"\/media\/hero_abo.png": {
 		"ft": 32768,
 		"iS": 278443,
@@ -3318,6 +3340,17 @@
 		"opt": 0,
 		"oT": 1,
 		"q": 100
+		},
+	"\/media\/hero_sell.jpg": {
+		"ft": 16384,
+		"iS": 256252,
+		"jF": 0,
+		"oA": 1,
+		"oAP": "\/media\/hero_sell.jpg",
+		"oF": 1,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 80
 		},
 	"\/media\/hero_sell.png": {
 		"ft": 32768,
@@ -3429,9 +3462,9 @@
 	"\/media\/ov-chip.svg": {
 		"ft": 2097152,
 		"miP": 0,
-		"oA": 2,
+		"oA": 1,
 		"oAP": "\/media\/ov-chip.svg",
-		"oF": 0,
+		"oF": 1,
 		"opt": 0,
 		"plM": 3758088159,
 		"prP": 0

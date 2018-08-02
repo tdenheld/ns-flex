@@ -119,7 +119,7 @@ var context = {
 				"title": "Met NS flex kies je de korting die <b>deze maand</b> bij je past",
 				"grid": "max-1",
 			},{
-				"icon": "flex.svg",
+				"icon": "filter.svg",
 				"title": "Als je wilt pas je de korting <b>elke maand</b> aan",
 				"grid": "max-1",
 			},
@@ -163,7 +163,7 @@ var context = {
 		
 		"summary": [
 			{
-				"icon": "filter",
+				"icon": "filter--small",
 				"title": "Abonnement elke maand <b>aanpassen</b> of <b>uitzetten</b>",
 			},{
 				"icon": "ov-chip",
@@ -208,7 +208,7 @@ var context = {
 					"title": "Altijd inzicht in je reiskosten",
 					"description": "Inclusief kostenalerts die je zelf instelt (beschikbaar vanaf oktober).",
 				},{
-					"icon": "filter",
+					"icon": "filter--small",
 					"title": "Je zit nergens aan vast",
 					"description": "Je betaalt alleen de reizen die je maakt. Reis je niet, dan kost het je ook niets.",
 				},
