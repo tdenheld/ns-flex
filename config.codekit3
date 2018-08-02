@@ -19,7 +19,7 @@
 	"\/.htaccess": {
 		"cB": 0,
 		"ft": 8192,
-		"oA": 2,
+		"oA": 0,
 		"oAP": "\/.htaccess",
 		"oF": 0
 		},
@@ -2318,7 +2318,7 @@
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
-		"oA": 1,
+		"oA": 0,
 		"oAP": "\/assets\/js\/templates-min.js",
 		"oF": 0,
 		"sC": 1,
@@ -2329,9 +2329,9 @@
 		"ma": 0,
 		"mi": 1,
 		"oA": 0,
-		"oAP": "\/assets\/js\/tk.generic.min.js",
-		"oF": 2,
-		"sC": 0,
+		"oAP": "\/assets\/js\/tk.generic-min.js",
+		"oF": 0,
+		"sC": 1,
 		"tS": 0
 		},
 	"\/assets\/js\/tk.generic.min.js": {
@@ -2345,16 +2345,16 @@
 		"tS": 0
 		},
 	"\/assets\/sass\/_style.scss": {
-		"aP": 1,
+		"aP": 0,
 		"bl": 0,
 		"dP": 10,
 		"dS": 0,
 		"ft": 4,
 		"ma": 0,
-		"oA": 0,
-		"oAP": "\/assets\/css\/style.css",
-		"oF": 3,
-		"oS": 3,
+		"oA": 1,
+		"oAP": "\/assets\/sass\/_style.css",
+		"oF": 0,
+		"oS": 0,
 		"uL": 1
 		},
 	"\/assets\/sass\/components.animate.scss": {
@@ -3057,7 +3057,7 @@
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
-		"oA": 1,
+		"oA": 0,
 		"oAP": "\/data\/abos-min.js",
 		"oF": 0,
 		"sC": 1,
@@ -3067,7 +3067,7 @@
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
-		"oA": 1,
+		"oA": 0,
 		"oAP": "\/data\/landing-min.js",
 		"oF": 0,
 		"sC": 1,
@@ -3090,363 +3090,6 @@
 		"oA": 0,
 		"oAP": "\/index.html",
 		"oF": 0
-		},
-	"\/media\/abos.png": {
-		"ft": 32768,
-		"iS": 88300,
-		"oA": 0,
-		"oAP": "\/media\/abos.png",
-		"oF": 1,
-		"oIPL": 1,
-		"opt": 1,
-		"oT": 1,
-		"q": 100
-		},
-	"\/media\/bike-yellow.jpg": {
-		"ft": 16384,
-		"iS": 110250,
-		"jF": 0,
-		"oA": 0,
-		"oAP": "\/media\/bike-yellow.jpg",
-		"oF": 1,
-		"oIPL": 0,
-		"opt": 1,
-		"q": 100
-		},
-	"\/media\/bike.jpg": {
-		"ft": 16384,
-		"iS": 3698726,
-		"jF": 0,
-		"oA": 0,
-		"oAP": "\/media\/bike.jpg",
-		"oF": 1,
-		"oIPL": 1,
-		"opt": 1,
-		"q": 80
-		},
-	"\/media\/cake.jpg": {
-		"ft": 16384,
-		"iS": 97184,
-		"jF": 0,
-		"oA": 0,
-		"oAP": "\/media\/cake.jpg",
-		"oF": 1,
-		"oIPL": 0,
-		"opt": 0,
-		"q": 100
-		},
-	"\/media\/cart.jpg": {
-		"ft": 16384,
-		"iS": 1640290,
-		"jF": 0,
-		"oA": 0,
-		"oAP": "\/media\/cart.jpg",
-		"oF": 1,
-		"oIPL": 1,
-		"opt": 1,
-		"q": 80
-		},
-	"\/media\/cart2.jpg": {
-		"ft": 16384,
-		"iS": 100427,
-		"jF": 0,
-		"oA": 0,
-		"oAP": "\/media\/cart2.jpg",
-		"oF": 1,
-		"oIPL": 0,
-		"opt": 1,
-		"q": 100
-		},
-	"\/media\/cart3.jpg": {
-		"ft": 16384,
-		"iS": 1222710,
-		"jF": 0,
-		"oA": 0,
-		"oAP": "\/media\/cart3.jpg",
-		"oF": 1,
-		"oIPL": 1,
-		"opt": 1,
-		"q": 80
-		},
-	"\/media\/checkout.svg": {
-		"ft": 2097152,
-		"miP": 0,
-		"oA": 0,
-		"oAP": "\/media\/checkout.svg",
-		"oF": 1,
-		"opt": 0,
-		"plM": 3758088159,
-		"prP": 0
-		},
-	"\/media\/discount.svg": {
-		"ft": 2097152,
-		"miP": 0,
-		"oA": 0,
-		"oAP": "\/media\/discount.svg",
-		"oF": 1,
-		"opt": 0,
-		"plM": 3758088159,
-		"prP": 0
-		},
-	"\/media\/exit.svg": {
-		"ft": 2097152,
-		"miP": 0,
-		"oA": 0,
-		"oAP": "\/media\/exit.svg",
-		"oF": 1,
-		"opt": 0,
-		"plM": 3758088159,
-		"prP": 0
-		},
-	"\/media\/factuur.svg": {
-		"ft": 2097152,
-		"miP": 0,
-		"oA": 0,
-		"oAP": "\/media\/factuur.svg",
-		"oF": 1,
-		"opt": 0,
-		"plM": 3758088159,
-		"prP": 0
-		},
-	"\/media\/filter.svg": {
-		"ft": 2097152,
-		"miP": 0,
-		"oA": 0,
-		"oAP": "\/media\/filter.svg",
-		"oF": 1,
-		"opt": 0,
-		"plM": 3758088159,
-		"prP": 0
-		},
-	"\/media\/flamingo.jpg": {
-		"ft": 16384,
-		"iS": 1334609,
-		"jF": 0,
-		"oA": 0,
-		"oAP": "\/media\/flamingo.jpg",
-		"oF": 1,
-		"oIPL": 1,
-		"opt": 1,
-		"q": 80
-		},
-	"\/media\/flow-blue.svg": {
-		"ft": 2097152,
-		"miP": 0,
-		"oA": 0,
-		"oAP": "\/media\/flow-blue.svg",
-		"oF": 1,
-		"opt": 0,
-		"plM": 3758088159,
-		"prP": 0
-		},
-	"\/media\/flow-white.svg": {
-		"ft": 2097152,
-		"miP": 0,
-		"oA": 0,
-		"oAP": "\/media\/flow-white.svg",
-		"oF": 1,
-		"opt": 0,
-		"plM": 3758088159,
-		"prP": 0
-		},
-	"\/media\/girl-green.jpg": {
-		"ft": 16384,
-		"iS": 4064653,
-		"jF": 0,
-		"oA": 0,
-		"oAP": "\/media\/girl-green.jpg",
-		"oF": 1,
-		"oIPL": 1,
-		"opt": 1,
-		"q": 80
-		},
-	"\/media\/girl-pink.jpg": {
-		"ft": 16384,
-		"iS": 3604876,
-		"jF": 0,
-		"oA": 0,
-		"oAP": "\/media\/girl-pink.jpg",
-		"oF": 1,
-		"oIPL": 0,
-		"opt": 1,
-		"q": 80
-		},
-	"\/media\/girl-yellow-2.jpg": {
-		"ft": 16384,
-		"iS": 1044999,
-		"jF": 0,
-		"oA": 0,
-		"oAP": "\/media\/girl-yellow-2.jpg",
-		"oF": 1,
-		"oIPL": 1,
-		"opt": 1,
-		"q": 80
-		},
-	"\/media\/girl-yellow.jpg": {
-		"ft": 16384,
-		"iS": 1120226,
-		"jF": 0,
-		"oA": 0,
-		"oAP": "\/media\/girl-yellow.jpg",
-		"oF": 1,
-		"oIPL": 1,
-		"opt": 1,
-		"q": 80
-		},
-	"\/media\/goudetant.jpg": {
-		"ft": 16384,
-		"iS": 67781,
-		"jF": 0,
-		"oA": 0,
-		"oAP": "\/media\/goudetant.jpg",
-		"oF": 1,
-		"oIPL": 0,
-		"opt": 1,
-		"q": 100
-		},
-	"\/media\/invoice.svg": {
-		"ft": 2097152,
-		"miP": 0,
-		"oA": 0,
-		"oAP": "\/media\/invoice.svg",
-		"oF": 1,
-		"opt": 0,
-		"plM": 3758088159,
-		"prP": 0
-		},
-	"\/media\/kalender.svg": {
-		"ft": 2097152,
-		"miP": 0,
-		"oA": 0,
-		"oAP": "\/media\/kalender.svg",
-		"oF": 1,
-		"opt": 1,
-		"plM": 3758088159,
-		"prP": 0
-		},
-	"\/media\/kostenteller.png": {
-		"ft": 32768,
-		"iS": 229684,
-		"oA": 0,
-		"oAP": "\/media\/kostenteller.png",
-		"oF": 1,
-		"oIPL": 0,
-		"opt": 0,
-		"oT": 1,
-		"q": 100
-		},
-	"\/media\/kostenteller.svg": {
-		"ft": 2097152,
-		"miP": 0,
-		"oA": 0,
-		"oAP": "\/media\/kostenteller.svg",
-		"oF": 1,
-		"opt": 0,
-		"plM": 3758088159,
-		"prP": 0
-		},
-	"\/media\/man-portret.jpg": {
-		"ft": 16384,
-		"iS": 1341211,
-		"jF": 0,
-		"oA": 0,
-		"oAP": "\/media\/man-portret.jpg",
-		"oF": 1,
-		"oIPL": 0,
-		"opt": 0,
-		"q": 100
-		},
-	"\/media\/marieke.jpg": {
-		"ft": 16384,
-		"iS": 170294,
-		"jF": 0,
-		"oA": 0,
-		"oAP": "\/media\/marieke.jpg",
-		"oF": 1,
-		"oIPL": 0,
-		"opt": 0,
-		"q": 80
-		},
-	"\/media\/nooitmeer.svg": {
-		"ft": 2097152,
-		"miP": 0,
-		"oA": 0,
-		"oAP": "\/media\/nooitmeer.svg",
-		"oF": 1,
-		"opt": 0,
-		"plM": 3758088159,
-		"prP": 0
-		},
-	"\/media\/ov-chip.svg": {
-		"ft": 2097152,
-		"miP": 0,
-		"oA": 0,
-		"oAP": "\/media\/ov-chip.svg",
-		"oF": 1,
-		"opt": 0,
-		"plM": 3758088159,
-		"prP": 0
-		},
-	"\/media\/ov.jpg": {
-		"ft": 16384,
-		"iS": 1632735,
-		"jF": 0,
-		"oA": 0,
-		"oAP": "\/media\/ov.jpg",
-		"oF": 1,
-		"oIPL": 1,
-		"opt": 1,
-		"q": 80
-		},
-	"\/media\/public-transport.svg": {
-		"ft": 2097152,
-		"miP": 0,
-		"oA": 0,
-		"oAP": "\/media\/public-transport.svg",
-		"oF": 1,
-		"opt": 0,
-		"plM": 3758088159,
-		"prP": 0
-		},
-	"\/media\/train.gif": {
-		"ft": 4194304,
-		"iS": 2077084,
-		"oA": 0,
-		"oAP": "\/media\/train.gif",
-		"oF": 0,
-		"opt": 0
-		},
-	"\/media\/trainsmile.svg": {
-		"ft": 2097152,
-		"miP": 0,
-		"oA": 0,
-		"oAP": "\/media\/trainsmile.svg",
-		"oF": 1,
-		"opt": 0,
-		"plM": 3758088159,
-		"prP": 0
-		},
-	"\/media\/work.jpg": {
-		"ft": 16384,
-		"iS": 1209918,
-		"jF": 0,
-		"oA": 0,
-		"oAP": "\/media\/work.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 1,
-		"q": 100
-		},
-	"\/media\/yellow-lady.png": {
-		"ft": 32768,
-		"iS": 3558300,
-		"oA": 0,
-		"oAP": "\/media\/yellow-lady.png",
-		"oF": 1,
-		"oIPL": 1,
-		"opt": 1,
-		"oT": 1,
-		"q": 80
 		},
 	"\/templates\/abos.hbs": {
 		"cB": 0,
@@ -3475,56 +3118,6 @@
 		}
 	],
 "manualImportLinks": {
-	"\/assets\/js\/tk.generic.js": [
-		{
-			"followForSyntaxChecking": 1,
-			"linkedFileAbbreviatedPath": "\/bower_components\/handlebars\/handlebars.runtime-v4.0.11.js",
-			"position": 0,
-			"type": 0
-			},
-		{
-			"followForSyntaxChecking": 1,
-			"linkedFileAbbreviatedPath": "\/assets\/js\/templates.js",
-			"position": 1,
-			"type": 0
-			},
-		{
-			"followForSyntaxChecking": 1,
-			"linkedFileAbbreviatedPath": "\/bower_components\/greensock-js\/plugins\/ScrollToPlugin.js",
-			"position": 2,
-			"type": 0
-			},
-		{
-			"followForSyntaxChecking": 1,
-			"linkedFileAbbreviatedPath": "\/bower_components\/greensock-js\/TweenMax.js",
-			"position": 3,
-			"type": 0
-			},
-		{
-			"followForSyntaxChecking": 1,
-			"linkedFileAbbreviatedPath": "\/bower_components\/greensock-js\/TimelineMax.js",
-			"position": 4,
-			"type": 0
-			},
-		{
-			"followForSyntaxChecking": 1,
-			"linkedFileAbbreviatedPath": "\/bower_components\/scroll-magic\/scroll-magic.js",
-			"position": 5,
-			"type": 0
-			},
-		{
-			"followForSyntaxChecking": 1,
-			"linkedFileAbbreviatedPath": "\/data\/landing.js",
-			"position": 6,
-			"type": 1
-			},
-		{
-			"followForSyntaxChecking": 1,
-			"linkedFileAbbreviatedPath": "\/data\/abos.js",
-			"position": 7,
-			"type": 1
-			}
-		]
 	},
 "projectAttributes": {
 	"creationDate": 506199522,
@@ -3535,7 +3128,7 @@
 	},
 "projectSettings": {
 	"abortBuildOnError": 1,
-	"alwaysUseExternalServer": 1,
+	"alwaysUseExternalServer": 0,
 	"animateCSSInjections": 1,
 	"autoBuildNewItems": 1,
 	"autoprefixerBrowserString": "> 1%, last 2 versions, Firefox ESR, Opera 12.1",
