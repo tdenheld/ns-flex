@@ -3113,6 +3113,16 @@
 		"oT": 1,
 		"q": 100
 		},
+	"\/media\/binoculars.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "\/media\/binoculars.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
 	"\/media\/boy-blue-baloon.jpg": {
 		"ft": 16384,
 		"iS": 64325,
@@ -3267,6 +3277,16 @@
 		"oT": 1,
 		"q": 100
 		},
+	"\/media\/heart--small.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "\/media\/heart--small.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
 	"\/media\/heart.svg": {
 		"ft": 2097152,
 		"miP": 0,
@@ -3402,6 +3422,16 @@
 		"oA": 1,
 		"oAP": "\/media\/ov-chip--left.svg",
 		"oF": 1,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"\/media\/ov-chip.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "\/media\/ov-chip.svg",
+		"oF": 0,
 		"opt": 0,
 		"plM": 3758088159,
 		"prP": 0

@@ -200,15 +200,15 @@ var context = {
 			"heading": "Daarom NS Flex",
 			"item": [
 				{
-					"icon": "ov-chip",
+					"icon": "heart--small",
 					"title": "Nooit meer saldo laden",
 					"description": "Je krijgt per maand een overzichtelijke rekening.",
 				},{
-					"icon": "factuur",
+					"icon": "binoculars",
 					"title": "Altijd inzicht in je reiskosten",
 					"description": "Inclusief kostenalerts die je zelf instelt (beschikbaar vanaf oktober).",
 				},{
-					"icon": "exit",
+					"icon": "filter",
 					"title": "Je zit nergens aan vast",
 					"description": "Je betaalt alleen de reizen die je maakt. Reis je niet, dan kost het je ook niets.",
 				},
