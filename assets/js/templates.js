@@ -41,7 +41,7 @@ templates['abos'] = template({"1":function(container,depth0,helpers,partials,dat
 },"compiler":[7,">= 4.0.0"],"main":function(container,depth0,helpers,partials,data) {
     var stack1, alias1=container.lambda, alias2=container.escapeExpression, alias3=depth0 != null ? depth0 : (container.nullContext || {});
 
-  return "<div class=\"flx-bg--grey\">\n	\n	<!------- hero ------->\n	<div class=\"flx-hero flx-hero--small flx-hero--abo\">\n		<div class=\"flx-hero__bg\">\n			<div class=\"ani ani--fade-in\">\n				<div class=\"flx-gradient flx-gradient--stone\"></div>\n				<div class=\"flx-hero__img\"></div>\n			</div>\n		</div>\n		<div class=\"ani ani--fade-in-up-small ani--delay-500\">\n			<div class=\"container ovr-container\">\n				<div class=\"flx-hero__content flx-hero--white-txt\">\n					<h1 class=\"flx-hero__title flx-txt-shadow--regular\">"
+  return "<div class=\"flx-bg--grey\">\n	\n	<!------- hero ------->\n	<div class=\"flx-hero flx-hero--small flx-hero--abo\">\n		<div class=\"flx-hero__bg\">\n			<div class=\"ani ani--fade-in\">\n				<div class=\"flx-gradient flx-gradient--vivid-blue alpha-1\"></div>\n				<div class=\"flx-hero__img\"></div>\n			</div>\n		</div>\n		<div class=\"ani ani--fade-in-up-small ani--delay-500\">\n			<div class=\"container ovr-container\">\n				<div class=\"flx-hero__content flx-hero--white-txt\">\n					<h1 class=\"flx-hero__title flx-txt-shadow--regular\">"
     + alias2(alias1(((stack1 = (depth0 != null ? depth0.abos : depth0)) != null ? stack1.title : stack1), depth0))
     + "</h1> \n					<h2 class=\"flx-hero__subtitle flx-txt-shadow--regular\">"
     + alias2(alias1(((stack1 = (depth0 != null ? depth0.abos : depth0)) != null ? stack1.subtitle : stack1), depth0))
