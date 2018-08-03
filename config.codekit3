@@ -23,6 +23,16 @@
 		"oAP": "\/abonnementen.html",
 		"oF": 0
 		},
+	"\/assets\/css\/ns.generic.min.css": {
+		"aP": 1,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 0,
+		"oAP": "\/assets\/css\/ns.generic.min-min.css",
+		"oF": 0,
+		"oS": 3
+		},
 	"\/assets\/css\/style.css": {
 		"aP": 1,
 		"bl": 0,
@@ -2307,6 +2317,26 @@
 		"plM": 3758088159,
 		"prP": 0
 		},
+	"\/assets\/js\/app-content.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 1,
+		"oAP": "\/assets\/js\/app-content.min.js",
+		"oF": 0,
+		"sC": 0,
+		"tS": 0
+		},
+	"\/assets\/js\/ns.generic.min.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/assets\/js\/ns.generic.min.min.js",
+		"oF": 0,
+		"sC": 0,
+		"tS": 0
+		},
 	"\/assets\/js\/templates.js": {
 		"ft": 64,
 		"ma": 0,
@@ -2597,444 +2627,6 @@
 		"oS": 0,
 		"uL": 1
 		},
-	"\/bower.json": {
-		"ft": 524288,
-		"oA": 1,
-		"oAP": "\/bower-min.json",
-		"oF": 0,
-		"oO": 0,
-		"oS": 1
-		},
-	"\/bower_components\/grained\/grained.min.js": {
-		"ft": 64,
-		"ma": 0,
-		"mi": 1,
-		"oA": 2,
-		"oAP": "\/bower_components\/grained\/grained.min.js",
-		"oF": 0,
-		"sC": 1,
-		"tS": 0
-		},
-	"\/bower_components\/greensock-js\/easing\/CustomBounce.js": {
-		"ft": 64,
-		"ma": 0,
-		"mi": 1,
-		"oA": 2,
-		"oAP": "\/bower_components\/greensock-js\/easing\/CustomBounce.js",
-		"oF": 0,
-		"sC": 1,
-		"tS": 0
-		},
-	"\/bower_components\/greensock-js\/easing\/CustomEase.js": {
-		"ft": 64,
-		"ma": 0,
-		"mi": 1,
-		"oA": 2,
-		"oAP": "\/bower_components\/greensock-js\/easing\/CustomEase.js",
-		"oF": 0,
-		"sC": 1,
-		"tS": 0
-		},
-	"\/bower_components\/greensock-js\/easing\/CustomWiggle.js": {
-		"ft": 64,
-		"ma": 0,
-		"mi": 1,
-		"oA": 2,
-		"oAP": "\/bower_components\/greensock-js\/easing\/CustomWiggle.js",
-		"oF": 0,
-		"sC": 1,
-		"tS": 0
-		},
-	"\/bower_components\/greensock-js\/easing\/EasePack.js": {
-		"ft": 64,
-		"ma": 0,
-		"mi": 1,
-		"oA": 2,
-		"oAP": "\/bower_components\/greensock-js\/easing\/EasePack.js",
-		"oF": 0,
-		"sC": 1,
-		"tS": 0
-		},
-	"\/bower_components\/greensock-js\/jquery.gsap.js": {
-		"ft": 64,
-		"ma": 0,
-		"mi": 1,
-		"oA": 2,
-		"oAP": "\/bower_components\/greensock-js\/jquery.gsap.js",
-		"oF": 0,
-		"sC": 1,
-		"tS": 0
-		},
-	"\/bower_components\/greensock-js\/plugins\/AttrPlugin.js": {
-		"ft": 64,
-		"ma": 0,
-		"mi": 1,
-		"oA": 2,
-		"oAP": "\/bower_components\/greensock-js\/plugins\/AttrPlugin.js",
-		"oF": 0,
-		"sC": 1,
-		"tS": 0
-		},
-	"\/bower_components\/greensock-js\/plugins\/BezierPlugin.js": {
-		"ft": 64,
-		"ma": 0,
-		"mi": 1,
-		"oA": 2,
-		"oAP": "\/bower_components\/greensock-js\/plugins\/BezierPlugin.js",
-		"oF": 0,
-		"sC": 1,
-		"tS": 0
-		},
-	"\/bower_components\/greensock-js\/plugins\/ColorPropsPlugin.js": {
-		"ft": 64,
-		"ma": 0,
-		"mi": 1,
-		"oA": 2,
-		"oAP": "\/bower_components\/greensock-js\/plugins\/ColorPropsPlugin.js",
-		"oF": 0,
-		"sC": 1,
-		"tS": 0
-		},
-	"\/bower_components\/greensock-js\/plugins\/CSSPlugin.js": {
-		"ft": 64,
-		"ma": 0,
-		"mi": 1,
-		"oA": 2,
-		"oAP": "\/bower_components\/greensock-js\/plugins\/CSSPlugin.js",
-		"oF": 0,
-		"sC": 1,
-		"tS": 0
-		},
-	"\/bower_components\/greensock-js\/plugins\/CSSRulePlugin.js": {
-		"ft": 64,
-		"ma": 0,
-		"mi": 1,
-		"oA": 2,
-		"oAP": "\/bower_components\/greensock-js\/plugins\/CSSRulePlugin.js",
-		"oF": 0,
-		"sC": 1,
-		"tS": 0
-		},
-	"\/bower_components\/greensock-js\/plugins\/DirectionalRotationPlugin.js": {
-		"ft": 64,
-		"ma": 0,
-		"mi": 1,
-		"oA": 2,
-		"oAP": "\/bower_components\/greensock-js\/plugins\/DirectionalRotationPlugin.js",
-		"oF": 0,
-		"sC": 1,
-		"tS": 0
-		},
-	"\/bower_components\/greensock-js\/plugins\/DrawSVGPlugin.js": {
-		"ft": 64,
-		"ma": 0,
-		"mi": 1,
-		"oA": 2,
-		"oAP": "\/bower_components\/greensock-js\/plugins\/DrawSVGPlugin.js",
-		"oF": 0,
-		"sC": 1,
-		"tS": 0
-		},
-	"\/bower_components\/greensock-js\/plugins\/EaselPlugin.js": {
-		"ft": 64,
-		"ma": 0,
-		"mi": 1,
-		"oA": 2,
-		"oAP": "\/bower_components\/greensock-js\/plugins\/EaselPlugin.js",
-		"oF": 0,
-		"sC": 1,
-		"tS": 0
-		},
-	"\/bower_components\/greensock-js\/plugins\/EndArrayPlugin.js": {
-		"ft": 64,
-		"ma": 0,
-		"mi": 1,
-		"oA": 2,
-		"oAP": "\/bower_components\/greensock-js\/plugins\/EndArrayPlugin.js",
-		"oF": 0,
-		"sC": 1,
-		"tS": 0
-		},
-	"\/bower_components\/greensock-js\/plugins\/ModifiersPlugin.js": {
-		"ft": 64,
-		"ma": 0,
-		"mi": 1,
-		"oA": 2,
-		"oAP": "\/bower_components\/greensock-js\/plugins\/ModifiersPlugin.js",
-		"oF": 0,
-		"sC": 1,
-		"tS": 0
-		},
-	"\/bower_components\/greensock-js\/plugins\/MorphSVGPlugin.js": {
-		"ft": 64,
-		"ma": 0,
-		"mi": 1,
-		"oA": 2,
-		"oAP": "\/bower_components\/greensock-js\/plugins\/MorphSVGPlugin.js",
-		"oF": 0,
-		"sC": 1,
-		"tS": 0
-		},
-	"\/bower_components\/greensock-js\/plugins\/Physics2DPlugin.js": {
-		"ft": 64,
-		"ma": 0,
-		"mi": 1,
-		"oA": 2,
-		"oAP": "\/bower_components\/greensock-js\/plugins\/Physics2DPlugin.js",
-		"oF": 0,
-		"sC": 1,
-		"tS": 0
-		},
-	"\/bower_components\/greensock-js\/plugins\/PhysicsPropsPlugin.js": {
-		"ft": 64,
-		"ma": 0,
-		"mi": 1,
-		"oA": 2,
-		"oAP": "\/bower_components\/greensock-js\/plugins\/PhysicsPropsPlugin.js",
-		"oF": 0,
-		"sC": 1,
-		"tS": 0
-		},
-	"\/bower_components\/greensock-js\/plugins\/PixiPlugin.js": {
-		"ft": 64,
-		"ma": 0,
-		"mi": 1,
-		"oA": 2,
-		"oAP": "\/bower_components\/greensock-js\/plugins\/PixiPlugin.js",
-		"oF": 0,
-		"sC": 1,
-		"tS": 0
-		},
-	"\/bower_components\/greensock-js\/plugins\/RaphaelPlugin.js": {
-		"ft": 64,
-		"ma": 0,
-		"mi": 1,
-		"oA": 2,
-		"oAP": "\/bower_components\/greensock-js\/plugins\/RaphaelPlugin.js",
-		"oF": 0,
-		"sC": 1,
-		"tS": 0
-		},
-	"\/bower_components\/greensock-js\/plugins\/RoundPropsPlugin.js": {
-		"ft": 64,
-		"ma": 0,
-		"mi": 1,
-		"oA": 2,
-		"oAP": "\/bower_components\/greensock-js\/plugins\/RoundPropsPlugin.js",
-		"oF": 0,
-		"sC": 1,
-		"tS": 0
-		},
-	"\/bower_components\/greensock-js\/plugins\/ScrambleTextPlugin.js": {
-		"ft": 64,
-		"ma": 0,
-		"mi": 1,
-		"oA": 2,
-		"oAP": "\/bower_components\/greensock-js\/plugins\/ScrambleTextPlugin.js",
-		"oF": 0,
-		"sC": 1,
-		"tS": 0
-		},
-	"\/bower_components\/greensock-js\/plugins\/ScrollToPlugin.js": {
-		"ft": 64,
-		"ma": 0,
-		"mi": 1,
-		"oA": 1,
-		"oAP": "\/bower_components\/greensock-js\/plugins\/ScrollToPlugin.js",
-		"oF": 0,
-		"sC": 1,
-		"tS": 0
-		},
-	"\/bower_components\/greensock-js\/plugins\/TEMPLATE_Plugin.js": {
-		"ft": 64,
-		"ma": 0,
-		"mi": 1,
-		"oA": 2,
-		"oAP": "\/bower_components\/greensock-js\/plugins\/TEMPLATE_Plugin.js",
-		"oF": 0,
-		"sC": 1,
-		"tS": 0
-		},
-	"\/bower_components\/greensock-js\/plugins\/TextPlugin.js": {
-		"ft": 64,
-		"ma": 0,
-		"mi": 1,
-		"oA": 2,
-		"oAP": "\/bower_components\/greensock-js\/plugins\/TextPlugin.js",
-		"oF": 0,
-		"sC": 1,
-		"tS": 0
-		},
-	"\/bower_components\/greensock-js\/plugins\/ThrowPropsPlugin.js": {
-		"ft": 64,
-		"ma": 0,
-		"mi": 1,
-		"oA": 2,
-		"oAP": "\/bower_components\/greensock-js\/plugins\/ThrowPropsPlugin.js",
-		"oF": 0,
-		"sC": 1,
-		"tS": 0
-		},
-	"\/bower_components\/greensock-js\/TimelineLite.js": {
-		"ft": 64,
-		"ma": 0,
-		"mi": 1,
-		"oA": 2,
-		"oAP": "\/bower_components\/greensock-js\/TimelineLite.js",
-		"oF": 0,
-		"sC": 1,
-		"tS": 0
-		},
-	"\/bower_components\/greensock-js\/TimelineMax.js": {
-		"ft": 64,
-		"ma": 0,
-		"mi": 1,
-		"oA": 1,
-		"oAP": "\/bower_components\/greensock-js\/TimelineMax.js",
-		"oF": 0,
-		"sC": 1,
-		"tS": 0
-		},
-	"\/bower_components\/greensock-js\/TweenLite.js": {
-		"ft": 64,
-		"ma": 0,
-		"mi": 1,
-		"oA": 2,
-		"oAP": "\/bower_components\/greensock-js\/TweenLite.js",
-		"oF": 0,
-		"sC": 1,
-		"tS": 0
-		},
-	"\/bower_components\/greensock-js\/TweenMax.js": {
-		"ft": 64,
-		"ma": 0,
-		"mi": 1,
-		"oA": 1,
-		"oAP": "\/bower_components\/greensock-js\/TweenMax.js",
-		"oF": 0,
-		"sC": 1,
-		"tS": 0
-		},
-	"\/bower_components\/greensock-js\/utils\/Draggable.js": {
-		"ft": 64,
-		"ma": 0,
-		"mi": 1,
-		"oA": 2,
-		"oAP": "\/bower_components\/greensock-js\/utils\/Draggable.js",
-		"oF": 0,
-		"sC": 1,
-		"tS": 0
-		},
-	"\/bower_components\/greensock-js\/utils\/GSDevTools.js": {
-		"ft": 64,
-		"ma": 0,
-		"mi": 1,
-		"oA": 2,
-		"oAP": "\/bower_components\/greensock-js\/utils\/GSDevTools.js",
-		"oF": 0,
-		"sC": 1,
-		"tS": 0
-		},
-	"\/bower_components\/greensock-js\/utils\/SplitText.js": {
-		"ft": 64,
-		"ma": 0,
-		"mi": 1,
-		"oA": 2,
-		"oAP": "\/bower_components\/greensock-js\/utils\/SplitText.js",
-		"oF": 0,
-		"sC": 1,
-		"tS": 0
-		},
-	"\/bower_components\/handlebars\/handlebars.runtime-v4.0.11.js": {
-		"ft": 64,
-		"ma": 0,
-		"mi": 1,
-		"oA": 1,
-		"oAP": "\/bower_components\/handlebars\/handlebars.runtime-v4.0.11.js",
-		"oF": 0,
-		"sC": 1,
-		"tS": 0
-		},
-	"\/bower_components\/ns\/modernizr.latest.js": {
-		"ft": 64,
-		"ma": 0,
-		"mi": 1,
-		"oA": 2,
-		"oAP": "\/bower_components\/ns\/modernizr.latest.js",
-		"oF": 0,
-		"sC": 1,
-		"tS": 0
-		},
-	"\/bower_components\/ns\/ns.generic.min.css": {
-		"aP": 1,
-		"bl": 0,
-		"ft": 16,
-		"ma": 0,
-		"oA": 2,
-		"oAP": "\/bower_components\/ns\/ns.generic.min.css",
-		"oF": 0,
-		"oS": 3
-		},
-	"\/bower_components\/ns\/ns.generic.min.js": {
-		"ft": 64,
-		"ma": 0,
-		"mi": 1,
-		"oA": 2,
-		"oAP": "\/bower_components\/ns\/ns.generic.min.js",
-		"oF": 0,
-		"sC": 1,
-		"tS": 0
-		},
-	"\/bower_components\/scroll-magic\/plugins\/animation.gsap.js": {
-		"ft": 64,
-		"ma": 0,
-		"mi": 1,
-		"oA": 2,
-		"oAP": "\/bower_components\/scroll-magic\/plugins\/animation.gsap.js",
-		"oF": 0,
-		"sC": 1,
-		"tS": 0
-		},
-	"\/bower_components\/scroll-magic\/plugins\/animation.velocity.js": {
-		"ft": 64,
-		"ma": 0,
-		"mi": 1,
-		"oA": 2,
-		"oAP": "\/bower_components\/scroll-magic\/plugins\/animation.velocity.js",
-		"oF": 0,
-		"sC": 1,
-		"tS": 0
-		},
-	"\/bower_components\/scroll-magic\/plugins\/debug.addIndicators.js": {
-		"ft": 64,
-		"ma": 0,
-		"mi": 1,
-		"oA": 1,
-		"oAP": "\/bower_components\/scroll-magic\/plugins\/debug.addIndicators.js",
-		"oF": 0,
-		"sC": 1,
-		"tS": 0
-		},
-	"\/bower_components\/scroll-magic\/plugins\/jquery.ScrollMagic.js": {
-		"ft": 64,
-		"ma": 0,
-		"mi": 1,
-		"oA": 2,
-		"oAP": "\/bower_components\/scroll-magic\/plugins\/jquery.ScrollMagic.js",
-		"oF": 0,
-		"sC": 1,
-		"tS": 0
-		},
-	"\/bower_components\/scroll-magic\/scroll-magic.js": {
-		"ft": 64,
-		"ma": 0,
-		"mi": 1,
-		"oA": 1,
-		"oAP": "\/bower_components\/scroll-magic\/scroll-magic.js",
-		"oF": 0,
-		"sC": 1,
-		"tS": 0
-		},
 	"\/components\/ros-abos.html": {
 		"cB": 0,
 		"ft": 8192,
@@ -3062,16 +2654,6 @@
 		"oA": 0,
 		"oAP": "\/components\/ros-misc.html",
 		"oF": 0
-		},
-	"\/data\/app-content.js": {
-		"ft": 64,
-		"ma": 0,
-		"mi": 1,
-		"oA": 1,
-		"oAP": "\/data\/app-content.min.js",
-		"oF": 0,
-		"sC": 1,
-		"tS": 0
 		},
 	"\/favicon.png": {
 		"ft": 32768,
@@ -3490,6 +3072,1709 @@
 		"opt": 0,
 		"q": 100
 		},
+	"\/node_modules\/grained\/grained.min.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 2,
+		"oAP": "\/node_modules\/grained\/grained.min.js",
+		"oF": 0,
+		"sC": 0,
+		"tS": 0
+		},
+	"\/node_modules\/gsap\/easing\/CustomBounce.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 2,
+		"oAP": "\/node_modules\/gsap\/easing\/CustomBounce.js",
+		"oF": 0,
+		"sC": 0,
+		"tS": 0
+		},
+	"\/node_modules\/gsap\/easing\/CustomEase.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 2,
+		"oAP": "\/node_modules\/gsap\/easing\/CustomEase.js",
+		"oF": 0,
+		"sC": 0,
+		"tS": 0
+		},
+	"\/node_modules\/gsap\/easing\/CustomWiggle.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 2,
+		"oAP": "\/node_modules\/gsap\/easing\/CustomWiggle.js",
+		"oF": 0,
+		"sC": 0,
+		"tS": 0
+		},
+	"\/node_modules\/gsap\/easing\/EasePack.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 2,
+		"oAP": "\/node_modules\/gsap\/easing\/EasePack.js",
+		"oF": 0,
+		"sC": 0,
+		"tS": 0
+		},
+	"\/node_modules\/gsap\/jquery.gsap.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 2,
+		"oAP": "\/node_modules\/gsap\/jquery.gsap.js",
+		"oF": 0,
+		"sC": 0,
+		"tS": 0
+		},
+	"\/node_modules\/gsap\/plugins\/AttrPlugin.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 2,
+		"oAP": "\/node_modules\/gsap\/plugins\/AttrPlugin.js",
+		"oF": 0,
+		"sC": 0,
+		"tS": 0
+		},
+	"\/node_modules\/gsap\/plugins\/BezierPlugin.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 2,
+		"oAP": "\/node_modules\/gsap\/plugins\/BezierPlugin.js",
+		"oF": 0,
+		"sC": 0,
+		"tS": 0
+		},
+	"\/node_modules\/gsap\/plugins\/ColorPropsPlugin.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 2,
+		"oAP": "\/node_modules\/gsap\/plugins\/ColorPropsPlugin.js",
+		"oF": 0,
+		"sC": 0,
+		"tS": 0
+		},
+	"\/node_modules\/gsap\/plugins\/CSSPlugin.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 2,
+		"oAP": "\/node_modules\/gsap\/plugins\/CSSPlugin.js",
+		"oF": 0,
+		"sC": 0,
+		"tS": 0
+		},
+	"\/node_modules\/gsap\/plugins\/CSSRulePlugin.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 2,
+		"oAP": "\/node_modules\/gsap\/plugins\/CSSRulePlugin.js",
+		"oF": 0,
+		"sC": 0,
+		"tS": 0
+		},
+	"\/node_modules\/gsap\/plugins\/DirectionalRotationPlugin.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 2,
+		"oAP": "\/node_modules\/gsap\/plugins\/DirectionalRotationPlugin.js",
+		"oF": 0,
+		"sC": 0,
+		"tS": 0
+		},
+	"\/node_modules\/gsap\/plugins\/DrawSVGPlugin.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 2,
+		"oAP": "\/node_modules\/gsap\/plugins\/DrawSVGPlugin.js",
+		"oF": 0,
+		"sC": 0,
+		"tS": 0
+		},
+	"\/node_modules\/gsap\/plugins\/EaselPlugin.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 2,
+		"oAP": "\/node_modules\/gsap\/plugins\/EaselPlugin.js",
+		"oF": 0,
+		"sC": 0,
+		"tS": 0
+		},
+	"\/node_modules\/gsap\/plugins\/EndArrayPlugin.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 2,
+		"oAP": "\/node_modules\/gsap\/plugins\/EndArrayPlugin.js",
+		"oF": 0,
+		"sC": 0,
+		"tS": 0
+		},
+	"\/node_modules\/gsap\/plugins\/ModifiersPlugin.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 2,
+		"oAP": "\/node_modules\/gsap\/plugins\/ModifiersPlugin.js",
+		"oF": 0,
+		"sC": 0,
+		"tS": 0
+		},
+	"\/node_modules\/gsap\/plugins\/MorphSVGPlugin.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 2,
+		"oAP": "\/node_modules\/gsap\/plugins\/MorphSVGPlugin.js",
+		"oF": 0,
+		"sC": 0,
+		"tS": 0
+		},
+	"\/node_modules\/gsap\/plugins\/Physics2DPlugin.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 2,
+		"oAP": "\/node_modules\/gsap\/plugins\/Physics2DPlugin.js",
+		"oF": 0,
+		"sC": 0,
+		"tS": 0
+		},
+	"\/node_modules\/gsap\/plugins\/PhysicsPropsPlugin.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 2,
+		"oAP": "\/node_modules\/gsap\/plugins\/PhysicsPropsPlugin.js",
+		"oF": 0,
+		"sC": 0,
+		"tS": 0
+		},
+	"\/node_modules\/gsap\/plugins\/PixiPlugin.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 2,
+		"oAP": "\/node_modules\/gsap\/plugins\/PixiPlugin.js",
+		"oF": 0,
+		"sC": 0,
+		"tS": 0
+		},
+	"\/node_modules\/gsap\/plugins\/RaphaelPlugin.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 2,
+		"oAP": "\/node_modules\/gsap\/plugins\/RaphaelPlugin.js",
+		"oF": 0,
+		"sC": 0,
+		"tS": 0
+		},
+	"\/node_modules\/gsap\/plugins\/RoundPropsPlugin.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 2,
+		"oAP": "\/node_modules\/gsap\/plugins\/RoundPropsPlugin.js",
+		"oF": 0,
+		"sC": 0,
+		"tS": 0
+		},
+	"\/node_modules\/gsap\/plugins\/ScrambleTextPlugin.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 2,
+		"oAP": "\/node_modules\/gsap\/plugins\/ScrambleTextPlugin.js",
+		"oF": 0,
+		"sC": 0,
+		"tS": 0
+		},
+	"\/node_modules\/gsap\/plugins\/ScrollToPlugin.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 1,
+		"oAP": "\/node_modules\/gsap\/plugins\/ScrollToPlugin.js",
+		"oF": 0,
+		"sC": 0,
+		"tS": 0
+		},
+	"\/node_modules\/gsap\/plugins\/TEMPLATE_Plugin.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 2,
+		"oAP": "\/node_modules\/gsap\/plugins\/TEMPLATE_Plugin.js",
+		"oF": 0,
+		"sC": 0,
+		"tS": 0
+		},
+	"\/node_modules\/gsap\/plugins\/TextPlugin.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 2,
+		"oAP": "\/node_modules\/gsap\/plugins\/TextPlugin.js",
+		"oF": 0,
+		"sC": 0,
+		"tS": 0
+		},
+	"\/node_modules\/gsap\/plugins\/ThrowPropsPlugin.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 2,
+		"oAP": "\/node_modules\/gsap\/plugins\/ThrowPropsPlugin.js",
+		"oF": 0,
+		"sC": 0,
+		"tS": 0
+		},
+	"\/node_modules\/gsap\/TimelineLite.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 2,
+		"oAP": "\/node_modules\/gsap\/TimelineLite.js",
+		"oF": 0,
+		"sC": 0,
+		"tS": 0
+		},
+	"\/node_modules\/gsap\/TimelineMax.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 1,
+		"oAP": "\/node_modules\/gsap\/TimelineMax.js",
+		"oF": 0,
+		"sC": 0,
+		"tS": 0
+		},
+	"\/node_modules\/gsap\/TweenLite.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 2,
+		"oAP": "\/node_modules\/gsap\/TweenLite.js",
+		"oF": 0,
+		"sC": 0,
+		"tS": 0
+		},
+	"\/node_modules\/gsap\/TweenMax.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 1,
+		"oAP": "\/node_modules\/gsap\/TweenMax.js",
+		"oF": 0,
+		"sC": 0,
+		"tS": 0
+		},
+	"\/node_modules\/gsap\/utils\/Draggable.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 2,
+		"oAP": "\/node_modules\/gsap\/utils\/Draggable.js",
+		"oF": 0,
+		"sC": 0,
+		"tS": 0
+		},
+	"\/node_modules\/gsap\/utils\/GSDevTools.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 2,
+		"oAP": "\/node_modules\/gsap\/utils\/GSDevTools.js",
+		"oF": 0,
+		"sC": 0,
+		"tS": 0
+		},
+	"\/node_modules\/gsap\/utils\/SplitText.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 2,
+		"oAP": "\/node_modules\/gsap\/utils\/SplitText.js",
+		"oF": 0,
+		"sC": 0,
+		"tS": 0
+		},
+	"\/node_modules\/handlebars\/.gitattributes": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/node_modules\/handlebars\/.gitattributes",
+		"oF": 0
+		},
+	"\/node_modules\/handlebars\/.gitmodules": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/node_modules\/handlebars\/.gitmodules",
+		"oF": 0
+		},
+	"\/node_modules\/handlebars\/.idea": {
+		"ft": 65536,
+		"oA": 1,
+		"oAP": "\/build\/node_modules\/handlebars\/.idea",
+		"oF": 0
+		},
+	"\/node_modules\/handlebars\/.istanbul.yml": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/node_modules\/handlebars\/.istanbul.yml",
+		"oF": 0
+		},
+	"\/node_modules\/handlebars\/.npmignore": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/node_modules\/handlebars\/.npmignore",
+		"oF": 0
+		},
+	"\/node_modules\/handlebars\/appveyor.yml": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/node_modules\/handlebars\/appveyor.yml",
+		"oF": 0
+		},
+	"\/node_modules\/handlebars\/bin\/handlebars": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/node_modules\/handlebars\/bin\/handlebars",
+		"oF": 0
+		},
+	"\/node_modules\/handlebars\/CONTRIBUTING.md": {
+		"cB": 0,
+		"cS": 0,
+		"eF": 1,
+		"eL": 1,
+		"ema": 1,
+		"eSQ": 1,
+		"ft": 4096,
+		"oA": 2,
+		"oAP": "\/node_modules\/handlebars\/CONTRIBUTING.md",
+		"oF": 0,
+		"oFM": 0,
+		"oS": 0,
+		"pHT": 0,
+		"pME": 1,
+		"rFN": 0,
+		"uCM": 0
+		},
+	"\/node_modules\/handlebars\/dist\/amd\/handlebars.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 2,
+		"oAP": "\/node_modules\/handlebars\/dist\/amd\/handlebars.js",
+		"oF": 0,
+		"sC": 0,
+		"tS": 0
+		},
+	"\/node_modules\/handlebars\/dist\/amd\/handlebars.runtime.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 2,
+		"oAP": "\/node_modules\/handlebars\/dist\/amd\/handlebars.runtime.js",
+		"oF": 0,
+		"sC": 0,
+		"tS": 0
+		},
+	"\/node_modules\/handlebars\/dist\/amd\/handlebars\/base.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 2,
+		"oAP": "\/node_modules\/handlebars\/dist\/amd\/handlebars\/base.js",
+		"oF": 0,
+		"sC": 0,
+		"tS": 0
+		},
+	"\/node_modules\/handlebars\/dist\/amd\/handlebars\/compiler\/ast.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 2,
+		"oAP": "\/node_modules\/handlebars\/dist\/amd\/handlebars\/compiler\/ast.js",
+		"oF": 0,
+		"sC": 0,
+		"tS": 0
+		},
+	"\/node_modules\/handlebars\/dist\/amd\/handlebars\/compiler\/base.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 2,
+		"oAP": "\/node_modules\/handlebars\/dist\/amd\/handlebars\/compiler\/base.js",
+		"oF": 0,
+		"sC": 0,
+		"tS": 0
+		},
+	"\/node_modules\/handlebars\/dist\/amd\/handlebars\/compiler\/code-gen.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 2,
+		"oAP": "\/node_modules\/handlebars\/dist\/amd\/handlebars\/compiler\/code-gen.js",
+		"oF": 0,
+		"sC": 0,
+		"tS": 0
+		},
+	"\/node_modules\/handlebars\/dist\/amd\/handlebars\/compiler\/compiler.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 2,
+		"oAP": "\/node_modules\/handlebars\/dist\/amd\/handlebars\/compiler\/compiler.js",
+		"oF": 0,
+		"sC": 0,
+		"tS": 0
+		},
+	"\/node_modules\/handlebars\/dist\/amd\/handlebars\/compiler\/helpers.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 2,
+		"oAP": "\/node_modules\/handlebars\/dist\/amd\/handlebars\/compiler\/helpers.js",
+		"oF": 0,
+		"sC": 0,
+		"tS": 0
+		},
+	"\/node_modules\/handlebars\/dist\/amd\/handlebars\/compiler\/javascript-compiler.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 2,
+		"oAP": "\/node_modules\/handlebars\/dist\/amd\/handlebars\/compiler\/javascript-compiler.js",
+		"oF": 0,
+		"sC": 0,
+		"tS": 0
+		},
+	"\/node_modules\/handlebars\/dist\/amd\/handlebars\/compiler\/parser.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 2,
+		"oAP": "\/node_modules\/handlebars\/dist\/amd\/handlebars\/compiler\/parser.js",
+		"oF": 0,
+		"sC": 0,
+		"tS": 0
+		},
+	"\/node_modules\/handlebars\/dist\/amd\/handlebars\/compiler\/printer.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 2,
+		"oAP": "\/node_modules\/handlebars\/dist\/amd\/handlebars\/compiler\/printer.js",
+		"oF": 0,
+		"sC": 0,
+		"tS": 0
+		},
+	"\/node_modules\/handlebars\/dist\/amd\/handlebars\/compiler\/visitor.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 2,
+		"oAP": "\/node_modules\/handlebars\/dist\/amd\/handlebars\/compiler\/visitor.js",
+		"oF": 0,
+		"sC": 0,
+		"tS": 0
+		},
+	"\/node_modules\/handlebars\/dist\/amd\/handlebars\/compiler\/whitespace-control.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 2,
+		"oAP": "\/node_modules\/handlebars\/dist\/amd\/handlebars\/compiler\/whitespace-control.js",
+		"oF": 0,
+		"sC": 0,
+		"tS": 0
+		},
+	"\/node_modules\/handlebars\/dist\/amd\/handlebars\/decorators.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 2,
+		"oAP": "\/node_modules\/handlebars\/dist\/amd\/handlebars\/decorators.js",
+		"oF": 0,
+		"sC": 0,
+		"tS": 0
+		},
+	"\/node_modules\/handlebars\/dist\/amd\/handlebars\/decorators\/inline.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 2,
+		"oAP": "\/node_modules\/handlebars\/dist\/amd\/handlebars\/decorators\/inline.js",
+		"oF": 0,
+		"sC": 0,
+		"tS": 0
+		},
+	"\/node_modules\/handlebars\/dist\/amd\/handlebars\/exception.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 2,
+		"oAP": "\/node_modules\/handlebars\/dist\/amd\/handlebars\/exception.js",
+		"oF": 0,
+		"sC": 0,
+		"tS": 0
+		},
+	"\/node_modules\/handlebars\/dist\/amd\/handlebars\/helpers.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 2,
+		"oAP": "\/node_modules\/handlebars\/dist\/amd\/handlebars\/helpers.js",
+		"oF": 0,
+		"sC": 0,
+		"tS": 0
+		},
+	"\/node_modules\/handlebars\/dist\/amd\/handlebars\/helpers\/block-helper-missing.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 2,
+		"oAP": "\/node_modules\/handlebars\/dist\/amd\/handlebars\/helpers\/block-helper-missing.js",
+		"oF": 0,
+		"sC": 0,
+		"tS": 0
+		},
+	"\/node_modules\/handlebars\/dist\/amd\/handlebars\/helpers\/each.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 2,
+		"oAP": "\/node_modules\/handlebars\/dist\/amd\/handlebars\/helpers\/each.js",
+		"oF": 0,
+		"sC": 0,
+		"tS": 0
+		},
+	"\/node_modules\/handlebars\/dist\/amd\/handlebars\/helpers\/helper-missing.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 2,
+		"oAP": "\/node_modules\/handlebars\/dist\/amd\/handlebars\/helpers\/helper-missing.js",
+		"oF": 0,
+		"sC": 0,
+		"tS": 0
+		},
+	"\/node_modules\/handlebars\/dist\/amd\/handlebars\/helpers\/if.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 2,
+		"oAP": "\/node_modules\/handlebars\/dist\/amd\/handlebars\/helpers\/if.js",
+		"oF": 0,
+		"sC": 0,
+		"tS": 0
+		},
+	"\/node_modules\/handlebars\/dist\/amd\/handlebars\/helpers\/log.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 2,
+		"oAP": "\/node_modules\/handlebars\/dist\/amd\/handlebars\/helpers\/log.js",
+		"oF": 0,
+		"sC": 0,
+		"tS": 0
+		},
+	"\/node_modules\/handlebars\/dist\/amd\/handlebars\/helpers\/lookup.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 2,
+		"oAP": "\/node_modules\/handlebars\/dist\/amd\/handlebars\/helpers\/lookup.js",
+		"oF": 0,
+		"sC": 0,
+		"tS": 0
+		},
+	"\/node_modules\/handlebars\/dist\/amd\/handlebars\/helpers\/with.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 2,
+		"oAP": "\/node_modules\/handlebars\/dist\/amd\/handlebars\/helpers\/with.js",
+		"oF": 0,
+		"sC": 0,
+		"tS": 0
+		},
+	"\/node_modules\/handlebars\/dist\/amd\/handlebars\/logger.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 2,
+		"oAP": "\/node_modules\/handlebars\/dist\/amd\/handlebars\/logger.js",
+		"oF": 0,
+		"sC": 0,
+		"tS": 0
+		},
+	"\/node_modules\/handlebars\/dist\/amd\/handlebars\/no-conflict.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 2,
+		"oAP": "\/node_modules\/handlebars\/dist\/amd\/handlebars\/no-conflict.js",
+		"oF": 0,
+		"sC": 0,
+		"tS": 0
+		},
+	"\/node_modules\/handlebars\/dist\/amd\/handlebars\/runtime.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 2,
+		"oAP": "\/node_modules\/handlebars\/dist\/amd\/handlebars\/runtime.js",
+		"oF": 0,
+		"sC": 0,
+		"tS": 0
+		},
+	"\/node_modules\/handlebars\/dist\/amd\/handlebars\/safe-string.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 2,
+		"oAP": "\/node_modules\/handlebars\/dist\/amd\/handlebars\/safe-string.js",
+		"oF": 0,
+		"sC": 0,
+		"tS": 0
+		},
+	"\/node_modules\/handlebars\/dist\/amd\/handlebars\/utils.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 2,
+		"oAP": "\/node_modules\/handlebars\/dist\/amd\/handlebars\/utils.js",
+		"oF": 0,
+		"sC": 0,
+		"tS": 0
+		},
+	"\/node_modules\/handlebars\/dist\/amd\/precompiler.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 2,
+		"oAP": "\/node_modules\/handlebars\/dist\/amd\/precompiler.js",
+		"oF": 0,
+		"sC": 0,
+		"tS": 0
+		},
+	"\/node_modules\/handlebars\/dist\/cjs\/handlebars.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 2,
+		"oAP": "\/node_modules\/handlebars\/dist\/cjs\/handlebars.js",
+		"oF": 0,
+		"sC": 0,
+		"tS": 0
+		},
+	"\/node_modules\/handlebars\/dist\/cjs\/handlebars.runtime.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 2,
+		"oAP": "\/node_modules\/handlebars\/dist\/cjs\/handlebars.runtime.js",
+		"oF": 0,
+		"sC": 0,
+		"tS": 0
+		},
+	"\/node_modules\/handlebars\/dist\/cjs\/handlebars\/base.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 2,
+		"oAP": "\/node_modules\/handlebars\/dist\/cjs\/handlebars\/base.js",
+		"oF": 0,
+		"sC": 0,
+		"tS": 0
+		},
+	"\/node_modules\/handlebars\/dist\/cjs\/handlebars\/compiler\/ast.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 2,
+		"oAP": "\/node_modules\/handlebars\/dist\/cjs\/handlebars\/compiler\/ast.js",
+		"oF": 0,
+		"sC": 0,
+		"tS": 0
+		},
+	"\/node_modules\/handlebars\/dist\/cjs\/handlebars\/compiler\/base.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 2,
+		"oAP": "\/node_modules\/handlebars\/dist\/cjs\/handlebars\/compiler\/base.js",
+		"oF": 0,
+		"sC": 0,
+		"tS": 0
+		},
+	"\/node_modules\/handlebars\/dist\/cjs\/handlebars\/compiler\/code-gen.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 2,
+		"oAP": "\/node_modules\/handlebars\/dist\/cjs\/handlebars\/compiler\/code-gen.js",
+		"oF": 0,
+		"sC": 0,
+		"tS": 0
+		},
+	"\/node_modules\/handlebars\/dist\/cjs\/handlebars\/compiler\/compiler.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 2,
+		"oAP": "\/node_modules\/handlebars\/dist\/cjs\/handlebars\/compiler\/compiler.js",
+		"oF": 0,
+		"sC": 0,
+		"tS": 0
+		},
+	"\/node_modules\/handlebars\/dist\/cjs\/handlebars\/compiler\/helpers.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 2,
+		"oAP": "\/node_modules\/handlebars\/dist\/cjs\/handlebars\/compiler\/helpers.js",
+		"oF": 0,
+		"sC": 0,
+		"tS": 0
+		},
+	"\/node_modules\/handlebars\/dist\/cjs\/handlebars\/compiler\/javascript-compiler.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 2,
+		"oAP": "\/node_modules\/handlebars\/dist\/cjs\/handlebars\/compiler\/javascript-compiler.js",
+		"oF": 0,
+		"sC": 0,
+		"tS": 0
+		},
+	"\/node_modules\/handlebars\/dist\/cjs\/handlebars\/compiler\/parser.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 2,
+		"oAP": "\/node_modules\/handlebars\/dist\/cjs\/handlebars\/compiler\/parser.js",
+		"oF": 0,
+		"sC": 0,
+		"tS": 0
+		},
+	"\/node_modules\/handlebars\/dist\/cjs\/handlebars\/compiler\/printer.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 2,
+		"oAP": "\/node_modules\/handlebars\/dist\/cjs\/handlebars\/compiler\/printer.js",
+		"oF": 0,
+		"sC": 0,
+		"tS": 0
+		},
+	"\/node_modules\/handlebars\/dist\/cjs\/handlebars\/compiler\/visitor.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 2,
+		"oAP": "\/node_modules\/handlebars\/dist\/cjs\/handlebars\/compiler\/visitor.js",
+		"oF": 0,
+		"sC": 0,
+		"tS": 0
+		},
+	"\/node_modules\/handlebars\/dist\/cjs\/handlebars\/compiler\/whitespace-control.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 2,
+		"oAP": "\/node_modules\/handlebars\/dist\/cjs\/handlebars\/compiler\/whitespace-control.js",
+		"oF": 0,
+		"sC": 0,
+		"tS": 0
+		},
+	"\/node_modules\/handlebars\/dist\/cjs\/handlebars\/decorators.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 2,
+		"oAP": "\/node_modules\/handlebars\/dist\/cjs\/handlebars\/decorators.js",
+		"oF": 0,
+		"sC": 0,
+		"tS": 0
+		},
+	"\/node_modules\/handlebars\/dist\/cjs\/handlebars\/decorators\/inline.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 2,
+		"oAP": "\/node_modules\/handlebars\/dist\/cjs\/handlebars\/decorators\/inline.js",
+		"oF": 0,
+		"sC": 0,
+		"tS": 0
+		},
+	"\/node_modules\/handlebars\/dist\/cjs\/handlebars\/exception.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 2,
+		"oAP": "\/node_modules\/handlebars\/dist\/cjs\/handlebars\/exception.js",
+		"oF": 0,
+		"sC": 0,
+		"tS": 0
+		},
+	"\/node_modules\/handlebars\/dist\/cjs\/handlebars\/helpers.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 2,
+		"oAP": "\/node_modules\/handlebars\/dist\/cjs\/handlebars\/helpers.js",
+		"oF": 0,
+		"sC": 0,
+		"tS": 0
+		},
+	"\/node_modules\/handlebars\/dist\/cjs\/handlebars\/helpers\/block-helper-missing.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 2,
+		"oAP": "\/node_modules\/handlebars\/dist\/cjs\/handlebars\/helpers\/block-helper-missing.js",
+		"oF": 0,
+		"sC": 0,
+		"tS": 0
+		},
+	"\/node_modules\/handlebars\/dist\/cjs\/handlebars\/helpers\/each.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 2,
+		"oAP": "\/node_modules\/handlebars\/dist\/cjs\/handlebars\/helpers\/each.js",
+		"oF": 0,
+		"sC": 0,
+		"tS": 0
+		},
+	"\/node_modules\/handlebars\/dist\/cjs\/handlebars\/helpers\/helper-missing.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 2,
+		"oAP": "\/node_modules\/handlebars\/dist\/cjs\/handlebars\/helpers\/helper-missing.js",
+		"oF": 0,
+		"sC": 0,
+		"tS": 0
+		},
+	"\/node_modules\/handlebars\/dist\/cjs\/handlebars\/helpers\/if.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 2,
+		"oAP": "\/node_modules\/handlebars\/dist\/cjs\/handlebars\/helpers\/if.js",
+		"oF": 0,
+		"sC": 0,
+		"tS": 0
+		},
+	"\/node_modules\/handlebars\/dist\/cjs\/handlebars\/helpers\/log.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 2,
+		"oAP": "\/node_modules\/handlebars\/dist\/cjs\/handlebars\/helpers\/log.js",
+		"oF": 0,
+		"sC": 0,
+		"tS": 0
+		},
+	"\/node_modules\/handlebars\/dist\/cjs\/handlebars\/helpers\/lookup.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 2,
+		"oAP": "\/node_modules\/handlebars\/dist\/cjs\/handlebars\/helpers\/lookup.js",
+		"oF": 0,
+		"sC": 0,
+		"tS": 0
+		},
+	"\/node_modules\/handlebars\/dist\/cjs\/handlebars\/helpers\/with.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 2,
+		"oAP": "\/node_modules\/handlebars\/dist\/cjs\/handlebars\/helpers\/with.js",
+		"oF": 0,
+		"sC": 0,
+		"tS": 0
+		},
+	"\/node_modules\/handlebars\/dist\/cjs\/handlebars\/logger.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 2,
+		"oAP": "\/node_modules\/handlebars\/dist\/cjs\/handlebars\/logger.js",
+		"oF": 0,
+		"sC": 0,
+		"tS": 0
+		},
+	"\/node_modules\/handlebars\/dist\/cjs\/handlebars\/no-conflict.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 2,
+		"oAP": "\/node_modules\/handlebars\/dist\/cjs\/handlebars\/no-conflict.js",
+		"oF": 0,
+		"sC": 0,
+		"tS": 0
+		},
+	"\/node_modules\/handlebars\/dist\/cjs\/handlebars\/runtime.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 2,
+		"oAP": "\/node_modules\/handlebars\/dist\/cjs\/handlebars\/runtime.js",
+		"oF": 0,
+		"sC": 0,
+		"tS": 0
+		},
+	"\/node_modules\/handlebars\/dist\/cjs\/handlebars\/safe-string.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 2,
+		"oAP": "\/node_modules\/handlebars\/dist\/cjs\/handlebars\/safe-string.js",
+		"oF": 0,
+		"sC": 0,
+		"tS": 0
+		},
+	"\/node_modules\/handlebars\/dist\/cjs\/handlebars\/utils.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 2,
+		"oAP": "\/node_modules\/handlebars\/dist\/cjs\/handlebars\/utils.js",
+		"oF": 0,
+		"sC": 0,
+		"tS": 0
+		},
+	"\/node_modules\/handlebars\/dist\/cjs\/precompiler.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 2,
+		"oAP": "\/node_modules\/handlebars\/dist\/cjs\/precompiler.js",
+		"oF": 0,
+		"sC": 0,
+		"tS": 0
+		},
+	"\/node_modules\/handlebars\/dist\/handlebars.amd.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 2,
+		"oAP": "\/node_modules\/handlebars\/dist\/handlebars.amd.js",
+		"oF": 0,
+		"sC": 0,
+		"tS": 0
+		},
+	"\/node_modules\/handlebars\/dist\/handlebars.amd.min.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 2,
+		"oAP": "\/node_modules\/handlebars\/dist\/handlebars.amd.min.js",
+		"oF": 0,
+		"sC": 0,
+		"tS": 0
+		},
+	"\/node_modules\/handlebars\/dist\/handlebars.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 2,
+		"oAP": "\/node_modules\/handlebars\/dist\/handlebars.js",
+		"oF": 0,
+		"sC": 0,
+		"tS": 0
+		},
+	"\/node_modules\/handlebars\/dist\/handlebars.min.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 2,
+		"oAP": "\/node_modules\/handlebars\/dist\/handlebars.min.js",
+		"oF": 0,
+		"sC": 0,
+		"tS": 0
+		},
+	"\/node_modules\/handlebars\/dist\/handlebars.runtime.amd.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 2,
+		"oAP": "\/node_modules\/handlebars\/dist\/handlebars.runtime.amd.js",
+		"oF": 0,
+		"sC": 0,
+		"tS": 0
+		},
+	"\/node_modules\/handlebars\/dist\/handlebars.runtime.amd.min.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 2,
+		"oAP": "\/node_modules\/handlebars\/dist\/handlebars.runtime.amd.min.js",
+		"oF": 0,
+		"sC": 0,
+		"tS": 0
+		},
+	"\/node_modules\/handlebars\/dist\/handlebars.runtime.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 2,
+		"oAP": "\/node_modules\/handlebars\/dist\/handlebars.runtime.js",
+		"oF": 0,
+		"sC": 0,
+		"tS": 0
+		},
+	"\/node_modules\/handlebars\/dist\/handlebars.runtime.min.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 1,
+		"oAP": "\/node_modules\/handlebars\/dist\/handlebars.runtime.min.js",
+		"oF": 0,
+		"sC": 0,
+		"tS": 0
+		},
+	"\/node_modules\/handlebars\/docs\/compiler-api.md": {
+		"cB": 0,
+		"cS": 0,
+		"eF": 1,
+		"eL": 1,
+		"ema": 1,
+		"eSQ": 1,
+		"ft": 4096,
+		"oA": 2,
+		"oAP": "\/node_modules\/handlebars\/docs\/compiler-api.md",
+		"oF": 0,
+		"oFM": 0,
+		"oS": 0,
+		"pHT": 0,
+		"pME": 1,
+		"rFN": 0,
+		"uCM": 0
+		},
+	"\/node_modules\/handlebars\/docs\/decorators-api.md": {
+		"cB": 0,
+		"cS": 0,
+		"eF": 1,
+		"eL": 1,
+		"ema": 1,
+		"eSQ": 1,
+		"ft": 4096,
+		"oA": 2,
+		"oAP": "\/node_modules\/handlebars\/docs\/decorators-api.md",
+		"oF": 0,
+		"oFM": 0,
+		"oS": 0,
+		"pHT": 0,
+		"pME": 1,
+		"rFN": 0,
+		"uCM": 0
+		},
+	"\/node_modules\/handlebars\/FAQ.md": {
+		"cB": 0,
+		"cS": 0,
+		"eF": 1,
+		"eL": 1,
+		"ema": 1,
+		"eSQ": 1,
+		"ft": 4096,
+		"oA": 2,
+		"oAP": "\/node_modules\/handlebars\/FAQ.md",
+		"oF": 0,
+		"oFM": 0,
+		"oS": 0,
+		"pHT": 0,
+		"pME": 1,
+		"rFN": 0,
+		"uCM": 0
+		},
+	"\/node_modules\/handlebars\/lib\/handlebars.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 1,
+		"oAP": "\/node_modules\/handlebars\/lib\/handlebars.js",
+		"oF": 0,
+		"sC": 0,
+		"tS": 0
+		},
+	"\/node_modules\/handlebars\/lib\/handlebars.runtime.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 1,
+		"oAP": "\/node_modules\/handlebars\/lib\/handlebars.runtime.js",
+		"oF": 0,
+		"sC": 0,
+		"tS": 0
+		},
+	"\/node_modules\/handlebars\/lib\/handlebars\/base.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 1,
+		"oAP": "\/node_modules\/handlebars\/lib\/handlebars\/base.js",
+		"oF": 0,
+		"sC": 0,
+		"tS": 0
+		},
+	"\/node_modules\/handlebars\/lib\/handlebars\/compiler\/ast.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 1,
+		"oAP": "\/node_modules\/handlebars\/lib\/handlebars\/compiler\/ast.js",
+		"oF": 0,
+		"sC": 0,
+		"tS": 0
+		},
+	"\/node_modules\/handlebars\/lib\/handlebars\/compiler\/base.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 1,
+		"oAP": "\/node_modules\/handlebars\/lib\/handlebars\/compiler\/base.js",
+		"oF": 0,
+		"sC": 0,
+		"tS": 0
+		},
+	"\/node_modules\/handlebars\/lib\/handlebars\/compiler\/code-gen.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 1,
+		"oAP": "\/node_modules\/handlebars\/lib\/handlebars\/compiler\/code-gen.js",
+		"oF": 0,
+		"sC": 0,
+		"tS": 0
+		},
+	"\/node_modules\/handlebars\/lib\/handlebars\/compiler\/compiler.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 1,
+		"oAP": "\/node_modules\/handlebars\/lib\/handlebars\/compiler\/compiler.js",
+		"oF": 0,
+		"sC": 0,
+		"tS": 0
+		},
+	"\/node_modules\/handlebars\/lib\/handlebars\/compiler\/helpers.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 1,
+		"oAP": "\/node_modules\/handlebars\/lib\/handlebars\/compiler\/helpers.js",
+		"oF": 0,
+		"sC": 0,
+		"tS": 0
+		},
+	"\/node_modules\/handlebars\/lib\/handlebars\/compiler\/javascript-compiler.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 1,
+		"oAP": "\/node_modules\/handlebars\/lib\/handlebars\/compiler\/javascript-compiler.js",
+		"oF": 0,
+		"sC": 0,
+		"tS": 0
+		},
+	"\/node_modules\/handlebars\/lib\/handlebars\/compiler\/parser.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 1,
+		"oAP": "\/node_modules\/handlebars\/lib\/handlebars\/compiler\/parser.js",
+		"oF": 0,
+		"sC": 0,
+		"tS": 0
+		},
+	"\/node_modules\/handlebars\/lib\/handlebars\/compiler\/printer.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 2,
+		"oAP": "\/node_modules\/handlebars\/lib\/handlebars\/compiler\/printer.js",
+		"oF": 0,
+		"sC": 0,
+		"tS": 0
+		},
+	"\/node_modules\/handlebars\/lib\/handlebars\/compiler\/visitor.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 1,
+		"oAP": "\/node_modules\/handlebars\/lib\/handlebars\/compiler\/visitor.js",
+		"oF": 0,
+		"sC": 0,
+		"tS": 0
+		},
+	"\/node_modules\/handlebars\/lib\/handlebars\/compiler\/whitespace-control.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 1,
+		"oAP": "\/node_modules\/handlebars\/lib\/handlebars\/compiler\/whitespace-control.js",
+		"oF": 0,
+		"sC": 0,
+		"tS": 0
+		},
+	"\/node_modules\/handlebars\/lib\/handlebars\/decorators.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 1,
+		"oAP": "\/node_modules\/handlebars\/lib\/handlebars\/decorators.js",
+		"oF": 0,
+		"sC": 0,
+		"tS": 0
+		},
+	"\/node_modules\/handlebars\/lib\/handlebars\/decorators\/inline.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 1,
+		"oAP": "\/node_modules\/handlebars\/lib\/handlebars\/decorators\/inline.js",
+		"oF": 0,
+		"sC": 0,
+		"tS": 0
+		},
+	"\/node_modules\/handlebars\/lib\/handlebars\/exception.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 1,
+		"oAP": "\/node_modules\/handlebars\/lib\/handlebars\/exception.js",
+		"oF": 0,
+		"sC": 0,
+		"tS": 0
+		},
+	"\/node_modules\/handlebars\/lib\/handlebars\/helpers.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 1,
+		"oAP": "\/node_modules\/handlebars\/lib\/handlebars\/helpers.js",
+		"oF": 0,
+		"sC": 0,
+		"tS": 0
+		},
+	"\/node_modules\/handlebars\/lib\/handlebars\/helpers\/block-helper-missing.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 1,
+		"oAP": "\/node_modules\/handlebars\/lib\/handlebars\/helpers\/block-helper-missing.js",
+		"oF": 0,
+		"sC": 0,
+		"tS": 0
+		},
+	"\/node_modules\/handlebars\/lib\/handlebars\/helpers\/each.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 1,
+		"oAP": "\/node_modules\/handlebars\/lib\/handlebars\/helpers\/each.js",
+		"oF": 0,
+		"sC": 0,
+		"tS": 0
+		},
+	"\/node_modules\/handlebars\/lib\/handlebars\/helpers\/helper-missing.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 1,
+		"oAP": "\/node_modules\/handlebars\/lib\/handlebars\/helpers\/helper-missing.js",
+		"oF": 0,
+		"sC": 0,
+		"tS": 0
+		},
+	"\/node_modules\/handlebars\/lib\/handlebars\/helpers\/if.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 1,
+		"oAP": "\/node_modules\/handlebars\/lib\/handlebars\/helpers\/if.js",
+		"oF": 0,
+		"sC": 0,
+		"tS": 0
+		},
+	"\/node_modules\/handlebars\/lib\/handlebars\/helpers\/log.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 1,
+		"oAP": "\/node_modules\/handlebars\/lib\/handlebars\/helpers\/log.js",
+		"oF": 0,
+		"sC": 0,
+		"tS": 0
+		},
+	"\/node_modules\/handlebars\/lib\/handlebars\/helpers\/lookup.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 1,
+		"oAP": "\/node_modules\/handlebars\/lib\/handlebars\/helpers\/lookup.js",
+		"oF": 0,
+		"sC": 0,
+		"tS": 0
+		},
+	"\/node_modules\/handlebars\/lib\/handlebars\/helpers\/with.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 1,
+		"oAP": "\/node_modules\/handlebars\/lib\/handlebars\/helpers\/with.js",
+		"oF": 0,
+		"sC": 0,
+		"tS": 0
+		},
+	"\/node_modules\/handlebars\/lib\/handlebars\/logger.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 1,
+		"oAP": "\/node_modules\/handlebars\/lib\/handlebars\/logger.js",
+		"oF": 0,
+		"sC": 0,
+		"tS": 0
+		},
+	"\/node_modules\/handlebars\/lib\/handlebars\/no-conflict.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 1,
+		"oAP": "\/node_modules\/handlebars\/lib\/handlebars\/no-conflict.js",
+		"oF": 0,
+		"sC": 0,
+		"tS": 0
+		},
+	"\/node_modules\/handlebars\/lib\/handlebars\/runtime.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 1,
+		"oAP": "\/node_modules\/handlebars\/lib\/handlebars\/runtime.js",
+		"oF": 0,
+		"sC": 0,
+		"tS": 0
+		},
+	"\/node_modules\/handlebars\/lib\/handlebars\/safe-string.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 1,
+		"oAP": "\/node_modules\/handlebars\/lib\/handlebars\/safe-string.js",
+		"oF": 0,
+		"sC": 0,
+		"tS": 0
+		},
+	"\/node_modules\/handlebars\/lib\/handlebars\/utils.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 1,
+		"oAP": "\/node_modules\/handlebars\/lib\/handlebars\/utils.js",
+		"oF": 0,
+		"sC": 0,
+		"tS": 0
+		},
+	"\/node_modules\/handlebars\/lib\/index.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 2,
+		"oAP": "\/node_modules\/handlebars\/lib\/index.js",
+		"oF": 0,
+		"sC": 0,
+		"tS": 0
+		},
+	"\/node_modules\/handlebars\/lib\/precompiler.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 2,
+		"oAP": "\/node_modules\/handlebars\/lib\/precompiler.js",
+		"oF": 0,
+		"sC": 0,
+		"tS": 0
+		},
+	"\/node_modules\/handlebars\/LICENSE": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/node_modules\/handlebars\/LICENSE",
+		"oF": 0
+		},
+	"\/node_modules\/handlebars\/package-lock.json": {
+		"ft": 524288,
+		"oA": 2,
+		"oAP": "\/node_modules\/handlebars\/package-lock.json",
+		"oF": 0,
+		"oO": 0,
+		"oS": 1
+		},
+	"\/node_modules\/handlebars\/package.json": {
+		"ft": 524288,
+		"oA": 2,
+		"oAP": "\/node_modules\/handlebars\/package.json",
+		"oF": 0,
+		"oO": 0,
+		"oS": 1
+		},
+	"\/node_modules\/handlebars\/print-script": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/node_modules\/handlebars\/print-script",
+		"oF": 0
+		},
+	"\/node_modules\/handlebars\/README.markdown": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/node_modules\/handlebars\/README.markdown",
+		"oF": 0
+		},
+	"\/node_modules\/handlebars\/release-notes.md": {
+		"cB": 0,
+		"cS": 0,
+		"eF": 1,
+		"eL": 1,
+		"ema": 1,
+		"eSQ": 1,
+		"ft": 4096,
+		"oA": 2,
+		"oAP": "\/node_modules\/handlebars\/release-notes.md",
+		"oF": 0,
+		"oFM": 0,
+		"oS": 0,
+		"pHT": 0,
+		"pME": 1,
+		"rFN": 0,
+		"uCM": 0
+		},
+	"\/node_modules\/handlebars\/runtime.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 2,
+		"oAP": "\/node_modules\/handlebars\/runtime.js",
+		"oF": 0,
+		"sC": 0,
+		"tS": 0
+		},
+	"\/node_modules\/modernizr\/modernizr.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 2,
+		"oAP": "\/node_modules\/modernizr\/modernizr.js",
+		"oF": 0,
+		"sC": 0,
+		"tS": 0
+		},
+	"\/node_modules\/scrollmagic\/CHANGELOG.md": {
+		"cB": 0,
+		"cS": 0,
+		"eF": 1,
+		"eL": 1,
+		"ema": 1,
+		"eSQ": 1,
+		"ft": 4096,
+		"oA": 2,
+		"oAP": "\/node_modules\/scrollmagic\/CHANGELOG.md",
+		"oF": 0,
+		"oFM": 0,
+		"oS": 0,
+		"pHT": 0,
+		"pME": 1,
+		"rFN": 0,
+		"uCM": 0
+		},
+	"\/node_modules\/scrollmagic\/LICENSE.md": {
+		"cB": 0,
+		"cS": 0,
+		"eF": 1,
+		"eL": 1,
+		"ema": 1,
+		"eSQ": 1,
+		"ft": 4096,
+		"oA": 2,
+		"oAP": "\/node_modules\/scrollmagic\/LICENSE.md",
+		"oF": 0,
+		"oFM": 0,
+		"oS": 0,
+		"pHT": 0,
+		"pME": 1,
+		"rFN": 0,
+		"uCM": 0
+		},
+	"\/node_modules\/scrollmagic\/package.json": {
+		"ft": 524288,
+		"oA": 2,
+		"oAP": "\/node_modules\/scrollmagic\/package.json",
+		"oF": 0,
+		"oO": 0,
+		"oS": 1
+		},
+	"\/node_modules\/scrollmagic\/README.md": {
+		"cB": 0,
+		"cS": 0,
+		"eF": 1,
+		"eL": 1,
+		"ema": 1,
+		"eSQ": 1,
+		"ft": 4096,
+		"oA": 2,
+		"oAP": "\/node_modules\/scrollmagic\/README.md",
+		"oF": 0,
+		"oFM": 0,
+		"oS": 0,
+		"pHT": 0,
+		"pME": 1,
+		"rFN": 0,
+		"uCM": 0
+		},
+	"\/node_modules\/scrollmagic\/scrollmagic\/minified\/plugins\/animation.gsap.min.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 2,
+		"oAP": "\/node_modules\/scrollmagic\/scrollmagic\/minified\/plugins\/animation.gsap.min.js",
+		"oF": 0,
+		"sC": 0,
+		"tS": 0
+		},
+	"\/node_modules\/scrollmagic\/scrollmagic\/minified\/plugins\/animation.velocity.min.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 2,
+		"oAP": "\/node_modules\/scrollmagic\/scrollmagic\/minified\/plugins\/animation.velocity.min.js",
+		"oF": 0,
+		"sC": 0,
+		"tS": 0
+		},
+	"\/node_modules\/scrollmagic\/scrollmagic\/minified\/plugins\/debug.addIndicators.min.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 2,
+		"oAP": "\/node_modules\/scrollmagic\/scrollmagic\/minified\/plugins\/debug.addIndicators.min.js",
+		"oF": 0,
+		"sC": 0,
+		"tS": 0
+		},
+	"\/node_modules\/scrollmagic\/scrollmagic\/minified\/plugins\/jquery.ScrollMagic.min.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 2,
+		"oAP": "\/node_modules\/scrollmagic\/scrollmagic\/minified\/plugins\/jquery.ScrollMagic.min.js",
+		"oF": 0,
+		"sC": 0,
+		"tS": 0
+		},
+	"\/node_modules\/scrollmagic\/scrollmagic\/minified\/ScrollMagic.min.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 1,
+		"oAP": "\/node_modules\/scrollmagic\/scrollmagic\/minified\/ScrollMagic.min.js",
+		"oF": 0,
+		"sC": 0,
+		"tS": 0
+		},
+	"\/node_modules\/scrollmagic\/scrollmagic\/uncompressed\/plugins\/animation.gsap.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 2,
+		"oAP": "\/node_modules\/scrollmagic\/scrollmagic\/uncompressed\/plugins\/animation.gsap.js",
+		"oF": 0,
+		"sC": 0,
+		"tS": 0
+		},
+	"\/node_modules\/scrollmagic\/scrollmagic\/uncompressed\/plugins\/animation.velocity.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 2,
+		"oAP": "\/node_modules\/scrollmagic\/scrollmagic\/uncompressed\/plugins\/animation.velocity.js",
+		"oF": 0,
+		"sC": 0,
+		"tS": 0
+		},
+	"\/node_modules\/scrollmagic\/scrollmagic\/uncompressed\/plugins\/debug.addIndicators.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 2,
+		"oAP": "\/node_modules\/scrollmagic\/scrollmagic\/uncompressed\/plugins\/debug.addIndicators.js",
+		"oF": 0,
+		"sC": 0,
+		"tS": 0
+		},
+	"\/node_modules\/scrollmagic\/scrollmagic\/uncompressed\/plugins\/jquery.ScrollMagic.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 2,
+		"oAP": "\/node_modules\/scrollmagic\/scrollmagic\/uncompressed\/plugins\/jquery.ScrollMagic.js",
+		"oF": 0,
+		"sC": 0,
+		"tS": 0
+		},
+	"\/node_modules\/scrollmagic\/scrollmagic\/uncompressed\/ScrollMagic.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 2,
+		"oAP": "\/node_modules\/scrollmagic\/scrollmagic\/uncompressed\/ScrollMagic.js",
+		"oF": 0,
+		"sC": 0,
+		"tS": 0
+		},
+	"\/package-lock.json": {
+		"ft": 524288,
+		"oA": 1,
+		"oAP": "\/package-lock-min.json",
+		"oF": 0,
+		"oO": 0,
+		"oS": 1
+		},
+	"\/package.json": {
+		"ft": 524288,
+		"oA": 1,
+		"oAP": "\/package-min.json",
+		"oF": 0,
+		"oO": 0,
+		"oS": 1
+		},
 	"\/sell.html": {
 		"cB": 0,
 		"ft": 8192,
@@ -3534,7 +4819,7 @@
 	"\/assets\/js\/tk.generic.js": [
 		{
 			"followForSyntaxChecking": 1,
-			"linkedFileAbbreviatedPath": "\/bower_components\/handlebars\/handlebars.runtime-v4.0.11.js",
+			"linkedFileAbbreviatedPath": "\/node_modules\/handlebars\/dist\/handlebars.runtime.min.js",
 			"position": 0,
 			"type": 0
 			},
@@ -3546,31 +4831,31 @@
 			},
 		{
 			"followForSyntaxChecking": 1,
-			"linkedFileAbbreviatedPath": "\/bower_components\/greensock-js\/TimelineMax.js",
+			"linkedFileAbbreviatedPath": "\/node_modules\/gsap\/TimelineMax.js",
 			"position": 2,
 			"type": 0
 			},
 		{
 			"followForSyntaxChecking": 1,
-			"linkedFileAbbreviatedPath": "\/bower_components\/greensock-js\/TweenMax.js",
+			"linkedFileAbbreviatedPath": "\/node_modules\/gsap\/TweenMax.js",
 			"position": 3,
 			"type": 0
 			},
 		{
 			"followForSyntaxChecking": 1,
-			"linkedFileAbbreviatedPath": "\/bower_components\/greensock-js\/plugins\/ScrollToPlugin.js",
+			"linkedFileAbbreviatedPath": "\/node_modules\/gsap\/plugins\/ScrollToPlugin.js",
 			"position": 4,
 			"type": 0
 			},
 		{
 			"followForSyntaxChecking": 1,
-			"linkedFileAbbreviatedPath": "\/bower_components\/scroll-magic\/scroll-magic.js",
+			"linkedFileAbbreviatedPath": "\/node_modules\/scrollmagic\/scrollmagic\/minified\/ScrollMagic.min.js",
 			"position": 5,
 			"type": 0
 			},
 		{
 			"followForSyntaxChecking": 1,
-			"linkedFileAbbreviatedPath": "\/data\/app-content.js",
+			"linkedFileAbbreviatedPath": "\/assets\/js\/app-content.js",
 			"position": 6,
 			"type": 1
 			}
@@ -5563,7 +6848,7 @@
 		],
 	"overrideExternalServerCSS": 0,
 	"previewPathAddition": "",
-	"skippedFoldersString": "log, _logs, logs, _cache, cache, .idea, \/storage\/framework\/sessions, node_modules",
+	"skippedFoldersString": "log, _logs, logs, _cache, cache, .idea, \/storage\/framework\/sessions",
 	"sourceFolderName": "source",
 	"susyVersion": 3,
 	"uglifyDefinesString": "",

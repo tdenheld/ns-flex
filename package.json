@@ -1,0 +1,27 @@
+{
+  "name": "q",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "handlebars": "^4.0.11",
+    "scrollmagic": "^2.0.5",
+    "npm": "^6.3.0"
+  },
+  "devDependencies": {
+    "tachyons": "^4.10.0"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tdenheld/ns-flex.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/tdenheld/ns-flex/issues"
+  },
+  "homepage": "https://github.com/tdenheld/ns-flex#readme"
+}
