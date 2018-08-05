@@ -25,10 +25,6 @@
 	background-image: url("../../media/hero.jpg");
 }
 
-.flx-hero__grained {
-	@include full(absolute);
-}
-
 .flx-hero__flow {	
 	svg {
 		opacity: 0.99;
@@ -129,26 +125,27 @@
 		height: $hero-height-small;
 	}
 	
-	.flx-hero__flow {								
-		svg {
-			width: auto;
-			height: $hero-height-small;
-			@media (max-aspect-ratio: 5/5) {
-				width: 100%;
-				height: auto;
-			}
-			@media (min-width: $md) {
-				min-height: 480px;
-			}
-			@media (min-width: $sm) and (max-height: 600px) {
-				height: $hero-height-small;
-			}
-		}
-	}
-	
 	.flx-hero__content {
 		@media (min-width: $md) {
 			margin-top: $gutter;
+		}
+	}
+}
+
+.flx-hero__flow-small {								
+	svg {
+		opacity: 0.3;
+		width: auto;
+		height: $hero-height-small;
+		@media (max-aspect-ratio: 5/5) {
+			width: 100%;
+			height: auto;
+		}
+		@media (min-width: $md) {
+			min-height: 480px;
+		}
+		@media (min-width: $sm) and (max-height: 600px) {
+			height: $hero-height-small;
 		}
 	}
 }
@@ -157,22 +154,32 @@
 .flx-hero--smaller {
 	height: auto;
 	margin-bottom: 0;
-	@media (min-width: $md) {
-		min-height: 560px;
-	}
-	.flx-hero__flow {
-		position: relative;								
-		svg {
-			height: auto;
-			@media (min-width: $md) and (min-aspect-ratio: 6/5) {
-				position: absolute;
-				right: 0;
-				height: 560px;		
-			}
-		}
+	@media (min-width: $sm) {
+		height: 560px;
 	}
 }
 
+.flx-hero__flow-smaller {	
+	position: relative;
+	height: 100%;
+	@media (min-width: $sm) {
+		height: 560px;
+	}							
+	svg {
+		position: absolute;
+		bottom: 0;
+		transform: rotate(180deg);
+		@media (min-width: $sm) {
+			bottom: 0;
+			right: 10%;
+			height: 560px;		
+		}
+		@media (min-width: $sm) and (max-width: 1090px) {
+			height: auto;
+			width: 100%;
+		}
+	}
+}
 
 // abonnementen
 .flx-hero--abo {
@@ -180,7 +187,6 @@
 		background-image: url("../../media/hero_abo.jpg");
 	}
 }
-
 
 // sell
 .flx-hero--sell {
