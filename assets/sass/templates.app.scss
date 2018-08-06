@@ -2,6 +2,13 @@
          App
 --------------------*/
 
+// gradients
+// ----------------------------
+.flx-color-bg {
+	@include full(absolute);
+	opacity: 0;
+	transition: all 750ms $ease;
+}
 
 // al het ov
 // ----------------------------	

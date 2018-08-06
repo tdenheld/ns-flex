@@ -2,7 +2,7 @@
        Buttons
 --------------------*/
 
-.flx-button {
+.btn {
 	transition: all 200ms $ease;
 	
 	&--ghost {
@@ -52,8 +52,8 @@
 	}
 }
 
-.flx-button__link,
-.flx-button__link:hover {
+.btn__link,
+.btn__link:hover {
 	text-decoration: none;
 	outline: none;
 	border: none;
@@ -105,7 +105,7 @@
 	border-radius: 50%;
 	box-shadow: 0 0 8px rgba($ns-grey, 0.25);
 	cursor: pointer;
-	transition: transform $timing-medium $ease;
+	transition: transform 250ms $ease;
 	
 	&:hover {
 		transform: scale(1.15);

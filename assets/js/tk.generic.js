@@ -50,9 +50,9 @@ function scrolling() {
 	var pos = $(window).scrollTop();
 	// fade arrow scroll down button
 	if (pos > 60) {
-		$(".js-scroll-down").addClass("alpha-0");
+		$(".js-scroll-down").addClass("o-0");
 	} else {
-		$(".js-scroll-down").removeClass("alpha-0");
+		$(".js-scroll-down").removeClass("o-0");
 	};
 	scrolled = false;
 };
@@ -81,7 +81,7 @@ function scroll_trigger(i) {
 		.triggerHook(0.82)
 		.offset(0)
 		.on("start", function(){
-			$(bg).toggleClass("alpha-1");
+			$(bg).toggleClass("o-100");
 			$(el + " .tr").toggleClass("is-active");
 		})
 		//.addIndicators()
