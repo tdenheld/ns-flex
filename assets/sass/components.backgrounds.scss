@@ -97,6 +97,10 @@
 		background: radial-gradient(
 			circle at 30% 50%, #FFE48A 0%, $ns-yellow 100%);
 	}
+	&--vivid-radial-right {
+		background: radial-gradient(
+		circle at 70% 50%, #8ad4e4 0%, #0d6b9e 100%);
+	}
 }
 
 
