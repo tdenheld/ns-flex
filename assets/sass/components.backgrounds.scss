@@ -89,6 +89,14 @@
 			110deg, #e1ab93 0%, #edc0a9 100%);
 		opacity: 0.75;
 	}
+	&--yellow-radial-right {
+		background: radial-gradient(
+			circle at 70% 50%, #FFE48A 0%, $ns-yellow 100%);
+	}
+	&--yellow-radial-left {
+		background: radial-gradient(
+			circle at 30% 50%, #FFE48A 0%, $ns-yellow 100%);
+	}
 }
 
 
