@@ -20,14 +20,14 @@ var context = {
 		"button-cta": "Ja ik wil NS Flex",		
 		"section": [
 			{
-				"order": "reverse",
+				"order": "order-3",
 				"img": "checkout.svg",
 				"title": "Check <b>zorgeloos</b> in en uit zonder dat je saldo nodig hebt",
 			},{
 				"img": "public-transport.svg",
 				"title": "Vergeet je een keer uit te checken, dan corrigeren we dat <b>automatisch</b>",
 			},{
-				"order": "reverse",
+				"order": "order-3",
 				"img": "invoice.svg",
 				"title": "Aan het einde van de maand sturen we je 1 <b>overzichtelijke</b> rekening",
 			},

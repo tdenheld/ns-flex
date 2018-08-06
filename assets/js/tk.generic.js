@@ -81,8 +81,8 @@ function scroll_trigger(i) {
 		.triggerHook(0.82)
 		.offset(0)
 		.on("start", function(){
-			$(bg).toggleClass("o-100");
-			$(el + " .tr").toggleClass("is-active");
+			$(bg).toggleClass("is-active");
+			$(el + " .js-tr").toggleClass("is-active");
 		})
 		//.addIndicators()
 		.addTo(controller);

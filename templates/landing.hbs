@@ -9,13 +9,13 @@
 <!------- hero ------->
 <div class="flx-hero">
 	<div class="flx-hero__bg">
-		<div class="ani ani--fade-in">
-			<div class="flx-gradient flx-gradient--yellow-radial-right alpha-1"></div>
+		<div class="a a-fi">
+			<div class="full-absolute gd-r70-50-yellow"></div>
 			<div class="flx-hero__img"></div>
 		</div>
 		<div class="flx-hero__flow" include="../media/flow-white.svg"></div>
 	</div>
-	<div class="ani ani--fade-in-up-small ani--delay-500">
+	<div class="a a-fi-up-s a-del-500">
 		<div class="container ovr-container">
 			<div class="flx-hero__content">
 				<h1 class="flx-hero__title">{{global.title}}</h1> 
@@ -28,7 +28,7 @@
 	</div>
 </div>	
 <div class="js-scroll-down tr-750">
-	<div class="flx-hero__scrolldown ani ani--fade-in ani--delay-1250">
+	<div class="flx-hero__scrolldown a a-fi a-del-1250">
 		<div class="scroll-down scroll-down--blue">
 			<div class="scroll-down__icon">
 				<div class="scroll-down__icon-circle"></div>
@@ -41,14 +41,14 @@
 {{#each landing.section}}	
 <div class="flx-section flx-section--usps">
 	<div class="container ovr-container">
-		<div class="flx-grid flx-grid--1-1 flx-grid--align-center">
-			<div class="flx-section__img flx-grid__{{order}} tr tr-500 tr--scale-in">
-				{{#if img}}<img src="../media/{{img}}" class="img-responsive" />{{/if}}
+		<div class="g g-2-md items-center">
+			<div class="flx-section__img {{order}}-md tr-si tr-500 js-tr">
+				{{#if img}}<img src="../media/{{img}}" class="w-100" />{{/if}}
 			</div>
 			<div class="flx-section__content">
-				<h3 class="flx-section__content-item flx-section__title tr tr-stag">{{{title}}}</h3>
+				<h3 class="flx-section__content-item flx-section__title tr-stag js-tr">{{{title}}}</h3>
 				{{#if description}}
-				<p class="flx-section__content-item flx-section__description tr tr-stag">{{{description}}}</p>	
+				<p class="flx-section__content-item flx-section__description tr-stag js-tr">{{{description}}}</p>	
 				{{/if}}		
 			</div>
 		</div>
@@ -58,17 +58,17 @@
 
 <!-- al het OV -->
 <div class="flx-section">
-	<div class="flx-ov__bg tr tr-500 tr--fade-in"></div>
+	<div class="flx-ov__bg tr-si tr-500 js-tr"></div>
 	<div class="flx-section__container flx-section__container--large">
 		<div class="container ovr-container">
-			<div class="flx-grid flx-grid--2-3">
+			<div class="g g-2-3-md">
 				<div></div>		
-				<div class="flx-section__content tr tr-stag">
+				<div class="flx-section__content tr-stag js-tr">
 					<div class="flx-ov__text-container">
-						<h3 class="flx-section__content-item flx-section__title tr tr-stag">
+						<h3 class="flx-section__content-item flx-section__title tr-stag js-tr">
 							<b>{{landing.ov.heading}}</b>
 						</h3>
-						<p class="flx-section__content-item flx-section__description tr tr-stag">
+						<p class="flx-section__content-item flx-section__description tr-stag js-tr">
 							{{landing.ov.description}}
 						</p>
 					</div>
@@ -80,41 +80,41 @@
 
 <!-- inzicht kosten -->
 <div class="flx-section">
-	<div class="flx-costs flx-gradient--grey">
+	<div class="flx-costs gd-110-grey">
 		<div class="container ovr-container">
-			<div class="flx-grid flx-grid--1-1-sm">		
+			<div class="g g-2-sm">		
 				<div class="flx-costs__content">
-					<h3 class="flx-section__content-item flx-section__title tr tr-stag">
+					<h3 class="flx-section__content-item flx-section__title tr-stag js-tr">
 						<b>{{landing.costs.heading}}</b>
 					</h3>
-					<p class="flx-section__content-item flx-section__description tr tr-stag">
+					<p class="flx-section__content-item flx-section__description tr-stag js-tr">
 						{{landing.costs.description}}
 					</p>
 				</div>
-				<div class="flx-costs__img tr tr-500 tr--scale-in">
-					<img src="../media/{{landing.costs.img}}" class="img-responsive" />
+				<div class="flx-costs__img tr-si tr-500 js-tr">
+					<img src="../media/{{landing.costs.img}}" class="w-100" />
 				</div>
 			</div>
 		</div>
 	</div>
 </div>
-
+<!------------------------------------ -------------------------------------------->
 <!-- 1e klas switch -->
 <div class="flx-section">
 	<div class="flx-section__container flx-bg--white">
 		<div class="container ovr-container">
 			<div class="flx-grid flx-grid--1-1 flx-grid--align-center">
-				<div class="flx-section__img flx-section__img--100 tr tr-500 tr--scale-in">
-					<img src="../media/{{landing.first-class.img}}" class="img-responsive" />
+				<div class="flx-section__img flx-section__img--100 tr-si tr-500 js-tr">
+					<img src="../media/{{landing.first-class.img}}" class="w-100" />
 				</div>		
 				<div class="flx-section__content">
-					<h3 class="flx-section__title tr tr-stag">
+					<h3 class="flx-section__title tr-stag js-tr">
 						<b>{{{landing.first-class.heading}}}</b>
 					</h3>
-					<p class="flx-section__description tr tr-stag">
+					<p class="flx-section__description tr-stag js-tr">
 						{{{landing.first-class.description}}}
 					</p>
-					<div class="tr tr-stag js-more">
+					<div class="tr-stag js-tr js-more">
 						<div class="btn-more js-more-btn">
 							<span include="../assets/img/icons/plus--small.svg"></span>
 							{{{landing.first-class.button}}}
@@ -136,13 +136,13 @@
 	<div class="flx-section__container flx-section__container--no-padding-top flx-bg--white">
 		<div class="container ovr-container">
 			<div class="flx-grid flx-grid--1-1 flx-grid--align-center">
-				<div class="flx-section__img flx-section__img--100 flx-grid__reverse tr tr-500 tr--scale-in">
-					<img src="../media/{{landing.abo.img}}" class="img-responsive" />
+				<div class="flx-section__img flx-section__img--100 flx-grid__reverse tr-si tr-500 js-tr">
+					<img src="../media/{{landing.abo.img}}" class="w-100" />
 				</div>			
 				<div class="flx-section__content">
-					<h3 class="flx-section__title tr tr-stag"><b>{{{landing.abo.heading}}}</b></h3>
-					<p class="flx-section__description tr tr-stag">{{{landing.abo.description}}}</p>
-					<div class="tr tr-stag">
+					<h3 class="flx-section__title tr-stag js-tr"><b>{{{landing.abo.heading}}}</b></h3>
+					<p class="flx-section__description tr-stag js-tr">{{{landing.abo.description}}}</p>
+					<div class="tr-stag js-tr">
 						<a href="{{landing.abo.url}}" class="button btn btn--ghost">
 							{{{landing.abo.more}}}
 						</a>
@@ -159,7 +159,7 @@
 		<div class="container ovr-container">
 			<div class="flx-summary">
 				{{#each landing.summary}}
-				<div class="flx-summary__item tr tr-stag">
+				<div class="flx-summary__item tr-stag js-tr">
 					<div class="flx-summary__icon" include="../media/{{icon}}.svg"></div>
 					<h3 class="flx-summary__title">{{title}}</h3>
 				</div>
@@ -174,16 +174,16 @@
 	<div class="flx-section__container flx-gradient--yellow">
 		<div class="container ovr-container">
 			<div class="flx-section__content flx-section__content--mw-800 txt-center">
-				<h3 class="flx-section__title tr tr-stag">{{{landing.cta.heading}}}</h3>
-				<p class="flx-cta__description tr tr-stag">{{{landing.cta.description}}}</p>
-				<div class="tr tr-stag">
+				<h3 class="flx-section__title tr-stag js-tr">{{{landing.cta.heading}}}</h3>
+				<p class="flx-cta__description tr-stag js-tr">{{{landing.cta.description}}}</p>
+				<div class="tr-stag js-tr">
 					<a href="{{global.cta.url}}" class="button btn--blue">
 						{{{global.cta.button}}}
 					</a>
 				</div>
 				<div class="flx-cta__usp-grid">
 					{{#each landing.cta.usps}}
-					<div class="flx-cta__usp tr tr-stag">
+					<div class="flx-cta__usp tr-stag js-tr">
 						<span class="flx-cta__icon" include="../assets/img/icons/check-round--small.svg"></span>
 						<span>{{{usp}}}</span>
 					</div>
@@ -200,10 +200,10 @@
 		<div class="container ovr-container">
 			<div class="flx-section__content flx-testimonial__content">
 				<div class="flx-grid flx-grid--align-center flx-grid--max-1 flx-grid--double-col-gap flx-grid--row-gap">
-					<div class="flx-testimonial__img tr tr-500 tr--scale-in"></div>
+					<div class="flx-testimonial__img tr-si tr-500 js-tr"></div>
 					<div class="flx-testimonial__text">
-						<h3 class="headingM spacer-margin-2 tr tr-stag">{{{landing.testimonial.sender}}}</h3>
-						<p class="flx-testimonial__quote tr tr-stag">{{{landing.testimonial.quote}}}</p>
+						<h3 class="headingM spacer-margin-2 tr-stag js-tr">{{{landing.testimonial.sender}}}</h3>
+						<p class="flx-testimonial__quote tr-stag js-tr">{{{landing.testimonial.quote}}}</p>
 					</div>
 				</div>
 			</div>

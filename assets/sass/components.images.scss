@@ -2,27 +2,6 @@
         Images
 --------------------*/
 
-// Responsive images (ensure images don't scale beyond their parents)
-.img-responsive {
-  width: 100%;
-}
-
-// Perfect circle
-.img-circle {
-  border-radius: 50%;
-}
-
-
-// Scaling
-// -----------------------------------
-.img-cover {
-	@include bg(cover);
-}
-.img-contain {
-	@include bg(contain);
-}
-
-
 // loop to display image on index
 // -----------------------------------
 @for $i from 1 through 20 {

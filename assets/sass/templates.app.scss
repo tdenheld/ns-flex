@@ -8,6 +8,10 @@
 	@include full(absolute);
 	opacity: 0;
 	transition: all 750ms $ease;
+	
+	&.is-active {
+		opacity: 1;
+	}
 }
 
 // al het ov
