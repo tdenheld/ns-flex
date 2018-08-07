@@ -115,10 +115,10 @@ var context = {
 		
 		"usps": [
 			{
-				"icon": "heart.svg",
+				"icon": "heart--small.svg",
 				"title": "Met NS flex kies je de korting die <b>deze maand</b> bij je past",
 			},{
-				"icon": "filter.svg",
+				"icon": "filter--small.svg",
 				"title": "Als je wilt pas je de korting <b>elke maand</b> aan",
 			},
 		],

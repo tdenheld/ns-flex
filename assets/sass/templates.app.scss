@@ -217,6 +217,36 @@
 	}
 }
 
+// abo usps
+.flx-abo-usps {
+	display: grid;
+	grid-column-gap: $gutter;
+	grid-row-gap: $gutter;
+	padding: 0 $gutter;
+	text-align: center;
+	@media (min-width: $sm) {
+		grid-template-columns: repeat(2, 1fr);
+	}
+	@media (min-width: $lg) {
+		grid-column-gap: $triple-gutter;
+	}
+}
+
+.flx-abo-usps__item {
+	margin: 0 auto;
+	max-width: 380px;
+}
+
+.flx-abo-usps__icon {
+	@media (min-width: $sm) {
+		margin-bottom: 10px;
+	}
+	svg {
+		height: 100px;
+		fill: $ns-blue;
+	}
+}
+
 
 
 

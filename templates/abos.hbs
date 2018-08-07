@@ -25,23 +25,21 @@
 	<!------- container ------->
 	<div class="container flx-abos__container">
 				
-		<!-- intro -->
-		{{#each abos.usps}}
-		<div class="flx-section flx-section--usps a a-fi a-del-600">
-			<div class="flx-section__content--mw-800">
-				<div class="g g-m-1-md items-center a a-fi a-del-750">
-					<div class="flx-section__img flx-section__img--abo {{#unless @first}}tr-si tr-500 js-tr{{/unless}}">
-						<img src="../media/{{icon}}" class="w-100" />
-					</div>
-					<div class="flx-section__content">
-						<h3 class="flx-section__content-item flx-section__title flx-section__title--small tr-stag js-tr">
-							{{{title}}}
-						</h3>
+		<!-- intro usps -->
+		<div class="flx-section">
+			<div class="flx-section__container flx-section__container--medium">
+				<div class="container ovr-container">
+					<div class="flx-abo-usps flx-section__content--mw-800">
+						{{#each abos.usps}}
+						<div class="flx-abo-usps__item tr-stag js-tr">
+							<div class="flx-abo-usps__icon" include="../media/{{icon}}"></div>
+							<h3 class="flx-section__subtitle">{{{title}}}</h3>
+						</div>
+						{{/each}}
 					</div>
 				</div>
 			</div>
-		</div>
-		{{/each}}	
+		</div>	
 			
 		<!-- stories -->
 		<div class="flx-section__container flx-section__container--small mh-4 bo-v">

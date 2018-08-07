@@ -16,19 +16,25 @@
 
 .flx-section__container {
 	padding: $gutter 0;
-	@media (min-width: $md) {
+	@include md {
 		padding: $triple-gutter 0;
 	}
 	
 	&--small {
-		@media (min-width: $md) {
+		@include md {
 			padding: $gutter 0;
+		}
+	}
+	
+	&--medium {
+		@include md {
+			padding: $double-gutter 0;
 		}
 	}
 	
 	&--large {
 		padding: $one-half-gutter 0;
-		@media (min-width: $md) {
+		@include md {
 			padding: 15vh 0;
 		}
 	}
