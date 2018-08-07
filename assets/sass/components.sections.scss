@@ -16,19 +16,25 @@
 
 .flx-section__container {
 	padding: $gutter 0;
-	@media (min-width: $md) {
+	@include md {
 		padding: $triple-gutter 0;
 	}
 	
 	&--small {
-		@media (min-width: $md) {
+		@include md {
 			padding: $gutter 0;
+		}
+	}
+	
+	&--medium {
+		@include md {
+			padding: $double-gutter 0;
 		}
 	}
 	
 	&--large {
 		padding: $one-half-gutter 0;
-		@media (min-width: $md) {
+		@include md {
 			padding: 15vh 0;
 		}
 	}
@@ -52,7 +58,7 @@
 	}
 	
 	&--txt-block-left {
-		@media (min-width: $md) { 
+		@include md { 
 			padding-left: $double-gutter;
 		}
 	}
@@ -68,21 +74,21 @@
 	@include font-style(28px, normal, 1.3);
 	margin-bottom: $half-gutter;
 	color: $ns-blue;
-	@media (min-width: $md) {
+	@include md {
 		font-size: calculate-rem(42px);
 		margin-bottom: $gutter;
 	}
 	
 	&--small {
 		@include font-style(24px, normal, 1.4);
-		@media (min-width: $md) {
+		@include md {
 			font-size: calculate-rem(32px);
 		}
 	}
 	
 	&--more-margin {
 		margin-bottom: $gutter;
-		@media (min-width: $md) {
+		@include md {
 			margin-bottom: $one-half-gutter;
 		}
 	}
@@ -97,7 +103,7 @@
 	@include font-style(18px, normal, 1.6);
 	color: $ns-blue;
 	margin-bottom: $gutter;
-	@media (min-width: $md) {
+	@include md {
 		font-size: calculate-rem(20px);
 	}
 	
@@ -124,7 +130,7 @@
 	padding: $gutter $gutter 0;
 	line-height: 0;
 	width: 200px;
-	@media (min-width: $md) {
+	@include md {
 		padding: $gutter;
 		width: 60%;
 		justify-self: center;
@@ -133,7 +139,7 @@
 	&--80 {
 		width: 80%;
 		max-width: 440px;
-		@media (min-width: $md) {	
+		@include md {	
 			max-width: none;
 		}
 	}
@@ -141,7 +147,7 @@
 	&--100 {
 		width: 100%;
 		max-width: 440px;
-		@media (min-width: $md) {	
+		@include md {	
 			max-width: none;
 		}
 	}
@@ -151,7 +157,7 @@
 	}
 	
 	&--abo {
-		@media (min-width: $md) {
+		@include md {
 			width: 200px;	
 		}
 	}
