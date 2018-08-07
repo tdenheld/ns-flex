@@ -59,22 +59,22 @@
 .txt-j  { text-align: justify; }
 
 @include sm {
-	.tl-sm  { text-align: left; }
-	.tr-sm  { text-align: right; }
-	.tc-sm  { text-align: center; }
-	.tj-sm  { text-align: justify; }
+	.txt-l-sm  { text-align: left; }
+	.txt-r-sm  { text-align: right; }
+	.txt-c-sm  { text-align: center; }
+	.txt-j-sm  { text-align: justify; }
 }
 @include md {
-	.tl-md  { text-align: left; }
-	.tr-md  { text-align: right; }
-	.tc-md  { text-align: center; }
-	.tj-md  { text-align: justify; }
+	.txt-l-md  { text-align: left; }
+	.txt-r-md  { text-align: right; }
+	.txt-c-md  { text-align: center; }
+	.txt-j-md  { text-align: justify; }
 }
 @include lg {
-	.tl-lg  { text-align: left; }
-	.tr-lg  { text-align: right; }
-	.tc-lg  { text-align: center; }
-	.tj-lg  { text-align: justify; }
+	.txt-l-lg  { text-align: left; }
+	.txt-r-lg  { text-align: right; }
+	.txt-c-lg  { text-align: center; }
+	.txt-j-lg  { text-align: justify; }
 }
 
 
