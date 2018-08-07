@@ -117,11 +117,9 @@ var context = {
 			{
 				"icon": "heart.svg",
 				"title": "Met NS flex kies je de korting die <b>deze maand</b> bij je past",
-				"grid": "max-1",
 			},{
 				"icon": "filter.svg",
 				"title": "Als je wilt pas je de korting <b>elke maand</b> aan",
-				"grid": "max-1",
 			},
 		],
 		

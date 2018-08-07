@@ -19,7 +19,7 @@
 		<div class="container ovr-container">
 			<div class="flx-hero__content">
 				<h1 class="flx-hero__title">{{global.title}}</h1> 
-				<h2 class="flx-hero__subtitle flx-txt-glow--yellow">{{landing.hero.subtitle}}</h2>
+				<h2 class="flx-hero__subtitle flx-hero__subtitle--yellow-glow">{{landing.hero.subtitle}}</h2>
 				<a href="{{global.cta.url}}" class="button btn--blue">
 					{{{global.cta.button}}}
 				</a>
@@ -103,7 +103,7 @@
 <div class="flx-section">
 	<div class="flx-section__container flx-bg--white">
 		<div class="container ovr-container">
-			<div class="flx-grid flx-grid--1-1 flx-grid--align-center">
+			<div class="g g-2-md items-center">
 				<div class="flx-section__img flx-section__img--100 tr-si tr-500 js-tr">
 					<img src="../media/{{landing.first-class.img}}" class="w-100" />
 				</div>		
@@ -133,10 +133,10 @@
 
 <!-- abonnementen -->
 <div class="flx-section">
-	<div class="flx-section__container flx-section__container--no-padding-top flx-bg--white">
+	<div class="flx-section__container pt-0 bg-white">
 		<div class="container ovr-container">
-			<div class="flx-grid flx-grid--1-1 flx-grid--align-center">
-				<div class="flx-section__img flx-section__img--100 flx-grid__reverse tr-si tr-500 js-tr">
+			<div class="g g-2-md items-center">
+				<div class="flx-section__img flx-section__img--100 order-3-md tr-si tr-500 js-tr">
 					<img src="../media/{{landing.abo.img}}" class="w-100" />
 				</div>			
 				<div class="flx-section__content">
@@ -155,7 +155,7 @@
 
 <!-- summary -->
 <div class="flx-section">
-	<div class="flx-section__container flx-section__container--small flx-gradient--grey">
+	<div class="flx-section__container flx-section__container--small gd-110-grey">
 		<div class="container ovr-container">
 			<div class="flx-summary">
 				{{#each landing.summary}}
@@ -171,12 +171,12 @@
 
 <!-- call to action -->
 <div class="flx-section">
-	<div class="flx-section__container flx-gradient--yellow">
+	<div class="flx-section__container gd-110-yellow">
 		<div class="container ovr-container">
-			<div class="flx-section__content flx-section__content--mw-800 txt-center">
-				<h3 class="flx-section__title tr-stag js-tr">{{{landing.cta.heading}}}</h3>
-				<p class="flx-cta__description tr-stag js-tr">{{{landing.cta.description}}}</p>
-				<div class="tr-stag js-tr">
+			<div class="flx-section__content flx-section__content--mw-800">
+				<h3 class="flx-section__title txt-c tr-stag js-tr">{{{landing.cta.heading}}}</h3>
+				<p class="flx-cta__description txt-c tr-stag js-tr">{{{landing.cta.description}}}</p>
+				<div class="txt-c tr-stag js-tr">
 					<a href="{{global.cta.url}}" class="button btn--blue">
 						{{{global.cta.button}}}
 					</a>
@@ -196,13 +196,13 @@
 
 <!-- testimonial -->
 <div class="flx-section">
-	<div class="flx-section__container flx-section__container--small flx-gradient--grey">
+	<div class="flx-section__container flx-section__container--small gd-110-grey">
 		<div class="container ovr-container">
 			<div class="flx-section__content flx-testimonial__content">
-				<div class="flx-grid flx-grid--align-center flx-grid--max-1 flx-grid--double-col-gap flx-grid--row-gap">
+				<div class="g g-m-1-md items-center col-gap-8 row-gap-4">
 					<div class="flx-testimonial__img tr-si tr-500 js-tr"></div>
 					<div class="flx-testimonial__text">
-						<h3 class="headingM spacer-margin-2 tr-stag js-tr">{{{landing.testimonial.sender}}}</h3>
+						<h3 class="headingM mb-2 tr-stag js-tr">{{{landing.testimonial.sender}}}</h3>
 						<p class="flx-testimonial__quote tr-stag js-tr">{{{landing.testimonial.quote}}}</p>
 					</div>
 				</div>
@@ -213,7 +213,7 @@
 
 <!-- faq -->
 <div class="flx-section">
-	<div class="flx-section__container divider">
+	<div class="flx-section__container bo-b">
 		<div class="container ovr-container">
 			<div class="flx-section__content">
 				<h3 class="flx-section__title">{{landing.faq.heading}}</h3>

@@ -793,7 +793,7 @@
 // gradients
 // --------------------------------------------
 // linear
-.gd-110-vivid {background: linear-gradient(110deg, $ns-light-blue 0%, #4BCED4 100%);}	
+.gd-110-vivid {background: linear-gradient(110deg, #0d6b9e 0%, #8ad4e4 100%);}	
 .gd-110-cerulean {background: linear-gradient(110deg, #94DCF6 0%, #C6EDFD 100%);}	
 .gd-90-cobalt {background: linear-gradient(to bottom,rgba($ns-blue, 1) 0%,rgba($ns-blue, 0) 80%);}
 .gd-90-black {background: linear-gradient(to bottom,rgba($ns-black, 1) 20%,rgba($ns-black, 0) 100%);}	
@@ -806,5 +806,6 @@
 // radial
 .gd-r-yellow {background: radial-gradient(circle at 50% 50%, #FFE48A 0%, $ns-yellow 100%);}
 .gd-r70-50-yellow {background: radial-gradient(circle at 70% 50%, #FFE48A 0%, $ns-yellow 100%);}
-.gd-r50-70-yellow {background: radial-gradient(circle at 50% 70%, #FFE48A 0%, $ns-yellow 100%);}
+.gd-r30-50-yellow {background: radial-gradient(circle at 50% 70%, #FFE48A 0%, $ns-yellow 100%);}
 .gd-r-vivid {background: radial-gradient(circle at 50% 50%, #8ad4e4 0%, #0d6b9e 100%);}
+.gd-r70-50-vivid {background: radial-gradient(circle at 70% 50%, #8ad4e4 0%, #0d6b9e 100%);}
