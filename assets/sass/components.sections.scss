@@ -9,7 +9,7 @@
 
 .flx-section--usps {
 	padding: $half-gutter 0;
-	@media (min-width: $sm) {
+	@include sm {
 		padding: 24px 0;
 	}
 }

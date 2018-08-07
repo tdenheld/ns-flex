@@ -12,7 +12,7 @@ $hero-height-smaller: 560px;
 	width: 100vw;
 	min-height: 300px;
 	height: $hero-height-landing;
-	@media (min-width: $sm) {
+	@include sm {
 		margin-bottom: $double-gutter;
 	}
 }
@@ -44,17 +44,17 @@ $hero-height-smaller: 560px;
 	margin-top: $half-gutter;
 	max-width: 800px;
 	padding: $gutter;
-	@media (min-width: $md) {
+	@include md {
 		margin-top: 8vh;
 	}
 }
 
 .flx-hero__title {
 	@include font-style(24px, normal, 1.2);
-	@media (min-width: $sm) {
+	@include sm {
 		font-size: calculate-rem(30px);
 	}
-	@media (min-width: $lg) {
+	@include lg {
 		font-size: calculate-rem(42px);
 	}
 	@media (max-height: 520px) and (max-width: $md) {
@@ -65,11 +65,11 @@ $hero-height-smaller: 560px;
 .flx-hero__subtitle {
 	margin-bottom: $half-gutter;
 	@include font-style(30px, bold, 1.2);
-	@media (min-width: $sm) {
+	@include sm {
 		margin-bottom: $gutter;
 		font-size: calculate-rem(56px);
 	}
-	@media (min-width: $lg) {
+	@include lg {
 		font-size: calculate-rem(72px);
 	}
 	@media (max-height: 520px) and (max-width: $md) {
@@ -104,7 +104,7 @@ $hero-height-smaller: 560px;
 .flx-hero--small {
 	height: $hero-height-small;
 	margin-bottom: 0;
-	@media (min-width: $md) {
+	@include md {
 		min-height: 480px;
 	}
 	@media (min-width: $sm) and (max-height: 600px) {
@@ -112,7 +112,7 @@ $hero-height-smaller: 560px;
 	}
 	
 	.flx-hero__content {
-		@media (min-width: $md) {
+		@include md {
 			margin-top: $gutter;
 		}
 	}
@@ -127,7 +127,7 @@ $hero-height-smaller: 560px;
 			width: 100%;
 			height: auto;
 		}
-		@media (min-width: $md) {
+		@include md {
 			min-height: 480px;
 		}
 		@media (min-width: $sm) and (max-height: 600px) {
@@ -140,7 +140,7 @@ $hero-height-smaller: 560px;
 .flx-hero--smaller {
 	height: auto;
 	margin-bottom: 0;
-	@media (min-width: $sm) {
+	@include sm {
 		height: $hero-height-smaller;
 	}
 }
@@ -148,14 +148,14 @@ $hero-height-smaller: 560px;
 .flx-hero__flow-smaller {	
 	position: relative;
 	height: 100%;
-	@media (min-width: $sm) {
+	@include sm {
 		height: $hero-height-smaller;
 	}							
 	svg {
 		position: absolute;
 		bottom: 0;
 		transform: rotate(180deg);
-		@media (min-width: $sm) {
+		@include sm {
 			bottom: 0;
 			right: 10%;
 			height: $hero-height-smaller;		

@@ -22,7 +22,7 @@
 	height: 40vh;
 	@include bg(cover);
 	background-image: url("../../media/metro.jpg");
-	@media (min-width: $md) {
+	@include md {
 		height: 100%;
 	}
 }
@@ -32,7 +32,7 @@
 	background-color: $ns-white;
 	box-shadow: $box-shadow-medium;
 	padding: $gutter;
-	@media (min-width: $md) {
+	@include md {
 		margin: 0;
 	}
 }
@@ -48,10 +48,10 @@
 
 .flx-costs__content {
 	padding: $double-gutter $gutter;
-	@media (min-width: $md) {
+	@include md {
 		padding: 10vw $gutter;
 	}	
-	@media (min-width: $lg) {
+	@include lg {
 		padding: 160px $gutter;
 	}
 	&--contained {
@@ -66,7 +66,7 @@
 	bottom: -10px;
 	width: 100%;
 	max-width: 480px;
-	@media (min-width: $sm) {
+	@include sm {
 		position: absolute;
 		padding: 0;
 		right: 0;
@@ -74,7 +74,7 @@
 	}
 	
 	&--left {
-		@media (min-width: $sm) {
+		@include sm {
 			left: 8%;
 			right: auto;
 		}
@@ -88,7 +88,7 @@
 	display: grid;
 	grid-gap: $gutter;
 	padding: 0 $gutter;
-	@media (min-width: $sm) {
+	@include sm {
 		grid-template-columns: repeat(3, 1fr);	
 	}
 }
@@ -98,7 +98,7 @@
 	grid-column-gap: 10px;		
 	align-items: center;
 	grid-template-columns: max-content 1fr;
-	@media (min-width: $sm) {
+	@include sm {
 		display: block;
 		max-width: 240px;
 		margin: 0 auto;
@@ -110,14 +110,14 @@
 	display: flex;
 	align-items: center;
 	justify-content: center;
-	@media (min-width: $sm) {
+	@include sm {
 		height: 80px;
 	}
 	
 	svg {
 		fill: $ns-blue;
 		width: 42px;
-		@media (min-width: $sm) {
+		@include sm {
 			width: 62px;
 		}
 	}
@@ -212,7 +212,7 @@
 	background-color: $ns-white;
 	box-shadow: $box-shadow-container;
 	margin-top: -42px;
-	@media (min-width: $md) {
+	@include md {
 		margin-top: -70px;
 	}
 }
@@ -225,10 +225,10 @@
 .flx-ros__grid {
 	display: grid;
 	grid-gap: $gutter;
-	@media (min-width: $sm) {
+	@include sm {
 		grid-template-columns: repeat(2, 1fr);	
 	}
-	@media (min-width: $md) {
+	@include md {
 		grid-template-columns: repeat(3, 1fr);	
 	}
 }
@@ -236,7 +236,7 @@
 .flx-ros__content {
 	display: none;
 	margin-top: -56px;
-	@media (min-width: $md) {
+	@include md {
 		margin-top: -70px;
 	}
 }
@@ -244,7 +244,7 @@
 .flx-ros__description {
 	padding: 0 $gutter 42px;
 	text-align: center;
-	@media (min-width: $md) {
+	@include md {
 		padding: 0 $gutter 90px;
 	}
 }

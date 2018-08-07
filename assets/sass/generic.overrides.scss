@@ -8,7 +8,7 @@
 	max-width: 1228px;
 	margin: auto;
 	
-	@media (min-width: $sm) {
+	@include sm {
 		padding-left: $gutter;
 		padding-right: $gutter;
 	}
@@ -23,7 +23,7 @@
 	padding-left: $gutter;
 	padding-right: $gutter;
 	
-	@media (min-width: $sm) {
+	@include sm {
 		padding-left: $double-gutter;
 		padding-right: $double-gutter;
 	}

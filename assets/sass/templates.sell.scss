@@ -11,15 +11,15 @@
 .flx-sell-box__hero-grid {
 	display: grid;
 	padding: $gutter;
-	@media (min-width: $sm) {
+	@include sm {
 		grid-template-columns: 2fr 3fr;
 	}
 	
-	@media (min-width: $md) {
+	@include md {
 		grid-template-columns: 3fr 2fr;
 	}
 	
-	@media (min-width: $lg) {
+	@include lg {
 		grid-template-columns: 2fr 1fr;
 	}
 }
@@ -56,10 +56,10 @@
 	grid-gap: $gutter;
 	padding: 0 $gutter;
 	text-align: center;
-	@media (min-width: $sm) {
+	@include sm {
 		grid-template-columns: repeat(3, 1fr);
 	}
-	@media (min-width: $lg) {
+	@include lg {
 		grid-column-gap: $triple-gutter;
 	}
 }
@@ -70,7 +70,7 @@
 }
 
 .flx-sell-usps__icon {
-	@media (min-width: $sm) {
+	@include sm {
 		margin-bottom: 10px;
 	}
 	svg {
