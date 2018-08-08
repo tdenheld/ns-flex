@@ -214,7 +214,7 @@ var context = {
 		},
 			
 		"chipcards": {
-			"img": "boy-blue-baloon.jpg",
+			"img": "girl-baloon.jpg",
 			"heading": "Je kunt direct instappen",
 			"item": [
 				{
