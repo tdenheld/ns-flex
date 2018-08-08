@@ -78,7 +78,7 @@ function scroll_trigger(i) {
 			triggerElement:	el,
 			duration: 999999,
 		})
-		.triggerHook(0.82)
+		.triggerHook(0.86)
 		.offset(0)
 		.on("start", function(){
 			$(bg).toggleClass("is-active");

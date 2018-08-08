@@ -38,24 +38,24 @@
 </div>
 
 <!-- usps -->
-<div class="flx-section">
-	<div class="flx-section__container">
-		<div class="container ovr-container">
-			<div class="flx-sell-usps">
-				{{#each sell.usps.item}}
-				<div class="flx-sell-usps__item tr-stag js-tr">
-					<div class="flx-sell-usps__icon" include="../media/{{icon}}.svg"></div>
-					<h3 class="flx-section__subtitle"><b>{{title}}</b></h3>
-					<p class="f-grey-4 ma-0">{{description}}</p>
+<div class="flx-section__container a a-fi a-del-800">
+	<div class="container ovr-container">
+		<div class="flx-sell-usps">
+			{{#each sell.usps.item}}
+			<div class="flx-section">
+				<div class="flx-sell-usps__item">
+					<div class="flx-sell-usps__icon {{#unless @first}} tr-stag js-tr {{/unless}}" include="../media/{{icon}}.svg"></div>
+					<h3 class="flx-section__subtitle {{#unless @first}} tr-stag js-tr {{/unless}}"><b>{{title}}</b></h3>
+					<p class="f-grey-4 ma-0 {{#unless @first}} tr-stag js-tr {{/unless}}">{{description}}</p>
 				</div>
-				{{/each}}
 			</div>
+			{{/each}}
 		</div>
 	</div>
 </div>
 
 <!-- chipcards -->
-<div class="flx-section">
+<div class="flx-section a a-fi a-del-1200">
 	<div class="flx-section__container pt-0">
 		<div class="container ovr-container">
 			<div class="g g-2-md items-center">
