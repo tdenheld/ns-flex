@@ -2,7 +2,7 @@
 
 var context = {	
 	
-	// landing page
+	// tell page
 	// ------------------------------------------------------------------------------------------
 	// ------------------------------------------------------------------------------------------
 	"global": {
@@ -13,7 +13,7 @@ var context = {
 		},
 	},
 	
-	"landing": {
+	"tell": {
 		"hero": {
 			"subtitle": "De makkelijkste manier om te reizen in het OV",
 		},		
@@ -234,9 +234,9 @@ var context = {
 	},
 };
 
-var landing = document.getElementById("landing");
-if (landing) {
-	landing.innerHTML = Handlebars.templates.landing(context);
+var tell = document.getElementById("tell");
+if (tell) {
+	tell.innerHTML = Handlebars.templates.tell(context);
 };
 
 var abos = document.getElementById("abos");

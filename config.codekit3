@@ -2811,6 +2811,17 @@
 		"plM": 3758088159,
 		"prP": 0
 		},
+	"\/media\/girl-bike.jpg": {
+		"ft": 16384,
+		"iS": 125313,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "\/media\/girl-bike.jpg",
+		"oF": 0,
+		"oIPL": 1,
+		"opt": 1,
+		"q": 80
+		},
 	"\/media\/girl-blue-wall.jpg": {
 		"ft": 16384,
 		"iS": 1193226,
@@ -2864,71 +2875,38 @@
 		"plM": 3758088159,
 		"prP": 0
 		},
-	"\/media\/hero.jpg": {
-		"ft": 16384,
-		"iS": 293306,
-		"jF": 0,
-		"oA": 1,
-		"oAP": "\/media\/hero.jpg",
-		"oF": 1,
-		"oIPL": 1,
-		"opt": 1,
-		"q": 80
-		},
-	"\/media\/hero.png": {
-		"ft": 32768,
-		"iS": 433910,
-		"oA": 1,
-		"oAP": "\/media\/hero.png",
-		"oF": 1,
-		"oIPL": 0,
-		"opt": 0,
-		"oT": 1,
-		"q": 100
-		},
-	"\/media\/hero_abo.jpg": {
+	"\/media\/hero-abo.jpg": {
 		"ft": 16384,
 		"iS": 244470,
 		"jF": 0,
 		"oA": 1,
-		"oAP": "\/media\/hero_abo.jpg",
+		"oAP": "\/media\/hero-abo.jpg",
 		"oF": 1,
 		"oIPL": 0,
 		"opt": 0,
 		"q": 80
 		},
-	"\/media\/hero_abo.png": {
-		"ft": 32768,
-		"iS": 278443,
-		"oA": 1,
-		"oAP": "\/media\/hero_abo.png",
-		"oF": 1,
-		"oIPL": 0,
-		"opt": 0,
-		"oT": 1,
-		"q": 100
-		},
-	"\/media\/hero_sell.jpg": {
+	"\/media\/hero-sell.jpg": {
 		"ft": 16384,
 		"iS": 256252,
 		"jF": 0,
 		"oA": 1,
-		"oAP": "\/media\/hero_sell.jpg",
+		"oAP": "\/media\/hero-sell.jpg",
 		"oF": 1,
 		"oIPL": 0,
 		"opt": 0,
 		"q": 80
 		},
-	"\/media\/hero_sell.png": {
-		"ft": 32768,
-		"iS": 341699,
+	"\/media\/hero-tell.jpg": {
+		"ft": 16384,
+		"iS": 293306,
+		"jF": 0,
 		"oA": 1,
-		"oAP": "\/media\/hero_sell.png",
+		"oAP": "\/media\/hero-tell.jpg",
 		"oF": 1,
-		"oIPL": 0,
-		"opt": 0,
-		"oT": 1,
-		"q": 100
+		"oIPL": 1,
+		"opt": 1,
+		"q": 80
 		},
 	"\/media\/hoewerkt1.jpg": {
 		"ft": 16384,
@@ -4774,18 +4752,18 @@
 		"oAP": "\/templates\/abos.hbs",
 		"oF": 0
 		},
-	"\/templates\/landing.hbs": {
-		"cB": 0,
-		"ft": 8192,
-		"oA": 0,
-		"oAP": "\/templates\/landing.hbs",
-		"oF": 0
-		},
 	"\/templates\/sell.hbs": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
 		"oAP": "\/templates\/sell.hbs",
+		"oF": 0
+		},
+	"\/templates\/tell.hbs": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/templates\/tell.hbs",
 		"oF": 0
 		}
 	},

@@ -2,7 +2,7 @@
         Hero
 --------------------*/
 
-$hero-height-landing: calc(100vh - 60px);
+$hero-height: calc(100vh - 60px);
 $hero-height-small:	70vh;
 $hero-height-smaller: 560px;
 
@@ -11,7 +11,7 @@ $hero-height-smaller: 560px;
 	overflow: hidden;
 	width: 100vw;
 	min-height: 300px;
-	height: $hero-height-landing;
+	height: $hero-height;
 	@include sm {
 		margin-bottom: $double-gutter;
 	}
@@ -26,13 +26,13 @@ $hero-height-smaller: 560px;
 .flx-hero__img {
 	@include full(absolute);
 	@include bg(cover);
-	background-image: url("../../media/hero.jpg");
+	background-image: url("../../media/hero-tell.jpg");
 }
 
 .flx-hero__flow {	
 	svg {
 		opacity: 0.99;
-		height: $hero-height-landing;			
+		height: $hero-height;			
 		@media (max-aspect-ratio: 17/10) {
 			width: 100%;
 			height: auto;
@@ -73,12 +73,13 @@ $hero-height-smaller: 560px;
 		font-size: calculate-rem(72px);
 	}
 	@media (max-height: 520px) and (max-width: $md) {
+		max-width: 360px;
 		font-size: calculate-rem(30px);
 	}
 	
 	&--yellow-glow {
-		text-shadow: 1px 1px 0 rgba($ns-yellow, 0.5),
-					 0 0 1px rgba($ns-yellow, 1);
+		text-shadow: 1px 1px 0 rgba($ns-yellow, 0.35),
+					 0 0 1px rgba($ns-yellow, 0.9);
 	}
 }
 
@@ -170,7 +171,7 @@ $hero-height-smaller: 560px;
 // abonnementen
 .flx-hero--abo {
 	.flx-hero__img {
-		background-image: url("../../media/hero_abo.jpg");
+		background-image: url("../../media/hero-abo.jpg");
 	}
 }
 
@@ -180,6 +181,6 @@ $hero-height-smaller: 560px;
 	align-items: center;
 	
 	.flx-hero__img {
-		background-image: url("../../media/hero_sell.jpg");
+		background-image: url("../../media/hero-sell.jpg");
 	}
 } 
