@@ -21,7 +21,7 @@
 	width: 100%;
 	height: 40vh;
 	@include bg(cover);
-	background-image: url("../../media/girl-bike.jpg");
+	background-image: url("../../media/ov/girl-bike.jpg");
 	@include md {
 		height: 100%;
 	}
@@ -274,4 +274,14 @@
 	&:hover {
 		box-shadow: 0 1px 0 rgba($ns-blue, 1);
 	}
+	
+	&--light-blue {
+		color: $ns-light-blue;
+		box-shadow: 0 1px 0 rgba($ns-light-blue, 0.5);
+		
+		&:hover {
+			box-shadow: 0 1px 0 rgba($ns-light-blue, 1);
+		}
+	}
+	
 }

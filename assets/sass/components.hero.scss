@@ -26,7 +26,7 @@ $hero-height-smaller: 560px;
 .flx-hero__img {
 	@include full(absolute);
 	@include bg(cover);
-	background-image: url("../../media/hero-tell.jpg");
+	background-image: url("../../media/hero/nsflex-tell-hero-hakim.jpg");
 }
 
 .flx-hero__flow {	
@@ -171,7 +171,7 @@ $hero-height-smaller: 560px;
 // abonnementen
 .flx-hero--abo {
 	.flx-hero__img {
-		background-image: url("../../media/hero-abo.jpg");
+		background-image: url("../../media/hero/hero-abo.jpg");
 	}
 }
 
@@ -181,6 +181,6 @@ $hero-height-smaller: 560px;
 	align-items: center;
 	
 	.flx-hero__img {
-		background-image: url("../../media/hero-sell.jpg");
+		background-image: url("../../media/hero/nsflex-sell-hero-elise.jpg");
 	}
 } 

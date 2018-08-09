@@ -7,7 +7,7 @@
 				<div class="full-absolute gd-r70-50-vivid"></div>
 				<div class="flx-hero__img"></div>
 			</div>
-<!-- 			<div class="flx-hero__flow-small" include="../media/flow-white.svg"></div> -->
+<!-- 			<div class="flx-hero__flow-small" include="../media/flow/flow-white.svg"></div> -->
 		</div>
 		<div class="a a-fi-up-s a-del-500">
 			<div class="container ovr-container">
@@ -31,7 +31,7 @@
 			<div class="flx-section__content--mw-800">
 				<div class="g g-m-1-md items-center a a-fi a-del-750">
 					<div class="flx-section__img flx-section__img--abo {{#unless @first}}tr-si tr-500 js-tr{{/unless}}">
-						<img src="../media/{{icon}}" class="w-100" />
+						<img src="../media/icons/{{icon}}" class="w-100" />
 					</div>
 					<div class="flx-section__content">
 						<h3 class="flx-section__content-item flx-section__title flx-section__title--small tr-stag js-tr">
@@ -120,7 +120,7 @@
 				<div class="flx-summary pa-0">
 					{{#each abos.summary}}
 					<div class="flx-summary__item tr-stag js-tr">
-						<div class="flx-summary__icon" include="../media/{{icon}}.svg"></div>
+						<div class="flx-summary__icon" include="../media/icons/{{icon}}.svg"></div>
 						<h3 class="flx-summary__title">{{{title}}}</h3>
 					</div>
 					{{/each}}
@@ -143,6 +143,12 @@
 						<a href="/" class="flx-link">{{abos.cta.link}}</a>
 					</div>
 				</div>
+			</div>
+			<div class="bg-white pv-1 ph-4">
+				<p class="f14 f-grey-4 ma-0 txt-c lh-title">
+					Heb je al een abonnement van NS? <br class="visible-xs">
+					<a href="https://ns.nl/flex/overstappen" class="flx-link flx-link--light-blue">Zo stap je over</a>.
+				</p>
 			</div>
 		</div>
 	</div>

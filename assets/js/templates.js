@@ -5,7 +5,7 @@ templates['abos'] = template({"1":function(container,depth0,helpers,partials,dat
 
   return "		<div class=\"flx-section flx-section--usps a a-fi a-del-600\">\n			<div class=\"flx-section__content--mw-800\">\n				<div class=\"g g-m-1-md items-center a a-fi a-del-750\">\n					<div class=\"flx-section__img flx-section__img--abo "
     + ((stack1 = helpers.unless.call(alias1,(data && data.first),{"name":"unless","hash":{},"fn":container.program(2, data, 0),"inverse":container.noop,"data":data})) != null ? stack1 : "")
-    + "\">\n						<img src=\"../media/"
+    + "\">\n						<img src=\"../media/icons/"
     + container.escapeExpression(((helper = (helper = helpers.icon || (depth0 != null ? depth0.icon : depth0)) != null ? helper : alias2),(typeof helper === alias3 ? helper.call(alias1,{"name":"icon","hash":{},"data":data}) : helper)))
     + "\" class=\"w-100\" />\n					</div>\n					<div class=\"flx-section__content\">\n						<h3 class=\"flx-section__content-item flx-section__title flx-section__title--small tr-stag js-tr\">\n							"
     + ((stack1 = ((helper = (helper = helpers.title || (depth0 != null ? depth0.title : depth0)) != null ? helper : alias2),(typeof helper === alias3 ? helper.call(alias1,{"name":"title","hash":{},"data":data}) : helper))) != null ? stack1 : "")
@@ -29,7 +29,7 @@ templates['abos'] = template({"1":function(container,depth0,helpers,partials,dat
 },"6":function(container,depth0,helpers,partials,data) {
     var stack1, helper, alias1=depth0 != null ? depth0 : (container.nullContext || {}), alias2=helpers.helperMissing, alias3="function";
 
-  return "					<div class=\"flx-summary__item tr-stag js-tr\">\n						<div class=\"flx-summary__icon\" include=\"../media/"
+  return "					<div class=\"flx-summary__item tr-stag js-tr\">\n						<div class=\"flx-summary__icon\" include=\"../media/icons/"
     + container.escapeExpression(((helper = (helper = helpers.icon || (depth0 != null ? depth0.icon : depth0)) != null ? helper : alias2),(typeof helper === alias3 ? helper.call(alias1,{"name":"icon","hash":{},"data":data}) : helper)))
     + ".svg\"></div>\n						<h3 class=\"flx-summary__title\">"
     + ((stack1 = ((helper = (helper = helpers.title || (depth0 != null ? depth0.title : depth0)) != null ? helper : alias2),(typeof helper === alias3 ? helper.call(alias1,{"name":"title","hash":{},"data":data}) : helper))) != null ? stack1 : "")
@@ -37,7 +37,7 @@ templates['abos'] = template({"1":function(container,depth0,helpers,partials,dat
 },"compiler":[7,">= 4.0.0"],"main":function(container,depth0,helpers,partials,data) {
     var stack1, alias1=container.lambda, alias2=container.escapeExpression, alias3=depth0 != null ? depth0 : (container.nullContext || {});
 
-  return "<div class=\"bg-grey-7\">\n	\n	<!------- hero ------->\n	<div class=\"flx-hero flx-hero--small flx-hero--abo\">\n		<div class=\"flx-hero__bg\">\n			<div class=\"a a-fi\">\n				<div class=\"full-absolute gd-r70-50-vivid\"></div>\n				<div class=\"flx-hero__img\"></div>\n			</div>\n<!-- 			<div class=\"flx-hero__flow-small\" include=\"../media/flow-white.svg\"></div> -->\n		</div>\n		<div class=\"a a-fi-up-s a-del-500\">\n			<div class=\"container ovr-container\">\n				<div class=\"flx-hero__content\">\n					<h1 class=\"flx-hero__title f-white ts-2\">"
+  return "<div class=\"bg-grey-7\">\n	\n	<!------- hero ------->\n	<div class=\"flx-hero flx-hero--small flx-hero--abo\">\n		<div class=\"flx-hero__bg\">\n			<div class=\"a a-fi\">\n				<div class=\"full-absolute gd-r70-50-vivid\"></div>\n				<div class=\"flx-hero__img\"></div>\n			</div>\n<!-- 			<div class=\"flx-hero__flow-small\" include=\"../media/flow/flow-white.svg\"></div> -->\n		</div>\n		<div class=\"a a-fi-up-s a-del-500\">\n			<div class=\"container ovr-container\">\n				<div class=\"flx-hero__content\">\n					<h1 class=\"flx-hero__title f-white ts-2\">"
     + alias2(alias1(((stack1 = (depth0 != null ? depth0.abos : depth0)) != null ? stack1.title : stack1), depth0))
     + "</h1> \n					<h2 class=\"flx-hero__subtitle f-white ts-2\">"
     + alias2(alias1(((stack1 = (depth0 != null ? depth0.abos : depth0)) != null ? stack1.subtitle : stack1), depth0))
@@ -75,7 +75,7 @@ templates['abos'] = template({"1":function(container,depth0,helpers,partials,dat
     + alias2(alias1(((stack1 = (depth0 != null ? depth0.abos : depth0)) != null ? stack1["button-cta"] : stack1), depth0))
     + "\n						</a>\n					</div>\n					<div class=\"tr-stag js-tr\">\n						<a href=\"/\" class=\"flx-link\">"
     + alias2(alias1(((stack1 = ((stack1 = (depth0 != null ? depth0.abos : depth0)) != null ? stack1.cta : stack1)) != null ? stack1.link : stack1), depth0))
-    + "</a>\n					</div>\n				</div>\n			</div>\n		</div>\n	</div>\n\n	<!-- ros abonnementen -->\n	<div class=\"flx-section\">\n		<div class=\"flx-section__container\">\n			<div class=\"container\">\n				<div class=\"flx-section__content flx-section__content--mw-800 txt-c\">\n					<h3 class=\"flx-section__title ma-0 tr-stag js-tr\">\n						"
+    + "</a>\n					</div>\n				</div>\n			</div>\n			<div class=\"bg-white pv-1 ph-4\">\n				<p class=\"f14 f-grey-4 ma-0 txt-c lh-title\">\n					Heb je al een abonnement van NS? <br class=\"visible-xs\">\n					<a href=\"https://ns.nl/flex/overstappen\" class=\"flx-link flx-link--light-blue\">Zo stap je over</a>.\n				</p>\n			</div>\n		</div>\n	</div>\n\n	<!-- ros abonnementen -->\n	<div class=\"flx-section\">\n		<div class=\"flx-section__container\">\n			<div class=\"container\">\n				<div class=\"flx-section__content flx-section__content--mw-800 txt-c\">\n					<h3 class=\"flx-section__title ma-0 tr-stag js-tr\">\n						"
     + ((stack1 = alias1(((stack1 = ((stack1 = (depth0 != null ? depth0.abos : depth0)) != null ? stack1.ros : stack1)) != null ? stack1.title : stack1), depth0)) != null ? stack1 : "")
     + "\n					</h3>\n					<p class=\"flx-section__description tr-stag js-tr\">"
     + alias2(alias1(((stack1 = ((stack1 = (depth0 != null ? depth0.abos : depth0)) != null ? stack1.ros : stack1)) != null ? stack1.subtitle : stack1), depth0))
@@ -96,7 +96,7 @@ templates['sell'] = template({"1":function(container,depth0,helpers,partials,dat
 
   return "			<div class=\"flx-section\">\n				<div class=\"flx-sell-usps__item\">\n					<div class=\"flx-sell-usps__icon "
     + ((stack1 = helpers.unless.call(alias1,(data && data.first),{"name":"unless","hash":{},"fn":container.program(4, data, 0),"inverse":container.noop,"data":data})) != null ? stack1 : "")
-    + "\" include=\"../media/"
+    + "\" include=\"../media/icons/"
     + alias4(((helper = (helper = helpers.icon || (depth0 != null ? depth0.icon : depth0)) != null ? helper : alias2),(typeof helper === alias3 ? helper.call(alias1,{"name":"icon","hash":{},"data":data}) : helper)))
     + ".svg\"></div>\n					<h3 class=\"flx-section__subtitle "
     + ((stack1 = helpers.unless.call(alias1,(data && data.first),{"name":"unless","hash":{},"fn":container.program(4, data, 0),"inverse":container.noop,"data":data})) != null ? stack1 : "")
@@ -120,7 +120,7 @@ templates['sell'] = template({"1":function(container,depth0,helpers,partials,dat
 },"compiler":[7,">= 4.0.0"],"main":function(container,depth0,helpers,partials,data) {
     var stack1, alias1=container.lambda, alias2=container.escapeExpression, alias3=depth0 != null ? depth0 : (container.nullContext || {});
 
-  return "<!-- hero -->\n<div class=\"flx-hero flx-hero--smaller flx-hero--sell\">\n	<div class=\"flx-hero__bg\">\n		<div class=\"a a-fi\">\n			<div class=\"full-absolute gd-r30-50-yellow\"></div>\n			<div class=\"flx-hero__img hidden-xs\"></div>\n		</div>\n		<div class=\"flx-hero__flow-smaller\" include=\"../media/flow-white.svg\"></div>\n	</div>\n	\n	<!-- sell box -->\n	<div class=\"flx-sell-box__hero-container\">\n		<div class=\"container ovr-container a a-fi-up-s a-del-500\">\n			<div class=\"flx-sell-box__hero-grid\">\n				<div></div>\n				<div class=\"flx-sell-box\">\n					<div class=\"flx-sell-box__header\">\n						<h1 class=\"headingXL ma-0\"><b>"
+  return "<!-- hero -->\n<div class=\"flx-hero flx-hero--smaller flx-hero--sell\">\n	<div class=\"flx-hero__bg\">\n		<div class=\"a a-fi\">\n			<div class=\"full-absolute gd-r30-50-yellow\"></div>\n			<div class=\"flx-hero__img hidden-xs\"></div>\n		</div>\n		<div class=\"flx-hero__flow-smaller\" include=\"../media/flow/flow-white.svg\"></div>\n	</div>\n	\n	<!-- sell box -->\n	<div class=\"flx-sell-box__hero-container\">\n		<div class=\"container ovr-container a a-fi-up-s a-del-500\">\n			<div class=\"flx-sell-box__hero-grid\">\n				<div></div>\n				<div class=\"flx-sell-box\">\n					<div class=\"flx-sell-box__header\">\n						<h1 class=\"headingXL ma-0\"><b>"
     + alias2(alias1(((stack1 = (depth0 != null ? depth0.global : depth0)) != null ? stack1.title : stack1), depth0))
     + "</b></h1>\n						<h2 class=\"headingXL ma-0\">"
     + alias2(alias1(((stack1 = (depth0 != null ? depth0.sell : depth0)) != null ? stack1.price : stack1), depth0))
@@ -175,7 +175,7 @@ templates['tell'] = template({"1":function(container,depth0,helpers,partials,dat
 },"2":function(container,depth0,helpers,partials,data) {
     var helper;
 
-  return "<img src=\"../media/"
+  return "<img src=\"../media/icons/"
     + container.escapeExpression(((helper = (helper = helpers.img || (depth0 != null ? depth0.img : depth0)) != null ? helper : helpers.helperMissing),(typeof helper === "function" ? helper.call(depth0 != null ? depth0 : (container.nullContext || {}),{"name":"img","hash":{},"data":data}) : helper)))
     + "\" class=\"w-100\" />";
 },"4":function(container,depth0,helpers,partials,data) {
@@ -193,7 +193,7 @@ templates['tell'] = template({"1":function(container,depth0,helpers,partials,dat
 },"8":function(container,depth0,helpers,partials,data) {
     var helper, alias1=depth0 != null ? depth0 : (container.nullContext || {}), alias2=helpers.helperMissing, alias3="function", alias4=container.escapeExpression;
 
-  return "				<div class=\"flx-summary__item tr-stag js-tr\">\n					<div class=\"flx-summary__icon\" include=\"../media/"
+  return "				<div class=\"flx-summary__item tr-stag js-tr\">\n					<div class=\"flx-summary__icon\" include=\"../media/icons/"
     + alias4(((helper = (helper = helpers.icon || (depth0 != null ? depth0.icon : depth0)) != null ? helper : alias2),(typeof helper === alias3 ? helper.call(alias1,{"name":"icon","hash":{},"data":data}) : helper)))
     + ".svg\"></div>\n					<h3 class=\"flx-summary__title\">"
     + alias4(((helper = (helper = helpers.title || (depth0 != null ? depth0.title : depth0)) != null ? helper : alias2),(typeof helper === alias3 ? helper.call(alias1,{"name":"title","hash":{},"data":data}) : helper)))
@@ -213,7 +213,7 @@ templates['tell'] = template({"1":function(container,depth0,helpers,partials,dat
 },"compiler":[7,">= 4.0.0"],"main":function(container,depth0,helpers,partials,data) {
     var stack1, alias1=container.lambda, alias2=container.escapeExpression, alias3=depth0 != null ? depth0 : (container.nullContext || {});
 
-  return "<!------- background images ------->\n<div class=\"full-fixed\">\n	<div class=\"flx-color-bg gd-110-light-grey o-100\"></div>\n	<div class=\"flx-color-bg gd-110-cerulean js-bg-1\"></div>\n	<div class=\"flx-color-bg gd-110-yellow js-bg-2\"></div>\n	<div class=\"flx-color-bg bg-white js-bg-5\"></div>\n</div>\n\n<!------- hero ------->\n<div class=\"flx-hero\">\n	<div class=\"flx-hero__bg\">\n		<div class=\"a a-fi\">\n			<div class=\"full-absolute gd-110-yellow\"></div>\n			<div class=\"flx-hero__img\"></div>\n		</div>\n		<div class=\"flx-hero__flow\" include=\"../media/flow-white.svg\"></div>\n	</div>\n	<div class=\"a a-fi-up-s a-del-500\">\n		<div class=\"container ovr-container\">\n			<div class=\"flx-hero__content\">\n				<h1 class=\"flx-hero__title\">"
+  return "<!------- background images ------->\n<div class=\"full-fixed\">\n	<div class=\"flx-color-bg gd-110-light-grey o-100\"></div>\n	<div class=\"flx-color-bg gd-110-cerulean js-bg-1\"></div>\n	<div class=\"flx-color-bg gd-110-yellow js-bg-2\"></div>\n	<div class=\"flx-color-bg bg-white js-bg-5\"></div>\n</div>\n\n<!------- hero ------->\n<div class=\"flx-hero\">\n	<div class=\"flx-hero__bg\">\n		<div class=\"a a-fi\">\n			<div class=\"full-absolute gd-110-yellow\"></div>\n			<div class=\"flx-hero__img\"></div>\n		</div>\n		<div class=\"flx-hero__flow\" include=\"../media/flow/flow-white.svg\"></div>\n	</div>\n	<div class=\"a a-fi-up-s a-del-500\">\n		<div class=\"container ovr-container\">\n			<div class=\"flx-hero__content\">\n				<h1 class=\"flx-hero__title\">"
     + alias2(alias1(((stack1 = (depth0 != null ? depth0.global : depth0)) != null ? stack1.title : stack1), depth0))
     + "</h1> \n				<h2 class=\"flx-hero__subtitle flx-hero__subtitle--yellow-glow\">\n					"
     + alias2(alias1(((stack1 = ((stack1 = (depth0 != null ? depth0.tell : depth0)) != null ? stack1.hero : stack1)) != null ? stack1.subtitle : stack1), depth0))
