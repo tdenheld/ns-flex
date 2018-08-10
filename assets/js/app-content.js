@@ -46,7 +46,7 @@ var context = {
 		
 		"first-class": {
 			"heading": "Jij bepaalt.<br>Op elk moment",
-			"description": "Op langere reizen of drukkere trajecten kan het fijn zijn om soms ruimer, rustiger en luxer te reizen. Met NS Flex kun je het tot een kwartier nadat je incheckt nog switchen naar de 1e klas. Je kunt dus in de trein nog beslissen.",
+			"description": "Is het wat drukker in de trein? Met NS Flex switch je makkelijk naar 1e klas. Tot wel 15 minuten nadat je hebt ingecheckt. Ook fijn als je telefoon leeg is, want: stopcontacten.",
 			"img": "girl-blue.jpg",
 			"button": "Hoe werk het?",
 			"list": [
@@ -58,7 +58,7 @@ var context = {
 		
 		"abo": {
 			"heading": "Je zit nergens aan vast",
-			"description": "Flex is verkrijgbaar met of zonder onze abonnementen. Je bepaalt per maand of je met extra <b>korting</b> reist. Daarnaast kun je <b>maandelijks opzeggen</b> of aanpassen. Zonder kosten!",
+			"description": "NS Flex is verkrijgbaar met of zonder abonnement. Je bepaalt per maand of je met extra <b>korting</b> reist. Daarnaast kun je <b>maandelijks opzeggen</b> of je korting aanpassen. Zonder kosten!",
 			"more": "Meer over abonnementen",
 			"url": "/abonnementen.html",
 			"img": "abos-dal.png",
@@ -70,7 +70,7 @@ var context = {
 				"title": "Nooit meer saldo laden",
 			},{
 				"icon": "factuur",
-				"title": "1 overzichtelijke rekening van je reizen in het OV",
+				"title": "Altijd inzicht in je kosten",
 			},{
 				"icon": "exit",
 				"title": "Je zit nergens aan vast",
@@ -93,13 +93,11 @@ var context = {
 		},
 		
 		"faq": {
-			"heading": "Nog niet helemaal duidelijk?",	
+			"heading": "Nog niet alles duidelijk?",	
 			"questions": [
-				{"question": "Dit klinkt te goed om waar te zijn, what’s the catch?"},
-				{"question": "Wat kost het?"},
-				{"question": "Ik heb al een abonnement, kan ik dan ook NS Flex gebruiken?"},
-				{"question": "Wat gebeurt er met het saldo op mijn kaart?"},
-				{"question": "Ik heb nog meer vragen..."},
+				{"question": "€ 0 per maand, dat klinkt te mooi om waar te zijn. Zit er geen addertje onder het gras?"},
+				{"question": "Ik heb al een kortingsabonnement van NS. Kan ik NS Flex nemen?"},
+				{"question": "Er staat nog saldo op mijn OV-chipkaart. Wat gebeurt daarmee?"},
 			],
 		},
 	},
@@ -156,7 +154,7 @@ var context = {
 		"overview": {
 			"img": "abos-weekend.png",
 			"title": "Al voordeliger als je 1x reist in het weekend",
-			"description": "We hebben een nieuwe korting toegevoegd: Weekend Voordeel. Daarmee reis je met 40% korting in het weekend. Voor maar € 2 per maand!",
+			"description": "We hebben nieuwe korting toegevoegd: Weekend Voordeel. Daarmee reis je met 40% korting in het weekend. Voor maar € 2 per maand!",
 		},
 		
 		"summary": [
@@ -168,7 +166,7 @@ var context = {
 				"title": "Check <b>zorgeloos</b> in en uit zonder dat je saldo nodig hebt",
 			},{
 				"icon": "factuur",
-				"title": "Aan het einde van de maand sturen we je 1 <b>overzichtelijke</b> rekening",
+				"title": "Per maand sturen we je 1 <b>overzichtelijke</b> rekening",
 			},
 		],
 		
