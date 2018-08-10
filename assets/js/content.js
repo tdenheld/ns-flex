@@ -238,6 +238,18 @@ var context = {
 	},
 };
 
+// header and footer
+var header = document.getElementById("header");
+if (header) {
+	header.innerHTML = Handlebars.templates.header();
+};
+
+var footer = document.getElementById("footer");
+if (footer) {
+	footer.innerHTML = Handlebars.templates.footer();
+};
+
+// content
 var tell = document.getElementById("tell");
 if (tell) {
 	tell.innerHTML = Handlebars.templates.tell(context);

@@ -2327,6 +2327,26 @@
 		"sC": 0,
 		"tS": 0
 		},
+	"\/assets\/js\/decorator.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/assets\/js\/min\/decorator.min.js",
+		"oF": 2,
+		"sC": 0,
+		"tS": 0
+		},
+	"\/assets\/js\/min\/decorator.min.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/assets\/js\/min\/decorator.min.min.js",
+		"oF": 0,
+		"sC": 0,
+		"tS": 0
+		},
 	"\/assets\/js\/min\/ns.generic.min.js": {
 		"ft": 64,
 		"ma": 0,
@@ -2630,6 +2650,20 @@
 		"oF": 0,
 		"oS": 3,
 		"uL": 1
+		},
+	"\/components\/decorator\/footer.hbs": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/components\/decorator\/footer.hbs",
+		"oF": 0
+		},
+	"\/components\/decorator\/header.hbs": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/components\/decorator\/header.hbs",
+		"oF": 0
 		},
 	"\/components\/ros-abos.html": {
 		"cB": 0,
