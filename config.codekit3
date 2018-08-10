@@ -2327,26 +2327,6 @@
 		"sC": 0,
 		"tS": 0
 		},
-	"\/assets\/js\/decorator.js": {
-		"ft": 64,
-		"ma": 0,
-		"mi": 1,
-		"oA": 0,
-		"oAP": "\/assets\/js\/min\/decorator.min.js",
-		"oF": 2,
-		"sC": 0,
-		"tS": 0
-		},
-	"\/assets\/js\/min\/decorator.min.js": {
-		"ft": 64,
-		"ma": 0,
-		"mi": 1,
-		"oA": 0,
-		"oAP": "\/assets\/js\/min\/decorator.min.min.js",
-		"oF": 0,
-		"sC": 0,
-		"tS": 0
-		},
 	"\/assets\/js\/min\/ns.generic.min.js": {
 		"ft": 64,
 		"ma": 0,
@@ -2363,16 +2343,6 @@
 		"mi": 1,
 		"oA": 0,
 		"oAP": "\/assets\/js\/min\/plugins.min.min.js",
-		"oF": 0,
-		"sC": 0,
-		"tS": 0
-		},
-	"\/assets\/js\/min\/templates.min.js": {
-		"ft": 64,
-		"ma": 0,
-		"mi": 1,
-		"oA": 0,
-		"oAP": "\/assets\/js\/min\/templates.min.min.js",
 		"oF": 0,
 		"sC": 0,
 		"tS": 0
@@ -2403,7 +2373,7 @@
 		"mi": 1,
 		"oA": 0,
 		"oAP": "\/assets\/js\/min\/templates.min.js",
-		"oF": 2,
+		"oF": 3,
 		"sC": 0,
 		"tS": 0
 		},
@@ -2651,18 +2621,18 @@
 		"oS": 3,
 		"uL": 1
 		},
-	"\/components\/decorator\/footer.hbs": {
+	"\/components\/footer.html": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
-		"oAP": "\/components\/decorator\/footer.hbs",
+		"oAP": "\/components\/footer.html",
 		"oF": 0
 		},
-	"\/components\/decorator\/header.hbs": {
+	"\/components\/header.html": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
-		"oAP": "\/components\/decorator\/header.hbs",
+		"oAP": "\/components\/header.html",
 		"oF": 0
 		},
 	"\/components\/ros-abos.html": {
