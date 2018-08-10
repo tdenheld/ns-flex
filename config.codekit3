@@ -2347,6 +2347,16 @@
 		"sC": 0,
 		"tS": 0
 		},
+	"\/assets\/js\/min\/templates.min.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/assets\/js\/min\/templates.min.min.js",
+		"oF": 0,
+		"sC": 0,
+		"tS": 0
+		},
 	"\/assets\/js\/min\/tk.generic.min.js": {
 		"ft": 64,
 		"ma": 0,
