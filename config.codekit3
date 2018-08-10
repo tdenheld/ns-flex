@@ -2736,9 +2736,9 @@
 	"\/media\/flow\/flow-blue.svg": {
 		"ft": 2097152,
 		"miP": 0,
-		"oA": 2,
+		"oA": 1,
 		"oAP": "\/media\/flow\/flow-blue.svg",
-		"oF": 0,
+		"oF": 1,
 		"opt": 0,
 		"plM": 3758088159,
 		"prP": 0
@@ -2746,9 +2746,9 @@
 	"\/media\/flow\/flow-white.svg": {
 		"ft": 2097152,
 		"miP": 0,
-		"oA": 2,
+		"oA": 1,
 		"oAP": "\/media\/flow\/flow-white.svg",
-		"oF": 0,
+		"oF": 1,
 		"opt": 0,
 		"plM": 3758088159,
 		"prP": 0
@@ -2756,9 +2756,9 @@
 	"\/media\/flow\/flow-yellow.svg": {
 		"ft": 2097152,
 		"miP": 0,
-		"oA": 2,
+		"oA": 1,
 		"oAP": "\/media\/flow\/flow-yellow.svg",
-		"oF": 0,
+		"oF": 1,
 		"opt": 0,
 		"plM": 3758088159,
 		"prP": 0
@@ -2767,9 +2767,9 @@
 		"ft": 16384,
 		"iS": 98673,
 		"jF": 0,
-		"oA": 0,
+		"oA": 1,
 		"oAP": "\/media\/girl-baloon.jpg",
-		"oF": 0,
+		"oF": 1,
 		"oIPL": 1,
 		"opt": 1,
 		"q": 80
@@ -2789,100 +2789,100 @@
 		"ft": 16384,
 		"iS": 244470,
 		"jF": 0,
-		"oA": 0,
+		"oA": 1,
 		"oAP": "\/media\/hero\/hero-abo.jpg",
-		"oF": 0,
+		"oF": 1,
 		"oIPL": 0,
 		"opt": 0,
-		"q": 80
+		"q": 100
 		},
 	"\/media\/hero\/nsflex-sell-hero-ahmed.jpg": {
 		"ft": 16384,
 		"iS": 237093,
 		"jF": 0,
-		"oA": 0,
+		"oA": 1,
 		"oAP": "\/media\/hero\/nsflex-sell-hero-ahmed.jpg",
-		"oF": 0,
+		"oF": 1,
 		"oIPL": 0,
 		"opt": 0,
-		"q": 80
+		"q": 100
 		},
 	"\/media\/hero\/nsflex-sell-hero-elise.jpg": {
 		"ft": 16384,
 		"iS": 248064,
 		"jF": 0,
-		"oA": 0,
+		"oA": 1,
 		"oAP": "\/media\/hero\/nsflex-sell-hero-elise.jpg",
-		"oF": 0,
+		"oF": 1,
 		"oIPL": 0,
 		"opt": 0,
-		"q": 80
+		"q": 100
 		},
 	"\/media\/hero\/nsflex-sell-hero-hakim.jpg": {
 		"ft": 16384,
 		"iS": 213616,
 		"jF": 0,
-		"oA": 0,
+		"oA": 1,
 		"oAP": "\/media\/hero\/nsflex-sell-hero-hakim.jpg",
-		"oF": 0,
+		"oF": 1,
 		"oIPL": 0,
 		"opt": 0,
-		"q": 80
+		"q": 100
 		},
 	"\/media\/hero\/nsflex-sell-hero-marcia.jpg": {
 		"ft": 16384,
 		"iS": 193634,
 		"jF": 0,
-		"oA": 0,
+		"oA": 1,
 		"oAP": "\/media\/hero\/nsflex-sell-hero-marcia.jpg",
-		"oF": 0,
+		"oF": 1,
 		"oIPL": 0,
 		"opt": 0,
-		"q": 80
+		"q": 100
 		},
 	"\/media\/hero\/nsflex-tell-hero-ahmed.jpg": {
 		"ft": 16384,
 		"iS": 313555,
 		"jF": 0,
-		"oA": 0,
+		"oA": 1,
 		"oAP": "\/media\/hero\/nsflex-tell-hero-ahmed.jpg",
-		"oF": 0,
+		"oF": 1,
 		"oIPL": 0,
 		"opt": 0,
-		"q": 80
+		"q": 100
 		},
 	"\/media\/hero\/nsflex-tell-hero-elise.jpg": {
 		"ft": 16384,
 		"iS": 293049,
 		"jF": 0,
-		"oA": 0,
+		"oA": 1,
 		"oAP": "\/media\/hero\/nsflex-tell-hero-elise.jpg",
-		"oF": 0,
+		"oF": 1,
 		"oIPL": 0,
 		"opt": 0,
-		"q": 80
+		"q": 100
 		},
 	"\/media\/hero\/nsflex-tell-hero-hakim.jpg": {
 		"ft": 16384,
 		"iS": 268367,
 		"jF": 0,
-		"oA": 0,
+		"oA": 1,
 		"oAP": "\/media\/hero\/nsflex-tell-hero-hakim.jpg",
-		"oF": 0,
+		"oF": 1,
 		"oIPL": 0,
 		"opt": 0,
-		"q": 80
+		"q": 100
 		},
 	"\/media\/hero\/nsflex-tell-hero-marcia.jpg": {
 		"ft": 16384,
 		"iS": 252786,
 		"jF": 0,
-		"oA": 0,
+		"oA": 1,
 		"oAP": "\/media\/hero\/nsflex-tell-hero-marcia.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"q": 80
+		"oF": 1,
+		"oIPL": 1,
+		"opt": 1,
+		"q": 100
 		},
 	"\/media\/hoewerkt1.jpg": {
 		"ft": 16384,
@@ -2920,9 +2920,9 @@
 	"\/media\/icons\/binoculars.svg": {
 		"ft": 2097152,
 		"miP": 0,
-		"oA": 2,
+		"oA": 1,
 		"oAP": "\/media\/icons\/binoculars.svg",
-		"oF": 0,
+		"oF": 1,
 		"opt": 0,
 		"plM": 3758088159,
 		"prP": 0
@@ -2930,9 +2930,9 @@
 	"\/media\/icons\/checkout.svg": {
 		"ft": 2097152,
 		"miP": 0,
-		"oA": 2,
+		"oA": 1,
 		"oAP": "\/media\/icons\/checkout.svg",
-		"oF": 0,
+		"oF": 1,
 		"opt": 0,
 		"plM": 3758088159,
 		"prP": 0
@@ -2940,9 +2940,9 @@
 	"\/media\/icons\/discount.svg": {
 		"ft": 2097152,
 		"miP": 0,
-		"oA": 2,
+		"oA": 1,
 		"oAP": "\/media\/icons\/discount.svg",
-		"oF": 0,
+		"oF": 1,
 		"opt": 0,
 		"plM": 3758088159,
 		"prP": 0
@@ -2950,9 +2950,9 @@
 	"\/media\/icons\/exit--left.svg": {
 		"ft": 2097152,
 		"miP": 0,
-		"oA": 2,
+		"oA": 1,
 		"oAP": "\/media\/icons\/exit--left.svg",
-		"oF": 0,
+		"oF": 1,
 		"opt": 0,
 		"plM": 3758088159,
 		"prP": 0
@@ -2960,9 +2960,9 @@
 	"\/media\/icons\/exit.svg": {
 		"ft": 2097152,
 		"miP": 0,
-		"oA": 2,
+		"oA": 1,
 		"oAP": "\/media\/icons\/exit.svg",
-		"oF": 0,
+		"oF": 1,
 		"opt": 0,
 		"plM": 3758088159,
 		"prP": 0
@@ -2970,9 +2970,9 @@
 	"\/media\/icons\/factuur--left.svg": {
 		"ft": 2097152,
 		"miP": 0,
-		"oA": 2,
+		"oA": 1,
 		"oAP": "\/media\/icons\/factuur--left.svg",
-		"oF": 0,
+		"oF": 1,
 		"opt": 0,
 		"plM": 3758088159,
 		"prP": 0
@@ -2980,9 +2980,9 @@
 	"\/media\/icons\/factuur.svg": {
 		"ft": 2097152,
 		"miP": 0,
-		"oA": 2,
+		"oA": 1,
 		"oAP": "\/media\/icons\/factuur.svg",
-		"oF": 0,
+		"oF": 1,
 		"opt": 0,
 		"plM": 3758088159,
 		"prP": 0
@@ -2990,9 +2990,9 @@
 	"\/media\/icons\/filter--small.svg": {
 		"ft": 2097152,
 		"miP": 0,
-		"oA": 2,
+		"oA": 1,
 		"oAP": "\/media\/icons\/filter--small.svg",
-		"oF": 0,
+		"oF": 1,
 		"opt": 0,
 		"plM": 3758088159,
 		"prP": 0
@@ -3000,9 +3000,9 @@
 	"\/media\/icons\/filter.svg": {
 		"ft": 2097152,
 		"miP": 0,
-		"oA": 2,
+		"oA": 1,
 		"oAP": "\/media\/icons\/filter.svg",
-		"oF": 0,
+		"oF": 1,
 		"opt": 0,
 		"plM": 3758088159,
 		"prP": 0
@@ -3010,9 +3010,9 @@
 	"\/media\/icons\/heart--small.svg": {
 		"ft": 2097152,
 		"miP": 0,
-		"oA": 2,
+		"oA": 1,
 		"oAP": "\/media\/icons\/heart--small.svg",
-		"oF": 0,
+		"oF": 1,
 		"opt": 0,
 		"plM": 3758088159,
 		"prP": 0
@@ -3020,9 +3020,9 @@
 	"\/media\/icons\/heart.svg": {
 		"ft": 2097152,
 		"miP": 0,
-		"oA": 2,
+		"oA": 1,
 		"oAP": "\/media\/icons\/heart.svg",
-		"oF": 0,
+		"oF": 1,
 		"opt": 0,
 		"plM": 3758088159,
 		"prP": 0
@@ -3030,9 +3030,9 @@
 	"\/media\/icons\/invoice.svg": {
 		"ft": 2097152,
 		"miP": 0,
-		"oA": 2,
+		"oA": 1,
 		"oAP": "\/media\/icons\/invoice.svg",
-		"oF": 0,
+		"oF": 1,
 		"opt": 0,
 		"plM": 3758088159,
 		"prP": 0
@@ -3040,9 +3040,9 @@
 	"\/media\/icons\/kalender.svg": {
 		"ft": 2097152,
 		"miP": 0,
-		"oA": 2,
+		"oA": 1,
 		"oAP": "\/media\/icons\/kalender.svg",
-		"oF": 0,
+		"oF": 1,
 		"opt": 0,
 		"plM": 3758088159,
 		"prP": 0
@@ -3050,9 +3050,9 @@
 	"\/media\/icons\/ov-chip--left.svg": {
 		"ft": 2097152,
 		"miP": 0,
-		"oA": 2,
+		"oA": 1,
 		"oAP": "\/media\/icons\/ov-chip--left.svg",
-		"oF": 0,
+		"oF": 1,
 		"opt": 0,
 		"plM": 3758088159,
 		"prP": 0
@@ -3060,9 +3060,9 @@
 	"\/media\/icons\/ov-chip.svg": {
 		"ft": 2097152,
 		"miP": 0,
-		"oA": 2,
+		"oA": 1,
 		"oAP": "\/media\/icons\/ov-chip.svg",
-		"oF": 0,
+		"oF": 1,
 		"opt": 0,
 		"plM": 3758088159,
 		"prP": 0
@@ -3070,9 +3070,9 @@
 	"\/media\/icons\/public-transport.svg": {
 		"ft": 2097152,
 		"miP": 0,
-		"oA": 2,
+		"oA": 1,
 		"oAP": "\/media\/icons\/public-transport.svg",
-		"oF": 0,
+		"oF": 1,
 		"opt": 0,
 		"plM": 3758088159,
 		"prP": 0
@@ -3103,9 +3103,9 @@
 		"ft": 16384,
 		"iS": 125313,
 		"jF": 0,
-		"oA": 0,
+		"oA": 1,
 		"oAP": "\/media\/ov\/girl-bike.jpg",
-		"oF": 0,
+		"oF": 1,
 		"oIPL": 0,
 		"opt": 0,
 		"q": 80
@@ -3114,9 +3114,9 @@
 		"ft": 16384,
 		"iS": 6222395,
 		"jF": 0,
-		"oA": 0,
+		"oA": 1,
 		"oAP": "\/media\/ov\/placeholder.jpg",
-		"oF": 0,
+		"oF": 1,
 		"oIPL": 1,
 		"opt": 1,
 		"q": 80
@@ -3125,9 +3125,9 @@
 		"ft": 16384,
 		"iS": 514742,
 		"jF": 0,
-		"oA": 0,
+		"oA": 1,
 		"oAP": "\/media\/ov\/tram.jpg",
-		"oF": 0,
+		"oF": 1,
 		"oIPL": 0,
 		"opt": 0,
 		"q": 80
