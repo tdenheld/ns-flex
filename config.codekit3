@@ -2317,23 +2317,63 @@
 		"plM": 3758088159,
 		"prP": 0
 		},
-	"\/assets\/js\/app-content.js": {
+	"\/assets\/js\/content.js": {
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
 		"oA": 1,
-		"oAP": "\/assets\/js\/app-content.min.js",
-		"oF": 0,
+		"oAP": "\/assets\/js\/content.min.js",
+		"oF": 1,
 		"sC": 0,
 		"tS": 0
 		},
-	"\/assets\/js\/ns.generic.min.js": {
+	"\/assets\/js\/min\/ns.generic.min.js": {
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
 		"oA": 0,
-		"oAP": "\/assets\/js\/ns.generic.min.min.js",
+		"oAP": "\/assets\/js\/min\/ns.generic.min.min.js",
 		"oF": 0,
+		"sC": 0,
+		"tS": 0
+		},
+	"\/assets\/js\/min\/plugins.min.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/assets\/js\/min\/plugins.min.min.js",
+		"oF": 0,
+		"sC": 0,
+		"tS": 0
+		},
+	"\/assets\/js\/min\/templates.min.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/assets\/js\/min\/templates.min.min.js",
+		"oF": 0,
+		"sC": 0,
+		"tS": 0
+		},
+	"\/assets\/js\/min\/tk.generic.min.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/assets\/js\/min\/tk.generic.min.min.js",
+		"oF": 0,
+		"sC": 0,
+		"tS": 0
+		},
+	"\/assets\/js\/plugins.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/assets\/js\/min\/plugins.min.js",
+		"oF": 2,
 		"sC": 0,
 		"tS": 0
 		},
@@ -2341,10 +2381,10 @@
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
-		"oA": 1,
-		"oAP": "\/assets\/js\/templates.min.js",
-		"oF": 0,
-		"sC": 1,
+		"oA": 0,
+		"oAP": "\/assets\/js\/min\/templates.min.js",
+		"oF": 2,
+		"sC": 0,
 		"tS": 0
 		},
 	"\/assets\/js\/tk.generic.js": {
@@ -2352,19 +2392,9 @@
 		"ma": 0,
 		"mi": 1,
 		"oA": 0,
-		"oAP": "\/assets\/js\/tk.generic.min.js",
-		"oF": 0,
+		"oAP": "\/assets\/js\/min\/tk.generic.min.js",
+		"oF": 3,
 		"sC": 0,
-		"tS": 0
-		},
-	"\/assets\/js\/tk.generic.min.js": {
-		"ft": 64,
-		"ma": 0,
-		"mi": 1,
-		"oA": 0,
-		"oAP": "\/assets\/js\/tk.generic.min.min.js",
-		"oF": 0,
-		"sC": 1,
 		"tS": 0
 		},
 	"\/assets\/sass\/_style.scss": {
@@ -3044,6 +3074,17 @@
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
+		"q": 80
+		},
+	"\/media\/ov\/placeholder.jpg": {
+		"ft": 16384,
+		"iS": 6222395,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "\/media\/ov\/placeholder.jpg",
+		"oF": 0,
+		"oIPL": 1,
+		"opt": 1,
 		"q": 80
 		},
 	"\/media\/ov\/tram.jpg": {
@@ -4688,7 +4729,7 @@
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
-		"oA": 1,
+		"oA": 2,
 		"oAP": "\/node_modules\/scrollmagic\/scrollmagic\/minified\/ScrollMagic.min.js",
 		"oF": 0,
 		"sC": 0,
@@ -4718,7 +4759,7 @@
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
-		"oA": 2,
+		"oA": 1,
 		"oAP": "\/node_modules\/scrollmagic\/scrollmagic\/uncompressed\/plugins\/debug.addIndicators.js",
 		"oF": 0,
 		"sC": 0,
@@ -4738,7 +4779,7 @@
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
-		"oA": 2,
+		"oA": 1,
 		"oAP": "\/node_modules\/scrollmagic\/scrollmagic\/uncompressed\/ScrollMagic.js",
 		"oF": 0,
 		"sC": 0,
@@ -4801,7 +4842,7 @@
 		}
 	],
 "manualImportLinks": {
-	"\/assets\/js\/tk.generic.js": [
+	"\/assets\/js\/plugins.js": [
 		{
 			"followForSyntaxChecking": 1,
 			"linkedFileAbbreviatedPath": "\/node_modules\/handlebars\/dist\/handlebars.runtime.min.js",
@@ -4810,39 +4851,33 @@
 			},
 		{
 			"followForSyntaxChecking": 1,
-			"linkedFileAbbreviatedPath": "\/assets\/js\/templates.js",
+			"linkedFileAbbreviatedPath": "\/node_modules\/gsap\/TimelineMax.js",
 			"position": 1,
 			"type": 0
 			},
 		{
 			"followForSyntaxChecking": 1,
-			"linkedFileAbbreviatedPath": "\/node_modules\/gsap\/TimelineMax.js",
+			"linkedFileAbbreviatedPath": "\/node_modules\/gsap\/TweenMax.js",
 			"position": 2,
 			"type": 0
 			},
 		{
 			"followForSyntaxChecking": 1,
-			"linkedFileAbbreviatedPath": "\/node_modules\/gsap\/TweenMax.js",
+			"linkedFileAbbreviatedPath": "\/node_modules\/gsap\/plugins\/ScrollToPlugin.js",
 			"position": 3,
 			"type": 0
 			},
 		{
 			"followForSyntaxChecking": 1,
-			"linkedFileAbbreviatedPath": "\/node_modules\/gsap\/plugins\/ScrollToPlugin.js",
+			"linkedFileAbbreviatedPath": "\/node_modules\/scrollmagic\/scrollmagic\/uncompressed\/ScrollMagic.js",
 			"position": 4,
 			"type": 0
 			},
 		{
 			"followForSyntaxChecking": 1,
-			"linkedFileAbbreviatedPath": "\/node_modules\/scrollmagic\/scrollmagic\/minified\/ScrollMagic.min.js",
+			"linkedFileAbbreviatedPath": "\/node_modules\/scrollmagic\/scrollmagic\/uncompressed\/plugins\/debug.addIndicators.js",
 			"position": 5,
 			"type": 0
-			},
-		{
-			"followForSyntaxChecking": 1,
-			"linkedFileAbbreviatedPath": "\/assets\/js\/app-content.js",
-			"position": 6,
-			"type": 1
 			}
 		]
 	},

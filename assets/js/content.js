@@ -16,6 +16,7 @@ var context = {
 	"tell": {
 		"hero": {
 			"subtitle": "De makkelijkste manier om te reizen in het OV",
+			"img": "hakim",
 		},		
 		"button-cta": "Ja ik wil NS Flex",		
 		"section": [
@@ -34,6 +35,7 @@ var context = {
 		],
 		
 		"ov": {
+			"img": "girl-bike",
 			"heading": "Flexibel in het gehele OV",
 			"description": "NS Flex werkt in het hele OV in Nederland. Je kunt ermee betalen in trein, metro, tram en bus. Ga je graag met de fiets? Pak overal in Nederland een OV-fiets of maak gebruik van een bewaakte stalling.",
 		},
@@ -190,6 +192,10 @@ var context = {
 	// ------------------------------------------------------------------------------------------
 	// ------------------------------------------------------------------------------------------
 	"sell": {
+		"hero": {
+			"img": "elise",
+		},
+		
 		"price": "€ 0",
 		"unit": " / mnd",
 		"usps": {

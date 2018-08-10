@@ -26,7 +26,39 @@ $hero-height-smaller: 560px;
 .flx-hero__img {
 	@include full(absolute);
 	@include bg(cover);
-	background-image: url("../../media/hero/nsflex-tell-hero-hakim.jpg");
+		
+	// tell page
+	&--tell-hakim {
+		background-image: url("../../media/hero/nsflex-tell-hero-hakim.jpg");
+	}
+	&--tell-elise {
+		background-image: url("../../media/hero/nsflex-tell-hero-elise.jpg");
+	}
+	&--tell-marcia {
+		background-image: url("../../media/hero/nsflex-tell-hero-marcia.jpg");
+	}
+	&--tell-ahmed {
+		background-image: url("../../media/hero/nsflex-tell-hero-ahmed.jpg");
+	}	
+	
+	// sell page
+	&--sell-hakim {
+		background-image: url("../../media/hero/nsflex-sell-hero-hakim.jpg");
+	}
+	&--sell-elise {
+		background-image: url("../../media/hero/nsflex-sell-hero-elise.jpg");
+	}
+	&--sell-marcia {
+		background-image: url("../../media/hero/nsflex-sell-hero-marcia.jpg");
+	}
+	&--sell-ahmed {
+		background-image: url("../../media/hero/nsflex-sell-hero-ahmed.jpg");
+	}
+	
+	// abonnementen
+	&--abo {
+		background-image: url("../../media/hero/hero-abo.jpg");
+	}
 }
 
 .flx-hero__flow {	
@@ -167,20 +199,3 @@ $hero-height-smaller: 560px;
 		}
 	}
 }
-
-// abonnementen
-.flx-hero--abo {
-	.flx-hero__img {
-		background-image: url("../../media/hero/hero-abo.jpg");
-	}
-}
-
-// sell
-.flx-hero--sell {
-	display: flex;
-	align-items: center;
-	
-	.flx-hero__img {
-		background-image: url("../../media/hero/nsflex-sell-hero-elise.jpg");
-	}
-} 
