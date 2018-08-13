@@ -219,7 +219,7 @@ var context = {
 			
 		"chipcards": {
 			"img": "girl-baloon.jpg",
-			"heading": "Je kunt direct instappen",
+			"heading": "Je kunt direct inchecken",
 			"item": [
 				{
 					"title": "Met je eigen OV-chipkaart",
@@ -233,7 +233,7 @@ var context = {
 		
 		"costs": {
 			"heading": "Alles staat voor je klaar",
-			"description": "Nog geen Mijn NS-account? Wij zetten na je bestelling meteen een Mijn NS-account voor je klaar. Je hoeft alleen maar op bevestigen te klikken. Zo heb je direct volledig inzicht in je reiskosten.",
+			"description": "Altijd en overal inzicht in de reiskosten met Mijn NS. Heb je nog geen Mijn NS-account? Wij zetten na je bestelling meteen een voor je klaar. Je hoeft alleen maar op bevestigen te klikken.",
 		},
 	},
 };
