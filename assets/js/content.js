@@ -90,7 +90,7 @@ var context = {
 		},
 		
 		"testimonial": {
-			"quote": "<q>Veel klanten lieten ons weten het gedoe met saldo op hun OV-chipkaart vervelend te vinden. We denken dat we met NS Flex reizen met het OV veel prettiger maken.</q>",	
+			"quote": "<q>Veel klanten lieten ons weten saldo op hun OV-chipkaart maar gedoe te vinden. Met NS Flex willen we reizen in het OV veel prettiger maken.</q>",	
 			"sender": "<b>Marieke van NS Flex</b>",
 		},
 		
