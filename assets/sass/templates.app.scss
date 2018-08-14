@@ -60,27 +60,6 @@
 	}
 }
 
-.flx-costs__img {
-	position: relative;
-	padding: 0 $gutter;
-	bottom: -10px;
-	width: 100%;
-	max-width: 480px;
-	@include sm {
-		position: absolute;
-		padding: 0;
-		right: 0;
-		width: 40%;
-	}
-	
-	&--left {
-		@include sm {
-			left: 8%;
-			right: auto;
-		}
-	}
-}
-
 
 // summary
 // ----------------------------

@@ -144,6 +144,20 @@
 		}
 	}
 	
+	&--clip {
+		align-self: end;
+		padding-bottom: 0;
+		padding-top: 0;
+		width: 100%;
+		max-width: 440px;
+		@include sm {
+			padding-top: $double-gutter;
+		}
+		@include md {
+			max-width: none;
+		}
+	}
+	
 	&--shadow {
 		box-shadow: $box-shadow-medium;
 	}
