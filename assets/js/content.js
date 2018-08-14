@@ -35,7 +35,6 @@ var context = {
 		],
 		
 		"ov": {
-			"img": "girl-bike",
 			"heading": "Flexibel in het gehele OV",
 			"description": "NS Flex werkt in het hele OV in Nederland. Je kunt ermee betalen in trein, metro, tram en bus. Ga je graag met de fiets? Pak overal in Nederland een OV-fiets of maak gebruik van een bewaakte stalling.",
 		},
@@ -49,7 +48,7 @@ var context = {
 		"first-class": {
 			"heading": "Jij bepaalt.<br>Op elk moment",
 			"description": "Is het wat drukker in de trein? Met NS Flex switch je makkelijk naar 1e klas. Tot wel 15 minuten nadat je hebt ingecheckt. Ook fijn als je telefoon leeg is, want: stopcontacten.",
-			"img": "girl-blue.jpg",
+			"img": "girl-wink.jpg",
 			"button": "Hoe werk het?",
 			"list": [
 				{"item": "Ga naar Mijn NS"},
@@ -218,7 +217,7 @@ var context = {
 		},
 			
 		"chipcards": {
-			"img": "girl-baloon.jpg",
+			"img": "girl-bubblegum.jpg",
 			"heading": "Je kunt direct inchecken",
 			"item": [
 				{

@@ -21,19 +21,10 @@
 	position: absolute;
 	width: 100%;
 	height: 40vh;
+	background-image: url("../../media/ov.jpg");
 	@include bg(cover);
 	@include md {
 		height: 100%;
-	}
-	
-	&--placeholder {
-		background-image: url("../../media/ov/placeholder.jpg");
-	}
-	&--girl-bike {
-		background-image: url("../../media/ov/girl-bike.jpg");
-	}
-	&--tram {
-		background-image: url("../../media/ov/tram.jpg");
 	}
 }
 
