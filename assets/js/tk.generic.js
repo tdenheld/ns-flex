@@ -10,6 +10,7 @@ var window_width = Number;
 var window_height = Number;
 var mobile = Boolean;
 var scrolled = false;
+var trigger = Number;
 
 
 	
@@ -22,8 +23,10 @@ function update_window_size() {
 	// set breakpoints
 	if (window_width > 912) {
 		mobile = false;
+		trigger = 0.86;
 	} else {
 		mobile = true;
+		trigger = 0.8;
 	};
 };
 update_window_size();
@@ -78,7 +81,7 @@ function scroll_trigger(i) {
 			triggerElement:	el,
 			duration: 999999,
 		})
-		.triggerHook(0.86)
+		.triggerHook(trigger)
 		.offset(0)
 		.on("start", function(){
 			$(bg).toggleClass("is-active");
