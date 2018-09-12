@@ -4795,13 +4795,6 @@
 		"sC": 0,
 		"tS": 0
 		},
-	"\/ns-flex.code-workspace": {
-		"cB": 0,
-		"ft": 8192,
-		"oA": 0,
-		"oAP": "\/ns-flex.code-workspace",
-		"oF": 0
-		},
 	"\/package-lock.json": {
 		"ft": 524288,
 		"oA": 1,
