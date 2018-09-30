@@ -49,7 +49,7 @@ var context = {
 			"heading": "Jij bepaalt.<br>Op elk moment",
 			"description": "Is het wat drukker in de trein? Met NS Flex switch je makkelijk naar 1e klas. Tot wel 15 minuten nadat je hebt ingecheckt. Ook fijn als je telefoon leeg is, want: stopcontacten.",
 			"img": "girl-wink.jpg",
-			"button": "Hoe werk het?",
+			"button": "Hoe werkt het?",
 			"list": [
 				{"item": "Ga naar Mijn NS"},
 				{"item": "Switch van klasse op het dashboard"},
