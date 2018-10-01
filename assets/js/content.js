@@ -108,6 +108,11 @@ var context = {
 	// ------------------------------------------------------------------------------------------
 	// ------------------------------------------------------------------------------------------	
 	"abos": {
+        "nav-bb": [
+            {"item": "Flexibele abonnementen"},
+            {"item": "Klassieke abonnementen"},
+            {"item": "Zakelijke abonnementen"},
+        ],
 		"title": "Abonnementen",
 		"subtitle": "Nieuw: Flexibele abonnementen",
 		"button-cta": "Bekijk abonnementen",

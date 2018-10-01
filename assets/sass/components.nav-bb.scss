@@ -1,0 +1,76 @@
+/*-------------------
+      subnavbar
+--------------------*/
+
+.flx-nav-bb {
+    width: 100%;
+    height: 40px;
+    background-color: $ns-white;
+    color: $ns-light-blue;
+    line-height: 2.4;
+}
+
+.flx-nav-bb__grid {
+    display: grid;
+    grid-template-columns: max-content 1fr max-content;
+    align-items: center;
+    padding: 0 $gutter;
+
+    @include sm {
+        float: right;
+    }
+}
+
+.flx-nav-bb__scroller {
+    overflow: auto;
+    white-space: nowrap;
+    width: auto;
+
+    // scrollbar
+    // ---------------------------------
+    &::-webkit-scrollbar {
+        width: 0;
+        height: 0;
+    }
+}
+
+.flx-nav-bb__item {
+    display: inline-block;
+    margin-right: 10px;
+    @include font-style(14px, normal, inherit);
+    @include sm {
+        margin-left: 10px;
+        margin-right: 0;
+    }
+}
+
+.flx-nav-bb__icon {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    height: 100%;
+    width: $button-height;
+    cursor: pointer;
+
+    svg {
+        fill: $ns-light-blue;
+        transition: $fade-all;
+
+        &:hover {
+            fill: $ns-blue;
+        }
+    }
+
+    &--next {
+        margin-right: -19px;
+    }
+
+    &--prev {
+        margin-left: -19px;
+
+        svg {
+            transform: rotate(180deg);
+        }
+    }
+}

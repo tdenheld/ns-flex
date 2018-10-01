@@ -1,178 +1,191 @@
+<div class="flx-nav-bb">
+    <div class="container ovr-container">
+        <div class="flx-nav-bb__grid">
+            <span class="flx-nav-bb__icon flx-nav-bb__icon--prev js-app-nav-prev visible-xs" include="../assets/img/icons/chevron-m--small.svg"></span>
+            <div class="flx-nav-bb__scroller js-app-nav-scroller">
+                {{#each abos.nav-bb}}
+                <span class="flx-nav-bb__item">{{item}}</span>
+                {{/each}}
+            </div>
+            <span class="flx-nav-bb__icon flx-nav-bb__icon--next js-app-nav-next visible-xs" include="../assets/img/icons/chevron-m--small.svg"></span>
+        </div>
+    </div>
+</div>
+
 <div class="bg-grey-7">
-	
-	<!-- hero -->
-	<div class="flx-hero flx-hero--small">
-		<div class="flx-hero__bg">
-			<div class="a a-fi">
-				<div class="full-absolute gd-r70-50-vivid"></div>
-				<div class="flx-hero__img flx-hero__img--abo"></div>
-			</div>
-<!-- 			<div class="flx-hero__flow-small" include="../media/flow/flow-white.svg"></div> -->
-		</div>
-		<div class="a a-fi-up-s a-del-500">
-			<div class="container ovr-container">
-				<div class="flx-hero__content">
-					<h1 class="flx-hero__title f-white ts-2">{{abos.title}}</h1> 
-					<h2 class="flx-hero__subtitle f-white ts-2">{{abos.subtitle}}</h2>
-					<a href="{{global.cta.url}}" class="button button--nsYellow btn--yellow">
-						{{abos.button-cta}}
-					</a>
-				</div>
-			</div>
-		</div>
-	</div>
-	
-	<!-- container -->
-	<div class="container flx-abos__container">
-				
-		<!-- intro -->
-		{{#each abos.usps}}
-		<div class="flx-section flx-section--usps a a-fi a-del-600">
-			<div class="flx-section__content--mw-800">
-				<div class="g g-m-1-md items-center a a-fi a-del-750">
-					<div class="flx-section__img flx-section__img--abo {{#unless @first}}tr-si tr-500 js-tr{{/unless}}">
-						<img src="../media/icons/{{icon}}" class="w-100" />
-					</div>
-					<div class="flx-section__content">
-						<h3 class="flx-section__content-item flx-section__title flx-section__title--small tr-stag js-tr">
-							{{{title}}}
-						</h3>
-					</div>
-				</div>
-			</div>
-		</div>
-		{{/each}}	
-			
-		<!-- stories -->
-		<div class="flx-section__container flx-section__container--small mh-4 bo-v">
-			<div class="flx-section">
-				<div class="flx-section__content flx-section__content--mw-800 txt-c">	
-					<h3 class="flx-section__title tr-stag js-tr">
-						<b>{{{abos.stories.heading}}}</b>
-					</h3>
-				</div>
-			</div>		
-			{{#each abos.stories.item}}
-			<div class="flx-section">
-				<div class="flx-stories__item">
-					<img src="../media/{{img}}" class="flx-stories__img tr-si tr-500 js-tr">
-					<div class="flx-stories__month tr-stag js-tr">
-						<div include="../assets/img/icons/calendar--medium.svg"></div>
-						<p class="flx-stories__month-label">{{month}}</p>
-					</div>
-					<div class="flx-stories__content">
-						<h4 class="flx-stories__title tr-stag js-tr">{{title}}</h4>
-						<p class="flx-stories__description tr-stag js-tr">{{description}}</p>
-						<div class="flx-stories__suggestion tr-stag js-tr">
-							<div class="flx-stories__line"></div>
-							{{suggestion}}
-						</div>
-					</div>
-				</div>
-			</div>
-			{{/each}}
-		</div>
-		
-		<!-- inzicht kosten -->
-		<div class="flx-section">
-			<div class="flx-costs mh-4 bg-white bo-b">
-				<div class="container ovr-container">
-					<div class="g g-2-sm">		
-						<div class="flx-costs__content flx-costs__content--contained order-3-sm">
-							<h3 class="flx-section__content-item flx-section__title flx-section__title--small tr-stag js-tr">
-								<b>{{abos.costs.heading}}</b>
-							</h3>
-							<p class="flx-section__content-item flx-section__description tr-stag js-tr">
-								{{{abos.costs.description}}}
-							</p>
-						</div>
-						<div class="flx-section__img flx-section__img--clip tr-si tr-500 js-tr">
-							<img src="../media/{{tell.costs.img}}" class="w-100" />
-						</div>
-					</div>
-				</div>
-			</div>
-		</div>
 
-		<!-- overview -->
-		<div class="flx-section">
-			<div class="flx-section__container flx-section__container--small bg-white">
-				<div class="g g-2-md items-center">
-					<div class="flx-section__img flx-section__img--100 w-80-md tr-si tr-500 js-tr order-3-md">
-						<img src="../media/{{abos.overview.img}}" class="w-100" />
-					</div>		
-					<div class="flx-section__content pl-8-md">
-						<h3 class="flx-section__content-item flx-section__title flx-section__title--small tr-stag js-tr">
-							<b>{{{abos.overview.title}}}</b>
-						</h3>
-						<p class="flx-section__content-item flx-section__description tr-stag js-tr">
-							{{{abos.overview.description}}}
-						</p>
-					</div>
-				</div>
-			</div>
-		</div>
+    <!-- hero -->
+    <div class="flx-hero flx-hero--small">
+        <div class="flx-hero__bg">
+            <div class="a a-fi">
+                <div class="full-absolute gd-r70-50-vivid"></div>
+                <div class="flx-hero__img flx-hero__img--abo"></div>
+            </div>
+        </div>
+        <div class="a a-fi-up-s a-del-500">
+            <div class="container ovr-container">
+                <div class="flx-hero__content">
+                    <h1 class="flx-hero__title f-white ts-2">{{abos.title}}</h1>
+                    <h2 class="flx-hero__subtitle f-white ts-2">{{abos.subtitle}}</h2>
+                    <a href="{{global.cta.url}}" class="button button--nsYellow btn--yellow">
+                        {{abos.button-cta}}
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
 
-		<!-- summary -->
-		<div class="flx-section">
-			<div class="flx-section__container flx-section__container--small mh-4 bo-t">
-				<div class="flx-summary pa-0">
-					{{#each abos.summary}}
-					<div class="flx-summary__item tr-stag js-tr">
-						<div class="flx-summary__icon" include="../media/icons/{{icon}}.svg"></div>
-						<h3 class="flx-summary__title">{{{title}}}</h3>
-					</div>
-					{{/each}}
-				</div>
-			</div>
-		</div>
+    <!-- container -->
+    <div class="container flx-abos__container">
 
-		<!-- call to action -->
-		<div class="flx-section">
-			<div class="flx-section__container gd-110-yellow">
-				<div class="flx-section__content flx-section__content--mw-800 txt-c">
-					<h3 class="flx-section__title tr-stag js-tr"><b>{{{abos.cta.heading}}}</b></h3>
-					<p class="flx-section__description flx-section__content--mw-800 txt-c tr-stag js-tr">{{{abos.cta.description}}}</p>
-					<div class="tr-stag js-tr mb-2">
-						<a href="{{global.cta.url}}" class="button btn--blue">
-							{{abos.button-cta}}
-						</a>
-					</div>
-					<div class="tr-stag js-tr">
-						<a href="/" class="flx-link">{{abos.cta.link}}</a>
-					</div>
-				</div>
-			</div>
-			<div class="pv-1 ph-4 tr-stag js-tr">
-				<p class="f14 f-grey-4 ma-0 txt-c lh-title">
-					Heb je al een abonnement van NS? <br class="visible-xs">
-					<a href="https://ns.nl/flex/overstappen" class="flx-link flx-link--light-blue">Zo stap je over</a>.
-				</p>
-			</div>
-		</div>
-	</div>
+        <!-- intro -->
+        {{#each abos.usps}}
+        <div class="flx-section flx-section--usps a a-fi a-del-600">
+            <div class="flx-section__content--mw-800">
+                <div class="g g-m-1-md items-center a a-fi a-del-750">
+                    <div class="flx-section__img flx-section__img--abo {{#unless @first}}tr-si tr-500 js-tr{{/unless}}">
+                        <img src="../media/icons/{{icon}}" class="w-100" />
+                    </div>
+                    <div class="flx-section__content">
+                        <h3 class="flx-section__content-item flx-section__title flx-section__title--small tr-stag js-tr">
+                            {{{title}}}
+                        </h3>
+                    </div>
+                </div>
+            </div>
+        </div>
+        {{/each}}
 
-	<!-- ros abonnementen -->
-	<div class="flx-section">
-		<div class="flx-section__container">
-			<div class="container">
-				<div class="flx-section__content flx-section__content--mw-800 txt-c">
-					<h3 class="flx-section__title ma-0 tr-stag js-tr">
-						{{{abos.ros.title}}}
-					</h3>
-					<p class="flx-section__description tr-stag js-tr">{{abos.ros.subtitle}}</p>
-					<div class="tr-stag js-tr">
-						<button class="button button--nsWhite js-ros-btn">{{abos.ros.button-open}}</button>
-					</div>
-				</div>
-				<!-- abonnementen container -->
-				<div class="flx-ros__content js-ros-content">
-					<div class="flx-section__content--mw-800 flx-ros__description">
-						<p class="f-blue">{{abos.ros.description}}</p>
-					</div>
-					<div include="../components/ros-all.html"></div>
-				</div>
-			</div>
-		</div>
-	</div>
+        <!-- stories -->
+        <div class="flx-section__container flx-section__container--small mh-4 bo-v">
+            <div class="flx-section">
+                <div class="flx-section__content flx-section__content--mw-800 txt-c">
+                    <h3 class="flx-section__title tr-stag js-tr">
+                        <b>{{{abos.stories.heading}}}</b>
+                    </h3>
+                </div>
+            </div>
+            {{#each abos.stories.item}}
+            <div class="flx-section">
+                <div class="flx-stories__item">
+                    <img src="../media/{{img}}" class="flx-stories__img tr-si tr-500 js-tr">
+                    <div class="flx-stories__month tr-stag js-tr">
+                        <div include="../assets/img/icons/calendar--medium.svg"></div>
+                        <p class="flx-stories__month-label">{{month}}</p>
+                    </div>
+                    <div class="flx-stories__content">
+                        <h4 class="flx-stories__title tr-stag js-tr">{{title}}</h4>
+                        <p class="flx-stories__description tr-stag js-tr">{{description}}</p>
+                        <div class="flx-stories__suggestion tr-stag js-tr">
+                            <div class="flx-stories__line"></div>
+                            {{suggestion}}
+                        </div>
+                    </div>
+                </div>
+            </div>
+            {{/each}}
+        </div>
+
+        <!-- inzicht kosten -->
+        <div class="flx-section">
+            <div class="flx-costs mh-4 bg-white bo-b">
+                <div class="container ovr-container">
+                    <div class="g g-2-sm">
+                        <div class="flx-costs__content flx-costs__content--contained order-3-sm">
+                            <h3 class="flx-section__content-item flx-section__title flx-section__title--small tr-stag js-tr">
+                                <b>{{abos.costs.heading}}</b>
+                            </h3>
+                            <p class="flx-section__content-item flx-section__description tr-stag js-tr">
+                                {{{abos.costs.description}}}
+                            </p>
+                        </div>
+                        <div class="flx-section__img flx-section__img--clip tr-si tr-500 js-tr">
+                            <img src="../media/{{tell.costs.img}}" class="w-100" />
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- overview -->
+        <div class="flx-section">
+            <div class="flx-section__container flx-section__container--small bg-white">
+                <div class="g g-2-md items-center">
+                    <div class="flx-section__img flx-section__img--100 w-80-md tr-si tr-500 js-tr order-3-md">
+                        <img src="../media/{{abos.overview.img}}" class="w-100" />
+                    </div>
+                    <div class="flx-section__content pl-8-md">
+                        <h3 class="flx-section__content-item flx-section__title flx-section__title--small tr-stag js-tr">
+                            <b>{{{abos.overview.title}}}</b>
+                        </h3>
+                        <p class="flx-section__content-item flx-section__description tr-stag js-tr">
+                            {{{abos.overview.description}}}
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- summary -->
+        <div class="flx-section">
+            <div class="flx-section__container flx-section__container--small mh-4 bo-t">
+                <div class="flx-summary pa-0">
+                    {{#each abos.summary}}
+                    <div class="flx-summary__item tr-stag js-tr">
+                        <div class="flx-summary__icon" include="../media/icons/{{icon}}.svg"></div>
+                        <h3 class="flx-summary__title">{{{title}}}</h3>
+                    </div>
+                    {{/each}}
+                </div>
+            </div>
+        </div>
+
+        <!-- call to action -->
+        <div class="flx-section">
+            <div class="flx-section__container gd-110-yellow">
+                <div class="flx-section__content flx-section__content--mw-800 txt-c">
+                    <h3 class="flx-section__title tr-stag js-tr"><b>{{{abos.cta.heading}}}</b></h3>
+                    <p class="flx-section__description flx-section__content--mw-800 txt-c tr-stag js-tr">{{{abos.cta.description}}}</p>
+                    <div class="tr-stag js-tr mb-2">
+                        <a href="{{global.cta.url}}" class="button btn--blue">
+                            {{abos.button-cta}}
+                        </a>
+                    </div>
+                    <div class="tr-stag js-tr">
+                        <a href="/" class="flx-link">{{abos.cta.link}}</a>
+                    </div>
+                </div>
+            </div>
+            <div class="pv-1 ph-4 tr-stag js-tr">
+                <p class="f14 f-grey-4 ma-0 txt-c lh-title">
+                    Heb je al een abonnement van NS? <br class="visible-xs">
+                    <a href="https://ns.nl/flex/overstappen" class="flx-link flx-link--light-blue">Zo stap je over</a>.
+                </p>
+            </div>
+        </div>
+    </div>
+
+    <!-- ros abonnementen -->
+    <div class="flx-section">
+        <div class="flx-section__container">
+            <div class="container">
+                <div class="flx-section__content flx-section__content--mw-800 txt-c">
+                    <h3 class="flx-section__title ma-0 tr-stag js-tr">
+                        {{{abos.ros.title}}}
+                    </h3>
+                    <p class="flx-section__description tr-stag js-tr">{{abos.ros.subtitle}}</p>
+                    <div class="tr-stag js-tr">
+                        <button class="button button--nsWhite js-ros-btn">{{abos.ros.button-open}}</button>
+                    </div>
+                </div>
+                <!-- abonnementen container -->
+                <div class="flx-ros__content js-ros-content">
+                    <div class="flx-section__content--mw-800 flx-ros__description">
+                        <p class="f-blue">{{abos.ros.description}}</p>
+                    </div>
+                    <div include="../components/ros-all.html"></div>
+                </div>
+            </div>
+        </div>
+    </div>
 </div>

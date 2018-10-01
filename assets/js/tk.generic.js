@@ -151,6 +151,29 @@ $(".js-ros-btn").click(function(){;
 });
 
 
+// subnav business button
+// ----------------------------------
+function app_nav_scroll(class_name, value) {
+    $(class_name).click(function(){
+        var obj = {
+            element: class_name,
+            offst: value,
+        };
+        TweenLite.to('.js-app-nav-scroller', .5, {
+            ease:Power3.easeInOut,
+            scrollTo:{
+                x: obj.element,
+                offsetX: obj.offst,
+                autoKill: false,
+            },
+        });			
+        return false;
+    });
+};
+app_nav_scroll('.js-app-nav-next', 0);
+app_nav_scroll('.js-app-nav-prev', 200);
+
+
 
 
 // include html
