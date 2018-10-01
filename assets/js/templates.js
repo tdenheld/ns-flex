@@ -53,7 +53,7 @@ templates['abos'] = template({"1":function(container,depth0,helpers,partials,dat
     + alias3(alias2(((stack1 = ((stack1 = (depth0 != null ? depth0.global : depth0)) != null ? stack1.cta : stack1)) != null ? stack1.url : stack1), depth0))
     + "\" class=\"button button--nsYellow btn--yellow\">\n                        "
     + alias3(alias2(((stack1 = (depth0 != null ? depth0.abos : depth0)) != null ? stack1["button-cta"] : stack1), depth0))
-    + "\n                    </a>\n                    <a href=\"#\" class=\"arrowLink arrowLink--white flx-link-hero\">"
+    + "\n                    </a>\n                    <a href=\"#\" class=\"arrowLink arrowLink--white flx-link-hero ts-2\">"
     + alias3(alias2(((stack1 = (depth0 != null ? depth0.abos : depth0)) != null ? stack1["button-bc"] : stack1), depth0))
     + "</a>\n                </div>\n            </div>\n        </div>\n    </div>\n\n    <!-- container -->\n    <div class=\"container flx-abos__container\">\n\n        <!-- intro -->\n"
     + ((stack1 = helpers.each.call(alias1,((stack1 = (depth0 != null ? depth0.abos : depth0)) != null ? stack1.usps : stack1),{"name":"each","hash":{},"fn":container.program(3, data, 0),"inverse":container.noop,"data":data})) != null ? stack1 : "")
