@@ -1,232 +1,244 @@
 <!-- background images -->
 <div class="full-fixed">
-	<div class="flx-color-bg gd-110-light-grey o-100"></div>
-	<div class="flx-color-bg gd-110-cerulean js-bg-2"></div>
-	<div class="flx-color-bg gd-110-yellow js-bg-3"></div>
-	<div class="flx-color-bg bg-white js-bg-5"></div>
+    <div class="flx-color-bg gd-110-light-grey o-100"></div>
+    <div class="flx-color-bg gd-110-cerulean js-bg-2"></div>
+    <div class="flx-color-bg gd-110-yellow js-bg-3"></div>
+    <div class="flx-color-bg bg-white js-bg-5"></div>
 </div>
 
 <!-- hero -->
 <div class="flx-hero">
-	<div class="flx-hero__bg">
-		<div class="a a-fi">
-			<div class="full-absolute gd-110-yellow"></div>
-			<div class="flx-hero__img flx-hero__img--tell-{{tell.hero.img}}"></div>
-		</div>
-		<div class="flx-hero__flow" include="../media/flow/flow-white.svg"></div>
-	</div>
-	<div class="a a-fi-up-s a-del-500">
-		<div class="container ovr-container">
-			<div class="flx-hero__content">
-				<h1 class="flx-hero__title">{{global.title}}</h1>
-				<h2 class="flx-hero__subtitle flx-hero__subtitle--yellow-glow">
-					{{tell.hero.subtitle}}
-				</h2>
-				<a href="{{global.cta.url}}" class="button btn--blue">
-					{{{global.cta.button}}}
-				</a>
-			</div>
-		</div>
-	</div>
-</div>	
-<div class="js-scroll-down tr-750">
-	<div class="flx-hero__scrolldown a a-fi a-del-1250">
-		<div class="scroll-down scroll-down--blue">
-			<div class="scroll-down__icon">
-				<div class="scroll-down__icon-circle"></div>
-			</div>
-		</div>
-	</div>
+    <div class="flx-hero__bg">
+        <div class="a a-fi">
+            <div class="full-absolute gd-110-yellow"></div>
+            <div class="flx-hero__img flx-hero__img--tell-{{tell.hero.img}}"></div>
+        </div>
+        <div class="flx-hero__flow" include="../media/flow/flow-white.svg"></div>
+    </div>
+    <div class="a a-fi-up-s a-del-500">
+        <div class="container ovr-container">
+            <div class="flx-hero__content">
+                <h1 class="flx-hero__title">{{global.title}}</h1>
+                <h2 class="flx-hero__subtitle flx-hero__subtitle--yellow-glow">
+                    {{tell.hero.subtitle}}
+                </h2>
+                <a href="{{global.cta.url}}" class="button btn--blue">
+                    {{{global.cta.button}}}
+                </a>
+            </div>
+        </div>
+    </div>
 </div>
-		
+<div class="js-scroll-down tr-750">
+    <div class="flx-hero__scrolldown a a-fi a-del-1250">
+        <div class="scroll-down scroll-down--blue">
+            <div class="scroll-down__icon">
+                <div class="scroll-down__icon-circle"></div>
+            </div>
+        </div>
+    </div>
+</div>
+
 <!-- big fat usps with gradient transitions -->
-{{#each tell.section}}	
+{{#each tell.section}}
 <div class="flx-section flx-section--usps">
-	<div class="container ovr-container">
-		<div class="g g-2-md items-center">
-			<div class="flx-section__img {{order}}-md tr-si tr-500 js-tr">
-				{{#if img}}<img src="../media/icons/{{img}}" class="w-100" />{{/if}}
-			</div>
-			<div class="flx-section__content">
-				<h3 class="flx-section__content-item flx-section__title tr-stag js-tr">{{{title}}}</h3>
-				{{#if description}}
-				<p class="flx-section__content-item flx-section__description tr-stag js-tr">{{{description}}}</p>	
-				{{/if}}		
-			</div>
-		</div>
-	</div>
+    <div class="container ovr-container">
+        <div class="g g-2-md items-center">
+            <div class="flx-section__img {{order}}-md tr-si tr-500 js-tr">
+                {{#if img}}<img src="../media/icons/{{img}}" class="w-100" />{{/if}}
+            </div>
+            <div class="flx-section__content">
+                <h3 class="flx-section__content-item flx-section__title tr-stag js-tr">{{{title}}}</h3>
+                {{#if description}}
+                <p class="flx-section__content-item flx-section__description tr-stag js-tr">{{{description}}}</p>
+                {{/if}}
+            </div>
+        </div>
+    </div>
 </div>
 {{/each}}
 
 <!-- al het OV -->
 <div class="flx-section">
-	<div class="flx-ov__bg tr-si tr-500 js-tr"></div>
-	<div class="flx-section__container flx-section__container--large">
-		<div class="container ovr-container">
-			<div class="g g-2-3-md">
-				<div></div>		
-				<div class="flx-section__content tr-stag js-tr">
-					<div class="flx-ov__text-container">
-						<h3 class="flx-section__content-item flx-section__title tr-stag js-tr">
-							<b>{{tell.ov.heading}}</b>
-						</h3>
-						<p class="flx-section__content-item flx-section__description tr-stag js-tr">
-							{{tell.ov.description}}
-						</p>
-					</div>
-				</div>
-			</div>
-		</div>
-	</div>
+    <div class="flx-ov__bg tr-si tr-500 js-tr"></div>
+    <div class="flx-section__container flx-section__container--large">
+        <div class="container ovr-container">
+            <div class="g g-2-3-md">
+                <div></div>
+                <div class="flx-section__content tr-stag js-tr">
+                    <div class="flx-ov__text-container">
+                        <h3 class="flx-section__content-item flx-section__title tr-stag js-tr">
+                            <b>{{tell.ov.heading}}</b>
+                        </h3>
+                        <p class="flx-section__content-item flx-section__description tr-stag js-tr">
+                            {{tell.ov.description}}
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
 </div>
 
 <!-- inzicht kosten -->
 <div class="flx-section">
-	<div class="flx-costs gd-110-grey">
-		<div class="container ovr-container">
-			<div class="g g-2-sm">		
-				<div class="flx-costs__content">
-					<h3 class="flx-section__content-item flx-section__title tr-stag js-tr">
-						<b>{{tell.costs.heading}}</b>
-					</h3>
-					<p class="flx-section__content-item flx-section__description tr-stag js-tr">
-						{{tell.costs.description}}
-					</p>
-				</div>
-				<div class="flx-section__img flx-section__img--clip tr-si tr-500 js-tr">
-					<img src="../media/{{tell.costs.img}}" class="w-100" />
-				</div>
-			</div>
-		</div>
-	</div>
+    <div class="flx-costs gd-110-grey">
+        <div class="container ovr-container">
+            <div class="g g-2-sm">
+                <div class="flx-costs__content">
+                    <h3 class="flx-section__content-item flx-section__title tr-stag js-tr">
+                        <b>{{tell.costs.heading}}</b>
+                    </h3>
+                    <p class="flx-section__content-item flx-section__description tr-stag js-tr">
+                        {{tell.costs.description}}
+                    </p>
+                </div>
+                <div class="flx-section__img flx-section__img--clip tr-si tr-500 js-tr">
+                    <img src="../media/{{tell.costs.img}}" class="w-100" />
+                </div>
+            </div>
+        </div>
+    </div>
 </div>
 
 <!-- 1e klas switch -->
 <div class="flx-section">
-	<div class="flx-section__container bg-white">
-		<div class="container ovr-container">
-			<div class="g g-2-md items-center">
-				<div class="flx-section__img flx-section__img--100 tr-si tr-500 js-tr">
-					<img src="../media/{{tell.first-class.img}}" class="w-100" />
-				</div>		
-				<div class="flx-section__content">
-					<h3 class="flx-section__title tr-stag js-tr">
-						<b>{{{tell.first-class.heading}}}</b>
-					</h3>
-					<p class="flx-section__description tr-stag js-tr">
-						{{{tell.first-class.description}}}
-					</p>
-					<div class="tr-stag js-tr js-more">
-						<div class="btn-more js-more-btn">
-							<span include="../assets/img/icons/plus--small.svg"></span>
-							{{{tell.first-class.button}}}
-						</div>
-						<ol class="flx-section__description flx-section__ol flx-more js-more-content">
-							{{#each tell.first-class.list}}
-								<li>{{{item}}}</li>
-							{{/each}}
-						</ol>
-					</div>
-				</div>
-			</div>
-		</div>
-	</div>
+    <div class="flx-section__container bg-white">
+        <div class="container ovr-container">
+            <div class="g g-2-md items-center">
+                <div class="flx-section__img flx-section__img--100 tr-si tr-500 js-tr">
+                    <img src="../media/{{tell.first-class.img}}" class="w-100" />
+                </div>
+                <div class="flx-section__content">
+                    <h3 class="flx-section__title tr-stag js-tr">
+                        <b>{{{tell.first-class.heading}}}</b>
+                    </h3>
+                    <p class="flx-section__description tr-stag js-tr">
+                        {{{tell.first-class.description}}}
+                    </p>
+                    <div class="tr-stag js-tr js-more">
+                        <div class="btn-more js-more-btn">
+                            <span include="../assets/img/icons/plus--small.svg"></span>
+                            {{{tell.first-class.button}}}
+                        </div>
+                        <ol class="flx-section__description flx-section__ol flx-more js-more-content">
+                            {{#each tell.first-class.list}}
+                            <li>{{{item}}}</li>
+                            {{/each}}
+                        </ol>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
 </div>
 
 <!-- abonnementen -->
 <div class="flx-section">
-	<div class="flx-section__container pt-0 bg-white">
-		<div class="container ovr-container">
-			<div class="g g-2-md items-center">
-				<div class="flx-section__img flx-section__img--100 order-3-md tr-si tr-500 js-tr">
-					<img src="../media/{{tell.abo.img}}" class="w-100" />
-				</div>			
-				<div class="flx-section__content">
-					<h3 class="flx-section__title tr-stag js-tr"><b>{{{tell.abo.heading}}}</b></h3>
-					<p class="flx-section__description tr-stag js-tr">{{{tell.abo.description}}}</p>
-					<div class="tr-stag js-tr">
-						<a href="{{tell.abo.url}}" class="button btn btn--ghost">
-							{{{tell.abo.more}}}
-						</a>
-					</div>
-				</div>
-			</div>
-		</div>
-	</div>
+    <div class="flx-section__container pt-0 bg-white">
+        <div class="container ovr-container">
+            <div class="g g-2-md items-center">
+                <div class="flx-section__img flx-section__img--100 order-3-md tr-si tr-500 js-tr">
+                    <img src="../media/{{tell.abo.img}}" class="w-100" />
+                </div>
+                <div class="flx-section__content">
+                    <h3 class="flx-section__title tr-stag js-tr"><b>{{{tell.abo.heading}}}</b></h3>
+                    <p class="flx-section__description tr-stag js-tr">{{{tell.abo.description}}}</p>
+                    <div class="tr-stag js-tr">
+                        <a href="{{tell.abo.url}}" class="button btn btn--ghost">
+                            {{{tell.abo.more}}}
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
 </div>
 
 <!-- summary -->
 <div class="flx-section">
-	<div class="flx-section__container flx-section__container--small gd-110-grey">
-		<div class="container ovr-container">
-			<div class="flx-summary">
-				{{#each tell.summary}}
-				<div class="flx-summary__item tr-stag js-tr">
-					<div class="flx-summary__icon" include="../media/icons/{{icon}}.svg"></div>
-					<h3 class="flx-summary__title">{{title}}</h3>
-				</div>
-				{{/each}}
-			</div>
-		</div>
-	</div>
+    <div class="flx-section__container flx-section__container--small gd-110-grey">
+        <div class="container ovr-container">
+            <div class="flx-summary">
+                {{#each tell.summary}}
+                <div class="flx-summary__item tr-stag js-tr">
+                    <div class="flx-summary__icon" include="../media/icons/{{icon}}.svg"></div>
+                    <h3 class="flx-summary__title">{{title}}</h3>
+                </div>
+                {{/each}}
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- review score -->
+<div class="flx-section gd-110-grey">
+    <div class="container ovr-container">
+        <div class="pv-4 mh-4 bo-t-6b txt-c">
+            <span class="flx-review-score__icon" include="../media/icons/{{global.review-score.icon}}.svg"></span>
+            <span class="f-blue fw-b f48 lh-title">{{global.review-score.data}}</span>
+            <p class="fw-b f-blue f20">{{global.review-score.description}}</p>
+            <p class="ma-0 f-blue">{{global.review-score.disclaimer}}</p>
+        </div>
+    </div>
 </div>
 
 <!-- call to action -->
 <div class="flx-section">
-	<div class="flx-section__container gd-110-yellow">
-		<div class="container ovr-container">
-			<div class="flx-section__content flx-section__content--mw-800">
-				<h3 class="flx-section__title txt-c tr-stag js-tr">{{{tell.cta.heading}}}</h3>
-				<p class="flx-cta__description txt-c tr-stag js-tr">{{{tell.cta.description}}}</p>
-				<div class="txt-c tr-stag js-tr">
-					<a href="{{global.cta.url}}" class="button btn--blue">
-						{{{global.cta.button}}}
-					</a>
-				</div>
-				<div class="flx-cta__usp-grid">
-					{{#each tell.cta.usps}}
-					<div class="flx-cta__usp tr-stag js-tr">
-						<span class="flx-cta__icon" include="../assets/img/icons/check-round--small.svg"></span>
-						<span>{{{usp}}}</span>
-					</div>
-					{{/each}}
-				</div>
-			</div>
-		</div>
-	</div>
+    <div class="flx-section__container gd-110-yellow">
+        <div class="container ovr-container">
+            <div class="flx-section__content flx-section__content--mw-800">
+                <h3 class="flx-section__title txt-c tr-stag js-tr">{{{tell.cta.heading}}}</h3>
+                <p class="flx-cta__description txt-c tr-stag js-tr">{{{tell.cta.description}}}</p>
+                <div class="txt-c tr-stag js-tr">
+                    <a href="{{global.cta.url}}" class="button btn--blue">
+                        {{{global.cta.button}}}
+                    </a>
+                </div>
+                <div class="flx-cta__usp-grid">
+                    {{#each tell.cta.usps}}
+                    <div class="flx-cta__usp tr-stag js-tr">
+                        <span class="flx-cta__icon" include="../assets/img/icons/check-round--small.svg"></span>
+                        <span>{{{usp}}}</span>
+                    </div>
+                    {{/each}}
+                </div>
+            </div>
+        </div>
+    </div>
 </div>
 
 <!-- testimonial -->
 <div class="flx-section">
-	<div class="flx-section__container flx-section__container--small gd-110-grey">
-		<div class="container ovr-container">
-			<div class="flx-section__content flx-testimonial__content">
-				<div class="g g-m-1-md items-center col-gap-8 row-gap-4">
-					<div class="flx-testimonial__img tr-si tr-500 js-tr"></div>
-					<div class="flx-testimonial__text">
-						<h3 class="headingM mb-2 tr-stag js-tr">{{{tell.testimonial.sender}}}</h3>
-						<p class="flx-testimonial__quote tr-stag js-tr">{{{tell.testimonial.quote}}}</p>
-					</div>
-				</div>
-			</div>
-		</div>
-	</div>
+    <div class="flx-section__container flx-section__container--small gd-110-grey">
+        <div class="container ovr-container">
+            <div class="flx-section__content flx-testimonial__content">
+                <div class="g g-m-1-md items-center col-gap-8 row-gap-4">
+                    <div class="flx-testimonial__img tr-si tr-500 js-tr"></div>
+                    <div class="flx-testimonial__text">
+                        <h3 class="headingM mb-2 tr-stag js-tr">{{{tell.testimonial.sender}}}</h3>
+                        <p class="flx-testimonial__quote tr-stag js-tr">{{{tell.testimonial.quote}}}</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
 </div>
 
 <!-- faq -->
 <div class="flx-section">
-	<div class="flx-section__container bo-b">
-		<div class="container ovr-container">
-			<div class="flx-section__content">
-				<h3 class="flx-section__title">{{tell.faq.heading}}</h3>
-				<ul class="list collapsibleList is-collapsible">
-					{{#each tell.faq.questions}}
-					<li class="collapsibleList__item ovr-collapsibleList__item">
-						<h3 class="collapsibleList__header" id="keuzedagen" tabindex="0" aria-expanded="false" role="button">{{{question}}}</h3>   
-					</li>
-					{{/each}}
-				</ul>
-			</div>
-		</div>
-	</div>
+    <div class="flx-section__container bo-b">
+        <div class="container ovr-container">
+            <div class="flx-section__content">
+                <h3 class="flx-section__title">{{tell.faq.heading}}</h3>
+                <ul class="list collapsibleList is-collapsible">
+                    {{#each tell.faq.questions}}
+                    <li class="collapsibleList__item ovr-collapsibleList__item">
+                        <h3 class="collapsibleList__header" id="keuzedagen" tabindex="0" aria-expanded="false" role="button">{{{question}}}</h3>
+                    </li>
+                    {{/each}}
+                </ul>
+            </div>
+        </div>
+    </div>
 </div>

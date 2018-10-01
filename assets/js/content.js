@@ -10,7 +10,13 @@ var context = {
 		"cta": {
 			"url": "https://ns.nl/nsflex/webshop",
 			"button": "Ja ik wil NS Flex",
-		},
+        },
+        "review-score": {
+            "data": "97,4%",
+            "icon": "like--small",
+            "description": "is tevreden over NS Flex",
+            "disclaimer": "Onafhankelijk onderzoek door Blauw Research onder 129 reizigers met NS Flex."
+        },
 	},
 	
 	"tell": {

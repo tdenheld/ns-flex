@@ -108,6 +108,18 @@
 }
 
 
+// review score
+// ----------------------------
+.flx-review-score__icon {
+    margin-top: 7px;
+    margin-right: 10px;
+    svg {
+        width: 34px;
+        fill: $ns-blue;
+    }
+}
+
+
 // call to action
 // ----------------------------
 .flx-cta__description {
