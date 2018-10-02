@@ -265,7 +265,7 @@ templates['tell'] = template({"1":function(container,depth0,helpers,partials,dat
     + alias2(alias1(((stack1 = ((stack1 = (depth0 != null ? depth0.global : depth0)) != null ? stack1["review-score"] : stack1)) != null ? stack1.data : stack1), depth0))
     + "</span>\n            <p class=\"fw-b f-blue f20\">"
     + alias2(alias1(((stack1 = ((stack1 = (depth0 != null ? depth0.global : depth0)) != null ? stack1["review-score"] : stack1)) != null ? stack1.description : stack1), depth0))
-    + "</p>\n            <p class=\"ma-0 f-blue\">"
+    + "</p>\n            <p class=\"ma-0 f-blue f14\">"
     + alias2(alias1(((stack1 = ((stack1 = (depth0 != null ? depth0.global : depth0)) != null ? stack1["review-score"] : stack1)) != null ? stack1.disclaimer : stack1), depth0))
     + "</p>\n        </div>\n    </div>\n</div>\n\n<!-- call to action -->\n<div class=\"flx-section\">\n    <div class=\"flx-section__container gd-110-yellow\">\n        <div class=\"container ovr-container\">\n            <div class=\"flx-section__content flx-section__content--mw-800\">\n                <h3 class=\"flx-section__title txt-c tr-stag js-tr\">"
     + ((stack1 = alias1(((stack1 = ((stack1 = (depth0 != null ? depth0.tell : depth0)) != null ? stack1.cta : stack1)) != null ? stack1.heading : stack1), depth0)) != null ? stack1 : "")
