@@ -111,9 +111,9 @@ var context = {
 		"title": "Abonnementen",
 		"subtitle": "Nieuw: Flexibele abonnementen",
         "button-cta": "Bekijk abonnementen",
-        
+
         "more-subs": {
-            "title": "Of bekijk",
+            "title": "Of snel naar...",
             "btn-1": "Klassieke abonnementen",
             "btn-2": "Zakelijke abonnementen",
         },
