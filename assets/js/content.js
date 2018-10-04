@@ -115,7 +115,7 @@ var context = {
         ],
 		"title": "Abonnementen",
 		"subtitle": "Nieuw: Flexibele abonnementen",
-        "button-cta": "Bekijk abonnementen",
+        "button-cta": "Bekijk flexibele abonnementen",
         "button-bc": "Zakelijke abonnementen",
 		
 		"usps": [
