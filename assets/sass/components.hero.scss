@@ -138,7 +138,10 @@ $hero-height-smaller: 560px;
 	height: $hero-height-small;
 	margin-bottom: 0;
 	@include md {
-		min-height: 480px;
+		min-height: 550px;
+    }
+    @include lg {
+		min-height: 620px;
 	}
 	@media (min-width: $sm) and (max-height: 600px) {
 		height: $hero-height-small;

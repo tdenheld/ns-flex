@@ -45,7 +45,7 @@ templates['abos'] = template({"1":function(container,depth0,helpers,partials,dat
     + alias2(alias1(((stack1 = ((stack1 = (depth0 != null ? depth0.global : depth0)) != null ? stack1.cta : stack1)) != null ? stack1.url : stack1), depth0))
     + "\" class=\"button button--nsYellow btn--yellow\">\n						"
     + alias2(alias1(((stack1 = (depth0 != null ? depth0.abos : depth0)) != null ? stack1["button-cta"] : stack1), depth0))
-    + "\n					</a>\n                    <div class=\"mb-5\"></div>\n                    <h3 class=\"fw-b f-white ts-2 mb-2\">\n                        "
+    + "\n					</a>\n                    <div class=\"mb-7\"></div>\n                    <h3 class=\"f16 fw-b f-white ts-2 mb-1\">\n                        "
     + alias2(alias1(((stack1 = ((stack1 = (depth0 != null ? depth0.abos : depth0)) != null ? stack1["more-subs"] : stack1)) != null ? stack1.title : stack1), depth0))
     + "\n                    </h3>\n                    <a href=\"#\" class=\"arrowLink arrowLink--white ts-2 db mb-1\">"
     + alias2(alias1(((stack1 = ((stack1 = (depth0 != null ? depth0.abos : depth0)) != null ? stack1["more-subs"] : stack1)) != null ? stack1["btn-1"] : stack1), depth0))
