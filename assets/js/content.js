@@ -110,7 +110,13 @@ var context = {
 	"abos": {
 		"title": "Abonnementen",
 		"subtitle": "Nieuw: Flexibele abonnementen",
-		"button-cta": "Bekijk abonnementen",
+        "button-cta": "Bekijk abonnementen",
+        
+        "more-subs": {
+            "title": "Of bekijk",
+            "btn-1": "Klassieke abonnementen",
+            "btn-2": "Zakelijke abonnementen",
+        },
 		
 		"usps": [
 			{
