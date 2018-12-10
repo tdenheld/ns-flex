@@ -16,7 +16,7 @@ var context = {
 	"tell": {
 		"hero": {
 			"subtitle": "De makkelijkste manier om te reizen in het OV",
-			"img": "hakim",
+			"img": "ahmed2",
 		},		
 		"button-cta": "Ja ik wil NS Flex",		
 		"section": [

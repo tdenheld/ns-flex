@@ -7,7 +7,7 @@
 		"uuidString": "5C60E87F-5506-4B6F-A088-DDF1D9E4563C"
 		}
 	],
-"creatorBuild": "28901",
+"creatorBuild": "28905",
 "files": {
 	"/.gitignore": {
 		"cB": 0,
@@ -2847,6 +2847,17 @@
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
+		"q": 80
+		},
+	"/media/hero/nsflex-tell-hero-ahmed2.jpg": {
+		"ft": 16384,
+		"iS": 254378,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/media/hero/nsflex-tell-hero-ahmed2.jpg",
+		"oF": 0,
+		"oIPL": 1,
+		"opt": 1,
 		"q": 80
 		},
 	"/media/hero/nsflex-tell-hero-elise.jpg": {
