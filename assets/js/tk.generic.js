@@ -59,7 +59,22 @@ $(function () {
             $(".js-scroll-down").removeClass("o-0");
             $(".js-subnav").removeClass("is-sticky");
         };
+
         scrolled = false;
+    };
+
+
+
+    // subnav
+    // ------------------------------------------------------------
+    $(".js-subnav-toggle").click(function () {
+        $(this).toggleClass("is-active");
+        $(".js-subnav, .js-subnav-xs").toggleClass("is-active");
+    });
+
+    window.onscroll = function () {
+        $(".js-subnav-toggle").removeClass("is-active");
+        $(".js-subnav, .js-subnav-xs").removeClass("is-active");
     };
 
 

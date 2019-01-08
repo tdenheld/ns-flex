@@ -1,10 +1,14 @@
-<div class="flx-subnav js-subnav">
+<div class="flx-subnav js-subnav a a-fi">
     <div class="container ovr-container">
         <div class="flx-subnav__content">
             <div class="flx-subnav__grid">
-                <header class="flx-subnav__header">NS Flex</header>
-                <nav class="flx-subnav__nav">
-                    <span class="flx-subnav__nav-item flx-subnav__nav-item--link">Meer info</span>
+                <h1 class="flx-subnav__heading">Abonnementen</h1>
+                <nav>
+                    <div class="flx-subnav__xs js-subnav-xs">
+                        <span class="flx-subnav__nav-item flx-subnav__nav-item--link a a-fi a-stag-del">NS Flex</span>
+                        <span class="flx-subnav__nav-item flx-subnav__nav-item--link a a-fi a-stag-del">Overstappen</span>
+                    </div>
+                    <span class="flx-subnav__icon visible-xs js-subnav-toggle" include="../assets/img/icons/chevron-M-down--small.svg"></span>
                     <span class="flx-subnav__nav-item flx-subnav__nav-item--btn button--nsYellow btn--yellow">Bestel</span>
                 </nav>
             </div>
@@ -25,7 +29,7 @@
         <div class="a a-fi-up-s a-del-500">
             <div class="container ovr-container">
                 <div class="flx-hero__content">
-                    <h1 class="flx-hero__title f-white ts-2">{{abos.title}}</h1>
+                    {{!-- <h1 class="flx-hero__title f-white ts-2">{{abos.title}}</h1> --}}
                     <h2 class="flx-hero__subtitle f-white ts-2">{{abos.subtitle}}</h2>
                     <a href="{{global.cta.url}}" class="button button--nsYellow btn--yellow">
                         {{abos.button-cta}}
