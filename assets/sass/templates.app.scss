@@ -230,6 +230,65 @@
 }
 
 
+// subnav
+// ----------------------------	
+.flx-subnav {
+    position: absolute;
+    z-index: 999;
+    top: $navbar-height;
+    width: 100vw;
+    height: $navbar-height;
+    border-top: 1px solid $ns-grey-7;
+    background-color: $ns-white;
+    box-shadow: $box-shadow-container;
+
+    &.is-sticky {
+        position: fixed;
+        top: 0;
+    }
+}
+
+.flx-subnav__content {
+    padding: 0 $gutter;
+}
+
+.flx-subnav__grid {
+    display: flex;
+    height: 56px;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.flx-subnav__header {
+    @include font-style(20px, bold, 1.5);
+    color: $ns-blue;
+}
+
+.flx-subnav__nav-item {
+    @include font-style(14px, normal, 1.5);
+    color: $ns-blue;
+    margin-left: 14px;
+    transition: $fade-link;
+    cursor: pointer;
+}
+
+.flx-subnav__nav-item--link {
+    &:hover {
+        color: $ns-light-blue;
+    }
+}
+
+.flx-subnav__nav-item--btn {
+    border-radius: 99px;
+    padding: 8px 28px 9px;
+}
+
+.flx-abos-content {
+    position: relative;
+    top: $navbar-height;
+}
+
+
 // misc
 // ----------------------------
 .flx-more {
