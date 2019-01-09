@@ -86,6 +86,9 @@
 
     &:hover {
         color: $ns-light-blue;
+        &:after {
+            background-color: $ns-light-blue !important;
+        }
     }
 }
 
@@ -134,16 +137,10 @@
     .flx-subnav__item:first-child > a:after {
         @include flx-subnav-underline();
     }
-    .flx-subnav__item:first-child > a:hover:after {
-        background-color: $ns-light-blue;
-    }
 }
 
 .subnav-abos {
     .flx-subnav__item:last-child > a:after {
         @include flx-subnav-underline();
-    }
-    .flx-subnav__item:last-child > a:hover:after {
-        background-color: $ns-light-blue;
     }
 }
