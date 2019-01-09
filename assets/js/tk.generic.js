@@ -51,6 +51,7 @@ $(function () {
 
     function scrolling() {
         var pos = $(window).scrollTop();
+
         // fade arrow scroll down button
         if (pos > 60) {
             $(".js-scroll-down").addClass("o-0");
@@ -61,6 +62,9 @@ $(function () {
         };
 
         scrolled = false;
+
+        $(".js-subnav-toggle").removeClass("is-active");
+        $(".js-subnav, .js-subnav-items").removeClass("is-active");
     };
 
 
@@ -69,13 +73,8 @@ $(function () {
     // ------------------------------------------------------------
     $(".js-subnav-toggle").click(function () {
         $(this).toggleClass("is-active");
-        $(".js-subnav, .js-subnav-xs").toggleClass("is-active");
+        $(".js-subnav, .js-subnav-items").toggleClass("is-active");
     });
-
-    window.onscroll = function () {
-        $(".js-subnav-toggle").removeClass("is-active");
-        $(".js-subnav, .js-subnav-xs").removeClass("is-active");
-    };
 
 
 
