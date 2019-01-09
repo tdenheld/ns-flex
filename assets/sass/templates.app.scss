@@ -245,124 +245,12 @@
 }
 
 
-// subnav
-// ----------------------------	
-.flx-subnav {
-    position: absolute;
-    z-index: 999;
-    top: $navbar-height;
-    width: 100vw;
-    height: $navbar-height;
-    border-top: 1px solid $ns-grey-7;
-    background-color: rgba($ns-white, 1);
-    box-shadow: $box-shadow-container;
-    transition: height 300ms $ease;
-
-    &.is-sticky {
-        position: fixed;
-        top: 0;
-    }
-
-    &.is-active {
-        height: 160px;
-    }
-}
-
-.flx-subnav__content {
-    padding: 13px $gutter 0;
-    display: flex;
-    justify-content: space-between;
-
-    @include sm {
-        padding: 1rem $gutter 0;
-    }
-}
-
-.flx-subnav__heading {
-    position: relative;
-    top: -3px;
-    @include font-style(16px, bold, 1.2);
-    color: $ns-blue;
-    margin: 0;
-    width: 50%;
-
-    @include sm {
-        top: 0;
-        font-size: calculate-rem(20px);
-    }
-}
-
-.flx-subnav__items {
-    display: none;
-    position: absolute;
-    top: 76px;
-    left: $gutter;
-    margin: 0;
-    padding: 0;
-    list-style: none;
-
-    &.is-active {
-        display: block;
-    }
-
-    @include sm {
-        position: static;
-        display: inline-block;
-    }
-}
-
-.flx-subnav__item {
-    margin: 0 0 $half-gutter;
-    padding: 0;
-    @include font-style(14px, normal, 1.5);
-    color: $ns-blue;
-    transition: $fade-link;
-    cursor: pointer;
-
-    &:hover {
-        color: $ns-light-blue;
-    }
-
-    @include sm {
-        display: inline;
-        margin-left: $half-gutter;
-    }
-}
-
-.flx-subnav__btn {
-    font-size: calculate-rem(14px);
-    margin-left: 14px;
-    transition: $fade-link;
-    border-radius: 99px;
-    padding: 8px 28px 9px;
-    cursor: pointer;
-}
-
-.flx-subnav__icon {
-    display: inline-flex;
-    align-items: center;
-    justify-content: center;
-    width: 35px;
-    height: 35px;
-    margin-right: -10px;
-    cursor: pointer;
-
-    svg {
-        fill: $ns-blue;
-    }
-
-    &.is-active {
-        transform: rotate(180deg);
-    }
-}
-
-.flx-abos-content {
+// misc
+// ----------------------------
+.flx-margin-nav {
     margin-top: $navbar-height;
 }
 
-
-// misc
-// ----------------------------
 .flx-more {
     display: none;
     margin: 0;
@@ -385,5 +273,4 @@
             box-shadow: 0 1px 0 rgba($ns-light-blue, 1);
         }
     }
-
 }
