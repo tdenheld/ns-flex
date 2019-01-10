@@ -84,10 +84,23 @@
     transition: $fade-link;
     cursor: pointer;
 
+    &:after {
+        content: "";
+        display: block;
+        position: absolute;
+        width: 0;
+        left: 0;
+        right: 0;
+        bottom: -4px;
+        height: 2px;
+        background-color: $ns-blue;
+        transition: $fade-all;
+    }
+
     &:hover {
-        color: $ns-light-blue;
+        color: $ns-blue;
         &:after {
-            background-color: $ns-light-blue !important;
+            width: 100%;
         }
     }
 }
@@ -120,39 +133,20 @@
 }
 
 // subnav active states
-@mixin flx-subnav-underline() {
-    content: "";
-    display: block;
-    position: absolute;
-    width: 24px;
-    left: 0;
-    right: 0;
-    bottom: -4px;
-    height: 2px;
-    background-color: $ns-blue;
-    transition: $fade-link;
-}
-
 .subnav-tell {
     .flx-subnav__item:first-child > a {
-        color: $ns-grey-4;
+        &:after {
+            width: 100%;
+        }
+        font-weight: bold;
     }
 }
 
 .subnav-abos {
     .flx-subnav__item:last-child > a {
-        color: $ns-grey-4;
+        &:after {
+            width: 100%;
+        }
+        font-weight: bold;
     }
 }
-
-// .subnav-tell {
-//     .flx-subnav__item:first-child > a:after {
-//         @include flx-subnav-underline();
-//     }
-// }
-
-// .subnav-abos {
-//     .flx-subnav__item:last-child > a:after {
-//         @include flx-subnav-underline();
-//     }
-// }
