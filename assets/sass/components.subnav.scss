@@ -134,13 +134,25 @@
 }
 
 .subnav-tell {
-    .flx-subnav__item:first-child > a:after {
-        @include flx-subnav-underline();
+    .flx-subnav__item:first-child > a {
+        color: $ns-grey-4;
     }
 }
 
 .subnav-abos {
-    .flx-subnav__item:last-child > a:after {
-        @include flx-subnav-underline();
+    .flx-subnav__item:last-child > a {
+        color: $ns-grey-4;
     }
 }
+
+// .subnav-tell {
+//     .flx-subnav__item:first-child > a:after {
+//         @include flx-subnav-underline();
+//     }
+// }
+
+// .subnav-abos {
+//     .flx-subnav__item:last-child > a:after {
+//         @include flx-subnav-underline();
+//     }
+// }
