@@ -2374,6 +2374,16 @@
 		"sC": 0,
 		"tS": 0
 		},
+	"/assets/js/modernizr.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "/assets/js/modernizr.min.js",
+		"oF": 0,
+		"sC": 0,
+		"tS": 0
+		},
 	"/assets/js/plugins.js": {
 		"ft": 64,
 		"ma": 0,
@@ -3133,16 +3143,6 @@
 		"oIPL": 0,
 		"opt": 0,
 		"q": 80
-		},
-	"/node_modules/grained/grained.min.js": {
-		"ft": 64,
-		"ma": 0,
-		"mi": 1,
-		"oA": 2,
-		"oAP": "/node_modules/grained/grained.min.js",
-		"oF": 0,
-		"sC": 0,
-		"tS": 0
 		},
 	"/node_modules/gsap/easing/CustomBounce.js": {
 		"ft": 64,
@@ -4645,16 +4645,6 @@
 		"mi": 1,
 		"oA": 2,
 		"oAP": "/node_modules/handlebars/runtime.js",
-		"oF": 0,
-		"sC": 0,
-		"tS": 0
-		},
-	"/node_modules/modernizr/modernizr.js": {
-		"ft": 64,
-		"ma": 0,
-		"mi": 1,
-		"oA": 2,
-		"oAP": "/node_modules/modernizr/modernizr.js",
 		"oF": 0,
 		"sC": 0,
 		"tS": 0
