@@ -69,7 +69,7 @@ templates['abos'] = template({"1":function(container,depth0,helpers,partials,dat
     + ((stack1 = alias1(((stack1 = ((stack1 = (depth0 != null ? depth0.abos : depth0)) != null ? stack1.cta : stack1)) != null ? stack1.description : stack1), depth0)) != null ? stack1 : "")
     + "</p>\n                    <div class=\"tr-stag js-tr mb-2\">\n                        <a href=\""
     + alias2(alias1(((stack1 = ((stack1 = (depth0 != null ? depth0.global : depth0)) != null ? stack1.cta : stack1)) != null ? stack1.url : stack1), depth0))
-    + "\" class=\"button btn--blue\">\n                            "
+    + "\" class=\"button\">\n                            "
     + alias2(alias1(((stack1 = (depth0 != null ? depth0.abos : depth0)) != null ? stack1["button-cta"] : stack1), depth0))
     + "\n                        </a>\n                    </div>\n                    <div class=\"tr-stag js-tr\">\n                        <a href=\"/\" class=\"flx-link\">"
     + alias2(alias1(((stack1 = ((stack1 = (depth0 != null ? depth0.abos : depth0)) != null ? stack1.cta : stack1)) != null ? stack1.link : stack1), depth0))
@@ -132,7 +132,7 @@ templates['sell'] = template({"1":function(container,depth0,helpers,partials,dat
     + ((stack1 = helpers.each.call(alias3,((stack1 = ((stack1 = (depth0 != null ? depth0.tell : depth0)) != null ? stack1.cta : stack1)) != null ? stack1.usps : stack1),{"name":"each","hash":{},"fn":container.program(1, data, 0),"inverse":container.noop,"data":data})) != null ? stack1 : "")
     + "					</div>\n					<a href=\""
     + alias2(alias1(((stack1 = ((stack1 = (depth0 != null ? depth0.global : depth0)) != null ? stack1.cta : stack1)) != null ? stack1.url : stack1), depth0))
-    + "\" class=\"button btn--blue btn--fw\">\n						"
+    + "\" class=\"button btn--fw\">\n						"
     + ((stack1 = alias1(((stack1 = ((stack1 = (depth0 != null ? depth0.global : depth0)) != null ? stack1.cta : stack1)) != null ? stack1.button : stack1), depth0)) != null ? stack1 : "")
     + "\n					</a>\n				</div>\n			</div>\n		</div>\n	</div>\n</div>\n\n<!-- usps -->\n<div class=\"flx-section__container a a-fi a-del-800\">\n	<div class=\"container ovr-container\">\n		<div class=\"flx-sell-usps\">\n"
     + ((stack1 = helpers.each.call(alias3,((stack1 = ((stack1 = (depth0 != null ? depth0.sell : depth0)) != null ? stack1.usps : stack1)) != null ? stack1.item : stack1),{"name":"each","hash":{},"fn":container.program(3, data, 0),"inverse":container.noop,"data":data})) != null ? stack1 : "")
@@ -154,7 +154,7 @@ templates['sell'] = template({"1":function(container,depth0,helpers,partials,dat
     + ((stack1 = alias1(((stack1 = ((stack1 = (depth0 != null ? depth0.tell : depth0)) != null ? stack1.cta : stack1)) != null ? stack1.description : stack1), depth0)) != null ? stack1 : "")
     + "\n			</p>\n			<div class=\"tr-stag js-tr mb-2\">\n				<a href=\""
     + alias2(alias1(((stack1 = ((stack1 = (depth0 != null ? depth0.global : depth0)) != null ? stack1.cta : stack1)) != null ? stack1.url : stack1), depth0))
-    + "\" class=\"button btn--blue\">\n					"
+    + "\" class=\"button\">\n					"
     + ((stack1 = alias1(((stack1 = ((stack1 = (depth0 != null ? depth0.global : depth0)) != null ? stack1.cta : stack1)) != null ? stack1.button : stack1), depth0)) != null ? stack1 : "")
     + "\n				</a>\n			</div>\n			<div class=\"tr-stag js-tr\">\n				<a href=\"/\" class=\"flx-link\">"
     + alias2(alias1(((stack1 = ((stack1 = (depth0 != null ? depth0.abos : depth0)) != null ? stack1.cta : stack1)) != null ? stack1.link : stack1), depth0))
@@ -224,9 +224,11 @@ templates['tell'] = template({"1":function(container,depth0,helpers,partials,dat
     + alias2(alias1(((stack1 = ((stack1 = (depth0 != null ? depth0.tell : depth0)) != null ? stack1.hero : stack1)) != null ? stack1.subtitle : stack1), depth0))
     + "\n				</h2>\n				<a href=\""
     + alias2(alias1(((stack1 = ((stack1 = (depth0 != null ? depth0.global : depth0)) != null ? stack1.cta : stack1)) != null ? stack1.url : stack1), depth0))
-    + "\" class=\"button btn--blue\">\n					"
+    + "\" class=\"button\">\n					"
     + ((stack1 = alias1(((stack1 = ((stack1 = (depth0 != null ? depth0.global : depth0)) != null ? stack1.cta : stack1)) != null ? stack1.button : stack1), depth0)) != null ? stack1 : "")
-    + "\n				</a>\n			</div>\n		</div>\n	</div>\n</div>	\n<div class=\"js-scroll-down tr-750\">\n	<div class=\"flx-hero__scrolldown a a-fi a-del-1250\">\n		<div class=\"scroll-down scroll-down--blue\">\n			<div class=\"scroll-down__icon\">\n				<div class=\"scroll-down__icon-circle\"></div>\n			</div>\n		</div>\n	</div>\n</div>\n		\n<!-- big fat usps with gradient transitions -->\n"
+    + "\n				</a>\n                <br class=\"visible-xs\">\n                <a href=\"#flx-section-0\" class=\"flx-link dib lh-solid ml-3-sm mt-3 mt-2-sm always-visible js-scroll-down\">\n                    "
+    + ((stack1 = alias1(((stack1 = ((stack1 = (depth0 != null ? depth0.global : depth0)) != null ? stack1.cta : stack1)) != null ? stack1.discover : stack1), depth0)) != null ? stack1 : "")
+    + "\n                </a>\n			</div>\n		</div>\n	</div>\n</div>\n<div class=\"js-scroll-down tr-750\">\n	<div class=\"flx-hero__scrolldown a a-fi a-del-1250\">\n		<div class=\"scroll-down scroll-down--blue\">\n			<div class=\"scroll-down__icon\">\n				<div class=\"scroll-down__icon-circle\"></div>\n			</div>\n		</div>\n	</div>\n</div>\n		\n<!-- big fat usps with gradient transitions -->\n"
     + ((stack1 = helpers.each.call(alias3,((stack1 = (depth0 != null ? depth0.tell : depth0)) != null ? stack1.section : stack1),{"name":"each","hash":{},"fn":container.program(1, data, 0),"inverse":container.noop,"data":data})) != null ? stack1 : "")
     + "\n<!-- al het OV -->\n<div class=\"flx-section\">\n	<div class=\"flx-ov__bg tr-si tr-500 js-tr\"></div>\n	<div class=\"flx-section__container flx-section__container--large\">\n		<div class=\"container ovr-container\">\n			<div class=\"g g-2-3-md\">\n				<div></div>		\n				<div class=\"flx-section__content tr-stag js-tr\">\n					<div class=\"flx-ov__text-container\">\n						<h3 class=\"flx-section__content-item flx-section__title tr-stag js-tr\">\n							<b>"
     + alias2(alias1(((stack1 = ((stack1 = (depth0 != null ? depth0.tell : depth0)) != null ? stack1.ov : stack1)) != null ? stack1.heading : stack1), depth0))
@@ -266,7 +268,7 @@ templates['tell'] = template({"1":function(container,depth0,helpers,partials,dat
     + ((stack1 = alias1(((stack1 = ((stack1 = (depth0 != null ? depth0.tell : depth0)) != null ? stack1.cta : stack1)) != null ? stack1.description : stack1), depth0)) != null ? stack1 : "")
     + "</p>\n				<div class=\"txt-c tr-stag js-tr\">\n					<a href=\""
     + alias2(alias1(((stack1 = ((stack1 = (depth0 != null ? depth0.global : depth0)) != null ? stack1.cta : stack1)) != null ? stack1.url : stack1), depth0))
-    + "\" class=\"button btn--blue\">\n						"
+    + "\" class=\"button\">\n						"
     + ((stack1 = alias1(((stack1 = ((stack1 = (depth0 != null ? depth0.global : depth0)) != null ? stack1.cta : stack1)) != null ? stack1.button : stack1), depth0)) != null ? stack1 : "")
     + "\n					</a>\n				</div>\n				<div class=\"flx-cta__usp-grid\">\n"
     + ((stack1 = helpers.each.call(alias3,((stack1 = ((stack1 = (depth0 != null ? depth0.tell : depth0)) != null ? stack1.cta : stack1)) != null ? stack1.usps : stack1),{"name":"each","hash":{},"fn":container.program(10, data, 0),"inverse":container.noop,"data":data})) != null ? stack1 : "")

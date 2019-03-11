@@ -2,6 +2,11 @@
   generic overrides
 -------------------*/
 
+button,
+.button {
+    border-radius: 4px;
+}
+
 .ovr-container {
 	padding-left: 0;
 	padding-right: 0;

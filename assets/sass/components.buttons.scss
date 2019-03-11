@@ -8,12 +8,12 @@
 	&--ghost {
 		background: transparent;
 		border: 1px solid $ns-blue;
-		box-shadow: 0 1px 0 $ns-blue;
+		box-shadow: none;
 		background-color: rgba($ns-blue, 0);
 		color: $ns-blue;
 		
 		&:hover {
-			box-shadow: 0 1px 0 $ns-blue;
+			box-shadow: none;
 			background-color: rgba($ns-blue, 0.1);
 			color: $ns-blue;
 		}
