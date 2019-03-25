@@ -3154,14 +3154,14 @@
 		},
 	"/media/kostenteller.png": {
 		"ft": 32768,
-		"iS": 229684,
-		"oA": 1,
+		"iS": 623757,
+		"oA": 0,
 		"oAP": "/media/kostenteller.png",
-		"oF": 1,
-		"oIPL": 0,
-		"opt": 0,
+		"oF": 0,
+		"oIPL": 1,
+		"opt": 1,
 		"oT": 1,
-		"q": 100
+		"q": 80
 		},
 	"/media/marieke.jpg": {
 		"ft": 16384,
