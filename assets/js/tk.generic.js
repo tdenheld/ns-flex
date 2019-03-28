@@ -6,8 +6,8 @@ $(function () {
     // global vars
     // ------------------------------------------------------------
     // ------------------------------------------------------------
-    var window_width = Number;
-    var window_height = Number;
+    var vw = Number;
+    var vh = Number;
     var mobile = Boolean;
     var scrolled = false;
     var trigger = Number;
@@ -17,16 +17,16 @@ $(function () {
     // update screen height
     // ------------------------------------------------------------	
     function update_window_size() {
-        window_width = $(window).innerWidth();
-        window_height = $(window).innerHeight();
+        vw = $(window).innerWidth();
+        vh = $(window).innerHeight();
 
         // set breakpoints
-        if (window_width > 912) {
+        if (vw > 912) {
             mobile = false;
-            trigger = 0.86;
+            trigger = 0.83;
         } else {
             mobile = true;
-            trigger = 0.8;
+            trigger = 0.76;
         };
     };
     update_window_size();
@@ -125,7 +125,7 @@ $(function () {
             ease: Power3.easeInOut,
             scrollTo: {
                 y: "#flx-s0",
-                offsetY: window_width * 0.15,
+                offsetY: vw * 0.15,
                 autoKill: false,
             },
         });
