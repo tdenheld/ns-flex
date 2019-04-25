@@ -10,7 +10,7 @@ var context = {
 		"cta": {
 			"url": "https://ns.nl/nsflex/webshop",
             "button": "Ja ik wil NS Flex",
-            "discover": "Bekijk meer",
+            "discover": "Meer informatie",
 		},
 	},
 	

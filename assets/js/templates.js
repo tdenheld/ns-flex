@@ -226,7 +226,7 @@ templates['tell'] = template({"1":function(container,depth0,helpers,partials,dat
     + alias2(alias1(((stack1 = ((stack1 = (depth0 != null ? depth0.global : depth0)) != null ? stack1.cta : stack1)) != null ? stack1.url : stack1), depth0))
     + "\" class=\"button\">\n					"
     + ((stack1 = alias1(((stack1 = ((stack1 = (depth0 != null ? depth0.global : depth0)) != null ? stack1.cta : stack1)) != null ? stack1.button : stack1), depth0)) != null ? stack1 : "")
-    + "\n				</a>\n                <br class=\"visible-xs\">\n                <a href=\"#flx-section-0\" class=\"flx-link dib lh-solid ml-3-sm mt-3 mt-2-sm always-visible js-scroll-down\">\n                    "
+    + "\n				</a>\n                <br class=\"visible-xs\">\n                <a class=\"flx-link dib lh-solid ml-3-sm mt-3 mt-2-sm always-visible js-scroll-down\">\n                    "
     + ((stack1 = alias1(((stack1 = ((stack1 = (depth0 != null ? depth0.global : depth0)) != null ? stack1.cta : stack1)) != null ? stack1.discover : stack1), depth0)) != null ? stack1 : "")
     + "\n                </a>\n			</div>\n		</div>\n	</div>\n</div>\n<div class=\"js-scroll-down tr-750\">\n	<div class=\"flx-hero__scrolldown a a-fi a-del-1250\">\n		<div class=\"scroll-down scroll-down--blue\">\n			<div class=\"scroll-down__icon\">\n				<div class=\"scroll-down__icon-circle\"></div>\n			</div>\n		</div>\n	</div>\n</div>\n		\n<!-- big fat usps with gradient transitions -->\n"
     + ((stack1 = helpers.each.call(alias3,((stack1 = (depth0 != null ? depth0.tell : depth0)) != null ? stack1.section : stack1),{"name":"each","hash":{},"fn":container.program(1, data, 0),"inverse":container.noop,"data":data})) != null ? stack1 : "")
