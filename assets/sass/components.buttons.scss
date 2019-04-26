@@ -12,8 +12,9 @@
 		color: $ns-light-blue;
 		
 		&:hover {
-            box-shadow: inset 0 -45px 0 rgba($ns-light-blue, 0.07);
-            color: $ns-light-blue;
+            border: 1px solid $ns-blue;
+            box-shadow: inset 0 -45px 0 rgba($ns-blue, 0.05);
+            color: $ns-blue;
 		}
 		
 		&--white {
