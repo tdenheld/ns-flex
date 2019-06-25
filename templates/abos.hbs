@@ -13,10 +13,12 @@
                 <div class="flx-hero__content">
                     {{!-- <h1 class="flx-hero__title f-white ts-2">{{abos.title}}</h1> --}}
                     <h2 class="flx-hero__subtitle f-white ts-2">{{abos.subtitle}}</h2>
-                    <a href="{{global.cta.url}}" class="button button--nsYellow">
-                        {{abos.button-cta}}
-                    </a>
-                    
+                    <div class="g g-m-m-sm gap-2 items-center">
+                        <a href="{{global.cta.url}}" class="button button--nsYellow" style="width: 190px;">
+                            {{abos.button-cta}}
+                        </a>
+                        <a href="https://ns-abos.netlify.com/keuzehulp" class="arrowLink arrowLink--white ts-2">Help mij kiezen</a>
+                    </div>
                 </div>
             </div>
         </div>
@@ -27,20 +29,22 @@
 
         <!-- intro -->
         {{#each abos.usps}}
-        <div class="flx-section flx-section--usps a a-fi a-del-600">
-            <div class="flx-section__content--mw-800">
-                <div class="g g-m-1-md items-center a a-fi a-del-750">
-                    <div class="flx-section__img flx-section__img--abo {{#unless @first}}tr-si tr-900 js-tr{{/unless}}">
-                        <img src="../media/icons/{{icon}}" class="w-100" />
-                    </div>
-                    <div class="flx-section__content">
-                        <h3 class="flx-section__content-item flx-section__title flx-section__title--small tr-stag js-tr">
-                            {{{title}}}
-                        </h3>
+            <div class="flx-section flx-section--usps a a-fi a-del-600">
+                <div class="flx-section__content--mw-800">
+                    <div class="g g-m-1-md items-center a a-fi a-del-750">
+                        <div
+                            class="flx-section__img flx-section__img--abo {{#unless @first}}tr-si tr-900 js-tr{{/unless}}">
+                            <img src="../media/icons/{{icon}}" class="w-100" />
+                        </div>
+                        <div class="flx-section__content">
+                            <h3
+                                class="flx-section__content-item flx-section__title flx-section__title--small tr-stag js-tr">
+                                {{{title}}}
+                            </h3>
+                        </div>
                     </div>
                 </div>
             </div>
-        </div>
         {{/each}}
 
         <!-- stories -->
@@ -53,23 +57,23 @@
                 </div>
             </div>
             {{#each abos.stories.item}}
-            <div class="flx-section">
-                <div class="flx-stories__item">
-                    <img src="../media/{{img}}" class="flx-stories__img tr-si tr-900 js-tr">
-                    <div class="flx-stories__month tr-stag js-tr">
-                        <div include="../assets/img/icons/calendar--medium.svg"></div>
-                        <p class="flx-stories__month-label">{{month}}</p>
-                    </div>
-                    <div class="flx-stories__content">
-                        <h4 class="flx-stories__title tr-stag js-tr">{{title}}</h4>
-                        <p class="flx-stories__description tr-stag js-tr">{{description}}</p>
-                        <div class="flx-stories__suggestion tr-stag js-tr">
-                            <div class="flx-stories__line"></div>
-                            {{suggestion}}
+                <div class="flx-section">
+                    <div class="flx-stories__item">
+                        <img src="../media/{{img}}" class="flx-stories__img tr-si tr-900 js-tr">
+                        <div class="flx-stories__month tr-stag js-tr">
+                            <div include="../assets/img/icons/calendar--medium.svg"></div>
+                            <p class="flx-stories__month-label">{{month}}</p>
+                        </div>
+                        <div class="flx-stories__content">
+                            <h4 class="flx-stories__title tr-stag js-tr">{{title}}</h4>
+                            <p class="flx-stories__description tr-stag js-tr">{{description}}</p>
+                            <div class="flx-stories__suggestion tr-stag js-tr">
+                                <div class="flx-stories__line"></div>
+                                {{suggestion}}
+                            </div>
                         </div>
                     </div>
                 </div>
-            </div>
             {{/each}}
         </div>
 
@@ -79,7 +83,8 @@
                 <div class="container ovr-container">
                     <div class="g g-2-sm">
                         <div class="flx-costs__content flx-costs__content--contained order-3-sm">
-                            <h3 class="flx-section__content-item flx-section__title flx-section__title--small tr-stag js-tr">
+                            <h3
+                                class="flx-section__content-item flx-section__title flx-section__title--small tr-stag js-tr">
                                 <b>{{abos.costs.heading}}</b>
                             </h3>
                             <p class="flx-section__content-item flx-section__description tr-stag js-tr">
@@ -102,7 +107,8 @@
                         <img src="../media/{{abos.overview.img}}" class="w-100" />
                     </div>
                     <div class="flx-section__content pl-8-md">
-                        <h3 class="flx-section__content-item flx-section__title flx-section__title--small tr-stag js-tr">
+                        <h3
+                            class="flx-section__content-item flx-section__title flx-section__title--small tr-stag js-tr">
                             <b>{{{abos.overview.title}}}</b>
                         </h3>
                         <p class="flx-section__content-item flx-section__description tr-stag js-tr">
@@ -118,10 +124,10 @@
             <div class="flx-section__container flx-section__container--small mh-4 bo-t">
                 <div class="flx-summary pa-0">
                     {{#each abos.summary}}
-                    <div class="flx-summary__item tr-stag js-tr">
-                        <div class="flx-summary__icon" include="../media/icons/{{icon}}.svg"></div>
-                        <h3 class="flx-summary__title">{{{title}}}</h3>
-                    </div>
+                        <div class="flx-summary__item tr-stag js-tr">
+                            <div class="flx-summary__icon" include="../media/icons/{{icon}}.svg"></div>
+                            <h3 class="flx-summary__title">{{{title}}}</h3>
+                        </div>
                     {{/each}}
                 </div>
             </div>
@@ -132,7 +138,8 @@
             <div class="flx-section__container gd-110-yellow">
                 <div class="flx-section__content flx-section__content--mw-800 txt-c">
                     <h3 class="flx-section__title tr-stag js-tr"><b>{{{abos.cta.heading}}}</b></h3>
-                    <p class="flx-section__description flx-section__content--mw-800 txt-c tr-stag js-tr">{{{abos.cta.description}}}</p>
+                    <p class="flx-section__description flx-section__content--mw-800 txt-c tr-stag js-tr">
+                        {{{abos.cta.description}}}</p>
                     <div class="tr-stag js-tr mb-2">
                         <a href="{{global.cta.url}}" class="button">
                             {{abos.button-cta}}
