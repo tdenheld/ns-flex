@@ -4355,6 +4355,17 @@
 		"sC": 0,
 		"tS": 0
 		},
+	"/node_modules/handlebars/dist/handlebars.runtime-v4.1.2.js": {
+		"bF": 0,
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 1,
+		"oAP": "/node_modules/handlebars/dist/handlebars.runtime-v4.1.2.js",
+		"oF": 0,
+		"sC": 0,
+		"tS": 0
+		},
 	"/node_modules/handlebars/dist/handlebars.runtime.amd.js": {
 		"bF": 0,
 		"ft": 64,
@@ -5113,39 +5124,45 @@
 "manualImportLinks": {
 	"/assets/js/plugins.js": [
 		{
-			"followForSyntaxChecking": 1,
+			"followForSyntaxChecking": 0,
 			"linkedFileAbbreviatedPath": "/node_modules/handlebars/dist/handlebars.runtime.min.js",
 			"position": 0,
 			"type": 0
 			},
 		{
 			"followForSyntaxChecking": 1,
-			"linkedFileAbbreviatedPath": "/node_modules/gsap/TimelineMax.js",
+			"linkedFileAbbreviatedPath": "/node_modules/handlebars/dist/handlebars.runtime-v4.1.2.js",
 			"position": 1,
 			"type": 0
 			},
 		{
 			"followForSyntaxChecking": 1,
-			"linkedFileAbbreviatedPath": "/node_modules/gsap/TweenMax.js",
+			"linkedFileAbbreviatedPath": "/node_modules/gsap/TimelineMax.js",
 			"position": 2,
 			"type": 0
 			},
 		{
 			"followForSyntaxChecking": 1,
-			"linkedFileAbbreviatedPath": "/node_modules/gsap/plugins/ScrollToPlugin.js",
+			"linkedFileAbbreviatedPath": "/node_modules/gsap/TweenMax.js",
 			"position": 3,
 			"type": 0
 			},
 		{
 			"followForSyntaxChecking": 1,
-			"linkedFileAbbreviatedPath": "/node_modules/scrollmagic/scrollmagic/uncompressed/ScrollMagic.js",
+			"linkedFileAbbreviatedPath": "/node_modules/gsap/plugins/ScrollToPlugin.js",
 			"position": 4,
 			"type": 0
 			},
 		{
 			"followForSyntaxChecking": 1,
-			"linkedFileAbbreviatedPath": "/node_modules/scrollmagic/scrollmagic/uncompressed/plugins/debug.addIndicators.js",
+			"linkedFileAbbreviatedPath": "/node_modules/scrollmagic/scrollmagic/uncompressed/ScrollMagic.js",
 			"position": 5,
+			"type": 0
+			},
+		{
+			"followForSyntaxChecking": 1,
+			"linkedFileAbbreviatedPath": "/node_modules/scrollmagic/scrollmagic/uncompressed/plugins/debug.addIndicators.js",
+			"position": 6,
 			"type": 0
 			}
 		]
