@@ -23,14 +23,14 @@ var context = {
 		"section": [
 			{
 				"order": "order-3",
-				"img": "illustrations/bijzet-1.svg",
+				"img": "icons/checkout.svg",
 				"title": "Check <b>zorgeloos</b> in en uit zonder dat je saldo nodig hebt",
 			},{
-				"img": "illustrations/bijzet-2.svg",
+				"img": "icons/public-transport.svg",
 				"title": "Vergeet je een keer uit te checken, dan corrigeren we dat <b>automatisch</b>",
 			},{
 				"order": "order-3",
-				"img": "illustrations/bijzet-3.svg",
+				"img": "icons/invoice.svg",
 				"title": "Aan het einde van de maand sturen we je 1 <b>overzichtelijke</b> rekening",
 			},
 		],
