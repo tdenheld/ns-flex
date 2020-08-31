@@ -7,7 +7,7 @@
 		"uuidString": "5C60E87F-5506-4B6F-A088-DDF1D9E4563C"
 		}
 	],
-"creatorBuild": "31491",
+"creatorBuild": "31934",
 "files": {
 	"/.gitignore": {
 		"cB": 0,
@@ -2382,17 +2382,6 @@
 		"sC": 0,
 		"tS": 0
 		},
-	"/assets/js/min/templates.min.js": {
-		"bF": 0,
-		"ft": 64,
-		"ma": 0,
-		"mi": 1,
-		"oA": 0,
-		"oAP": "/assets/js/min/templates.min.min.js",
-		"oF": 0,
-		"sC": 0,
-		"tS": 0
-		},
 	"/assets/js/min/tk.generic.min.js": {
 		"bF": 0,
 		"ft": 64,
@@ -2423,17 +2412,6 @@
 		"oA": 0,
 		"oAP": "/assets/js/min/plugins.min.js",
 		"oF": 2,
-		"sC": 0,
-		"tS": 0
-		},
-	"/assets/js/templates.js": {
-		"bF": 0,
-		"ft": 64,
-		"ma": 0,
-		"mi": 1,
-		"oA": 0,
-		"oAP": "/assets/js/min/templates.min.js",
-		"oF": 3,
 		"sC": 0,
 		"tS": 0
 		},
@@ -2871,6 +2849,28 @@
 		"opt": 0,
 		"q": 80
 		},
+	"/media/hero/hero-sell-green-bg.jpg": {
+		"ft": 16384,
+		"iS": 233690,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/media/hero/hero-sell-green-bg.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 80
+		},
+	"/media/hero/hero-tell-green-bg.jpg": {
+		"ft": 16384,
+		"iS": 174837,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/media/hero/hero-tell-green-bg.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 80
+		},
 	"/media/hero/nsflex-sell-hero-ahmed.jpg": {
 		"ft": 16384,
 		"iS": 265895,
@@ -3215,593 +3215,6 @@
 		"opt": 0,
 		"q": 80
 		},
-	"/node_modules/gsap/easing/CustomBounce.js": {
-		"bF": 0,
-		"ft": 64,
-		"ma": 0,
-		"mi": 1,
-		"oA": 2,
-		"oAP": "/node_modules/gsap/easing/CustomBounce.js",
-		"oF": 0,
-		"sC": 0,
-		"tS": 0
-		},
-	"/node_modules/gsap/easing/CustomEase.js": {
-		"bF": 0,
-		"ft": 64,
-		"ma": 0,
-		"mi": 1,
-		"oA": 2,
-		"oAP": "/node_modules/gsap/easing/CustomEase.js",
-		"oF": 0,
-		"sC": 0,
-		"tS": 0
-		},
-	"/node_modules/gsap/easing/CustomWiggle.js": {
-		"bF": 0,
-		"ft": 64,
-		"ma": 0,
-		"mi": 1,
-		"oA": 2,
-		"oAP": "/node_modules/gsap/easing/CustomWiggle.js",
-		"oF": 0,
-		"sC": 0,
-		"tS": 0
-		},
-	"/node_modules/gsap/easing/EasePack.js": {
-		"bF": 0,
-		"ft": 64,
-		"ma": 0,
-		"mi": 1,
-		"oA": 2,
-		"oAP": "/node_modules/gsap/easing/EasePack.js",
-		"oF": 0,
-		"sC": 0,
-		"tS": 0
-		},
-	"/node_modules/gsap/jquery.gsap.js": {
-		"bF": 0,
-		"ft": 64,
-		"ma": 0,
-		"mi": 1,
-		"oA": 2,
-		"oAP": "/node_modules/gsap/jquery.gsap.js",
-		"oF": 0,
-		"sC": 0,
-		"tS": 0
-		},
-	"/node_modules/gsap/plugins/AttrPlugin.js": {
-		"bF": 0,
-		"ft": 64,
-		"ma": 0,
-		"mi": 1,
-		"oA": 2,
-		"oAP": "/node_modules/gsap/plugins/AttrPlugin.js",
-		"oF": 0,
-		"sC": 0,
-		"tS": 0
-		},
-	"/node_modules/gsap/plugins/BezierPlugin.js": {
-		"bF": 0,
-		"ft": 64,
-		"ma": 0,
-		"mi": 1,
-		"oA": 2,
-		"oAP": "/node_modules/gsap/plugins/BezierPlugin.js",
-		"oF": 0,
-		"sC": 0,
-		"tS": 0
-		},
-	"/node_modules/gsap/plugins/ColorPropsPlugin.js": {
-		"bF": 0,
-		"ft": 64,
-		"ma": 0,
-		"mi": 1,
-		"oA": 2,
-		"oAP": "/node_modules/gsap/plugins/ColorPropsPlugin.js",
-		"oF": 0,
-		"sC": 0,
-		"tS": 0
-		},
-	"/node_modules/gsap/plugins/CSSPlugin.js": {
-		"bF": 0,
-		"ft": 64,
-		"ma": 0,
-		"mi": 1,
-		"oA": 2,
-		"oAP": "/node_modules/gsap/plugins/CSSPlugin.js",
-		"oF": 0,
-		"sC": 0,
-		"tS": 0
-		},
-	"/node_modules/gsap/plugins/CSSRulePlugin.js": {
-		"bF": 0,
-		"ft": 64,
-		"ma": 0,
-		"mi": 1,
-		"oA": 2,
-		"oAP": "/node_modules/gsap/plugins/CSSRulePlugin.js",
-		"oF": 0,
-		"sC": 0,
-		"tS": 0
-		},
-	"/node_modules/gsap/plugins/DirectionalRotationPlugin.js": {
-		"bF": 0,
-		"ft": 64,
-		"ma": 0,
-		"mi": 1,
-		"oA": 2,
-		"oAP": "/node_modules/gsap/plugins/DirectionalRotationPlugin.js",
-		"oF": 0,
-		"sC": 0,
-		"tS": 0
-		},
-	"/node_modules/gsap/plugins/DrawSVGPlugin.js": {
-		"bF": 0,
-		"ft": 64,
-		"ma": 0,
-		"mi": 1,
-		"oA": 2,
-		"oAP": "/node_modules/gsap/plugins/DrawSVGPlugin.js",
-		"oF": 0,
-		"sC": 0,
-		"tS": 0
-		},
-	"/node_modules/gsap/plugins/EaselPlugin.js": {
-		"bF": 0,
-		"ft": 64,
-		"ma": 0,
-		"mi": 1,
-		"oA": 2,
-		"oAP": "/node_modules/gsap/plugins/EaselPlugin.js",
-		"oF": 0,
-		"sC": 0,
-		"tS": 0
-		},
-	"/node_modules/gsap/plugins/EndArrayPlugin.js": {
-		"bF": 0,
-		"ft": 64,
-		"ma": 0,
-		"mi": 1,
-		"oA": 2,
-		"oAP": "/node_modules/gsap/plugins/EndArrayPlugin.js",
-		"oF": 0,
-		"sC": 0,
-		"tS": 0
-		},
-	"/node_modules/gsap/plugins/ModifiersPlugin.js": {
-		"bF": 0,
-		"ft": 64,
-		"ma": 0,
-		"mi": 1,
-		"oA": 2,
-		"oAP": "/node_modules/gsap/plugins/ModifiersPlugin.js",
-		"oF": 0,
-		"sC": 0,
-		"tS": 0
-		},
-	"/node_modules/gsap/plugins/MorphSVGPlugin.js": {
-		"bF": 0,
-		"ft": 64,
-		"ma": 0,
-		"mi": 1,
-		"oA": 2,
-		"oAP": "/node_modules/gsap/plugins/MorphSVGPlugin.js",
-		"oF": 0,
-		"sC": 0,
-		"tS": 0
-		},
-	"/node_modules/gsap/plugins/Physics2DPlugin.js": {
-		"bF": 0,
-		"ft": 64,
-		"ma": 0,
-		"mi": 1,
-		"oA": 2,
-		"oAP": "/node_modules/gsap/plugins/Physics2DPlugin.js",
-		"oF": 0,
-		"sC": 0,
-		"tS": 0
-		},
-	"/node_modules/gsap/plugins/PhysicsPropsPlugin.js": {
-		"bF": 0,
-		"ft": 64,
-		"ma": 0,
-		"mi": 1,
-		"oA": 2,
-		"oAP": "/node_modules/gsap/plugins/PhysicsPropsPlugin.js",
-		"oF": 0,
-		"sC": 0,
-		"tS": 0
-		},
-	"/node_modules/gsap/plugins/PixiPlugin.js": {
-		"bF": 0,
-		"ft": 64,
-		"ma": 0,
-		"mi": 1,
-		"oA": 2,
-		"oAP": "/node_modules/gsap/plugins/PixiPlugin.js",
-		"oF": 0,
-		"sC": 0,
-		"tS": 0
-		},
-	"/node_modules/gsap/plugins/RaphaelPlugin.js": {
-		"bF": 0,
-		"ft": 64,
-		"ma": 0,
-		"mi": 1,
-		"oA": 2,
-		"oAP": "/node_modules/gsap/plugins/RaphaelPlugin.js",
-		"oF": 0,
-		"sC": 0,
-		"tS": 0
-		},
-	"/node_modules/gsap/plugins/RoundPropsPlugin.js": {
-		"bF": 0,
-		"ft": 64,
-		"ma": 0,
-		"mi": 1,
-		"oA": 2,
-		"oAP": "/node_modules/gsap/plugins/RoundPropsPlugin.js",
-		"oF": 0,
-		"sC": 0,
-		"tS": 0
-		},
-	"/node_modules/gsap/plugins/ScrambleTextPlugin.js": {
-		"bF": 0,
-		"ft": 64,
-		"ma": 0,
-		"mi": 1,
-		"oA": 2,
-		"oAP": "/node_modules/gsap/plugins/ScrambleTextPlugin.js",
-		"oF": 0,
-		"sC": 0,
-		"tS": 0
-		},
-	"/node_modules/gsap/plugins/ScrollToPlugin.js": {
-		"bF": 0,
-		"ft": 64,
-		"ma": 0,
-		"mi": 1,
-		"oA": 1,
-		"oAP": "/node_modules/gsap/plugins/ScrollToPlugin.js",
-		"oF": 0,
-		"sC": 0,
-		"tS": 0
-		},
-	"/node_modules/gsap/plugins/TEMPLATE_Plugin.js": {
-		"bF": 0,
-		"ft": 64,
-		"ma": 0,
-		"mi": 1,
-		"oA": 2,
-		"oAP": "/node_modules/gsap/plugins/TEMPLATE_Plugin.js",
-		"oF": 0,
-		"sC": 0,
-		"tS": 0
-		},
-	"/node_modules/gsap/plugins/TextPlugin.js": {
-		"bF": 0,
-		"ft": 64,
-		"ma": 0,
-		"mi": 1,
-		"oA": 2,
-		"oAP": "/node_modules/gsap/plugins/TextPlugin.js",
-		"oF": 0,
-		"sC": 0,
-		"tS": 0
-		},
-	"/node_modules/gsap/plugins/ThrowPropsPlugin.js": {
-		"bF": 0,
-		"ft": 64,
-		"ma": 0,
-		"mi": 1,
-		"oA": 2,
-		"oAP": "/node_modules/gsap/plugins/ThrowPropsPlugin.js",
-		"oF": 0,
-		"sC": 0,
-		"tS": 0
-		},
-	"/node_modules/gsap/TimelineLite.js": {
-		"bF": 0,
-		"ft": 64,
-		"ma": 0,
-		"mi": 1,
-		"oA": 2,
-		"oAP": "/node_modules/gsap/TimelineLite.js",
-		"oF": 0,
-		"sC": 0,
-		"tS": 0
-		},
-	"/node_modules/gsap/TimelineMax.js": {
-		"bF": 0,
-		"ft": 64,
-		"ma": 0,
-		"mi": 1,
-		"oA": 1,
-		"oAP": "/node_modules/gsap/TimelineMax.js",
-		"oF": 0,
-		"sC": 0,
-		"tS": 0
-		},
-	"/node_modules/gsap/TweenLite.js": {
-		"bF": 0,
-		"ft": 64,
-		"ma": 0,
-		"mi": 1,
-		"oA": 2,
-		"oAP": "/node_modules/gsap/TweenLite.js",
-		"oF": 0,
-		"sC": 0,
-		"tS": 0
-		},
-	"/node_modules/gsap/TweenMax.js": {
-		"bF": 0,
-		"ft": 64,
-		"ma": 0,
-		"mi": 1,
-		"oA": 1,
-		"oAP": "/node_modules/gsap/TweenMax.js",
-		"oF": 0,
-		"sC": 0,
-		"tS": 0
-		},
-	"/node_modules/gsap/utils/Draggable.js": {
-		"bF": 0,
-		"ft": 64,
-		"ma": 0,
-		"mi": 1,
-		"oA": 2,
-		"oAP": "/node_modules/gsap/utils/Draggable.js",
-		"oF": 0,
-		"sC": 0,
-		"tS": 0
-		},
-	"/node_modules/gsap/utils/GSDevTools.js": {
-		"bF": 0,
-		"ft": 64,
-		"ma": 0,
-		"mi": 1,
-		"oA": 2,
-		"oAP": "/node_modules/gsap/utils/GSDevTools.js",
-		"oF": 0,
-		"sC": 0,
-		"tS": 0
-		},
-	"/node_modules/gsap/utils/SplitText.js": {
-		"bF": 0,
-		"ft": 64,
-		"ma": 0,
-		"mi": 1,
-		"oA": 2,
-		"oAP": "/node_modules/gsap/utils/SplitText.js",
-		"oF": 0,
-		"sC": 0,
-		"tS": 0
-		},
-	"/node_modules/handlebars/.gitattributes": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 2,
-		"oAP": "/node_modules/handlebars/.gitattributes",
-		"oF": 0
-		},
-	"/node_modules/handlebars/.gitmodules": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 2,
-		"oAP": "/node_modules/handlebars/.gitmodules",
-		"oF": 0
-		},
-	"/node_modules/handlebars/.idea": {
-		"ft": 65536,
-		"oA": 1,
-		"oAP": "/build/node_modules/handlebars/.idea",
-		"oF": 0
-		},
-	"/node_modules/handlebars/.istanbul.yml": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 2,
-		"oAP": "/node_modules/handlebars/.istanbul.yml",
-		"oF": 0
-		},
-	"/node_modules/handlebars/.npmignore": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 2,
-		"oAP": "/node_modules/handlebars/.npmignore",
-		"oF": 0
-		},
-	"/node_modules/handlebars/handlebars.runtime-v4.1.2.js": {
-		"bF": 0,
-		"ft": 64,
-		"ma": 0,
-		"mi": 1,
-		"oA": 1,
-		"oAP": "/node_modules/handlebars/handlebars.runtime-v4.1.2.js",
-		"oF": 0,
-		"sC": 0,
-		"tS": 0
-		},
-	"/node_modules/scrollmagic/CHANGELOG.md": {
-		"cB": 0,
-		"cS": 0,
-		"eF": 1,
-		"eL": 1,
-		"ema": 1,
-		"eSQ": 1,
-		"ft": 4096,
-		"hM": 0,
-		"oA": 2,
-		"oAP": "/node_modules/scrollmagic/CHANGELOG.md",
-		"oF": 0,
-		"oFM": 0,
-		"oS": 0,
-		"pHT": 0,
-		"pME": 1,
-		"rFN": 0,
-		"uCM": 0
-		},
-	"/node_modules/scrollmagic/LICENSE.md": {
-		"cB": 0,
-		"cS": 0,
-		"eF": 1,
-		"eL": 1,
-		"ema": 1,
-		"eSQ": 1,
-		"ft": 4096,
-		"hM": 0,
-		"oA": 2,
-		"oAP": "/node_modules/scrollmagic/LICENSE.md",
-		"oF": 0,
-		"oFM": 0,
-		"oS": 0,
-		"pHT": 0,
-		"pME": 1,
-		"rFN": 0,
-		"uCM": 0
-		},
-	"/node_modules/scrollmagic/package.json": {
-		"ft": 524288,
-		"oA": 2,
-		"oAP": "/node_modules/scrollmagic/package.json",
-		"oF": 0,
-		"oO": 0,
-		"oS": 1
-		},
-	"/node_modules/scrollmagic/README.md": {
-		"cB": 0,
-		"cS": 0,
-		"eF": 1,
-		"eL": 1,
-		"ema": 1,
-		"eSQ": 1,
-		"ft": 4096,
-		"hM": 0,
-		"oA": 2,
-		"oAP": "/node_modules/scrollmagic/README.md",
-		"oF": 0,
-		"oFM": 0,
-		"oS": 0,
-		"pHT": 0,
-		"pME": 1,
-		"rFN": 0,
-		"uCM": 0
-		},
-	"/node_modules/scrollmagic/scrollmagic/minified/plugins/animation.gsap.min.js": {
-		"bF": 0,
-		"ft": 64,
-		"ma": 0,
-		"mi": 1,
-		"oA": 2,
-		"oAP": "/node_modules/scrollmagic/scrollmagic/minified/plugins/animation.gsap.min.js",
-		"oF": 0,
-		"sC": 0,
-		"tS": 0
-		},
-	"/node_modules/scrollmagic/scrollmagic/minified/plugins/animation.velocity.min.js": {
-		"bF": 0,
-		"ft": 64,
-		"ma": 0,
-		"mi": 1,
-		"oA": 2,
-		"oAP": "/node_modules/scrollmagic/scrollmagic/minified/plugins/animation.velocity.min.js",
-		"oF": 0,
-		"sC": 0,
-		"tS": 0
-		},
-	"/node_modules/scrollmagic/scrollmagic/minified/plugins/debug.addIndicators.min.js": {
-		"bF": 0,
-		"ft": 64,
-		"ma": 0,
-		"mi": 1,
-		"oA": 2,
-		"oAP": "/node_modules/scrollmagic/scrollmagic/minified/plugins/debug.addIndicators.min.js",
-		"oF": 0,
-		"sC": 0,
-		"tS": 0
-		},
-	"/node_modules/scrollmagic/scrollmagic/minified/plugins/jquery.ScrollMagic.min.js": {
-		"bF": 0,
-		"ft": 64,
-		"ma": 0,
-		"mi": 1,
-		"oA": 2,
-		"oAP": "/node_modules/scrollmagic/scrollmagic/minified/plugins/jquery.ScrollMagic.min.js",
-		"oF": 0,
-		"sC": 0,
-		"tS": 0
-		},
-	"/node_modules/scrollmagic/scrollmagic/minified/ScrollMagic.min.js": {
-		"bF": 0,
-		"ft": 64,
-		"ma": 0,
-		"mi": 1,
-		"oA": 2,
-		"oAP": "/node_modules/scrollmagic/scrollmagic/minified/ScrollMagic.min.js",
-		"oF": 0,
-		"sC": 0,
-		"tS": 0
-		},
-	"/node_modules/scrollmagic/scrollmagic/uncompressed/plugins/animation.gsap.js": {
-		"bF": 0,
-		"ft": 64,
-		"ma": 0,
-		"mi": 1,
-		"oA": 2,
-		"oAP": "/node_modules/scrollmagic/scrollmagic/uncompressed/plugins/animation.gsap.js",
-		"oF": 0,
-		"sC": 0,
-		"tS": 0
-		},
-	"/node_modules/scrollmagic/scrollmagic/uncompressed/plugins/animation.velocity.js": {
-		"bF": 0,
-		"ft": 64,
-		"ma": 0,
-		"mi": 1,
-		"oA": 2,
-		"oAP": "/node_modules/scrollmagic/scrollmagic/uncompressed/plugins/animation.velocity.js",
-		"oF": 0,
-		"sC": 0,
-		"tS": 0
-		},
-	"/node_modules/scrollmagic/scrollmagic/uncompressed/plugins/debug.addIndicators.js": {
-		"bF": 0,
-		"ft": 64,
-		"ma": 0,
-		"mi": 1,
-		"oA": 1,
-		"oAP": "/node_modules/scrollmagic/scrollmagic/uncompressed/plugins/debug.addIndicators.js",
-		"oF": 0,
-		"sC": 0,
-		"tS": 0
-		},
-	"/node_modules/scrollmagic/scrollmagic/uncompressed/plugins/jquery.ScrollMagic.js": {
-		"bF": 0,
-		"ft": 64,
-		"ma": 0,
-		"mi": 1,
-		"oA": 2,
-		"oAP": "/node_modules/scrollmagic/scrollmagic/uncompressed/plugins/jquery.ScrollMagic.js",
-		"oF": 0,
-		"sC": 0,
-		"tS": 0
-		},
-	"/node_modules/scrollmagic/scrollmagic/uncompressed/ScrollMagic.js": {
-		"bF": 0,
-		"ft": 64,
-		"ma": 0,
-		"mi": 1,
-		"oA": 1,
-		"oAP": "/node_modules/scrollmagic/scrollmagic/uncompressed/ScrollMagic.js",
-		"oF": 0,
-		"sC": 0,
-		"tS": 0
-		},
 	"/sell.html": {
 		"cB": 0,
 		"ft": 8192,
@@ -3847,7 +3260,7 @@
 	{
 		"enabled": 1,
 		"name": "Compile Handlebar Files",
-		"predicateDataBase64Encoded": "YnBsaXN0MDDUAQIDBAUGZWZYJHZlcnNpb25YJG9iamVjdHNZJGFyY2hpdmVyVCR0b3ASAAGGoK8QFgcIDxQcJicqMTU6Oz5CRktMT1ZcYGJVJG51bGzTCQoLDA0OXxAXTlNDb21wb3VuZFByZWRpY2F0ZVR5cGVfEA9OU1N1YnByZWRpY2F0ZXNWJGNsYXNzEAKAAoAV0hALERNaTlMub2JqZWN0c6ESgAOAFNQLFRYXGBkaG18QEU5TUmlnaHRFeHByZXNzaW9uXxAQTlNMZWZ0RXhwcmVzc2lvbl8QE05TUHJlZGljYXRlT3BlcmF0b3KAE4AOgASAEdUdHh8gCyEiIyQlWU5TT3BlcmFuZF5OU1NlbGVjdG9yTmFtZV8QEE5TRXhwcmVzc2lvblR5cGVbTlNBcmd1bWVudHOABoAFEAOACIANXHZhbHVlRm9yS2V5OtIfCygpEAGAB9IrLC0uWiRjbGFzc25hbWVYJGNsYXNzZXNfEBBOU1NlbGZFeHByZXNzaW9uoy0vMFxOU0V4cHJlc3Npb25YTlNPYmplY3TSEAsyNKEzgAmADNMLHzY3ODlZTlNLZXlQYXRogAsQCoAKXWlucHV0RmlsZW5hbWXSKyw8PV8QHE5TS2V5UGF0aFNwZWNpZmllckV4cHJlc3Npb26jPC8w0issP0BeTlNNdXRhYmxlQXJyYXmjP0EwV05TQXJyYXnSKyxDRF8QE05TS2V5UGF0aEV4cHJlc3Npb26kQ0UvMF8QFE5TRnVuY3Rpb25FeHByZXNzaW9u00cfC0hJSl8QD05TQ29uc3RhbnRWYWx1ZYAPEACAEFNoYnPSKyxNTl8QGU5TQ29uc3RhbnRWYWx1ZUV4cHJlc3Npb26jTS8w1QtQUVJTVEkjKFVaTlNNb2RpZmllcldOU0ZsYWdzWk5TUG9zaXRpb25eTlNPcGVyYXRvclR5cGWAEhAJ0issV1hfEBxOU1N1YnN0cmluZ1ByZWRpY2F0ZU9wZXJhdG9ypFlaWzBfEBxOU1N1YnN0cmluZ1ByZWRpY2F0ZU9wZXJhdG9yXxAZTlNTdHJpbmdQcmVkaWNhdGVPcGVyYXRvcl8QE05TUHJlZGljYXRlT3BlcmF0b3LSKyxdXl8QFU5TQ29tcGFyaXNvblByZWRpY2F0ZaNdXzBbTlNQcmVkaWNhdGXSKyxBYaJBMNIrLGNkXxATTlNDb21wb3VuZFByZWRpY2F0ZaNjXzBfEA9OU0tleWVkQXJjaGl2ZXLRZ2hUcm9vdIABAAgAEQAaACMALQAyADcAUABWAF0AdwCJAJAAkgCUAJYAmwCmAKgAqgCsALUAyQDcAPIA9AD2APgA+gEFAQ8BHgExAT0BPwFBAUMBRQFHAVQBWQFbAV0BYgFtAXYBiQGNAZoBowGoAaoBrAGuAbUBvwHBAcMBxQHTAdgB9wH7AgACDwITAhsCIAI2AjsCUgJZAmsCbQJvAnECdQJ6ApYCmgKlArACuALDAtIC1ALWAtsC+gL/Ax4DOgNQA1UDbQNxA30DggOFA4oDoAOkA7YDuQO+AAAAAAAAAgEAAAAAAAAAaQAAAAAAAAAAAAAAAAAAA8A=",
+		"predicateDataBase64Encoded": "YnBsaXN0MDDUAQIDBAUGBwpYJHZlcnNpb25ZJGFyY2hpdmVyVCR0b3BYJG9iamVjdHMSAAGGoF8QD05TS2V5ZWRBcmNoaXZlctEICVRyb290gAGvEBYLDBMYICorLjU5Pj9CRkpPUFNaYGRmVSRudWxs0w0ODxAREl8QF05TQ29tcG91bmRQcmVkaWNhdGVUeXBlXxAPTlNTdWJwcmVkaWNhdGVzViRjbGFzcxACgAKAFdIUDxUXWk5TLm9iamVjdHOhFoADgBTUDxkaGxwdHh9fEBFOU1JpZ2h0RXhwcmVzc2lvbl8QEE5TTGVmdEV4cHJlc3Npb25fEBNOU1ByZWRpY2F0ZU9wZXJhdG9ygBOADoAEgBHVISIjJA8lJicoKVlOU09wZXJhbmReTlNTZWxlY3Rvck5hbWVfEBBOU0V4cHJlc3Npb25UeXBlW05TQXJndW1lbnRzgAaABRADgAiADVx2YWx1ZUZvcktleTrSIw8sLRABgAfSLzAxMlokY2xhc3NuYW1lWCRjbGFzc2VzXxAQTlNTZWxmRXhwcmVzc2lvbqMxMzRcTlNFeHByZXNzaW9uWE5TT2JqZWN00hQPNjihN4AJgAzTDyM6Ozw9WU5TS2V5UGF0aIALEAqACl1pbnB1dEZpbGVuYW1l0i8wQEFfEBxOU0tleVBhdGhTcGVjaWZpZXJFeHByZXNzaW9uo0AzNNIvMENEXk5TTXV0YWJsZUFycmF5o0NFNFdOU0FycmF50i8wR0hfEBNOU0tleVBhdGhFeHByZXNzaW9upEdJMzRfEBROU0Z1bmN0aW9uRXhwcmVzc2lvbtNLIw9MTU5fEA9OU0NvbnN0YW50VmFsdWWADxAAgBBTaGJz0i8wUVJfEBlOU0NvbnN0YW50VmFsdWVFeHByZXNzaW9uo1EzNNUPVFVWV1hNJyxZWk5TTW9kaWZpZXJXTlNGbGFnc1pOU1Bvc2l0aW9uXk5TT3BlcmF0b3JUeXBlgBIQCdIvMFtcXxAcTlNTdWJzdHJpbmdQcmVkaWNhdGVPcGVyYXRvcqRdXl80XxAcTlNTdWJzdHJpbmdQcmVkaWNhdGVPcGVyYXRvcl8QGU5TU3RyaW5nUHJlZGljYXRlT3BlcmF0b3JfEBNOU1ByZWRpY2F0ZU9wZXJhdG9y0i8wYWJfEBVOU0NvbXBhcmlzb25QcmVkaWNhdGWjYWM0W05TUHJlZGljYXRl0i8wRWWiRTTSLzBnaF8QE05TQ29tcG91bmRQcmVkaWNhdGWjZ2M0AAgAEQAaACQAKQAyADcASQBMAFEAUwBsAHIAeQCTAKUArACuALAAsgC3AMIAxADGAMgA0QDlAPgBDgEQARIBFAEWASEBKwE6AU0BWQFbAV0BXwFhAWMBcAF1AXcBeQF+AYkBkgGlAakBtgG/AcQBxgHIAcoB0QHbAd0B3wHhAe8B9AITAhcCHAIrAi8CNwI8AlICVwJuAnUChwKJAosCjQKRApYCsgK2AsECzALUAt8C7gLwAvIC9wMWAxsDOgNWA2wDcQOJA40DmQOeA6EDpgO8AAAAAAAAAgEAAAAAAAAAaQAAAAAAAAAAAAAAAAAAA8A=",
 		"runOrder": 0,
 		"scriptSourceString": "handlebars templates/ -f assets/js/templates.js -e hbs",
 		"scriptType": 1,
@@ -3855,44 +3268,6 @@
 		}
 	],
 "manualImportLinks": {
-	"/assets/js/plugins.js": [
-		{
-			"followForSyntaxChecking": 1,
-			"linkedFileAbbreviatedPath": "/node_modules/handlebars/handlebars.runtime-v4.1.2.js",
-			"position": 0,
-			"type": 0
-			},
-		{
-			"followForSyntaxChecking": 1,
-			"linkedFileAbbreviatedPath": "/node_modules/gsap/TimelineMax.js",
-			"position": 1,
-			"type": 0
-			},
-		{
-			"followForSyntaxChecking": 1,
-			"linkedFileAbbreviatedPath": "/node_modules/gsap/TweenMax.js",
-			"position": 2,
-			"type": 0
-			},
-		{
-			"followForSyntaxChecking": 1,
-			"linkedFileAbbreviatedPath": "/node_modules/gsap/plugins/ScrollToPlugin.js",
-			"position": 3,
-			"type": 0
-			},
-		{
-			"followForSyntaxChecking": 1,
-			"linkedFileAbbreviatedPath": "/node_modules/scrollmagic/scrollmagic/uncompressed/ScrollMagic.js",
-			"position": 4,
-			"type": 0
-			},
-		{
-			"followForSyntaxChecking": 1,
-			"linkedFileAbbreviatedPath": "/node_modules/scrollmagic/scrollmagic/uncompressed/plugins/debug.addIndicators.js",
-			"position": 5,
-			"type": 0
-			}
-		]
 	},
 "projectAttributes": {
 	"creationDate": 506199522,
@@ -4334,6 +3709,7 @@
 			"flagValue": -1
 			}
 		},
+	"environmentVariablesString": "NODE_ENV:::production",
 	"esLintConfigFileHandlingType": 0,
 	"esLintECMAVersion": 7,
 	"esLintEnvironmentsMask": 1,
@@ -4435,6 +3811,10 @@
 			"optionString": "'all'"
 			},
 		"default-case": {
+			"active": 0,
+			"optionString": ""
+			},
+		"default-param-last": {
 			"active": 0,
 			"optionString": ""
 			},
@@ -4784,6 +4164,10 @@
 			},
 		"no-implied-eval": {
 			"active": 0,
+			"optionString": ""
+			},
+		"no-import-assign": {
+			"active": 1,
 			"optionString": ""
 			},
 		"no-inline-comments": {
@@ -5209,6 +4593,10 @@
 		"prefer-promise-reject-errors": {
 			"active": 0,
 			"optionString": "{'allowEmptyReject': false}"
+			},
+		"prefer-regex-literals": {
+			"active": 0,
+			"optionString": ""
 			},
 		"prefer-rest-params": {
 			"active": 0,
@@ -5818,7 +5206,6 @@
 		"autoOutputPathStyle": 0,
 		"createSourceMap": 1,
 		"enableJavascript": 0,
-		"ieCompatibility": 1,
 		"mathStyle": 0,
 		"outputStyle": 0,
 		"rewriteURLStyle": 0,
@@ -5958,6 +5345,9 @@
 	"npmTargetDependencyListType": 1,
 	"overrideExternalServerCSS": 0,
 	"previewPathAddition": "",
+	"rollupExternals": "",
+	"rollupReplacements": "process.env.NODE_ENV:::$NODE_ENV,,,ENVIRONMENT:::$NODE_ENV",
+	"rollupTreeshakingEnabled": 1,
 	"skippedFoldersString": "log, _logs, logs, _cache, cache, .idea, /storage/framework/sessions",
 	"sourceFolderName": "source",
 	"susyVersion": 3,
