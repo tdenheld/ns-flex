@@ -257,13 +257,12 @@
 }
 
 .flx-link {
-    color: $ns-white;
-    box-shadow: 0 1px 0 $ns-white;
+    color: $ns-blue;
+    box-shadow: 0 1px 0 $ns-grey-alpha-40;
     font-weight: normal;
-    text-shadow: $text-shadow-2;
 
     &:hover {
-        box-shadow: 0 1px 0 $ns-white;
+        box-shadow: 0 1px 0 rgba($ns-blue, 1);
     }
 
     &--light-blue {
@@ -272,6 +271,16 @@
 
         &:hover {
             box-shadow: 0 1px 0 rgba($ns-light-blue, 1);
+        }
+    }
+
+    &--white {
+        color: $ns-white;
+        box-shadow: 0 1px 0 $ns-white;
+        text-shadow: $text-shadow-2;
+
+        &:hover {
+            box-shadow: 0 1px 0 $ns-white;
         }
     }
 }
