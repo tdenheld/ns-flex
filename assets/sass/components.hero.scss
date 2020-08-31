@@ -3,199 +3,229 @@
 --------------------*/
 
 $hero-height: calc(100vh - 120px);
-$hero-height-small:	60vh;
+$hero-height-small: 60vh;
 $hero-height-smaller: 560px;
 
 .flx-hero {
-	position: relative;
-	overflow: hidden;
-	width: 100vw;
-	min-height: 300px;
-	height: $hero-height;
-	@include sm {
-		margin-bottom: $double-gutter;
-	}
+    position: relative;
+    overflow: hidden;
+    width: 100vw;
+    min-height: 300px;
+    height: $hero-height;
+
+    @include sm {
+        margin-bottom: $double-gutter;
+    }
 }
 
 .flx-hero__bg {
-	position: absolute;
-	width: 100%;
-	height: 100%;
+    position: absolute;
+    width: 100%;
+    height: 100%;
 }
 
 .flx-hero__img {
-	@include full(absolute);
-	@include bg(cover);
-		
-	// tell page
-	&--tell-hakim {
-		background-image: url("../../media/hero/nsflex-tell-hero-hakim.jpg");
-	}
-	&--tell-elise {
-		background-image: url("../../media/hero/nsflex-tell-hero-elise.jpg");
-	}
-	&--tell-marcia {
-		background-image: url("../../media/hero/nsflex-tell-hero-marcia.jpg");
-	}
-	&--tell-ahmed {
-		background-image: url("../../media/hero/nsflex-tell-hero-ahmed.jpg");
+    @include full(absolute);
+    @include bg(cover);
+
+    // tell page
+    &--tell-original {
+        background-image: url("../../media/hero/hero-tell-green-bg.jpg");
     }
-	
-	// sell page
-	&--sell-hakim {
-		background-image: url("../../media/hero/nsflex-sell-hero-hakim.jpg");
-	}
-	&--sell-elise {
-		background-image: url("../../media/hero/nsflex-sell-hero-elise.jpg");
-	}
-	&--sell-marcia {
-		background-image: url("../../media/hero/nsflex-sell-hero-marcia.jpg");
-	}
-	&--sell-ahmed {
-		background-image: url("../../media/hero/nsflex-sell-hero-ahmed.jpg");
-	}
-	
-	// abonnementen
-	&--abo {
-		background-image: url("../../media/hero/hero-abo.jpg");
-	}
+
+    &--tell-hakim {
+        background-image: url("../../media/hero/hero-tell-hero-hakim.jpg");
+    }
+
+    &--tell-elise {
+        background-image: url("../../media/hero/nsflex-tell-hero-elise.jpg");
+    }
+
+    &--tell-marcia {
+        background-image: url("../../media/hero/nsflex-tell-hero-marcia.jpg");
+    }
+
+    &--tell-ahmed {
+        background-image: url("../../media/hero/nsflex-tell-hero-ahmed.jpg");
+    }
+
+    // sell page
+    &--sell-hakim {
+        background-image: url("../../media/hero/nsflex-sell-hero-hakim.jpg");
+    }
+
+    &--sell-elise {
+        background-image: url("../../media/hero/nsflex-sell-hero-elise.jpg");
+    }
+
+    &--sell-marcia {
+        background-image: url("../../media/hero/nsflex-sell-hero-marcia.jpg");
+    }
+
+    &--sell-ahmed {
+        background-image: url("../../media/hero/nsflex-sell-hero-ahmed.jpg");
+    }
+
+    // abonnementen
+    &--abo {
+        background-image: url("../../media/hero/hero-abo.jpg");
+    }
 }
 
-.flx-hero__flow {	
-	svg {
-		opacity: 0.99;
-		height: $hero-height;			
-		@media (max-aspect-ratio: 17/10) {
-			width: 100%;
-			height: auto;
-		}
-	}
+.flx-hero__flow {
+    svg {
+        opacity: 0.3;
+        height: $hero-height;
+
+        @media (max-aspect-ratio: 17/10) {
+            width: 100%;
+            height: auto;
+        }
+    }
 }
 
 .flx-hero__content {
-	margin-top: $half-gutter;
-	max-width: 800px;
-	padding: $gutter;
-	@include md {
-		margin-top: 8vh;
-	}
+    margin-top: $half-gutter;
+    max-width: 800px;
+    padding: $gutter;
+
+    @include md {
+        margin-top: 8vh;
+    }
 }
 
 .flx-hero__title {
-	@include font-style(24px, normal, 1.2);
-	@include sm {
-		font-size: calculate-rem(30px);
-	}
-	@include lg {
-		font-size: calculate-rem(42px);
-	}
-	@media (max-height: 520px) and (max-width: $md) {
-		font-size: calculate-rem(24px);
-	}
+    @include font-style(24px, normal, 1.2);
+
+    @include sm {
+        font-size: calculate-rem(30px);
+    }
+
+    @include lg {
+        font-size: calculate-rem(42px);
+    }
+
+    @media (max-height: 520px) and (max-width: $md) {
+        font-size: calculate-rem(24px);
+    }
 }
 
 .flx-hero__subtitle {
-	margin-bottom: $half-gutter;
-	@include font-style(30px, bold, 1.2);
-	@include sm {
-		margin-bottom: $gutter;
-		font-size: calculate-rem(56px);
-	}
-	@include lg {
-		font-size: calculate-rem(72px);
-	}
-	@media (max-height: 520px) and (max-width: $md) {
-		max-width: 360px;
-		font-size: calculate-rem(30px);
-	}
-	
-	&--yellow-glow {
-		text-shadow: 1px 1px 0 rgba($ns-yellow, 0.35),
-					 0 0 1px rgba($ns-yellow, 0.9);
-	}
+    margin-bottom: $half-gutter;
+    @include font-style(30px, bold, 1.2);
+
+    @include sm {
+        margin-bottom: $gutter;
+        font-size: calculate-rem(56px);
+    }
+
+    @include lg {
+        font-size: calculate-rem(72px);
+    }
+
+    @media (max-height: 520px) and (max-width: $md) {
+        max-width: 360px;
+        font-size: calculate-rem(30px);
+    }
+
+    &--yellow-glow {
+        text-shadow: 1px 1px 0 rgba($ns-yellow, 0.35),
+            0 0 1px rgba($ns-yellow, 0.9);
+    }
 }
 
 .flx-hero__scrolldown {
-	display: grid;
-	position: absolute;
-	bottom: $gutter;
-	text-shadow: 1px 1px 0 rgba($ns-black, 0.35);
-	width: 100vw;
-	justify-content: center;
-	text-align: center;
-	@media (min-height: 640px) and (min-width: $md) {
-		bottom: $double-gutter;
-	}
+    display: grid;
+    position: absolute;
+    bottom: $gutter;
+    text-shadow: 1px 1px 0 rgba($ns-black, 0.35);
+    width: 100vw;
+    justify-content: center;
+    text-align: center;
+
+    @media (min-height: 640px) and (min-width: $md) {
+        bottom: $double-gutter;
+    }
 }
 
 .flx-hero__label {
-	@include font-style(14px, bold, 1.3);
-	color: $ns-white;
-}
-	
-// hero with less height
-.flx-hero--small {
-	height: $hero-height-small;
-	margin-bottom: 0;
-	@include md {
-		min-height: 480px;
-	}
-	@media (min-width: $sm) and (max-height: 600px) {
-		height: $hero-height-small;
-	}
-	
-	.flx-hero__content {
-		@include md {
-			margin-top: $gutter;
-		}
-	}
+    @include font-style(14px, bold, 1.3);
+    color: $ns-white;
 }
 
-.flx-hero__flow-small {								
-	svg {
-		opacity: 0.3;
-		width: auto;
-		height: $hero-height-small;
-		@media (max-aspect-ratio: 5/5) {
-			width: 100%;
-			height: auto;
-		}
-		@include md {
-			min-height: 480px;
-		}
-		@media (min-width: $sm) and (max-height: 600px) {
-			height: $hero-height-small;
-		}
-	}
+// hero with less height
+.flx-hero--small {
+    height: $hero-height-small;
+    margin-bottom: 0;
+
+    @include md {
+        min-height: 480px;
+    }
+
+    @media (min-width: $sm) and (max-height: 600px) {
+        height: $hero-height-small;
+    }
+
+    .flx-hero__content {
+        @include md {
+            margin-top: $gutter;
+        }
+    }
+}
+
+.flx-hero__flow-small {
+    svg {
+        opacity: 0.3;
+        width: auto;
+        height: $hero-height-small;
+
+        @media (max-aspect-ratio: 5/5) {
+            width: 100%;
+            height: auto;
+        }
+
+        @include md {
+            min-height: 480px;
+        }
+
+        @media (min-width: $sm) and (max-height: 600px) {
+            height: $hero-height-small;
+        }
+    }
 }
 
 // hero with even lesser height
 .flx-hero--smaller {
-	height: auto;
-	margin-bottom: 0;
-	@include sm {
-		height: $hero-height-smaller;
-	}
+    height: auto;
+    margin-bottom: 0;
+
+    @include sm {
+        height: $hero-height-smaller;
+    }
 }
 
-.flx-hero__flow-smaller {	
-	position: relative;
-	height: 100%;
-	@include sm {
-		height: $hero-height-smaller;
-	}							
-	svg {
-		position: absolute;
-		bottom: 0;
-		transform: rotate(180deg);
-		@include sm {
-			bottom: 0;
-			right: 10%;
-			height: $hero-height-smaller;		
-		}
-		@media (min-width: $sm) and (max-width: 1090px) {
-			height: auto;
-			width: 100%;
-		}
-	}
+.flx-hero__flow-smaller {
+    position: relative;
+    height: 100%;
+
+    @include sm {
+        height: $hero-height-smaller;
+    }
+
+    svg {
+        position: absolute;
+        bottom: 0;
+        transform: rotate(180deg);
+
+        @include sm {
+            bottom: 0;
+            right: 10%;
+            height: $hero-height-smaller;
+        }
+
+        @media (min-width: $sm) and (max-width: 1090px) {
+            height: auto;
+            width: 100%;
+        }
+    }
 }
