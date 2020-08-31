@@ -160,7 +160,7 @@ templates['sell'] = template({"1":function(container,depth0,helpers,partials,dat
         return undefined
     };
 
-  return "<!-- hero -->\n<div class=\"flx-hero flx-hero--smaller dflex items-center\">\n	<div class=\"flx-hero__bg\">\n		<div class=\"a a-fi\">\n			<div class=\"full-absolute gd-r30-50-yellow\"></div>\n			<div class=\"flx-hero__img flx-hero__img--sell-"
+  return "<!-- hero -->\n<div class=\"flx-hero flx-hero--smaller dflex items-center\">\n	<div class=\"flx-hero__bg\">\n		<div class=\"a a-fi\">\n			<div class=\"full-absolute gd-110-turquoise\"></div>\n			<div class=\"flx-hero__img flx-hero__img--sell-"
     + alias2(alias1(((stack1 = ((stack1 = (depth0 != null ? lookupProperty(depth0,"sell") : depth0)) != null ? lookupProperty(stack1,"hero") : stack1)) != null ? lookupProperty(stack1,"img") : stack1), depth0))
     + " hidden-xs\"></div>\n		</div>\n		<div class=\"flx-hero__flow-smaller\" include=\"../media/flow/flow-white.svg\"></div>\n	</div>\n	\n	<!-- sell box -->\n	<div class=\"flx-sell-box__hero-container\">\n		<div class=\"container ovr-container a a-fi-up-small a-del-350 a-dur-1300\">\n			<div class=\"flx-sell-box__hero-grid\">\n				<div></div>\n				<div class=\"flx-sell-box\">\n					<div class=\"flx-sell-box__header\">\n						<h1 class=\"headingXL ma-0\"><b>"
     + alias2(alias1(((stack1 = (depth0 != null ? lookupProperty(depth0,"global") : depth0)) != null ? lookupProperty(stack1,"title") : stack1), depth0))
