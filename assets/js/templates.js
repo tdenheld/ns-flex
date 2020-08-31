@@ -57,7 +57,9 @@ templates['abos'] = template({"1":function(container,depth0,helpers,partials,dat
         return undefined
     };
 
-  return "<div class=\"bg-grey-7\">\n    <!-- hero -->\n    <div class=\"flx-hero flx-hero--small\">\n        <div class=\"flx-hero__bg\">\n            <div class=\"a a-fi\">\n                <div class=\"full-absolute gd-r70-50-vivid\"></div>\n                <div class=\"flx-hero__img flx-hero__img--abo\"></div>\n            </div>\n        </div>\n        <div class=\"a a-fi-up-small a-del-350 a-dur-1300\">\n            <div class=\"container ovr-container\">\n                <div class=\"flx-hero__content\">\n                    <h2 class=\"flx-hero__subtitle f-white ts-2\">"
+  return "<div class=\"bg-grey-7\">\n    <!-- hero -->\n    <div class=\"flx-hero flx-hero--small\">\n        <div class=\"flx-hero__bg\">\n            <div class=\"a a-fi\">\n                <div class=\"full-absolute gd-r70-50-vivid\"></div>\n                <div class=\"flx-hero__img flx-hero__img--abo\"></div>\n            </div>\n        </div>\n        <div class=\"a a-fi-up-small a-del-350 a-dur-1300\">\n            <div class=\"container ovr-container\">\n                <div class=\"flx-hero__content\">\n                    <h1 class=\"flx-hero__title f-white ts-2\">"
+    + alias2(alias1(((stack1 = (depth0 != null ? lookupProperty(depth0,"abos") : depth0)) != null ? lookupProperty(stack1,"title") : stack1), depth0))
+    + "</h1>\n                    <h2 class=\"flx-hero__subtitle f-white ts-2\">"
     + alias2(alias1(((stack1 = (depth0 != null ? lookupProperty(depth0,"abos") : depth0)) != null ? lookupProperty(stack1,"subtitle") : stack1), depth0))
     + "</h2>\n                    <div class=\"g g-m-m-sm gap-2 items-center\">\n                        <a href=\""
     + alias2(alias1(((stack1 = ((stack1 = (depth0 != null ? lookupProperty(depth0,"global") : depth0)) != null ? lookupProperty(stack1,"cta") : stack1)) != null ? lookupProperty(stack1,"url") : stack1), depth0))
